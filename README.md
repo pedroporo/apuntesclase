@@ -1,2 +1,0 @@
-# apuntesclase
-Test
