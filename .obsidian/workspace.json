@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
+                "file": "Ingles/Ingles.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
+                "file": "Ingles/Ingles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
+                "file": "Ingles/Ingles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diseño de interfaces WEB/Diseño de interfaces WEB.md"
+                "file": "Ingles/Ingles.md"
               }
             }
           },
@@ -155,10 +155,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b07d15208e8ac527",
+  "active": "d647e9c5994d4bc9",
   "lastOpenFiles": [
-    "Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
     "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
+    "Ingles/Ingles.md",
+    "Ingles",
+    "Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
     "Diseño de interfaces WEB",
     "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "Despliegue de aplicaciones Web",
