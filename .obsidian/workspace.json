@@ -136,9 +136,17 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "4415a1f454752bbb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -152,10 +160,11 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "d647e9c5994d4bc9",
+  "active": "4415a1f454752bbb",
   "lastOpenFiles": [
     "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "Ingles/Ingles.md",
