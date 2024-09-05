@@ -18,8 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bafc2ba3d0c78918",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "staged": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ingles/Ingles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ingles/Ingles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ingles/Ingles.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,12 +173,13 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "d647e9c5994d4bc9",
+  "active": "bafc2ba3d0c78918",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Ingles/Ingles.md",
     "Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
     "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "Nuevo documento de texto.txt",
-    "Ingles/Ingles.md",
     "app.js",
     "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "Ingles",
