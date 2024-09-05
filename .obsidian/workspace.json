@@ -11,11 +11,10 @@
             "id": "c4b1c148d008f11e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Ingles/Ingles.md",
-                "mode": "source",
-                "source": false
+                "file": ".gitignore",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ingles/Ingles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ingles/Ingles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ingles/Ingles.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,8 +162,8 @@
   },
   "active": "c4b1c148d008f11e",
   "lastOpenFiles": [
-    "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "Ingles/Ingles.md",
+    "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "conflict-files-obsidian-git.md",
     "Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
     "Nuevo documento de texto.txt",
