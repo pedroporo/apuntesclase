@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notas/Ingles/Ingles.md",
+                "file": "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/Ingles/Ingles.md",
+                "file": "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/Ingles/Ingles.md",
+                "file": "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/Ingles/Ingles.md"
+                "file": "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md"
               }
             }
           },
@@ -167,17 +167,17 @@
   },
   "active": "c78364c41a180f16",
   "lastOpenFiles": [
+    "notas/Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
+    "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
+    "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
+    "notas/Ingles/Ingles.md",
     "notas/Indice.md",
     "Indice.md",
     "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "notas/Desarollo Web en entorno cliente",
-    "notas/Ingles/Ingles.md",
     "notas/Ingles",
-    "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "notas/Diseño de interfaces WEB",
-    "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
     "notas/Despliegue de aplicaciones Web",
-    "notas/Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
     "notas/Desarollo Web en entorno servidor",
     "notas",
     "Nueva carpeta",
