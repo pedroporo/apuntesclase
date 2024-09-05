@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Sin título.md",
+                "file": "notas/Ingles/Ingles.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Sin título.md",
+                "file": "notas/Ingles/Ingles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Sin título.md",
+                "file": "notas/Ingles/Ingles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Sin título.md"
+                "file": "notas/Ingles/Ingles.md"
               }
             }
           },
@@ -177,8 +177,9 @@
   },
   "active": "e4a1e53f298d6514",
   "lastOpenFiles": [
-    "notas/Indice.md",
     "templates/Sin título.md",
+    "notas/Ingles/Ingles.md",
+    "notas/Indice.md",
     "templates",
     "Nueva carpeta",
     "Sin título.canvas",
@@ -194,7 +195,6 @@
     "tema/customtheme.css",
     "tema",
     "Mithella-Regular.otf",
-    "notas/Ingles/Ingles.md",
     "notas/favicon-16x16.png",
     "OIG4.jpeg",
     "conflict-files-obsidian-git.md",
