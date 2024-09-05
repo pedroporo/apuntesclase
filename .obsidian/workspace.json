@@ -11,9 +11,11 @@
             "id": "e4a1e53f298d6514",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "notas/favicon.png"
+                "file": "notas/Indice.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/favicon.png",
+                "file": "notas/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/favicon.png",
+                "file": "notas/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/favicon.png"
+                "file": "notas/Indice.md"
               }
             }
           },
@@ -163,8 +165,9 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "69834bca231605ee",
+  "active": "e4a1e53f298d6514",
   "lastOpenFiles": [
+    "notas/favicon.png",
     "tema/default.css",
     "tema/Nuevo documento de texto.txt",
     "tema/Nueva carpeta",
@@ -175,9 +178,7 @@
     "Nueva carpeta",
     "Mithella-Regular.otf",
     "Mithella-Bold.otf",
-    "customtheme.css",
     "notas/Ingles/Ingles.md",
-    "notas/favicon.png",
     "notas/favicon-16x16.png",
     "OIG4.jpeg",
     "notas/Indice.md",
