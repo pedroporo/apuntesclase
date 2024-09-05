@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1a9e2128ebf7ca70",
+        "id": "53cb4508eacd8d8f",
         "type": "tabs",
         "children": [
           {
-            "id": "c4b1c148d008f11e",
+            "id": "1165d294fe9bfe56",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".gitignore",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -160,7 +157,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "c4b1c148d008f11e",
+  "active": "69834bca231605ee",
   "lastOpenFiles": [
     "Ingles/Ingles.md",
     "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
