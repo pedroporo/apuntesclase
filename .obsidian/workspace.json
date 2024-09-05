@@ -11,12 +11,8 @@
             "id": "8fb893504bd131b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,11 +159,11 @@
   },
   "active": "8fb893504bd131b2",
   "lastOpenFiles": [
+    "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "notas/Ingles/Ingles.md",
     "notas/Indice.md",
     "conflict-files-obsidian-git.md",
     "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
-    "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
     "notas/Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
     "Indice.md",
