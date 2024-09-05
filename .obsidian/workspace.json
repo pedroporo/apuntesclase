@@ -18,20 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bafc2ba3d0c78918",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "staged": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Ingles/Ingles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Ingles/Ingles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Ingles/Ingles.md"
+              }
             }
           },
           {
@@ -173,7 +165,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "bafc2ba3d0c78918",
+  "active": "d647e9c5994d4bc9",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Ingles/Ingles.md",
