@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notas/Indice.md",
+                "file": "notas/Ingles/Ingles.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/Indice.md",
+                "file": "notas/Ingles/Ingles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/Indice.md",
+                "file": "notas/Ingles/Ingles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/Indice.md"
+                "file": "notas/Ingles/Ingles.md"
               }
             }
           },
@@ -167,8 +167,8 @@
   },
   "active": "d647e9c5994d4bc9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "notas/Indice.md",
+    "conflict-files-obsidian-git.md",
     "Ingles/Ingles.md",
     "notas/Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
     "notas/Ingles/Ingles.md",
