@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
+                "file": "Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
+                "file": "Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
+                "file": "Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md"
+                "file": "Indice.md"
               }
             }
           },
@@ -180,8 +180,8 @@
   },
   "active": "c78364c41a180f16",
   "lastOpenFiles": [
-    "Indice.md",
     "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
+    "Indice.md",
     "cosas.txt",
     "Nuevo documento de texto.txt",
     "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
