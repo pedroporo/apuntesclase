@@ -11,11 +11,10 @@
             "id": "c78364c41a180f16",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "notas/Indice.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "notas/Indice.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,12 +162,12 @@
   },
   "active": "c78364c41a180f16",
   "lastOpenFiles": [
-    "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
+    "notas/Indice.md",
+    "notas/Ingles/Ingles.md",
     "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
+    "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
     "notas/Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
     "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
-    "notas/Ingles/Ingles.md",
-    "notas/Indice.md",
     "Indice.md",
     "notas/Desarollo Web en entorno cliente",
     "notas/Ingles",
