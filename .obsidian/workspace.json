@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c78364c41a180f16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,14 +178,16 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "1165d294fe9bfe56",
+  "active": "c78364c41a180f16",
   "lastOpenFiles": [
+    "Indice.md",
+    "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
+    "cosas.txt",
+    "Nuevo documento de texto.txt",
     "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "Ingles/Ingles.md",
-    "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "conflict-files-obsidian-git.md",
     "Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
-    "Nuevo documento de texto.txt",
     "app.js",
     "Ingles",
     "Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
