@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "53cb4508eacd8d8f",
+        "id": "c6bb4ac94413a02f",
         "type": "tabs",
         "children": [
           {
-            "id": "c78364c41a180f16",
+            "id": "7af7dce8a9880e11",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -160,7 +157,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "c78364c41a180f16",
+  "active": "69834bca231605ee",
   "lastOpenFiles": [
     "notas/Indice.md",
     "notas/Ingles/Ingles.md",
