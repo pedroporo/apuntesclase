@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "53c1e9edeb981e4a",
+        "id": "86b50e9ecd8fa6d1",
         "type": "tabs",
         "children": [
           {
-            "id": "8fb893504bd131b2",
+            "id": "e4a1e53f298d6514",
             "type": "leaf",
             "state": {
               "type": "image",
@@ -163,7 +163,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "b07d15208e8ac527",
+  "active": "e4a1e53f298d6514",
   "lastOpenFiles": [
     "notas/Ingles/Ingles.md",
     "notas/favicon.png",
