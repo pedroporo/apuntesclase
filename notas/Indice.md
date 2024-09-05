@@ -11,3 +11,5 @@ Asignaturas
 [[Desarollo Web en entorno cliente]]
 
 Horario:
+| Hora | Lunes | Martes | Miercoles | Jueves | Viernes |
+| -- | -- | -- | -- | -- |

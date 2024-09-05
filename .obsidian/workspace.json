@@ -144,9 +144,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "4dcfab167cc6ef22",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -162,10 +170,12 @@
       "command-palette:Abrir paleta de comandos": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "digitalgarden:Digital Garden Publication Center": false,
+      "audio-recorder:Iniciar/Detener la grabación": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4415a1f454752bbb",
+  "active": "387eb7c4aec0cf22",
   "lastOpenFiles": [
     "Sin título.canvas",
     "notas/Indice.md",
