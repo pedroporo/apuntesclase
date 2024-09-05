@@ -17,8 +17,20 @@
                 "staged": false
               }
             }
+          },
+          {
+            "id": "2971158d49433294",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/plugins/obsidian-git/data.json",
+                "staged": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,12 +172,13 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "8fb893504bd131b2",
+  "active": "2971158d49433294",
   "lastOpenFiles": [
+    "notas/Indice.md",
+    "conflict-files-obsidian-git.md",
     "notas/Ingles/Ingles.md",
     "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
-    "notas/Indice.md",
     "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
     "notas/Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
     "Indice.md",
@@ -182,7 +195,6 @@
     "Nuevo documento de texto.txt",
     "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "Ingles/Ingles.md",
-    "conflict-files-obsidian-git.md",
     "app.js",
     "Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
     "README.md",
