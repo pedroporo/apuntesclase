@@ -11,8 +11,12 @@
             "id": "8fb893504bd131b2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notas/Ingles/Ingles.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notas/Ingles/Ingles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notas/Ingles/Ingles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notas/Ingles/Ingles.md"
+              }
             }
           },
           {
@@ -159,9 +167,9 @@
   },
   "active": "8fb893504bd131b2",
   "lastOpenFiles": [
+    "notas/Indice.md",
     "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "notas/Ingles/Ingles.md",
-    "notas/Indice.md",
     "conflict-files-obsidian-git.md",
     "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
