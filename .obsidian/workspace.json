@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notas/Indice.md",
+                "file": "templates/Sin título.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/Indice.md",
+                "file": "templates/Sin título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/Indice.md",
+                "file": "templates/Sin título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/Indice.md"
+                "file": "templates/Sin título.md"
               }
             }
           },
@@ -177,8 +177,11 @@
   },
   "active": "e4a1e53f298d6514",
   "lastOpenFiles": [
-    "Sin título.canvas",
     "notas/Indice.md",
+    "templates/Sin título.md",
+    "templates",
+    "Nueva carpeta",
+    "Sin título.canvas",
     "2024-09-05.md",
     "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
@@ -190,9 +193,7 @@
     "tema/Mithella-Bold.otf",
     "tema/customtheme.css",
     "tema",
-    "Nueva carpeta",
     "Mithella-Regular.otf",
-    "Mithella-Bold.otf",
     "notas/Ingles/Ingles.md",
     "notas/favicon-16x16.png",
     "OIG4.jpeg",
