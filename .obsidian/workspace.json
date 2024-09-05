@@ -11,26 +11,15 @@
             "id": "8fb893504bd131b2",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".gitignore",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "2971158d49433294",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/plugins/obsidian-git/data.json",
-                "staged": true
+                "file": "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md"
+              }
             }
           },
           {
@@ -172,11 +165,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "2971158d49433294",
+  "active": "8fb893504bd131b2",
   "lastOpenFiles": [
+    "notas/Ingles/Ingles.md",
     "notas/Indice.md",
     "conflict-files-obsidian-git.md",
-    "notas/Ingles/Ingles.md",
     "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
