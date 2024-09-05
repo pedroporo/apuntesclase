@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles/Ingles.md",
+                "file": "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ingles/Ingles.md",
+                "file": "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ingles/Ingles.md",
+                "file": "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ingles/Ingles.md"
+                "file": "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md"
               }
             }
           },
@@ -167,13 +167,13 @@
   },
   "active": "1165d294fe9bfe56",
   "lastOpenFiles": [
+    "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "Ingles/Ingles.md",
     "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
     "conflict-files-obsidian-git.md",
     "Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
     "Nuevo documento de texto.txt",
     "app.js",
-    "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "Ingles",
     "Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
     "Diseño de interfaces WEB",
