@@ -11,11 +11,9 @@
             "id": "8fb893504bd131b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "notas/Ingles/Ingles.md",
-                "mode": "source",
-                "source": false
+                "file": "notas/favicon.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/Ingles/Ingles.md",
+                "file": "notas/favicon.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/Ingles/Ingles.md",
+                "file": "notas/favicon.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/Ingles/Ingles.md"
+                "file": "notas/favicon.png"
               }
             }
           },
@@ -165,10 +163,12 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "8fb893504bd131b2",
+  "active": "b07d15208e8ac527",
   "lastOpenFiles": [
-    "OIG4.jpeg",
     "notas/Ingles/Ingles.md",
+    "notas/favicon.png",
+    "notas/favicon-16x16.png",
+    "OIG4.jpeg",
     "notas/Indice.md",
     "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "conflict-files-obsidian-git.md",
