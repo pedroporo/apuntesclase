@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles/Ingles.md",
+                "file": "notas/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ingles/Ingles.md",
+                "file": "notas/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ingles/Ingles.md",
+                "file": "notas/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ingles/Ingles.md"
+                "file": "notas/Indice.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -164,23 +164,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4415a1f454752bbb",
+  "active": "d647e9c5994d4bc9",
   "lastOpenFiles": [
-    "2024-09-25.md",
+    "conflict-files-obsidian-git.md",
+    "notas/Indice.md",
     "Ingles/Ingles.md",
+    "notas/Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
+    "notas/Ingles/Ingles.md",
+    "notas/Diseño de interfaces WEB/Diseño de interfaces WEB.md",
+    "notas/Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
+    "notas/Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
+    "notas/Diseño de interfaces WEB",
+    "notas/Desarollo Web en entorno servidor",
+    "notas/Ingles",
+    "notas/Despliegue de aplicaciones Web",
+    "notas/Desarollo Web en entorno cliente",
+    "notas",
+    "cosas.txt",
+    "app.js",
+    "2024-09-25.md",
     "Diseño de interfaces WEB/Diseño de interfaces WEB.md",
     "Ingles",
     "Despliegue de aplicaciones Web/Despliegue de aplicaciones WEB.md",
     "Diseño de interfaces WEB",
     "Desarollo Web en entorno cliente/Desarollo Web en entorno cliente.md",
-    "Despliegue de aplicaciones Web",
     "Desarollo Web en entorno servidor/Desarollo Web en entorno servidor.md",
-    "Desarollo Web en entorno servidor",
     "README.md",
     "Bienvenido.md",
     "cree un enlace.md",
-    "Desarollo Web en entorno cliente",
-    "Test/Hola.md",
-    "Test"
+    "Test/Hola.md"
   ]
 }
