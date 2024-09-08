@@ -171,9 +171,9 @@
       "command-palette:Abrir paleta de comandos": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "digitalgarden:Digital Garden Publication Center": false,
       "audio-recorder:Iniciar/Detener la grabación": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
   "active": "e4a1e53f298d6514",
