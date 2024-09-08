@@ -14,7 +14,7 @@ Horario:
 
 |     Hora      |  Lunes   |            Martes            |          Miercoles           |  Jueves  |           Viernes            |
 | :-----------: | :------: | :--------------------------: | :--------------------------: | :------: | :--------------------------: |
-| 14:55 - 15:50 |          | [[Diseño de interfaces WEB]] |                              |          |                              |
+| 14:55 - 15:50 | Empresa  | [[Diseño de interfaces WEB]] |                              |          |                              |
 | 15:50 - 16:45 |          | [[Diseño de interfaces WEB]] |                              |          |                              |
 | 16:45 - 17:40 |          |                              |                              |          |                              |
 | 17:40 - 18:00 | Descanso |           Descanso           |           Descanso           | Descanso |           Descanso           |
