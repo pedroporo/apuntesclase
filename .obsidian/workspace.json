@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notas/Ingles/Ingles.md",
+                "file": "templates/Sin título.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/Ingles/Ingles.md",
+                "file": "templates/Sin título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/Ingles/Ingles.md",
+                "file": "templates/Sin título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/Ingles/Ingles.md"
+                "file": "templates/Sin título.md"
               }
             }
           },
@@ -178,10 +178,10 @@
   },
   "active": "e4a1e53f298d6514",
   "lastOpenFiles": [
+    "notas/Ingles/Ingles.md",
     "notas/Indice.md",
     "templates/Sin título.md",
     "notas/Desarollo Web en entorno cliente/fgdf/Sin título.md",
-    "notas/Ingles/Ingles.md",
     "notas/Desarollo Web en entorno cliente/fgdf",
     "templates",
     "Nueva carpeta",

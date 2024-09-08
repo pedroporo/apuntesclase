@@ -1,3 +1,10 @@
+---
+
+dg-publish: true
+
+
+---
+
 ```button
 name Add note
 type command
