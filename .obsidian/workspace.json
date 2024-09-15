@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Sin título.md",
+                "file": "notas/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Sin título.md",
+                "file": "notas/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Sin título.md",
+                "file": "notas/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Sin título.md"
+                "file": "notas/Indice.md"
               }
             }
           },
@@ -179,8 +179,8 @@
   "active": "e4a1e53f298d6514",
   "lastOpenFiles": [
     "notas/Ingles/Ingles.md",
-    "notas/Indice.md",
     "templates/Sin título.md",
+    "notas/Indice.md",
     "notas/Desarollo Web en entorno cliente/fgdf/Sin título.md",
     "notas/Desarollo Web en entorno cliente/fgdf",
     "templates",
