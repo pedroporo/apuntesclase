@@ -2,5 +2,8 @@
   "obsidian-git",
   "templater-obsidian",
   "calendar",
-  "digitalgarden"
+  "digitalgarden",
+  "table-editor-obsidian",
+  "dataview",
+  "quickadd"
 ]
