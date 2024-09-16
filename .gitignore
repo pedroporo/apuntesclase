@@ -2,3 +2,5 @@
 .obsidian/plugins/digitalgarden/data
 .obsidian/workspace-mobile.json
 .obsidian/workspace.json
+.trash/
+.DS_Store
