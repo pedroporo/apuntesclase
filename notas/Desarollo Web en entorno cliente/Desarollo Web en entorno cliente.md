@@ -17,7 +17,7 @@ name ewrw
 type note(tesafa) template
 action Sin título
 templater true
-folder /notas/Desarollo Web en entorno cliente/fgdf/
+folder ./notas/Desarollo Web en entorno cliente/fgdf/
 prompt false
 ```
 ^button-1234
