@@ -1,13 +1,7 @@
 ---
-
 dg-publish: true
-
-
+creado: <% tp.date.now("dddd MMMM YYYY") %>
+dia: <% tp.date.now("DD-MM-YYYY") %>
 ---
 
-```button
-name Add note
-type command
-action QuickAdd: add note
-color default
-```
+
