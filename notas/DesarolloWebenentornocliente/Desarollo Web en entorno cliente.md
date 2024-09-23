@@ -21,14 +21,14 @@ folder ./notas/Desarollo Web en entorno cliente/fgdf/
 prompt false
 ```
 ^button-1234
-
 ```button
-name Testing2
-type note(aaaaaaaaaa) template
+name asfsd
+type note(sfgdfgdfgdfg) template
 action Sin título
-folder ./notas/Desarollo Web en entorno cliente/fgdf
+templater true
+folder /notas/DesarolloWebenentornocliente/fgdf/
 prompt false
 ```
-^button-ar1f
+^button-xv96
 
 
