@@ -26,7 +26,7 @@ name asfsd
 type note(sfgdfgdfgdfg) template
 action Sin título
 templater true
-folder /notas/DesarolloWebenentornocliente/fgdf/
+folder /notas/Desarollo Web en entorno cliente/fgdf/
 prompt false
 ```
 ^button-xv96
