@@ -21,3 +21,14 @@ folder ./notas/Desarollo Web en entorno cliente/fgdf/
 prompt false
 ```
 ^button-1234
+
+```button
+name Testing2
+type note(aaaaaaaaaa) template
+action Sin título
+folder ./notas/Desarollo Web en entorno cliente/fgdf
+prompt false
+```
+^button-ar1f
+
+
