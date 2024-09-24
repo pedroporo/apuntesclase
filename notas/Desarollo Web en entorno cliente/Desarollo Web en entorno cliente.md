@@ -2,33 +2,9 @@
 dg-publish: true
 title: Asignatura de entornos a clientes
 ---
-
-
 ```button
-name Testeo
-type note(Testinf) template
+type note(function(){return this.inputEl.value}) template
 action Sin título
 templater true
 ```
-^button-12
-testeo
-```button
-name ewrw
-type note(tesafa) template
-action Sin título
-templater true
-folder ./notas/Desarollo Web en entorno cliente/fgdf/
-prompt false
-```
-^button-1234
-```button
-name asfsd
-type note(sfgdfgdfgdfg) template
-action Sin título
-templater true
-folder /notas/Desarollo Web en entorno cliente/fgdf/
-prompt false
-```
-^button-xv96
-
-
+^button-km7s
