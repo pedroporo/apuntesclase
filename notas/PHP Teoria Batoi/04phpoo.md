@@ -732,7 +732,7 @@ spl_autoload_register( function( $nombreClase ) {
 
 >[!tip] "autoload i rutes errònies"
     En *Ubuntu* en fer el *include* de la classe que rep com a paràmetre, les barres dels namespace (`\`) són diferents a les de les rutes (`/`). Per això, és millor que utilitzem el fitxer autoload:
-    ``` php
+``` php
     <?php
     spl_autoload_register( function( $nombreClase ) {
         $ruta = "app\\".$nombreClase.'.php';
@@ -861,7 +861,7 @@ A continuació tenim un exemple mitjançant codi:
 
 === "Funcions per a la gestió d'errors"
 
-    ``` php
+``` php
     <?php
     error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
     $resultado = $dividendo / $divisor;
@@ -884,11 +884,11 @@ A continuació tenim un exemple mitjançant codi:
 
 === "Consola"
 
-    ```
+```
     Error de tipo no especificado: Undefined variable: dividendo.
     Error de tipo no especificado: Undefined variable: divisor.
     Error de tipo Warning: Division by zero.
-    ```
+```
 
 ### Exempcions
 
@@ -943,14 +943,14 @@ class MiExcepcion extends Exception {
 Si definim una excepció d'aplicació dins d'un *namespace*, quan referenciem a `Exception`, haurem de referenciar-la mitjançant el seu nom totalment qualificat (`\Exception`), o utilitzant `use`:
 
 === "Mitjançant nom totalment qualificat"
-    ``` php
+``` php
     <?php
     namespace \Dwes\Ejemplos;
 
     class AppExcepcion extends \Exception {}
     ```
 === "Mitjançant `use`"
-    ``` php
+``` php
     <?php
     namespace \Dwes\Ejemplos;
 
@@ -982,9 +982,9 @@ try {
 }
 ```
 
-!!! question "Autoevaluación"
+>[!question] "Autoevaluación"
     ¿Qué pasaría al ejectuar el siguiente código?
-    ``` php
+``` php
     <?php
     class MainException extends Exception {}
     class SubException extends MainException {}
@@ -1057,11 +1057,7 @@ try {
 
 ## 7. Composer
 
-<figure style="float: right;">
-    <img src="imagenes/05/logo-composer.png" width="200">
-    <figcaption>Logo Composer</figcaption>
-</figure>
-
+![[imagenes/05/logo-composer.png|200]]
 Eina per excel·lència en PHP per a la gestió de llibreries i dependències, de manera que instal·la i les actualitza assegurant que tot l'equip de desenvolupament té el mateix entorn i versions. A més, ofereix *autoloading* del nostre codi, de manera que no hàgem de fer-lo nosaltres "a mà".
 
 Està escrit en PHP, i podeu consultar tota la seua documentació en [https://getcomposer.org/](https://getcomposer.org/).
@@ -1090,14 +1086,14 @@ composer -V
 
 Quan creem un projecte per primera vegada, hem d'inicialitzar el repositori. Per a això, executarem el comando `composer init` on:
 
-* Configurem el nom del paquet, descripció, autor (nom <email>), tipus de paquet (project), etc...
+* Configurem el nom del paquet, descripció, autor (nom <email>), tipus de paquet (project), etc.
 * Definim les dependències del projecte (`require`) i les de desenvolupament (`require-dev`) de manera interactiva.
 * En les de desenvolupament s'indica aquelles que no s'instal·laran a l'entorn de producció, per exemple, les llibreries de proves.
 
 Després de la seua configuració, es crearà automàticament l'arxiu `composer.json` amb les dades introduïdes i descàrrega les llibreries en la carpeta `vendor`. La instal·lació de les llibreries sempre es realitza de manera local per a cada projecte.
 
 ``` json
-{
+	{
     "name": "dwes/log",
     "description": "Pruebas con Monolog",
     "type": "project",
@@ -1111,7 +1107,7 @@ Després de la seua configuració, es crearà automàticament l'arxiu `composer.
             "email": "a.medrano@edu.gva.es"
         }
     ]
-}
+    }
 ```
 
 A l'hora d'indicar cada llibreria introduirem:
