@@ -24,7 +24,7 @@ class NomClase {
 $ob = new NomClase();
 ```
 
->[!important] "Classes amb majúscula"
+> [!important] "Classes amb majúscula"
     Totes les classes comencen per lletra majúscula.
 
 Quan un projecte creix, és normal modelar les classes mitjançant UML (recordeu Entorns de Desenvolupament?). La classes es representen mitjançant un quadrat, separant el nom, de les propietats i els mètodes:
@@ -112,7 +112,7 @@ class MayorMenor {
 
 És recomanable indicar-ho en la mena de paràmetres. Si l'objecte pot retornar nuls es posa `?` davant del nom de la classe.
 
-!!! important "Objectes per referència"
+> [!important] "Objectes per referència"
     Els objectes que s'envien i reben com a paràmetres sempre es passen per referència.
 
 ``` php hl_lines="2"
@@ -197,7 +197,7 @@ class Punto {
 }
 ```
 
-!!! info "L'ordre importa"
+> [!info] "L'ordre importa"
     A l'hora de codificar l'ordre dels elements ha de ser:
 
     ``` php
