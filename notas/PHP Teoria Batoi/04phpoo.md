@@ -151,7 +151,7 @@ composer require --dev phpunit/phpunit
  
 Aquesta comanda afegirà PHPUnit com a dependència de desenvolupament en el teu projecte.
 
-!!! tip "Llibreries de desenvolupament"
+>[!tip] "Llibreries de desenvolupament"
 Les llibreries que es col·loquen en `require-dev` són les de desenvolupament i *testing*, de manera que no s'instal·laran en un entorn de producció.
 
 Una vegada instal·lat, podem configurar PHPUnit creant un fitxer phpunit.xml en l'arrel del projecte per especificar la configuració de les proves:
@@ -387,8 +387,10 @@ Les proves són crucials per a assegurar que el nostre codi PHP és fiable i man
 1. Crea una classe `Cotxe` que tinga les propietats `marca` i `model`. Afegeix un mètode `mostraInformacio` que retorne un string amb la marca i el model del cotxe.
 2. Crea una instància de la classe `Cotxe`, assigna-li una marca i un model, i mostra la informació utilitzant el mètode `mostraInformacio`.
 
+
 <details>
 <summary>Solució</summary>
+
 
 ```php
 <?php
@@ -407,7 +409,6 @@ $cotxe->model = "Corolla";
 echo $cotxe->mostraInformacio(); // Output: Marca: Toyota, Model: Corolla
 ``` 
 </details>
- 
 ##### Exercici 2. Afegir un Constructor i destructor
 
 1. Modifica la classe `Cotxe` per afegir un constructor que prenga com a paràmetres la `marca` i el `model`, i que establisca aquestes propietats automàticament.
