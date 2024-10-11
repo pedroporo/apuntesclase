@@ -39,6 +39,6 @@ No es necesario que el formulario tengo "buen aspecto". Puede ser algo como:
 
 Debes validar el formulario para que **si no hay errores** se envíen todos los campos a la página _verForm.php_. Si hay errores se mostrará junto a cada campo erróneo un mensaje (en el _span_ que hay junto a él). Deben verse TODOS los errores que hay y se situará el cursor en el 1º elemento erróneo:
 
-![Formulario erróneo](./img/form.png)
+![Formulario erróneo](form.png)
 
 También destacaremos en el CSS de alguna manera los campos erróneos.

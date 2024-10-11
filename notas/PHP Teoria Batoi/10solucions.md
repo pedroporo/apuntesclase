@@ -308,7 +308,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 #### Exercici 8: Processament de Formularis amb Select i Radio Buttons
 
-A partir del formulari [newBook.php](recursos/newBook.php), fes que el mòdul i el estat els agafe de valors introduïts en arrays. Mostra el resultat en una taula.
+A partir del formulari [newBook.php](newBook.php), fes que el mòdul i el estat els agafe de valors introduïts en arrays. Mostra el resultat en una taula.
 
 ```php
 <?php

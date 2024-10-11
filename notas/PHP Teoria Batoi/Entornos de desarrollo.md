@@ -177,11 +177,7 @@ Altres comandos que podem arribar a utilitzar són:
 
 Una altra forma més senzilla per a llançar de nou els contenidors i gestionar-los una vegada creats és utilitzar la interfície gràfica que ofereix Docker Desktop:
 
-<figure>
-  <img src="imagenes/01/dockerdesktop.png" />
-  <figcaption>Arranc de contenidor mitjançant Docker Desktop</figcaption>
-</figure>
-
+![[imagenes/01/dockerdesktop.png]]
 !!! tip "Docker stack"
     Existeixen diverses opcions mitjançant Docker que ofereixen solucions completes i empaquetes per a tot el stack de desenvolupament. En posteriors sessions utilitzarem tant *Devilbox* (<http://devilbox.org>) com *Laradock* (<https://laradock.io>)
 

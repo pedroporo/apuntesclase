@@ -25,7 +25,7 @@ Respecto a los botones de cada formulario tienen el siguiente aspecto:
 <button type="reset" class="btn btn-secondary">Reset</button>
 ```
 
-![Almacén](./img/ejer4-1.png)
+![Almacén](ejer4-1.png)
 
 Tenemos que añadir a los inputs de los formularios existentes los atrobutos para validarlos por HTML.
 

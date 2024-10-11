@@ -33,7 +33,7 @@ Por ejemplo, la página HTML:
 ```
 se convierte en el siguiente árbol DOM:
 
-![Árbol DOM](./img/domSimple.png)
+![Árbol DOM](domSimple.png)
 
 Cada etiqueta HTML suele originar 2 nodos:
 * Element: correspondiente a la etiqueta
@@ -101,7 +101,7 @@ También tenemos 'atajos' para obtener algunos elementos comunes:
 * `document.images`: devuelve una colección con todas las imágenes del documento
 * `document.scripts`: devuelve una colección con todos los scripts del documento
 
-> EJERCICIO: Para hacer los ejercicios de este tema descárgate [esta página de ejemplo](./ejercicios/ejemplos/ejemploDOM.html) y ábrela en tu navegador. Obtén por consola, al menos de 2 formas diferentes:
+> EJERCICIO: Para hacer los ejercicios de este tema descárgate [esta página de ejemplo](ejemploDOM.html) y ábrela en tu navegador. Obtén por consola, al menos de 2 formas diferentes:
 > - El elemento con id 'input2'
 > - La colección de párrafos
 > - Lo mismo pero sólo de los párrafos que hay dentro del div 'lipsum'
@@ -127,9 +127,9 @@ En muchas ocasiones queremos acceder a cierto nodo a partir de uno dado. Para el
 
 **IMPORTANTE**: a menos que me interesen comentarios, saltos de página, etc **siempre** debo usar los métodos que sólo devuelven elementos HTML, no todos los nodos.
 
-![Recorrer el árbol DOM](./img/domRelaciones.png)
+![Recorrer el árbol DOM](domRelaciones.png)
 
-> EJERCICIO: Siguiento con la [página de ejemplo](./ejercicios/ejemplos/ejemploDOM.html) obtén desde la consola, al menos de 2 formas diferentes:
+> EJERCICIO: Siguiento con la [página de ejemplo](ejemploDOM.html) obtén desde la consola, al menos de 2 formas diferentes:
 > - El primér párrafo que hay dentro del div 'lipsum'
 > - El segundo párrafo de 'lipsum'
 > - El último item de la lista

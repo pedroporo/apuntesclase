@@ -29,7 +29,7 @@ $ob = new NomClase();
 
 Quan un projecte creix, és normal modelar les classes mitjançant UML (recordeu Entorns de Desenvolupament?). La classes es representen mitjançant un quadrat, separant el nom, de les propietats i els mètodes:
 
-![UML](imagenes/03/uml.png){ width=500 }
+![UML](uml.png){ width=500 }
 
 Una vegada que hem creat un objecte, s'utilitza l'operador `->` per a accedir a una propietat o un mètode:
 

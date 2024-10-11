@@ -23,7 +23,7 @@ En aquest model, el client (generalment un navegador web) envia sol·licituds al
 
 **Diagrama:**
 
-![[./imagenes/01/clienteservidor.png]]
+![[clienteservidor.png]]
 **Característiques:**
 
 - El client és responsable de la interfície d'usuari.
@@ -46,7 +46,7 @@ Aquesta arquitectura divideix l'aplicació en tres nivells: la capa de presentac
 **Diagrama:**
 
 
-![[./imagenes/01/model3capes.png]]
+![[model3capes.png]]
 
 **Característiques:**
 
@@ -69,11 +69,7 @@ Els microserveis descomponen una aplicació en una sèrie de serveis petits i in
 
 **Diagrama:**
 
-<figure>
-  <img src="imagenes/01/microserveis.png" />
-  <figcaption>Arquitectura Microserveis</figcaption>
-</figure>
-
+![[microserveis.png]]
 
 **Característiques:**
 
@@ -223,11 +219,7 @@ Les pàgines web dinàmiques són aquelles en què el contingut pot canviar en f
 | **Actualització del Contingut** | Manual                         | Automàtica                           |
 | **Cost de Manteniment**     | Baix       
 
-<figure>
-  <img src="imagenes/01/paginadinamica.png" />
-  <figcaption>Pàgina web dinàmica</figcaption>
-</figure>
-
+![[paginadinamica.png]]
 #### Recursos Addicionals
 
 - [Article sobre els avantatges de les pàgines dinàmiques](https://www.example.com)

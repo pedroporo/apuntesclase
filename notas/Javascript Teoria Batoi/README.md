@@ -1,25 +1,25 @@
 # BLOQUE 1 - El lenguaje Javascript
 En este primer bloque vamos a conocer el lenguaje Javascript. El bloque se divide en:
 * [Introducción a Javascript](#introducci%C3%B3n-a-javascript)
-* [1-Sintaxis](./01-sintaxis.md): Variables. Funciones. Estructuras y bucles. Tipos de datos. Buenas prácticas
+* [1-Sintaxis](01-sintaxis.md): Variables. Funciones. Estructuras y bucles. Tipos de datos. Buenas prácticas
   * [Introducción a los test en Javascript](../tests.md)
-* [2.1-Objetos](./02.1-objetos.md): Introducción a los objetos en Javascript
-* [2.2-Arrays](./02.2-arrays.md): Métodos. _Functional Programming_. Referencia vs copia. Rest y Spread. Desestructuración de arrays. Map. Set
-  * [Vite](./03.1-vite.md): Cómo usar vite
-  * [Webpack](./03.1-webpack.md): Cómo usar webpack
-* [3-Programación Orientada a Objetos](./03-oop.md): Introducción. Clases. POO en JS5
-* [4-Browser Object Model - BOM](./05-BOM.md): Timers. Objetos del BOM (window, 
-* [5-Ajax. Promesas. SPA](./09-ajax.md)
-* [6-Document Object Model - DOM](./04-DOM.md): Acceso a nodos. Acceso desde otros nodos. Manipular el árbol DOM. Atributos de los nodos
-  * [6.1-MVC](./04.1-MVC.md): Cómo usaremos el patrón MVC para crear la UI de nuestra aplicación
+* [2.1-Objetos](02.1-objetos.md): Introducción a los objetos en Javascript
+* [2.2-Arrays](02.2-arrays.md): Métodos. _Functional Programming_. Referencia vs copia. Rest y Spread. Desestructuración de arrays. Map. Set
+  * [Vite](03.1-vite.md): Cómo usar vite
+  * [Webpack](03.1-webpack.md): Cómo usar webpack
+* [3-Programación Orientada a Objetos](03-oop.md): Introducción. Clases. POO en JS5
+* [4-Browser Object Model - BOM](05-BOM.md): Timers. Objetos del BOM (window, 
+* [5-Ajax. Promesas. SPA](09-ajax.md)
+* [6-Document Object Model - DOM](04-DOM.md): Acceso a nodos. Acceso desde otros nodos. Manipular el árbol DOM. Atributos de los nodos
+  * [6.1-MVC](04.1-MVC.md): Cómo usaremos el patrón MVC para crear la UI de nuestra aplicación
 location, history, otros objetos)
-* [7-Eventos](./06-eventos.md): Escuchadores. Tipos de eventos. Los objetos _this_ y _event_. Propagación de eventos (_bubbling_)
-* [8-Objetos nativos](./07-globales.md): Funciones globales. Objetos nativos del lenguaje: Math, Date, RegExp, ...
-* [9-Validación de formularios](./08-forms.md): Validación de formularios. La API de validación de formularios. Expresiones regulares
+* [7-Eventos](06-eventos.md): Escuchadores. Tipos de eventos. Los objetos _this_ y _event_. Propagación de eventos (_bubbling_)
+* [8-Objetos nativos](07-globales.md): Funciones globales. Objetos nativos del lenguaje: Math, Date, RegExp, ...
+* [9-Validación de formularios](08-forms.md): Validación de formularios. La API de validación de formularios. Expresiones regulares
 * 
-* [10-APIs HTML5](./10-apis.md): Drag and drop. API Storage. Geolocalización. API de Google Maps
-* [11-Más cosas a aprender...](./11-mas.md): WebComponents. WebSockets. WebWorkers. Typescript.
-* [12-Tests](./12-tests.md): Testear JS con Jest
+* [10-APIs HTML5](10-apis.md): Drag and drop. API Storage. Geolocalización. API de Google Maps
+* [11-Más cosas a aprender...](11-mas.md): WebComponents. WebSockets. WebWorkers. Typescript.
+* [12-Tests](12-tests.md): Testear JS con Jest
 
 # Introducción a Javascript
 - [BLOQUE 1 - El lenguaje Javascript](#bloque-1---el-lenguaje-javascript)
@@ -83,7 +83,7 @@ Si queremos asegurar la máxima compatibilidad debemos usar la versión ES5 (per
 ### La consola del navegador
 Es la herramienta que más nos va a ayudar a la hora de depurar nuestro código. Abrimos las herramientas para el desarrollador (en Chrome y Firefox pulsando la tecla _F12_) y vamos a la pestaña _Consola_:
 
-![Consola](./img/Consola.png)
+![Consola](Consola.png)
 
 Allí vemos mensajes del navegador como errores y advertencias que genera el código y todos los mensajes que pongamos en el código para ayudarnos a depurarlo (usando los comandos **console.log** y **console.error**).
 
@@ -95,7 +95,7 @@ Podemos obtener ayuda sobre el funcionamiento de la consola en la web de [Mozill
 
 Siempre depuraremos los programas desde aquí (ponemos puntos de interrupción, vemos el valor de las variables, ...).
 
-![Consola - depurar](./img/Consola-depurar.png)
+![Consola - depurar](Consola-depurar.png)
 
 Es fundamental dedicar tiempo a saber utilizar la consola porque nos facilitará enormemente la tarea de depurar nuestro código. Podéis encontrar infinidad de páginas en internet donde nos explican en profundidad el uso de la consola, como [Debugging en el navegador](https://es.javascript.info/debugging-chrome).
 

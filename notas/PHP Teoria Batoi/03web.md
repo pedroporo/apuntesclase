@@ -210,11 +210,7 @@ O que caduquen dins d'un període de temps deteminado:
 setcookie(nombre, valor, time() + 3600) // Caducan dentro de una hora
 ```
 
-<figure style="align: center;">
-    <img src="imagenes/04/04cookies.png" width="700">
-    <figcaption>Comunicació amb cookies</figcaption>
-</figure>
-
+![[imagenes/04/04cookies.png|700]]
 S'utilitzen per a:
 
 * Recordar els inicis de sessió
@@ -232,11 +228,8 @@ Cada sessió té associat un magatzem de dades mitjançant el array global `$_SE
 
 La sessió comença en executar un script PHP. Es genera un nou ID i es carreguen les dades del magatzem:
 
-<figure style="align: center;">
-    <img src="imagenes/04/04sesion.png" width="700">
-    <figcaption>Comunicació amb sessions</figcaption>
-</figure>
 
+![[imagenes/04/04sesion.png|700]]
 Les operacions que podem realitzar amb la sessió són:
 
 ``` php

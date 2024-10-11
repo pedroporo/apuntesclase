@@ -335,7 +335,7 @@ De manera genèrica, els components de MVC es podrien definir com segueix:
 * El **Controlador**: **Respon a esdeveniments** (usualment accions de l'usuari) i **invoca peticions al 'model'** quan es fa alguna sol·licitud d'informació (per exemple, editar un document o un registre en una base de dades). Per tant es podria dir que el 'controlador' fa d'intermediari entre la 'vista' i el 'model'.
 * La **Vista**: **Presenta el 'model'** i les dades preparades pel controlador a l'usuari de **forma visual**. L'usuari podrà interactuar amb la vista i realitzar altres peticions que s'enviaran al controlador.
 
-![Modelo Vista Controlador](imagenes/07/mvc.png)
+![Modelo Vista Controlador](notas/PHP%20Teoria%20Batoi/imagenes/07/mvc.png)
 
 #### Funcionament bàsic
 

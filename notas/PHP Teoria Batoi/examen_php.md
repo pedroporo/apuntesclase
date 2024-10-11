@@ -11,7 +11,7 @@
         L'exercici 4 no cal que l'enllaçeu des de cap lloc, es una API.
         L'exercici 5 només l'eixirà l'enllaç a l'usuari que siga administrador.
 
-[recursos](recursos/examen.zip) 
+[recursos](examen.zip) 
 
 ## Exercici 1 (1,5p)
 

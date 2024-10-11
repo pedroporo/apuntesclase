@@ -1334,7 +1334,7 @@ Crea un formulari en HTML que permetis als usuaris introduir el seu nom, el corr
 
 #### Exercici 8: Processament de Formularis amb Select i Radio Buttons
 
-A partir del formulari [newBook.php](recursos/newBook.php), fes que el mòdul i el estat els agafe de valors introduïts en arrays. Mostra el resultat en una taula.  
+A partir del formulari [newBook.php](newBook.php), fes que el mòdul i el estat els agafe de valors introduïts en arrays. Mostra el resultat en una taula.  
  
 #### Exercici 9: Pujar imatges des de formulari
 

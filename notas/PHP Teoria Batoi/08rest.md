@@ -584,24 +584,24 @@ de pestanyes, afegint noves:
 
 Per a afegir una petició, habitualment triarem el tipus de comando sota les pestanyes (GET, POST, PUT, DELETE) i la URL associada a aquest comando. Per exemple:
 
-![](imagenes/08/postman_1.png)
+![](postman_1.png)
 
 Llavors, podem fer clic en el botó "Save" en la part dreta, i guardar la petició per a poder-la reutilitzar. En guardar-la, ens demanarà que li assignem un nom (per exemple, "GET movies" en aquest cas), i la
 col·lecció en la qual s'emmagatzemarà (la nostra col·lecció de "Movies").
 
-![](imagenes/08/postman_2.png)
+![](postman_2.png)
 
 Després, podrem veure la prova associada a la col·lecció, en el panell esquerre, i si seleccionem aquesta prova i premem en el botó blau de "*Send" (part dreta), podem veure la resposta emesa pel servidor en el panell inferior de resposta (si tenim, és clar, el servidor en marxa)
 
-![](imagenes/08/postman_3.png)
+![](postman_3.png)
 
 Seguint aquests mateixos passos, podem també crear una nova petició per a obtindre un llibre a partir del seu id, per GET:
 
-![](imagenes/08/postman_4.png)
+![](postman_4.png)
 
 Bastaria amb reemplaçar l'id de la URL pel qual vulguem consultar realment. Si provem aquesta petició, obtindrem la resposta corresponent:
 
-![](imagenes/08/postman_5.png)
+![](postman_5.png)
 
 #### Afegir altres tipus de peticions
 
@@ -610,17 +610,17 @@ En primer lloc, creem una nova petició, triem el comando POST i definim la URL 
 Llavors, fem clic en la pestanya Body, sota la URL, i establim el tipus com **raw** perquè ens deixe escriure'l sense restriccions. També convé canviar la propietat **Text** perquè siga JSON, i que així el servidor reculla el tipus de dada adequada. S'afegirà automàticament una capçalera de petició (**Header**)
 que especificarà que el tipus de contingut que s'enviarà són dades JSON. Després, en el quadre de text sota aquestes opcions, especifiquem l'objecte JSON que volem enviar per a inserir:
 
-![](imagenes/08/postman_6.png)
+![](postman_6.png)
 
 Després d'això, n'hi ha prou amb guardar la petició com hem fet amb les anteriors, i llançar-la per a veure el resultat.
 
 Quant a les peticions PUT, procedirem de manera similar a les peticions POST: hem de triar el comando (PUT en aquest cas), la URL, i completar el cos de la petició amb les dades que vulguem modificar del contacte. En aquest cas, a més, l'id del llibre l'enviarem també en la pròpia URL:
 
-![](imagenes/08/postman_7.png)
+![](postman_7.png)
 
 Per a peticions DELETE, la mecànica és similar a la fitxa de l'element (operació GET), canviant el comando GET per DELETE, i sense necessitat d'establir res en el cos de la petició:
 
-![](imagenes/08/postman_8.png)
+![](postman_8.png)
 
 ## Autenticació en serveis REST
 
@@ -799,12 +799,12 @@ Si accedim a un recurs protegit obtenim
 Ara anem a loguejar-se
 
 
-![](imagenes/08/postman_9.png)
+![](postman_9.png)
 
 Ara hem de copiar aquest token, i pegar-ho en la petició d'accés restringit. Haurem de pegar-ho en la capçalera Authorization (obrir aqueixa pestanya sota la URL de la petició en Postman), i el normal és enviar-ho com un **Bearer token**, segons els estàndards. Llavors sí que tindrem la resposta correcta de l'operació
 sol·licitada.
 
-![](imagenes/08/postman_10.png)
+![](postman_10.png)
 
 A l'hora de traslladar aquestes proves a una aplicació "real", enviaríem les credencials per JSON al servidor, obtindríem el token de tornada i l'emmagatzemaríem localment en alguna variable o suport
 (per exemple, en l'element localStorage , si treballem amb algun framework Javascript). Després, davant cada petició JSON que férem al servidor, adjuntaríem aquest token en la capçalera Authorization perquè fóra validat pel servidor.

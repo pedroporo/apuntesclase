@@ -32,12 +32,12 @@ La primera avaluació contindria les unitats compreses entre la 1 i 6. Així don
 
 Duració estimada: 75 hores
 
-1. [Arquitectures Web](01arquitecturas.md) (3h)
+1. [Arquitectures Web](Arquitecturas%20WEB.md) (3h)
 
      * Client/Servidor. 
      * MVC.
 
-2. [El llenguatge PHP](02php.md) (16h)
+2. [El llenguatge PHP](Introducción%20a%20PHP.md) (16h)
    
      * Condicions i bucles.
      * Arrays.

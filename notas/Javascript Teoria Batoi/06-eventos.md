@@ -106,7 +106,7 @@ Los produce el usuario con el ratón:
 
 NOTA: si hacemos doble click sobre un elemento la secuencia de eventos que se produciría es: _mousedown_ -> _mouseup_ -> _click_ -> _mousedown_ -> _mouseup_ -> _click_ -> _dblclick_
 
-> EJERCICIO: Pon un escuchador desde la consola al botón 1 de la [página de ejemplo de DOM](./ejercicios/ejemplos/ejemploDOM.html) para que al hacer click se muestre el un alert con 'Click sobre botón 1'. Ponle otro para que al pasar el ratón sobre él se muestre 'Entrando en botón 1'.
+> EJERCICIO: Pon un escuchador desde la consola al botón 1 de la [página de ejemplo de DOM](ejemploDOM.html) para que al hacer click se muestre el un alert con 'Click sobre botón 1'. Ponle otro para que al pasar el ratón sobre él se muestre 'Entrando en botón 1'.
 
 ### Eventos de teclado
 Los produce el usuario al usar el teclado:
