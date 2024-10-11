@@ -7,95 +7,6 @@
 
 
 
-## 9.  Generació de PDF amb DOMPDF
-
-
-Amb PHP podem manejar tot tipus d'arxius com ja hem vist però, què passa si volem generar fitxers PDF amb dades tretes d'una base de dades?
-
-<div class="center img-small">
-    <img src="imagenes/06/06-pdf.png">
-</div>
-
-
-Gràcies a una classe escrita en PHP, podem generar arxius PDF sense necessitat d'instal·lar llibreries addicionals en el nostre servidor.
-Però anem a utilitzar una llibreria que permet transformar codi html en pdf.
-
-### DOMPDF
-
-Afegirem la llibreria de [*DOMPDF*](https://github.com/seldaek/monolog) al nostre projecte. Per a això, inclourem la llibreria en el nostre projecte amb:
-
-``` bash
-composer require dompdf/dompdf
-```
-Una vegada que DOMPDF està instal·lat, el procés per generar PDFs des de HTML és bastant directe. Els passos bàsics són:
-
-Pas 1: Incloent DOMPDF
-Primer, necessitarem incloure DOMPDF en el script PHP. Si estem utilitzant Composer, això es fa automàticament a través de l'auto-càrrega de Composer. Només cal afegir la següent línia al principi del'script:
-
-```php
-require 'vendor/autoload.php';
-```
-
-Pas 2: Creació d'una Instància de DOMPDF
-A continuació, creem una nova instància de la classe DOMPDF:
-
-```php
-
-use Dompdf\Dompdf;
-
-$dompdf = new Dompdf();
-```
-
-Pas 3: Carregar HTML
-Després, carregem l'HTML en l'objecte DOMPDF. Això es pot fer directament com una cadena o carregant un fitxer HTML:
-
-```php
-$html = "<html><body>Hola, això és una prova.</body></html>";
-$dompdf->loadHtml($html);
-```
-
-O bé carregar un fitxer HTML:
-
-```php
-$dompdf->loadHtml(file_get_contents('path/to/your/file.html'));
-```
-
-Pas 4: Configuració de la Mida del Paper i l'Orientació
-Podem configurar la mida del paper i l'orientació si és necessari:
-
-```php
-$dompdf->setPaper('A4', 'portrait'); // o 'landscape'
-```
-
-Pas 5: Renderització del PDF
-Ara, demanem a DOMPDF que renderitze el PDF:
-
-```php
-$dompdf->render();
-```
-
-Pas 6: Eixida del PDF
-Finalment, podem enviar el PDF al navegador, guardar-lo en un fitxer o fer amb ell el que necessitem:
-
-Per mostrar-lo al navegador:
-
-```php
-$dompdf->stream("document.pdf", array("Attachment" => false));
-```
-
-Per desar-lo en un fitxer:
-
-```php
-$output = $dompdf->output();
-file_put_contents('path/to/save/document.pdf', $output);
-```
-
-##### Consells Addicionals
-Cal assegurar-se que l'HTML és vàlid i ben format. DOMPDF intenta ser tolerant amb l'HTML, però l'HTML mal format pot causar problemes.
-El CSS que s'utilitze pot afectar significativament com es veu el PDF. DOMPDF suporta una bona part de CSS 2.1, però no tot.
-Si necessitem incloure imatges, cal assegurar-se que les rutes són absolutes i accessibles des del servidor on s'executa DOMPDF.
-Aquesta és una guia bàsica per començar amb DOMPDF. Per a casos d'ús més avançats i opcions de configuració, cal consultar la documentació oficial de DOMPDF.
-
 
 ## 10. Documentación con *phpDocumentor*
 
@@ -165,7 +76,7 @@ function miFuncion(tipo $miArgumento)
 En tots els elements, ademas del sumari i/o descripció, posarem:
 
 * En les classes:
-    * `@author` nom <email>
+    * `@author` nom `<email>`
     * `@package` ruta del namespace
 * En les propietats:
     * `@var` tipus descripció
@@ -211,22 +122,13 @@ class Cliente {
 
 Si generem la documentació i obrim amb un navegador l'arxiu `docs/api/index.html` podrem navegar fins a la classe `Client:
 
-<figure style="align: center;">
-    <img src="imagenes/05/phpdoc.png">
-    <figcaption>phpDocumentor de Cliente</figcaption>
-</figure>
-
-
+![[imagenes/05/phpdoc.png]]
 
 ## 11. Proves amb PHPUNIT
 
 El curs passat, dins del mòdul de Entorns de Desenvolupament*, estudiarieu la importància de la realització de proves, així com les proves unitàries mitjançant [JUnit](https://junit.org/junit5/).
 
-<figure style="float: right;">
-    <img src="imagenes/05/tdd.png" width="300">
-    <figcaption>Test Driven Development</figcaption>
-</figure>
-
+![[imagenes/05/tdd.png|300]]
 Hui dia és de gran importància seguir una bona metodologia de proves, sent el desenvolupament dirigit per les proves (Test Driven Development / TDD) un dels enfocaments més emprats, el qual consisteix en:
 
 1. Escriure el test, i com no hi ha codi implementat, la prova falle (roig).
