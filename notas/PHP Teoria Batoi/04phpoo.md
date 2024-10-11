@@ -1182,12 +1182,12 @@ composer require monolog/monolog
 
 Monolog 2 requereix almenys PHP 7.2, compleix amb el estandar de logging PSR-3, i és la llibreria emprada per *Laravel* i *Symfony* per a la gestió de logs.
 
-!!! info "Quan utilitzar un log"
-* Seguir les acciones/moviments dels usuaris
-* Registrar les transaccions
-* Rastrejar els errors d'usuari
-* Fallades/avisos a nivell de sistema
-* Interpretar i col·leccionar dades per a posterior investigació de patrons
+> [!info] "Quan utilitzar un log"
+> * Seguir les acciones/moviments dels usuaris
+> * Registrar les transaccions
+> * Rastrejar els errors d'usuari
+> * Fallades/avisos a nivell de sistema
+> * Interpretar i col·leccionar dades per a posterior investigació de patrons
 
 ### Nivells
 
@@ -1261,11 +1261,11 @@ en el nostre cas l'arxiu `error.log` de Apatxe* utilitzarem com a ruta l'eixida 
 $log->pushHandler(new StreamHandler("php://stderr", Logger::DEBUG));
 ```
 
-!!! tip "FirePHP"
+>[!tip] "FirePHP"
 Per exemple, mitjançant `FirePHPHandler`, podem utilitzar `FirePHP`, la qual és una eina per a fer debug en la consola de Firefox*.
 Després d'instal·lar l'extensió en Firefox, habilitar les opcions i configurar el *Handler*, podem veure els missatges acolorits amb les seues dades:
 
-    ``` php
+```php
     <?php
     $log = new Logger("MiFirePHPLogger");
     $log->pushHandler(new FirePHPHandler(Logger::INFO));
@@ -1275,13 +1275,10 @@ Després d'instal·lar l'extensió en Firefox, habilitar les opcions i configura
     $log->info("Esto es un mensaje de INFO", $datos);
     $log->warning("Esto es un mensaje de WARNING", $datos);
     // ...
-    ```
+```
 
-    <figure style="align: center;">
-        <img src="imagenes/05/firePhp.png">
-        <figcaption>Ejemplo de uso de FirePHP</figcaption>
-    </figure>
 
+![[imagenes/05/firePhp.png]]
 ### Canals
 
 Se'ls assigna en crear el `Logger`. En grans aplicacions, es crea un canal per cada subsistema: vendes, comptabilitat, magatzem.
@@ -1312,7 +1309,7 @@ Alguns processadors coneguts són `IntrospectionProcessor` (mostren la línia, f
 
 === "PHP"
 
-    ``` php
+``` php
     <?php
     $log = new Logger("MiLogger");
     $log->pushHandler(new RotatingFileHandler("logs/milog.log", 0, Logger::DEBUG));
@@ -1320,14 +1317,14 @@ Alguns processadors coneguts són `IntrospectionProcessor` (mostren la línia, f
     $log->pushHandler(new StreamHandler("php://stderr", Logger::WARNING));
     // no usa Introspection pq lo hemos apilado después, le asigno otro
     $log->pushProcessor(new WebProcessor());
-    ```
+```
 
 === "Consola en format text"
 
-    ``` log
+``` log
     [2020-11-26T13:35:31.076138+01:00] MiLogger.DEBUG: Esto es un mensaje de DEBUG [] {"file":"C:\\xampp\\htdocs\\log\\procesador.php","line":12,"class":null,"function":null}
     [2020-11-26T13:35:31.078344+01:00] MiLogger.INFO: Esto es un mensaje de INFO [] {"file":"C:\\xampp\\htdocs\\log\\procesador.php","line":13,"class":null,"function":null}
-    ```
+```
 
 ### Formatadors
 
@@ -1335,22 +1332,22 @@ S'associen als manejadores amb `setFormatter`. Els formateadores més utilitzats
 
 === "PHP"
 
-    ``` php
+``` php
     <?php
     $log = new Logger("MiLogger");
     $rfh = new RotatingFileHandler("logs/milog.log", Logger::DEBUG);
     $rfh->setFormatter(new JsonFormatter());
     $log->pushHandler($rfh);
-    ```
+```
 
 === "Consola en JSON"
 
-    ``` json
+``` json
     {"message":"Esto es un mensaje de DEBUG","context":{},"level":100,"level_name":"DEBUG","channel":"MiLogger","datetime":"2020-11-27T15:36:52.747211+01:00","extra":{}}
     {"message":"Esto es un mensaje de INFO","context":{},"level":200,"level_name":"INFO","channel":"MiLogger","datetime":"2020-11-27T15:36:52.747538+01:00","extra":{}}
-    ```
+```
 
-!!! tip "Més informació"
+>[!tip] "Més informació"
 Més informació sobre manejadores, formateadores i processadors en <https://github.com/Seldaek/monolog/blob/master/doc/02-handlers-formatters-processors.md>
 
 ### Ús de Factories
