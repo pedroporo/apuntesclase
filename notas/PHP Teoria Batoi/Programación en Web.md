@@ -273,10 +273,8 @@ session_destroy();  // Destruir la sessió
 ?>
 ```
 
-!!! note "Configurant la sessió en `php.ini`"
-    Les següent propietats de `php.ini` permeten configurar alguns aspectes de la sessió:
-
-      * `session.save_handler`: controlador que gestiona com s'emmagatzema (`files`)
+> [!note] "Configurant la sessió en `php.ini`"
+    Les següent propietats de `php.ini` permeten configurar alguns aspectes de la sessió: * `session.save_handler`: controlador que gestiona com s'emmagatzema (`files`)
       * `session.save_path`: ruta on s'emmagatzemen els arxius amb les dades (si tenim un clúster, podríem usar `/mnt/sessions` en tots els servidor de manera que apunten a una carpeta compartida)
       * `session.name`: nom de la sessió (`PHSESSID`)
       * `session.acte_start`: Es pot fer que s'autocarregue amb cada script. Per defecte està deshabilitat
@@ -472,7 +470,7 @@ if (isset($_COOKIE['user'])) {
 </form>
 ```
 
-!!! warning "Seguretat en cookies"
+>[!warning] "Seguretat en cookies"
     Les cookies són vulnerables a atacs com *Cross-Site Scripting (XSS)* i *Cross-Site Request Forgery (CSRF)*. Per a protegir-les, s'ha de configurar la cookie com a segura i només accessible a través de la web.
 
 #### Exemple amb JWT

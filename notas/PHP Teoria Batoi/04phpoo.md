@@ -24,7 +24,7 @@ class NomClase {
 $ob = new NomClase();
 ```
 
-!!! important "Classes amb majúscula"
+>[!important] "Classes amb majúscula"
     Totes les classes comencen per lletra majúscula.
 
 Quan un projecte creix, és normal modelar les classes mitjançant UML (recordeu Entorns de Desenvolupament?). La classes es representen mitjançant un quadrat, separant el nom, de les propietats i els mètodes:
