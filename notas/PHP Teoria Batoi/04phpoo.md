@@ -200,21 +200,17 @@ class Punto {
 > [!info] "L'ordre importa"
     A l'hora de codificar l'ordre dels elements ha de ser:
 
-    ``` php
+``` php
     <?php
     declare(strict_types=1);
-
     class NombreClase {
-        // propiedades
-
-        // constructor
-
-        // getters - setters
-
-        // resto de métodos
+    // propiedades
+    // constructor
+    // getters - setters
+    // resto de métodos
     }
     ?>
-    ```
+ ```
 
 #### Classes estàtiques
 
@@ -386,7 +382,7 @@ En els fills no es crea cap constructor de manera automàtica. Pel que si no n'h
 
 === "PHP7"
 
-    ``` php
+``` php
     <?php
     class Producto {
         public string $codigo;
@@ -419,7 +415,7 @@ En els fills no es crea cap constructor de manera automàtica. Pel que si no n'h
 
 === "PHP8"
 
-    ``` php
+``` php
     <?php
     class Producto {
         public function __construct(private string $codigo) { }
@@ -694,12 +690,8 @@ $p1 = new Producte();
 
 Tot projecte, conforme creix, necessita organitzar el seu codi font. Es planteja una organització en la qual els arxius que interactuan amb el navegador es col·loquen en l'arrel, i les classes que definim van dins d'un namespace (i dins de la seua pròpia carpeta `src` o `app`).
 
-<figure>
-<img src="imagenes/03/03organizacion.png">
-<figcaption>Organització del codi font</figcaption>
-</figure>
-
-!!! tip "Organització, includes i usos"
+![[imagenes/03/03organizacion.png]]
+>[!tip] "Organització, includes i usos"
     * Col·locarem cada recurs en un fitxer a part.
     * En la primera línia indicarem la seua *namespace* (si no està en l'arrel).
     * Si utilitzem altres recursos, farem un `include_once` d'aqueixos recursos (classes, interfícies, etc...).
@@ -720,16 +712,12 @@ spl_autoload_register( function( $nombreClase ) {
 ?>
 ```
 
-!!! question "Per què es diuen autoload?"
+>[!question] "Per què es diuen autoload?"
     Perquè abans es realitzava mitjançant el mètode màgic `__autoload()`, el qual està *deprecated* des de PHP 7.2
 
 I com organitzem ara el nostre codi aprofitant el autoload?
 
-<figure style="float: right;">
-    <img src="imagenes/03/03autoload.png" width="600">
-    <figcaption>Organització amb autoload</figcaption>
-</figure>
-
+![[imagenes/03/03autoload.png|600]]
 Per a facilitar la cerca dels recursos a incloure, és recomanable col·locar totes les classes dins d'una mateixa carpeta. Nosaltres la col·locarem dins de `app` (més endavant, quan estudiem *Laravel* veurem el motiu d'aquesta decisió). Altres carpetes que podem crear són `test` per a col·locar les proves *PhpUnit* que després realitzarem, o la carpeta `vendor` on s'emmagatzemaran les llibreries del projecte (aquesta carpeta és un estándard dins de PHP, ja que *Composer* la crea automàticament).
 
 Com hem col·locat tots els nostres recursos dins de `app`, ara nostre `autoload.php` (el qual col·loquem en la carpeta arrel) només buscarà dins d'aqueixa carpeta:
@@ -742,7 +730,7 @@ spl_autoload_register( function( $nombreClase ) {
 
 ```
 
-!!! tip "autoload i rutes errònies"
+>[!tip] "autoload i rutes errònies"
     En *Ubuntu* en fer el *include* de la classe que rep com a paràmetre, les barres dels namespace (`\`) són diferents a les de les rutes (`/`). Per això, és millor que utilitzem el fitxer autoload:
     ``` php
     <?php
