@@ -23,11 +23,7 @@ En aquest model, el client (generalment un navegador web) envia sol·licituds al
 
 **Diagrama:**
 
-<figure>
-  <img src="./imagenes/01/clienteservidor.png" />
-  <figcaption>Arquitectura Client Servidor</figcaption>
-</figure>
-
+![[./imagenes/01/clienteservidor.png]]
 **Característiques:**
 
 - El client és responsable de la interfície d'usuari.
@@ -49,11 +45,8 @@ Aquesta arquitectura divideix l'aplicació en tres nivells: la capa de presentac
 
 **Diagrama:**
 
-<figure>
-  <img src="./imagenes/01/model3capes.png" />
-  <figcaption>Arquitectura 3 capes</figcaption>
-</figure>
 
+![[./imagenes/01/model3capes.png]]
 
 **Característiques:**
 
