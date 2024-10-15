@@ -103,8 +103,11 @@ También tenemos 'atajos' para obtener algunos elementos comunes:
 
 > EJERCICIO: Para hacer los ejercicios de este tema descárgate [esta página de ejemplo](ejemploDOM.html) y ábrela en tu navegador. Obtén por consola, al menos de 2 formas diferentes:
 > - El elemento con id 'input2'
+> 	- document.getElementById('input2') o document.querySelector('#input2')
 > - La colección de párrafos
+> 	- document.getElementsByTagName('p') o document.querySelectorAll('p')
 > - Lo mismo pero sólo de los párrafos que hay dentro del div 'lipsum'
+> 	- 
 > - El formulario (ojo, no la colección con el formulario sino sólo el formulario)
 > - Todos los inputs
 > - Sólo los inputs con nombre 'sexo'
