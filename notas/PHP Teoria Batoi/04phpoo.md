@@ -10,91 +10,6 @@
 
 
 
-## 12. Referències Bibliogràfiques  
-
-### Programació Orientada a Objectes en PHP
-
-- **"PHP Objects, Patterns, and Practice"**  
-  per M. Zandstra. Apress, 2017. ISBN: 978-1-4842-1361-3. Aquest llibre és un recurs essencial per entendre els fonaments de la programació orientada a objectes en PHP, així com patrons de disseny.
-
-- **"Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5"**  
-  per Robin Nixon. O'Reilly Media, 2018. ISBN: 978-1-4919-2070-2. Ofereix una introducció completa a la programació amb PHP, incloent-hi el model d'objectes de PHP.
-
-### Constructors i Destructors
-
-- **PHP Manual: Constructors and Destructors**  
-  Documentació oficial de PHP sobre constructors i destructors en la programació orientada a objectes. Disponible a [https://www.php.net/manual/en/language.oop5.decon.php](https://www.php.net/manual/en/language.oop5.decon.php).
-
-### Encapsulació i Visibilitat
-
-- **PHP Manual: Visibility**  
-  Secció del manual oficial de PHP que explica les paraules clau `public`, `protected`, i `private`, així com el concepte d'encapsulació. Accessible a [https://www.php.net/manual/en/language.oop5.visibility.php](https://www.php.net/manual/en/language.oop5.visibility.php).
-
-### Herència i Polimorfisme
-
-- **"Programming PHP"**  
-  per Kevin Tatroe, Peter MacIntyre, i Rasmus Lerdorf. O'Reilly Media, 2013. ISBN: 978-1-4493-5053-6. Aquest llibre cobreix àmpliament els conceptes d'herència i polimorfisme en PHP, proporcionant exemples pràctics.
-
-- **PHP Manual: Inheritance**  
-  Documentació oficial de PHP que tracta sobre l'herència en classes, incloent el polimorfisme. Disponible a [https://www.php.net/manual/en/language.oop5.inheritance.php](https://www.php.net/manual/en/language.oop5.inheritance.php).
-
-### Classes Abstractes i Interfícies
-
-- **PHP Manual: Interfaces and Abstract Classes**  
-  Explicació oficial de les classes abstractes i les interfícies en PHP. Disponible a [https://www.php.net/manual/en/language.oop5.interfaces.php](https://www.php.net/manual/en/language.oop5.interfaces.php).
-
-### Nombres màgics i Metodes màgics
-
-- **PHP Manual: Magic Methods**  
-  Guia completa sobre els mètodes màgics en PHP, com `__construct()`, `__destruct()`, `__get()`, `__set()`, entre altres. Disponible a [https://www.php.net/manual/en/language.oop5.magic.php](https://www.php.net/manual/en/language.oop5.magic.php).
-
-### Trait en PHP
-
-- **PHP Manual: Traits**  
-  Documentació sobre traits en PHP, que permeten reutilitzar codi entre diferents classes. Disponible a [https://www.php.net/manual/en/language.oop5.traits.php](https://www.php.net/manual/en/language.oop5.traits.php).
-
-### Excepcions en PHP
-
-- **"The Pragmatic Programmer: Your Journey to Mastery"**  
-  per David Thomas i Andrew Hunt. Addison-Wesley Professional, 2019. ISBN: 978-0-1359-5202-8. Inclou bones pràctiques per a la gestió d'excepcions, aplicables també a PHP.
-
-- **PHP Manual: Exceptions**  
-  Secció del manual de PHP dedicada a les excepcions, explicant com llençar i capturar excepcions en PHP. Accessible a [https://www.php.net/manual/en/language.exceptions.php](https://www.php.net/manual/en/language.exceptions.php).
-
-### Proves amb PHPUnit
-
-- **"Modern PHP: New Features and Good Practices"**  
-  per Josh Lockhart. O'Reilly Media, 2015. ISBN: 978-1-4919-2904-0. Aquest llibre inclou una secció sobre proves amb PHPUnit.
-
-- **PHPUnit Documentation**  
-  Documentació oficial de PHPUnit, que cobreix com escriure i executar proves unitàries en PHP. Accessible a [https://phpunit.de/documentation.html](https://phpunit.de/documentation.html).
-
-### Eines de Desenvolupament i Autocàrrega
-
-- **Composer Documentation**  
-  Accessible des de [https://getcomposer.org/doc/](https://getcomposer.org/doc/). Composer és l'eina estàndard per a la gestió de dependències en PHP, i inclou suport per a l'autocàrrega de classes.
-
-- **PHP Manual: Autoloading Classes**  
-  Guia sobre el mecanisme d'autocàrrega en PHP, que facilita la inclusió automàtica de classes en els teus projectes. Disponible a [https://www.php.net/manual/en/language.oop5.autoload.php](https://www.php.net/manual/en/language.oop5.autoload.php).
-
-### POO Avançada: Patrons de Disseny
-
-- **"Head First Design Patterns"**  
-  per Eric Freeman i Elisabeth Robson. O'Reilly Media, 2020. ISBN: 978-1-4919-7175-9. Un recurs excel·lent per aprendre patrons de disseny aplicables a PHP.
-
-- **"PHP Design Patterns"**  
-  per Stephan Schmidt. Publicat per Packt Publishing, 2008. ISBN: 978-1-84719-255-3. Aquest llibre explora com aplicar patrons de disseny en projectes PHP.
-
-### Webs de Referència Addicionals
-
-- **PHP: The Right Way**  
-  [https://phptherightway.com/](https://phptherightway.com/). Una guia per a desenvolupar aplicacions PHP seguint les millors pràctiques de la indústria.
-
-- **Stack Overflow**  
-  [https://stackoverflow.com/questions/tagged/php](https://stackoverflow.com/questions/tagged/php). Una font d'informació valuosa per resoldre problemes específics de PHP i discutir amb altres desenvolupadors.
-
----
-
 
 ## 13. Exercicis
 
@@ -106,8 +21,7 @@
 2. Crea una instància de la classe `Cotxe`, assigna-li una marca i un model, i mostra la informació utilitzant el mètode `mostraInformacio`.
 
 
-<details>
-<summary>Solució</summary>
+
 
 
 ```php
@@ -126,14 +40,12 @@ $cotxe->marca = "Toyota";
 $cotxe->model = "Corolla";
 echo $cotxe->mostraInformacio(); // Output: Marca: Toyota, Model: Corolla
 ``` 
-</details>
+
 ##### Exercici 2. Afegir un Constructor i destructor
 
 1. Modifica la classe `Cotxe` per afegir un constructor que prenga com a paràmetres la `marca` i el `model`, i que establisca aquestes propietats automàticament.
 2. Afegeix un destructor a la classe `Cotxe` que mostre un missatge quan l'objecte és destruït. Crea un objecte i permet que es destruïsca al final del programa.
 
-<details>
-<summary>Solució</summary>
 
 ```php
 <?php
@@ -154,14 +66,13 @@ class Cotxe {
     }
 }
 ```
-</details>
+
 
 ##### Exercici 3. Encapsulació de Propietats
  
 1. Modifica la classe `Cotxe` per a que les propietats `marca` i `model` siguen privades. Afegeix mètodes públics `getMarca`, `setMarca`, `getModel`, i `setModel` per accedir i modificar aquestes propietats.
 
-<details>
-<summary>Solució</summary>
+
 
 ```php
 <?php
@@ -198,15 +109,14 @@ class Cotxe {
 $cotxe = new Cotxe("Ford", "Fiesta");
 echo $cotxe->mostraInformacio(); // Output: Marca: Ford, Model: Fiesta
 ```
-</details>
+
  
 ##### Exercici 4. Herència i Polimorfisme
  
 1. Crea una classe `Vehicle` amb una propietat `tipus`. A continuació, crea una classe `Motocicleta` que herete de `Vehicle` i tinga una propietat `cilindrada`. Afegeix un mètode a `Motocicleta` que retorne el tipus i la cilindrada.
 2. Crea una funció `mostraDetallsVehicle` que accepte un objecte de tipus `Vehicle` i mostre les seues propietats. Prova aquesta funció amb objectes de `Cotxe` i `Motocicleta`.
 
-<details>
-<summary>Solució</summary>
+
 
 ```php
 <?php
@@ -260,7 +170,7 @@ $moto = new Motocicleta(600);
 mostraDetallsVehicle($cotxe); // Output: Tipus: Cotxe, Marca: Toyota, Model: Corolla
 mostraDetallsVehicle($moto);  // Output: Tipus: Motocicleta, Cilindrada: 600
 ```
-</details>
+
 
 ##### Exercici 5. Implementació del Patró MVC amb Vehicles
  
