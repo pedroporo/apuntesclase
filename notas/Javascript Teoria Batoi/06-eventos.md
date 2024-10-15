@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Eventos
 - [Eventos](#eventos)
   - [Introducción](#introducción)

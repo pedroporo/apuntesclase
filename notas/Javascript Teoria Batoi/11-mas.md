@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Más cosas a aprender en Javascript
 - [Más cosas a aprender en Javascript](#más-cosas-a-aprender-en-javascript)
   - [Introducción](#introducción)

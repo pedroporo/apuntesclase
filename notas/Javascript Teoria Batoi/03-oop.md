@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Programación orientada a Objetos en Javascript
 - [Programación orientada a Objetos en Javascript](#programación-orientada-a-objetos-en-javascript)
   - [Introducción](#introducción)

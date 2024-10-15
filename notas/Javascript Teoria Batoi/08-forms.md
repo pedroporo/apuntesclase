@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Validación de formularios
 Índice:
 - [Validación de formularios](#validación-de-formularios)

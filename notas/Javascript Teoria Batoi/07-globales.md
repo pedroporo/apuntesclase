@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Objetos nativos
 - [Objetos nativos](#objetos-nativos)
   - [Introducción](#introducción)

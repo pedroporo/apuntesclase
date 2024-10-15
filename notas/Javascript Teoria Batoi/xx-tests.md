@@ -1,4 +1,6 @@
-
+---
+dg-publish: true
+---
 ## Usar TDD en Javascript
 Lo más sencillo es usar alguna librería como **Jest**, **Mocha** o **Vitests** (una adaptación de _Jest_ para _Vite_). Se trata de librerías que se ejecutan sobre _Node.js_ y permiten crear tests tanto síncronos como asíncronos. Para usarlo necesitaremos tener **npm** instalado. 
 

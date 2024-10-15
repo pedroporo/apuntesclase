@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Browser Object Model (BOM)
 - [Browser Object Model (BOM)](#browser-object-model-bom)
   - [Introducción](#introducción)

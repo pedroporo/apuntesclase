@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Ajax
 - [Ajax](#ajax)
   - [Introducción](#introducción)

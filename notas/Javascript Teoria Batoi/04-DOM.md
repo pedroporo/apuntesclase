@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Document Object Model (DOM)
 - [Document Object Model (DOM)](#document-object-model-dom)
   - [Introducción](#introducción)

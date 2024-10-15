@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Sintaxis
 - [Sintaxis](#sintaxis)
   - [Variables](#variables)

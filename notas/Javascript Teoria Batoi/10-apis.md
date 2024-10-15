@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # APIs HTML5: Drag And Drop. Local Storage. Geolocalización. API de Google Maps
 - [APIs HTML5: Drag And Drop. Local Storage. Geolocalización. API de Google Maps](#apis-html5-drag-and-drop-local-storage-geolocalización-api-de-google-maps)
   - [Introducción](#introducción)

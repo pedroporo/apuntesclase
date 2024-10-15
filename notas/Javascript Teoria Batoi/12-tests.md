@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Testing
 
 Tabla de contenidos
