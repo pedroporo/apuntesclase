@@ -32,7 +32,7 @@ La primera avaluació contindria les unitats compreses entre la 1 i 6. Així don
 
 Duració estimada: 75 hores
 
-1. [Arquitectures Web](Arquitecturas%20WEB.md) (3h)
+1. [Arquitectures Web](1.%20Arquitecturas%20WEB.md) (3h)
 
      * Client/Servidor. 
      * MVC.
