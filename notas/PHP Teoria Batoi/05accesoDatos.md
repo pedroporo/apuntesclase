@@ -5,20 +5,13 @@
 	| Resultat d'aprenentatge | Criteris d'avaluació |
     | --------                | --------             |
     | 6. Desenvolupa aplicacions web d'accés a magatzems de dades, aplicant mesures per a mantindre la seguretat i la integritat de la informació.| a) S'han analitzat les tecnologies que permeten l'accés mitjançant programació a la informació disponible en magatzems de dades. <br/> b) S'han creat aplicacions que establisquen connexions amb bases de dades. <br/> c) S'ha recuperat informació emmagatzemada en bases de dades. <br/> d) S'ha publicat en aplicacions web la informació recuperada. <br/> e) S'han utilitzat conjunts de dades per a emmagatzemar la informació. <br/> f) S'han creat aplicacions web que permeten l'actualització i l'eliminació  d'informació disponible en una base de dades.<br/> g) S'han provat i documentat les aplicacions web. |
-	   
-
-
-    
 
 
 En aquesta unitat aprendrem a accedir a dades que es troben en un servidor; recuperant, editant i creant aquestes dades a través d'una base de dades.
 
 A través de les diferents capes o nivells, de les quals 2 d'elles ja coneixem (*Nginx*, *PHP*) i *MySQL* la que estudiarem en aquest tema.
 
-<div class="center img-large">
-    <img src="imagenes/06/06-bbdd-arquitectura-3-niveles.png">
-</div>
-
+![[imagenes/06/06-bbdd-arquitectura-3-niveles.png]]
 ## 1. Introducció a les tecnologies per accedir a dades
 
 ### Bases de dades relacionals (SQL)
