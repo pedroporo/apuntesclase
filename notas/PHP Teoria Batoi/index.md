@@ -49,7 +49,7 @@ Duració estimada: 75 hores
      * Formularis.
      * Cookies i sessió.
    
-4. [Orientació a objectes amb PHP](04phpoo.md) (11h)
+4. [Orientació a objectes amb PHP](phpoo.md) (11h)
 
    * Classes i objectes
    * Namespaces
