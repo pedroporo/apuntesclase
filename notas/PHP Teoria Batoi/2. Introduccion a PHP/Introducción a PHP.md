@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # El llenguatge PHP
 
 ## 1. Introducció a PHP

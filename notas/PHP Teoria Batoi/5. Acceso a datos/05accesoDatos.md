@@ -1,34 +1,3 @@
-# Desenvolupament d'aplicacions web: Accés a Dades.
-
-> [!abstract] "Duració i criteris d'avaluació"
-	   Duració estimada: 10 hores 
-	| Resultat d'aprenentatge | Criteris d'avaluació |
-    | --------                | --------             |
-    | 6. Desenvolupa aplicacions web d'accés a magatzems de dades, aplicant mesures per a mantindre la seguretat i la integritat de la informació.| a) S'han analitzat les tecnologies que permeten l'accés mitjançant programació a la informació disponible en magatzems de dades. <br/> b) S'han creat aplicacions que establisquen connexions amb bases de dades. <br/> c) S'ha recuperat informació emmagatzemada en bases de dades. <br/> d) S'ha publicat en aplicacions web la informació recuperada. <br/> e) S'han utilitzat conjunts de dades per a emmagatzemar la informació. <br/> f) S'han creat aplicacions web que permeten l'actualització i l'eliminació  d'informació disponible en una base de dades.<br/> g) S'han provat i documentat les aplicacions web. |
-
-
-En aquesta unitat aprendrem a accedir a dades que es troben en un servidor; recuperant, editant i creant aquestes dades a través d'una base de dades.
-
-A través de les diferents capes o nivells, de les quals 2 d'elles ja coneixem (*Nginx*, *PHP*) i *MySQL* la que estudiarem en aquest tema.
-
-![[imagenes/06/06-bbdd-arquitectura-3-niveles.png]]
-## 1. Introducció a les tecnologies per accedir a dades
-
-### Bases de dades relacionals (SQL)
-Les bases de dades relacionals utilitzen llenguatge SQL per emmagatzemar i recuperar dades de taules relacionades. En PHP, les tecnologies més utilitzades per accedir-hi són **PDO** i **MySQLi**. **PDO** suporta múltiples sistemes de bases de dades (MySQL, PostgreSQL, etc.), mentre que **MySQLi** està dissenyat específicament per a MySQL.
-
-### Bases de dades NoSQL
-Les bases de dades NoSQL, com **MongoDB** o **Firebase**, emmagatzemen dades en formats no estructurats, com JSON. Aquestes són ideals per a aplicacions que gestionen grans volums de dades o dades no estructurades. **MongoDB** és un sistema orientat a documents, mentre que **Firebase** és conegut per les seves capacitats en temps real.
-
-### Accés a APIs
-Les **APIs REST** permeten accedir a dades de serveis web externs utilitzant sol·licituds HTTP i respostes en formats com JSON o XML. **GraphQL** és una alternativa moderna que permet sol·licituds més específiques, només retornant les dades necessàries, en contrast amb les sol·licituds REST, que poden ser més generals.
-
-### Web Scraping
-El **web scraping** és el procés d'extracció automàtica de dades de pàgines web. Aquesta tècnica es pot utilitzar per recuperar informació d'una pàgina web quan no hi ha una API disponible. En PHP, es poden utilitzar diverses biblioteques per descarregar i analitzar contingut HTML, com ara **cURL** i **DOMDocument**.
-
-### Consideracions de seguretat
-És fonamental garantir la seguretat quan es treballa amb l'accés a dades. Això inclou protegir les aplicacions contra vulnerabilitats comunes, com les **injeccions SQL**, i assegurar les connexions utilitzant **SSL/TLS** quan es comuniqui amb bases de dades remotes o APIs externes.
-
 
 ## 2. Bases de dades relacionals (SQL)
 

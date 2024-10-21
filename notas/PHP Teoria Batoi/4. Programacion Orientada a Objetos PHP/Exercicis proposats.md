@@ -1,4 +1,6 @@
-
+---
+dg-publish: true
+---
  
 #### Exercici 1. Creació de la Classe Bàsica i Gestió de Propietats
 
