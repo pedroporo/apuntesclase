@@ -14,10 +14,7 @@ Si tot ha eixit bé i el contenidor està en marxa, podrem visitar la pàgina de
 http://localhost:8000
 ```
 
-<div class="center img-medium">
-    <img src="imagenes/06/06-bbdd-phpMyAdmin-login.png">
-</div>
-
+![[imagenes/06/06-bbdd-phpMyAdmin-login.png]]
 Per a accedir hem d'utilitzar les següents credencials que venen configurades en el arxiu `docker-compose.yml`
 
 ```
@@ -65,10 +62,7 @@ Vegem-ho en un exemple real
     [*] Clau primària [^] Clave Forània
 </div>
 
-<div class="center img-large">
-    <img src="imagenes/06/06-bbdd-estructura.png">
-</div>
-
+![[imagenes/06/06-bbdd-estructura.png]]
 ### SQL
 
 Aquest llenguatge de consulta estructurada (*Structured Query Language*) és el que utilitzarem per a realitzar les consultes a les nostres bases de dades per a mostrar el contingut en les diferents interfícies web que creem al llarg de la unitat. Si vols saber més detalls visita [Wiki SQL](https://es.wikipedia.org/wiki/sql)
@@ -91,19 +85,12 @@ Las sentencias SQL también las podemos usar dentro de nuestro código php, de t
 ```
 
 ### phpMyAdmin
-
-<div class="center img-medium">
-    <img src="imagenes/06/06-bbdd-phpMyAdmin-logo.png">
-</div>
-
+![[imagenes/06/06-bbdd-phpMyAdmin-logo.png]]
 Aquest programari funciona sota Ngingx i PHP i és més que res una interfície web per a gestionar les bases de dades que tinguem disponibles en el nostre servidor local. Molts **hostings* ofereixen aquesta eina per defecte per a poder gestionar les BBDD que tinguem configurades sota el nostre compte.
 
 #### Creant una base de dades dins de phpMyAdmin
 
-<div class="center img-large">
-    <img src="imagenes/06/06-bbdd-phpMyAdmin.gif">
-</div>
-
+![[imagenes/06/06-bbdd-phpMyAdmin.gif]]
 1.  Per a crear una nova base de dades hem d'entrar en *phpMyAdmin* com a *usuari root* i punxar en l'opció <span class="warning">*Nova*</span> del menú de l'esquerra.
 
 2. En la nova finestra de creació posarem un **nom** a nostra *bbdd*.
@@ -336,11 +323,7 @@ Però hem de triar el tipus de dada que volem rebre entre els 3 que hi ha dispon
 - `PDO::FETCH_ASSOC:` array indexat que els seus keys són el nom de les columnes.
 - `PDO::FETCH_NUM:` array indexat que els seus keys són números.
 - `PDO::FETCH_BOTH:` valor per defecte. Retorna un array indexat que els seus keys són tant el nom de les columnes com números.
-
-<div class="center img-large">
-    <img src="imagenes/06/06-pdo-listado-fetch.png">
-</div>
-
+![[imagenes/06/06-pdo-listado-fetch.png]]
 ``` php
 <?php
     //  ▒▒▒▒▒▒▒▒ consulta con array asociativo.php ▒▒▒▒▒▒▒▒
@@ -498,11 +481,7 @@ Per a utilitzar el comodí *LIKE* o altres comodins, hem d'associar-lo a la dada
 Teniu una llista d'exemples molt completa en la [documentació oficial](https://phpdelusions.net/pdo/objects).
 
 ## 4. Login & Password
-
-<div class="center img-medium">
-    <img src="imagenes/06/06-login-password.gif">
-</div>
-
+![[imagenes/06/06-login-password.gif]]
 Per a manejar un sistema complet de login i password amb contrasenyes xifrades, necessitem un mètode que xifre aqueixos *strings* que l'usuari introdueix com a contrasenya; tant en el formulari de registre com en el del *login*, ja que en codificar una contrasenya, després hem de descodificar-la per a comprovar que totes dues *contrasenyes (la que introdueix l'usuari en el login i la que tenim en la base de dades) coincidisquen.
 
 Necessitem doncs:
@@ -558,28 +537,28 @@ Un Query Builder (Constructor de Consultes) és una eina o classe que facilita l
 
 A continuació, detallo algunes de les principals avantatges i característiques d'un Query Builder com el que has compartit anteriorment:
 
-    * 1. Abstracció de la Base de Dades:
+* 1. Abstracció de la Base de Dades:
     - El Query Builder proporciona una capa d'abstracció que permet interactuar amb diferents tipus de bases de dades (MySQL, PostgreSQL, SQLite, etc.) sense canviar el codi de la teva aplicació. Això facilita la portabilitat i l'escalabilitat del codi.
 
-    * 2. Seguretat:
+* 2. Seguretat:
     - Prevé injeccions SQL: Gràcies a l'ús de sentències preparades i enllaçament de paràmetres, el Query Builder ajuda a prevenir atacs d'injecció SQL, una de les amenaces més comunes en desenvolupament web.
 
-    * 3. Sintaxi Més Neta i Més Fàcil:
+* 3. Sintaxi Més Neta i Més Fàcil:
     - Els Query Builders solen proporcionar una sintaxi més neta i fàcil d'entendre que les cadenes SQL pures. Això fa que el codi sigui més llegible i fàcil de mantenir.
 
-    * 4. Reutilització de Codi:
+* 4. Reutilització de Codi:
     - Les funcions del Query Builder es poden reutilitzar a tot el projecte, reduint la duplicació de codi i facilitant el manteniment.
 
-    * 5. Flexibilitat:
+* 5. Flexibilitat:
     - Permet realitzar consultes complexes amb una sintaxi simplificada, facilitant l'adaptació del codi a canvis en els requeriments de l'aplicació.
 
-    * 6. Desenvolupament Més Ràpid:
+* 6. Desenvolupament Més Ràpid:
     - Ajuda a accelerar el procés de desenvolupament, ja que els desenvolupadors no necessiten recordar la sintaxi SQL exacta per a cada tipus de base de dades.
 
-    * 7. Fàcil de Depurar:
+* 7. Fàcil de Depurar:
     - El codi generat pel Query Builder és més fàcil de depurar en comparació amb les llargues cadenes SQL.
 
-    * 8. Suport per a Operacions CRUD:
+* 8. Suport per a Operacions CRUD:
     - Els Query Builders solen incloure suport integrat per a operacions CRUD (Crear, Llegir, Actualitzar, Esborrar), fent més fàcil la manipulació de dades.
 
 En resum, un Query Builder serveix per simplificar la interacció amb bases de dades, proporcionant una interfície més segura, neta i fàcil d'utilitzar que les cadenes SQL pures. Ajuda a accelerar el desenvolupament, facilita el manteniment i millora la seguretat de l'aplicació.
@@ -811,19 +790,19 @@ fclose($fp);
 
 Amb PHP i el seu mètode *stat()* podem obtindre informació sobre els arxius que li indiquem. Aquest mètode retorna fins a un total de 12 elements amb *informació* sobre el nostre arxiu.
 
-0	*dev*	 número de dispositiu
-1	*ino*	 número d'i-node
-2	*mode*	 manera de protecció de l'i-node
-3	*nlink*	 nombre d'enllaços
-4	*uid*	 ID d'usuari del propietari
-5	*gid*	 ID de grup del propietari
-6	*rdev*	 tipus de dispositiu, si és un dispositiu i-node
-7	*size*	 grandària en bytes
-8	*atime*	 moment de l'últim accés (temps Unix)
-9	*mtime*	 moment de l'última modificació (temps Unix)
-10	*ctime*	 moment de l'última modificació de l'i-node (temps Unix)
-11	*blksize*	 grandària del bloc E/S del sistema de fitxers
-12	*blocks*	 nombre de blocs de 512 bytes assignats
+0.	*dev*	 número de dispositiu
+1.	*ino*	 número d'i-node
+2.	*mode*	 manera de protecció de l'i-node
+3.	*nlink*	 nombre d'enllaços
+4.	*uid*	 ID d'usuari del propietari
+5.	*gid*	 ID de grup del propietari
+6.	*rdev*	 tipus de dispositiu, si és un dispositiu i-node
+7.	*size*	 grandària en bytes
+8.	*atime*	 moment de l'últim accés (temps Unix)
+9.	*mtime*	 moment de l'última modificació (temps Unix)
+10.	*ctime*	 moment de l'última modificació de l'i-node (temps Unix)
+11.	*blksize*	 grandària del bloc E/S del sistema de fitxers
+12.	*blocks*	 nombre de blocs de 512 bytes assignats
 
 Uns exemples...
 
@@ -962,7 +941,7 @@ echo $precioTotal;
 
 1. Crea un fitxer PHP que faça una connexió a una base de dades MySQL utilitzant PDO.
 
-<details>
+
 <summary>Solució</summary>
 
 ``` php
@@ -978,14 +957,14 @@ try {
 }
  
 ```
-</details>
+
 
 
 ##### Exercici 2. Inserir un registre
 
 1. Escriu una funció que insereixi un nou usuari a la taula `users` amb el nom i correu electrònic passats per paràmetre.
 
-<details>
+
 <summary>Solució</summary>
 
 ``` php
@@ -1000,13 +979,13 @@ function inserirUsuari($nom, $correu) {
 }
 ```
 
-</details>
+
 
 ##### Exericici 3. Recuperar dades
  
 1. Fes una consulta SQL que mostri tots els usuaris registrats a la taula `users` i mostra'ls en una taula HTML.
 
-<details>
+
 <summary>Solució</summary>
 
 ``` php
@@ -1023,13 +1002,13 @@ function mostrarUsuaris() {
 }
 ```
 
-</details>
+
 
 ##### Exercici 4. Actualitzar dades
 
 1. Escriu una funció que actualitzi el correu electrònic d'un usuari segons el seu identificador (`id`).
 
-<details>
+
 <summary>Solució</summary>
 
 ``` php
@@ -1043,13 +1022,13 @@ function actualitzarCorreu($id, $nouCorreu) {
 }
 ```
 
-</details>
+
 
 ##### Exercici 5. Eliminar un registre
 
 1. Implementa un script que esborri un usuari per identificador (`id`).
 
-<details>
+
 <summary>Solució</summary>
 
 ``` php
@@ -1062,13 +1041,13 @@ function eliminarUsuari($id) {
     echo "Usuari eliminat!";
 }
 ```
-</details>
+
 
 ##### Exercici 6. Ús de sentències preparades
 
 1. Refactoritza els exercicis anteriors per utilitzar sentències preparades per evitar injecció SQL.
 
-<details>
+
 <summary>Solució</summary>
 
 ``` php
@@ -1084,13 +1063,13 @@ function inserirAmbPreparada($nom, $correu) {
 }
 ```
 
-</details>
+
 
 ##### Exercici 7. Tractament d'errors
 
 1. Modifica el codi anterior per gestionar els errors amb `try-catch` i mostrar missatges d'error clars.
 
-<details>
+
 <summary>Solució</summary>
 
 ``` php
@@ -1101,7 +1080,7 @@ function inserirAmbPreparada($nom, $correu) {
     echo "Error en actualitzar: " . $e->getMessage();
 }
 ```
-</details>
+
 
 ##### Exercici 8. Ús de Query Builder
 
