@@ -2,22 +2,11 @@
 dg-publish: true
 title: Asignatura de entornos a clientes
 ---
-
-
 ```button
-name Testeo
-type note(Testinf) template
+type note(function(){return this.inputEl.value}) template
 action Sin título
 templater true
 ```
-^button-12
-testeo
-```button
-name ewrw
-type note(tesafa) template
-action Sin título
-templater true
-folder ./notas/Desarollo Web en entorno cliente/fgdf/
-prompt false
-```
-^button-1234
+^button-km7s
+
+[Pagina de github de los apuntes](https://github.com/cipfpbatoi/materials)
