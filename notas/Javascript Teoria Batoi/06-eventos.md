@@ -173,11 +173,11 @@ Al producirse un evento se generan automáticamente en su función manejadora 2 
       * **.which**: devuelve el código de la tecla pulsada
       * **.keyCode** / **.charCode**: código de la tecla pulsada y del carácter pulsado (según navegadores)
       * **.shiftKey** / **.ctrlKey** / **.altKey** / **.metaKey**: si está o no pulsada la tecla SHIFT / CTRL / ALT / META. Esta propiedad también la tienen los eventos de ratón
-      > NOTA: a la hora de saber qué tecla ha pulsado el usuario es conveniente tener en cuenta:
-      > * para saber qué carácter se ha pulsado lo mejor usar la propiedad _key_ o _charCode_ de _keyPress_, pero varía entre navegadores
-      > * para saber la tecla especial pulsada mejor usar el _key_ o el _keyCode_ de _keyUp_
-      > * captura sólo lo que sea necesario, se producen muchos eventos de teclado
-      > * para obtener el carácter a partir del código: `String fromCharCode(codigo);`
+      * > NOTA: a la hora de saber qué tecla ha pulsado el usuario es conveniente tener en cuenta:
+      * para saber qué carácter se ha pulsado lo mejor usar la propiedad _key_ o _charCode_ de _keyPress_, pero varía entre navegadores
+       * para saber la tecla especial pulsada mejor usar el _key_ o el _keyCode_ de _keyUp_
+       * captura sólo lo que sea necesario, se producen muchos eventos de teclado
+       * para obtener el carácter a partir del código: `String fromCharCode(codigo);`
       
 Lo mejor para familiarizarse con los diferentes eventos es consultar los [ejemplos de w3schools](https://www.w3schools.com/js/js_events_examples.asp).
 
