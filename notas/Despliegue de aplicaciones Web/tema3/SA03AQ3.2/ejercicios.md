@@ -19,5 +19,8 @@ Du a terme les següents tasques:
 - Genera un parell de claus SSH a la màquina local 
 ![[Pasted image 20241030180302.png]]
 - Copia la clau pública al servidor. 
+``` bash
+cat ~/.ssh/id_rsa.pub | ssh pedro@54.81.47.114 'cat >> ~/.ssh/authorized_keys'
+```
 - Habilita l’accés per usuari/contrasenya 
 - Connecta't al servidor utilitzant la teua clau privada, sense contrasenya.
