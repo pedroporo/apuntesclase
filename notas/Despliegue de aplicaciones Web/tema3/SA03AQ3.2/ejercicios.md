@@ -13,3 +13,11 @@ Crea al servidor remot un nou usuari xyyyy on x és el teu nom e yyyy el teu cog
 ![[Pasted image 20241030175606.png]]
 
 ## [[SA03AQ3.2 - Servici SSH - Autenticacio de client.pdf#page=6&selection=18,0,20,1|Ejercicio 2]]
+Du a terme les següents tasques: 
+- Genera un nou usuari a la màquina remota 
+![[Pasted image 20241030180132.png]]
+- Genera un parell de claus SSH a la màquina local 
+![[Pasted image 20241030180302.png]]
+- Copia la clau pública al servidor. 
+- Habilita l’accés per usuari/contrasenya 
+- Connecta't al servidor utilitzant la teua clau privada, sense contrasenya.
