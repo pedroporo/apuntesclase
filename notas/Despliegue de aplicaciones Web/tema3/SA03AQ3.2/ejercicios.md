@@ -32,5 +32,10 @@ Ya esta habilitado de antes.
 
 Du a terme les següents tasques: 
 - Modifica el fitxer de configuració de SSH per desactivar l'autenticació per contrasenya. 
+ ![[Pasted image 20241030181407.png]]
 - Assegura't que només pots connectar-te al servidor utilitzant la clau privada. 
+Usuario que tiene la clave privada
+![[Pasted image 20241030181517.png]]
+Usuario que no tiene la clave privada
+![[Pasted image 20241030181700.png]]
 - (opcional) Per augmentar la seguretat canvia el port per defecte en el que el teu servidor ssh escolta les connexions per el por 32002 i connectat fent us d’aquest port.
