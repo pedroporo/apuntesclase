@@ -23,4 +23,14 @@ Du a terme les següents tasques:
 cat ~/.ssh/id_rsa.pub | ssh pedro@54.81.47.114 'cat >> ~/.ssh/authorized_keys'
 ```
 - Habilita l’accés per usuari/contrasenya 
+Ya esta habilitado de antes.
 - Connecta't al servidor utilitzant la teua clau privada, sense contrasenya.
+![[Pasted image 20241030181000.png]]
+![[Pasted image 20241030181155.png]]
+
+## [[SA03AQ3.2 - Servici SSH - Autenticacio de client.pdf#page=7&selection=0,60,12,1|Actividad 3]]
+
+Du a terme les següents tasques: 
+- Modifica el fitxer de configuració de SSH per desactivar l'autenticació per contrasenya. 
+- Assegura't que només pots connectar-te al servidor utilitzant la clau privada. 
+- (opcional) Per augmentar la seguretat canvia el port per defecte en el que el teu servidor ssh escolta les connexions per el por 32002 i connectat fent us d’aquest port.
