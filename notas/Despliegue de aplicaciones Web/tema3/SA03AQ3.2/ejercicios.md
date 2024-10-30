@@ -39,3 +39,5 @@ Usuario que tiene la clave privada
 Usuario que no tiene la clave privada
 ![[Pasted image 20241030181700.png]]
 - (opcional) Per augmentar la seguretat canvia el port per defecte en el que el teu servidor ssh escolta les connexions per el por 32002 i connectat fent us d’aquest port.
+Usando la regla Port
+ ![[Pasted image 20241030182327.png]]
