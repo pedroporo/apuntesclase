@@ -26,5 +26,5 @@ Hola
 | 20:45 - 21:40 |                                       | [[Desarollo Web en entorno cliente]]  |                                      |                                       |                              |
 
 ```query
-tag:#despliege
+notas
 ```
