@@ -24,3 +24,6 @@ Hola
 | 18:55 - 19:50 | [[Desarollo Web en entorno servidor]] | [[Desarollo Web en entorno servidor]] |     [[Diseño de interfaces WEB]]     | [[Desarollo Web en entorno cliente]]  | [[Diseño de interfaces WEB]] |
 | 19:50 - 20:45 | [[Desarollo Web en entorno servidor]] | [[Desarollo Web en entorno cliente]]  |     [[Diseño de interfaces WEB]]     | [[Desarollo Web en entorno cliente]]  | [[Diseño de interfaces WEB]] |
 | 20:45 - 21:40 |                                       | [[Desarollo Web en entorno cliente]]  |                                      |                                       |                              |
+
+```query
+```
