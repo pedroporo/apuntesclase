@@ -25,9 +25,3 @@ Hola
 | 19:50 - 20:45 | [[Desarollo Web en entorno servidor]] | [[Desarollo Web en entorno cliente]]  |     [[Diseño de interfaces WEB]]     | [[Desarollo Web en entorno cliente]]  | [[Diseño de interfaces WEB]] |
 | 20:45 - 21:40 |                                       | [[Desarollo Web en entorno cliente]]  |                                      |                                       |                              |
 
-```dataview
-table notas.PHP as "Date Created"
-from "Wildemount"
-where contains(file.path, "Port Damali")
-sort file.name asc
-```
