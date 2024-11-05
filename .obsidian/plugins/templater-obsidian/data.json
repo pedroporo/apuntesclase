@@ -17,6 +17,10 @@
     {
       "folder": "notas/PHP Teoria Batoi",
       "template": "templates/Default.md"
+    },
+    {
+      "folder": "notas/Javascript Teoria Batoi",
+      "template": "templates/Default.md"
     }
   ],
   "enable_file_templates": false,
