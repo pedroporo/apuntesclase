@@ -12,8 +12,6 @@ Asignaturas
 
 Horario:
 
-Hola
-
 |     Hora      |                 Lunes                 |                Martes                 |              Miercoles               |                Jueves                 |           Viernes            |
 | :-----------: | :-----------------------------------: | :-----------------------------------: | :----------------------------------: | :-----------------------------------: | :--------------------------: |
 | 14:55 - 15:50 |                Empresa                |     [[Diseño de interfaces WEB]]      | [[Desarollo Web en entorno cliente]] | [[Desarollo Web en entorno servidor]] |           Empresa            |
