@@ -107,3 +107,8 @@ La nota del curs es calcula mitjançant:
   * 40% Exàmen d'avaluació (Fan mitja a partir de 4)
      * Un per cada avaluació.
 
+```Dataview
+
+list from 1. Arquitecturas Web
+
+```
