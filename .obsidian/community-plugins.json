@@ -1,9 +1,10 @@
 [
   "obsidian-git",
-  "templater-obsidian",
-  "calendar",
-  "digitalgarden",
-  "table-editor-obsidian",
+  "quickadd",
+  "obsidian-excalidraw-plugin",
   "buttons",
-  "dataview"
+  "table-editor-obsidian",
+  "calendar",
+  "dataview",
+  "digitalgarden"
 ]
