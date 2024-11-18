@@ -22,3 +22,12 @@ fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;
 } 
 }
 ```
+
+## Fichero info.php
+```
+<?php phpinfo(); ?>
+```
+## Comando para ver los logs
+```
+tail -f /var/log/nginx/access.log 
+```
