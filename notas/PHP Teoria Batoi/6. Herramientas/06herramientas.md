@@ -306,7 +306,7 @@ $log->pushHandler(new StreamHandler("php://stderr", Logger::DEBUG));
     Per exemple, mitjançant `FirePHPHandler`, podem utilitzar `FirePHP`, la qual és una eina per a fer debug en la consola de Firefox*.
     Després d'instal·lar l'extensió en Firefox, habilitar les opcions i configurar el *Handler*, podem veure els missatges acolorits amb les seues dades:
 
-    ```php
+```php
     <?php
     $log = new Logger("MiFirePHPLogger");
     $log->pushHandler(new FirePHPHandler(Logger::INFO));
@@ -314,14 +314,10 @@ $log->pushHandler(new StreamHandler("php://stderr", Logger::DEBUG));
     $log->debug("Esto es un mensaje de DEBUG", $datos);
     $log->info("Esto es un mensaje de INFO", $datos);
     $log->warning("Esto es un mensaje de WARNING", $datos);
-    // ...
     ```
     
-    <figure style="align: center;">
-        <img src="imagenes/05/firePhp.png">
-        <figcaption>Ejemplo de uso de FirePHP</figcaption>
-    </figure>
-[[imagenes/05/firePhp.png]]
+
+![[imagenes/05/firePhp.png]]
 ### Canals
 
 Se'ls assigna en crear el `Logger`. En grans aplicacions, es crea un canal per cada subsistema: vendes, comptabilitat, magatzem.
