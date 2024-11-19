@@ -1,7 +1,11 @@
 # Ferramentes
 
-> [!abstract] "Duració y criteris d'avaluació"
-	Duració estimada: 16 hores
+>[abstract] "Duració y criteris d'avaluació"
+
+    Duració estimada: 16 hores
+
+    <hr />
+
     | Resultat d'aprenentatge  | Criteris d'avaluació  |
     | ------                    | -----                |
     | 4.- Desarrolla aplicaciones Web embebidas en lenguajes de marcas analizando e incorporando funcionalidades según especificaciones.        | g) Se han utilizado herramientas y entornos para facilitar la programación, prueba y depuración del código.   |
