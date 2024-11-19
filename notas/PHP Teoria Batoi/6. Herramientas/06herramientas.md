@@ -10,11 +10,7 @@ En aquesta unitat estudiarem algunes de les eines més utilitzades en PHP.
 
 ## Composer
 
-<figure style="float: right;">
-    <img src="imagenes/05/logo-composer.png" width="200">
-    <figcaption>Logo Composer</figcaption>
-</figure>
-
+![[imagenes/05/logo-composer.png|200]]
 Eina per excel·lència en PHP per a la gestió de llibreries i dependències, de manera que instal·la i les actualitza assegurant que tot l'equip de desenvolupament té el mateix entorn i versions. A més, ofereix *autoloading* del nostre codi, de manera que no hàgem de fer-lo nosaltres "a mà".
 
 Està escrit en PHP, i podeu consultar tota la seua documentació en [https://getcomposer.org/](https://getcomposer.org/).
@@ -43,7 +39,7 @@ composer -V
 
 Quan creem un projecte per primera vegada, hem d'inicialitzar el repositori. Per a això, executarem el comando `composer init` on:
 
-* Configurem el nom del paquet, descripció, autor (nom <email>), tipus de paquet (project), etc...
+* Configurem el nom del paquet, descripció, autor (nom `<email>`), tipus de paquet (project), etc.
 * Definim les dependències del projecte (`require`) i les de desenvolupament (`require-dev`) de manera interactiva.
 * En les de desenvolupament s'indica aquelles que no s'instal·laran a l'entorn de producció, per exemple, les llibreries de proves.
 
@@ -133,10 +129,8 @@ composer dump-autoload
 
 Amb PHP podem manejar tot tipus d'arxius com ja hem vist però, què passa si volem generar fitxers PDF amb dades tretes d'una base de dades?
 
-<div class="center img-small">
-    <img src="imagenes/06/06-pdf.png">
-</div>
 
+![[imagenes/06/06-pdf.png]]
 
 Gràcies a una classe escrita en PHP, podem generar arxius PDF sense necessitat d'instal·lar llibreries addicionals en el nostre servidor.
 Però anem a utilitzar una llibreria que permet transformar codi html en pdf.
@@ -229,7 +223,7 @@ composer require monolog/monolog
 
 Monolog 2 requereix almenys PHP 7.2, compleix amb el estandar de logging PSR-3, i és la llibreria emprada per *Laravel* i *Symfony* per a la gestió de logs.
 
-!!! info "Quan utilitzar un log"
+> [!info] "Quan utilitzar un log"
     * Seguir les acciones/moviments dels usuaris
     * Registrar les transaccions
     * Rastrejar els errors d'usuari
@@ -240,10 +234,10 @@ Monolog 2 requereix almenys PHP 7.2, compleix amb el estandar de logging PSR-3, 
 
 A continuació vam mostrar els diferents nivells de menys a més restrictiu:
  
-    * debug -100: Informació detallada amb propòsits de debug. No usar en entorns de producció.
-    * info - 200: Esdeveniments interessants com l'inici de sessió d'usuaris.
-    * notice - 250: Esdeveniments normals però significatius.
-    * warning - 300: Ocurrències excepcionals que no arriben a ser error.
+* debug -100: Informació detallada amb propòsits de debug. No usar en entorns de producció.
+* info - 200: Esdeveniments interessants com l'inici de sessió d'usuaris.
+* notice - 250: Esdeveniments normals però significatius.
+* warning - 300: Ocurrències excepcionals que no arriben a ser error.
     * error - 400: Errors d'execució que permeten continuar amb l'execució de l'aplicació però que han de ser monitorats.
     * critical - 500: Situacions importants on es generen excepcions no esperades o no hi ha disponible un component.
     * alert - 550: S'han de prendre mesures immediatament.
@@ -308,27 +302,26 @@ en el nostre cas l'arxiu `error.log` de Apatxe* utilitzarem com a ruta l'eixida 
 $log->pushHandler(new StreamHandler("php://stderr", Logger::DEBUG));
 ```
 
-!!! tip "FirePHP"
+> [!tip] "FirePHP"
     Per exemple, mitjançant `FirePHPHandler`, podem utilitzar `FirePHP`, la qual és una eina per a fer debug en la consola de Firefox*.
     Després d'instal·lar l'extensió en Firefox, habilitar les opcions i configurar el *Handler*, podem veure els missatges acolorits amb les seues dades:
 
-    ``` php
+    ```php
     <?php
     $log = new Logger("MiFirePHPLogger");
     $log->pushHandler(new FirePHPHandler(Logger::INFO));
-
     $datos = ["real" => "Bruce Wayne", "personaje" => "Batman"];
     $log->debug("Esto es un mensaje de DEBUG", $datos);
     $log->info("Esto es un mensaje de INFO", $datos);
     $log->warning("Esto es un mensaje de WARNING", $datos);
     // ...
     ```
-
+    
     <figure style="align: center;">
         <img src="imagenes/05/firePhp.png">
         <figcaption>Ejemplo de uso de FirePHP</figcaption>
     </figure>
-
+[[imagenes/05/firePhp.png]]
 ### Canals
 
 Se'ls assigna en crear el `Logger`. En grans aplicacions, es crea un canal per cada subsistema: vendes, comptabilitat, magatzem.
