@@ -5,17 +5,15 @@
     <hr />
     | Resultat d'aprenentatge | Criteris d'avaluació |
     | --------                | --------             |
-    | 6. Desenvolupa aplicacions web d'accés a magatzems de dades, aplicant mesures per a mantindre la seguretat i la integritat de la informació.| a) S'han analitzat les tecnologies que permeten l'accés mitjançant programació a la informació disponible en magatzems de dades. <br/> b) S'han creat aplicacions que establisquen connexions amb bases de dades. <br/> c) S'ha recuperat informació emmagatzemada en bases de dades. <br/> d) S'ha publicat en aplicacions web la informació recuperada. <br/> e) S'han utilitzat conjunts de dades per a emmagatzemar la informació. <br/> f) S'han creat aplicacions web que permeten l'actualització i l'eliminació  d'informació disponible en una base de dades.<br/> g) S'han provat i documentat les aplicacions web. |
+    | 6. Desenvolupa aplicacions web d'accés a magatzems de dades, aplicant mesures per a mantindre la seguretat i la integritat de la informació.
+    | a) S'han analitzat les tecnologies que permeten l'accés mitjançant programació a la informació disponible en magatzems de dades. <br/> b) S'han creat aplicacions que establisquen connexions amb bases de dades. <br/> c) S'ha recuperat informació emmagatzemada en bases de dades. <br/> d) S'ha publicat en aplicacions web la informació recuperada. <br/> e) S'han utilitzat conjunts de dades per a emmagatzemar la informació. <br/> f) S'han creat aplicacions web que permeten l'actualització i l'eliminació  d'informació disponible en una base de dades.<br/> g) S'han provat i documentat les aplicacions web. |
 
 
 En aquesta unitat aprendrem a accedir a dades que es troben en un servidor; recuperant, editant i creant aquestes dades a través d'una base de dades.
 
 A través de les diferents capes o nivells, de les quals 2 d'elles ja coneixem (*Nginx*, *PHP*) i *MySQL* la que estudiarem en aquest tema.
 
-<div class="center img-large">
-    <img src="imagenes/06/06-bbdd-arquitectura-3-niveles.png">
-</div>
-
+![[imagenes/06/06-bbdd-arquitectura-3-niveles.png]]
 ## 1. Introducció a les tecnologies per accedir a dades
 
 ### Bases de dades relacionals (SQL)
@@ -49,9 +47,8 @@ Si tot ha eixit bé i el contenidor està en marxa, podrem visitar la pàgina de
 http://localhost:8000
 ```
 
-<div class="center img-medium">
-    <img src="imagenes/06/06-bbdd-phpMyAdmin-login.png">
-</div>
+
+![[imagenes/06/06-bbdd-phpMyAdmin-login.png]]
 
 Per a accedir hem d'utilitzar les següents credencials que venen configurades en el arxiu `docker-compose.yml`
 
@@ -100,10 +97,8 @@ Vegem-ho en un exemple real
     [*] Clau primària [^] Clave Forània
 </div>
 
-<div class="center img-large">
-    <img src="imagenes/06/06-bbdd-estructura.png">
-</div>
 
+![[imagenes/06/06-bbdd-estructura.png]]
 ### SQL
 
 Aquest llenguatge de consulta estructurada (*Structured Query Language*) és el que utilitzarem per a realitzar les consultes a les nostres bases de dades per a mostrar el contingut en les diferents interfícies web que creem al llarg de la unitat. Si vols saber més detalls visita [Wiki SQL](https://es.wikipedia.org/wiki/sql)
@@ -127,18 +122,12 @@ Las sentencias SQL también las podemos usar dentro de nuestro código php, de t
 
 ### phpMyAdmin
 
-<div class="center img-medium">
-    <img src="imagenes/06/06-bbdd-phpMyAdmin-logo.png">
-</div>
-
+![[imagenes/06/06-bbdd-phpMyAdmin-logo.png]]
 Aquest programari funciona sota Ngingx i PHP i és més que res una interfície web per a gestionar les bases de dades que tinguem disponibles en el nostre servidor local. Molts **hostings* ofereixen aquesta eina per defecte per a poder gestionar les BBDD que tinguem configurades sota el nostre compte.
 
 #### Creant una base de dades dins de phpMyAdmin
 
-<div class="center img-large">
-    <img src="imagenes/06/06-bbdd-phpMyAdmin.gif">
-</div>
-
+![[imagenes/06/06-bbdd-phpMyAdmin.gif]]
 1.  Per a crear una nova base de dades hem d'entrar en *phpMyAdmin* com a *usuari root* i punxar en l'opció <span class="warning">*Nova*</span> del menú de l'esquerra.
 
 2. En la nova finestra de creació posarem un **nom** a nostra *bbdd*.
@@ -395,10 +384,8 @@ Però hem de triar el tipus de dada que volem rebre entre els 3 que hi ha dispon
 - `PDO::FETCH_NUM:` array indexat que els seus keys són números.
 - `PDO::FETCH_BOTH:` valor per defecte. Retorna un array indexat que els seus keys són tant el nom de les columnes com números.
 
-<div class="center img-large">
-    <img src="imagenes/06/06-pdo-listado-fetch.png">
-</div>
 
+![[imagenes/06/06-pdo-listado-fetch.png]]
 ``` php
 <?php
     //  ▒▒▒▒▒▒▒▒ consulta con array asociativo.php ▒▒▒▒▒▒▒▒
@@ -557,10 +544,7 @@ Teniu una llista d'exemples molt completa en la [documentació oficial](https://
 
 ## 4. Login & Password
 
-<div class="center img-medium">
-    <img src="imagenes/06/06-login-password.gif">
-</div>
-
+![[imagenes/06/06-login-password.gif]]
 Per a manejar un sistema complet de login i password amb contrasenyes xifrades, necessitem un mètode que xifre aqueixos *strings* que l'usuari introdueix com a contrasenya; tant en el formulari de registre com en el del *login*, ja que en codificar una contrasenya, després hem de descodificar-la per a comprovar que totes dues *contrasenyes (la que introdueix l'usuari en el login i la que tenim en la base de dades) coincidisquen.
 
 Necessitem doncs:
