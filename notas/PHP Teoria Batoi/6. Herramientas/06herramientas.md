@@ -1,4 +1,4 @@
-# Ferramentes
+
 
 >[!abstract] "Duració y criteris d'avaluació"
 Duració estimada: 16 hores
