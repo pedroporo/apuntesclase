@@ -5,6 +5,10 @@
   "textFontFamily": "",
   "enabledCssSnippets": [
     "footnotes",
-    "headings"
+    "headings",
+    "properties",
+    "lists",
+    "quote",
+    "code"
   ]
 }
