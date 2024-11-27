@@ -3,6 +3,7 @@ sudo apt install composer -y
 
 sudo apt -y install libapache2-mod-php php-{mbstring,xmlrpc,soap,gd,xml,curl,zip,cli,bcmath,tokenizer,json,pear,mysql}
 GRANT ALL PRIVILEGES ON laravel.* TO 'pedro'@'localhost';
+sudo ln -s /etc/nginx/sites-available/dev.todo.cipfpbatoi.es /etc/nginx/sites-enabled/
 ```
 /etc/ssl/api/server.crt
 /etc/ssl/api/server.key
@@ -45,14 +46,15 @@ fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;
 server { 
 listen 80; 
 listen [::]:80;
-server_name example.com www.example.com; 
-root /var/www/ddaw-example/html/myNewApp/public/; 
+server_name dev.todo.cipfpbatoi.es; 
+root /var/www/002-es-cipfpbatoi-todo-dev/html/todo/public/; 
 index index.htm index.html index.php; 
 location / { 
-	try_files $uri $uri/ /index.php?$query_string; 
-	}
+try_files $uri $uri/ /index.php?$query_string; 
+}
 location ~ \.php$ { 
 include snippets/fastcgi-php.conf; 
 fastcgi_pass 127.0.0.1:9000; 
-} }
+}
+}
 ```
