@@ -1,6 +1,11 @@
 ```
 sudo apt install composer -y
 
+sudo apt -y install libapache2-mod-php
+ php8.3-{mbstring,xmlrpc,soap,gd,xml,curl,zip,cli,intl,sqlite3,fpm}
+
+php-cli php-zip php-bcmath php-tokenizer php-json php-pear
+
 ```
 /etc/ssl/api/server.crt
 /etc/ssl/api/server.key
