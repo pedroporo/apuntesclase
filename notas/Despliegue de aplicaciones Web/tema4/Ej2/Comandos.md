@@ -2,7 +2,7 @@
 sudo apt install composer -y
 
 sudo apt -y install libapache2-mod-php php-{mbstring,xmlrpc,soap,gd,xml,curl,zip,cli,bcmath,tokenizer,json,pear,mysql}
-
+GRANT ALL PRIVILEGES ON laravel.* TO 'pedro'@'localhost';
 ```
 /etc/ssl/api/server.crt
 /etc/ssl/api/server.key
