@@ -2,7 +2,10 @@
 sudo apt install composer -y
 
 sudo apt -y install libapache2-mod-php php-{mbstring,xmlrpc,soap,gd,xml,curl,zip,cli,bcmath,tokenizer,json,pear,mysql}
-GRANT ALL PRIVILEGES ON laravel.* TO 'pedro'@'localhost';
+
+CREATE DATABASE laravel;
+CREATE USER 'dev-ddaw'@'localhost' IDENTIFIED BY '1234';
+GRANT ALL PRIVILEGES ON laravel.* TO 'dev-ddaw'@'localhost';
 sudo ln -s /etc/nginx/sites-available/dev.todo.cipfpbatoi.es /etc/nginx/sites-enabled/
 
 sudo cp /etc/php/8.3/fpm/pool.d/www.conf /etc/php/8.3/fpm/pool.d/002-es-cipfpbatoi-todo-dev.conf
