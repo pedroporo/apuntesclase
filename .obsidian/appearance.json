@@ -4,11 +4,9 @@
   "cssTheme": "Atom",
   "textFontFamily": "",
   "enabledCssSnippets": [
-    "footnotes",
     "headings",
-    "properties",
+    "footnotes",
     "lists",
-    "quote",
-    "code"
+    "properties"
   ]
 }
