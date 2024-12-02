@@ -356,4 +356,4 @@ El funcionament bàsic que segueix Laravel després d'una petició web a una URL
   <figcaption>Funcionament Bàsic Laravel</figcaption>
 </figure>
 
-
+![[imagenes/07/l101.png]]
