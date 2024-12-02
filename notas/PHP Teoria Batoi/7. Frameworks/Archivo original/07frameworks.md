@@ -1,123 +1,71 @@
-<style>
-    img { margin: 20px 0; border-radius: 8px; }
-
-    .alert { color: #BD1550; }
-    .warning { color: #E97F02; }
-    .success { color: #8A9B0F; }
-
-    .center { text-align: center; }
-    .right { text-align: right; }
-
-    .img-small { max-width: 200px; margin: auto; }
-    .img-medium { max-width: 400px; margin: auto; }
-    .img-large { max-width: 800px; margin: auto; }
-
-    .leyenda {
-        font-size: small;
-        margin: 10px 0;
-    }
-</style>
-
 # Frameworks PHP. Laravel
 
-> Duració estimada: 26hores
+## Introducció als Frameworks PHP i Laravel
 
-# INTRODUCCIÓ ALS FRAMEWORKS PHP I LARAVEL
+### Què és un framework?
 
-## Frameworks
+Un **framework** proporciona una estructura base per al desenvolupament d'aplicacions, facilitant tasques com:
+     
+   - Connexió a bases de dades.
+   - Organització del codi.
+   - Gestió de rutes i validacions.
 
-Un **framework** és una eina que proporciona una sèrie de mòduls que ajuden a organitzar i desenvolupar un producte programari. En el cas concret dels **frameworks PHP**, la majoria d'ells proporcionen una sèrie de comandos o eines per a crear projectes amb una estructura determinada (normalment, seguint el patró **MVC** que veurem després), de manera que ja donen una base de treball feta, i facilitats per a poder crear el model de dades, la connexió a la base de dades, les rutes de les diferents seccions de l'aplicació, etc.
-Els frameworks PHP com Laravel, Symfony, CodeIgniter, i CakePHP, ofereixen eines robustes per accelerar el desenvolupament web. Un framework ben dissenyat pot ajudar a :
+La majoria de frameworks PHP segueixen el patró **MVC** (Model-Vista-Controlador), que permet separar clarament la lògica de negoci, la interfície d'usuari i les dades.
 
- * Evitar problemes comuns 
- * Estandarditzar el codi 
- * Facilitar el manteniment. 
+### Per què utilitzar un framework?
 
-Entre aquests, Laravel destaca per les seves fortes funcionalitats, comunitat activa i constant evolució.
+Els frameworks ofereixen:
 
-### Exemples de frameworks PHP
+- **Estandardització:** Promouen bones pràctiques de desenvolupament.
+- **Eficàcia:** Acceleració del desenvolupament amb eines preconstruïdes.
+- **Mantenibilitat:** Faciliten l'escalabilitat i el manteniment del codi.
 
-Actualment existeix una gran varietat de frameworks PHP que triar per a desenvolupar les nostres aplicacions. Alguns dels més populars són:
+Exemples de frameworks PHP populars:
 
-* **Laravel**, un framework relativament recent (va ser creat en 2011), i que ha guanyat bastant popularitat en els últims anys. La seua ﬁlosofia és el poder desenvolupar projectes de manera elegant i simple. Compta amb una àmplia comunitat de suport darrere, i se li augura un futur bastant consolidat.
+- **Laravel:** Sintaxi clara, funcionalitats modernes, ideal per a projectes de qualsevol mida.
+- **Symfony:** Robust i altament modular, enfocat en aplicacions complexes.
+- **Slim:** Lleuger i ideal per APIs RESTful.
 
-* **Symfony**, creat en 2005, compta amb més camí fet que Laravel, i una estructura més consolidada. En les seues primeres versions es presentava com un framework més monolític (s'instal·laven massa mòduls que després no necessitàvem), però recentment ha adaptat la seua estructura per a fer-la més modular.
+---
 
-* **CodeIgniter**, un framework més lleuger que els anteriors, però també amb un ampli grup de seguidors i desenvolupadors. Va ser creat en 2006 i, encara que ha patit una etapa d'abandó, ha tornat a agafar força en els últims anys, potser a causa de la seua simplicitat d'ús.
+## Laravel: El framework de referència
 
-* **CakePHP**, creat en 2005, és un altre framework similar a CodeIgniter quant a simplicitat i facilitat d'ús. Té una àmplia comunitat també darrere que li dóna suport.
+### Per què triar Laravel?
 
-* **Zend**, creat en 2006, és un altre framework bastant popular, encara que potser amb menor visibilitat que els anteriors hui dia, a l'altura de CakePHP.
+Laravel és un dels frameworks més populars gràcies a:
 
-* **Phalcon**, un altre framework de recent creació (2012), amb una potent capacitat de processament de pàgines PHP, i la possibilitat de treballar com microframework (més lleuger, per a oferir funcionalitats molt especíﬁcas) o com framework complet.
+- **Facilitat d'ús:** Sintaxi expressiva i intuïtiva.
+- **Patró MVC:** Clarament implementat per separar lògica, vistes i dades.
+- **ORM Eloquent:** Gestió intuïtiva de bases de dades.
+- **Artisan CLI:** Automatització de tasques habituals com migracions o generació de models.
+- **Blade:** Motor de plantilles per modularitzar vistes amb herència i layouts.
 
-De fet, molts frameworks més antics també han incorporat recentment la possibilitat d'executar-los com microframeworks. Quasi tots els frameworks PHP tenen una sèrie de característiques comunes, com són l'ús del patró MVC per a desenvolupar els seus projectes, la injecció de dependències per a gestionar recursos com ara connexions a bases de dades, o elements compartits per tota l'aplicació, la possibilitat de desenvolupar tant webs completes com serveis REST accessibles des de diversos clients, etc.
+### Característiques clau
 
-#### Quin triar
+1. **Eloquent ORM:** Treballar amb bases de dades de manera intuïtiva, suportant relacions complexes.
+2. **Migracions:** Control de versions per a estructures de bases de dades.
+3. **Artisan:** Línia de comandaments per accelerar tasques rutinàries.
+4. **Blade:** Motor de plantilles amb sintaxi simplificada.
+5. **Seguretat integrada:** Protecció contra atacs com CSRF i XSS.
+6. **Ecosistema extens:** Suport per autenticació (Sanctum, Passport), gestió de dependències, i més.
 
-A l'hora de decantar-nos per l'un o l'altre framework, no ens hauríem de deixar enganyar per la popularitat d'aquest, en termes de quota de mercat. En aqueix terreny, Symfony i Laravel probablement són els més demandats, però la corba d'aprenentatge en ells pot ser que siga més pronunciada que en uns altres a priori més senzills, com CodeIgniter o CakePHP.
+---
+ 
+###  Instal·lació de Laravel
 
-Cada framework pot estar millor orientat que un altre per a determinats tipus de projectes o necessitats. Si volem aprendre una cosa ràpida per a llançar l'aplicació com més prompte millor, potser Symfony **no** és la millor opció. Si, per contra, preferim xopar-nos d'un framework amb una comunitat important darrere que ens puga donar suport i ens garantisca un temps de vida llarg, llavors Symfony o Laravel poden ser millors candidats.
-
-#### Per què Laravel?
-
-###### Comparativa amb Altres Frameworks
-Comparat amb altres frameworks com Symfony o CodeIgniter, Laravel sobresurt per la seva sintaxi expressiva i elegant, una curva d'aprenentatge amigable i un ecosistema ric. Per exemple, mentre Symfony pot ser més adequat per a aplicacions d'alta complexitat, Laravel és sovint preferit per la seva facilitat d'ús i eficiència en el desenvolupament de projectes de diverses mides.
-###### Raons Específiques per Triar Laravel
-Laravel s'adapta bé a una àmplia gamma d'aplicacions, des de llocs web simples fins a aplicacions empresarials complexes. Destaca per la seva arquitectura MVC, suport natu per a APIs RESTful, i funcions com Eloquent ORM, que simplifiquen les operacions de bases de dades. A més, Laravel posseeix una gran documentació i una comunitat vibrant, facilitant l'aprenentatge i la resolució de problemes.
-###### Tendències Recents i Actualitzacions de Laravel
-En les versions recents, Laravel ha incorporat millores significatives en rendiment, seguretat i funcionalitats modernes. Això inclou l'actualització a les darreres versions de PHP, millorant la compatibilitat i rendiment. Es recomana estar atent a les últimes actualitzacions per aprofitar al màxim el potencial de Laravel.
-###### Exemples Pràctics i Estudis de Casos
-En el món real, Laravel s'ha utilitzat en una àmplia varietat de projectes, des de sistemes de gestió de continguts fins a aplicacions de comerç electrònic. Aquesta versatilitat és testimoni de la seva eficàcia com a eina de desenvolupament.Aquí teniu alguns exemples:
-
-* Laracasts: És una plataforma d'aprenentatge en línia enfocada a PHP i Laravel, i fa un ús extensiu de Laravel.
-* Vogue Archive: El lloc web de l'arxiu de Vogue, que ofereix accés a tots els números de la revista des de 1892, està construït amb Laravel.
-* MyRank: Una plataforma en línia per a l'educació i l'avaluació, MyRank utilitza Laravel per gestionar el seu contingut i les funcions interactives.
-* Alison: Un dels portals d'aprenentatge en línia més grans, Alison també fa ús de Laravel per a la seva infraestructura web.
-* Startups.co: Una plataforma per a emprenedors que busca ajuda amb la planificació, el finançament i la creixença dels seus negocis. Laravel és utilitzat per a mantenir la seva plataforma.
-
-## Característiques Laravel
-
-**Laravel** és un framework de codi obert per al desenvolupament d'aplicacions web en PHP que posseeix una sintaxi simple, expressiva i elegant. Va ser creat en 2011 per Taylor Otwell, inspirant-se en **Ruby on Rails i Symfony**, dels quals ha adoptat els seus principals avantatges.
-
-Laravel facilita el desenvolupament simplificant el treball amb tasques comunes com l'autenticació, el enrutamiendo, gestió sessions, l'emmagatzematge en caché, etc. Algunes de les principals característiques i avantatges de Laravel són:
-
-* Esta dissenyat per a desenvolupar sota el patró **MVC** (model - vista - controlador), centrant-se en la correcta separació i modularització del codi. El que facilita el treball en equip, així com la claredat, el manteniment i la reutilització del codi.
-* Eloquent, el ORM de Laravel, fa que treballar amb bases de dades sigui més senzill i intuïtiu, especialment en la gestió de relacions complexes.
-* Permet la gestió de **bases de dades** i la manipulació de taules des de codi, mantenint un control de versions de les mateixes mitjançant el seu sistema de **Migracions**.
-* Utilitza un **sistema de plantilles** per a les vistes anomenat **Blade**, el qual fa ús de la cache per a donar-li major velocitat. Blade facilita la
-  creació de **vistes** mitjançant l'ús de layouts, herència i seccions.
-* Facilita l'extensió de funcionalitat mitjançant paquets o **llibreries externes**. D'aquesta forma és molt senzill afegir paquets que ens
-  faciliten el desenvolupament d'una aplicació i ens estalvien molt temps de programació.
-* Incorpora un **intèrpret de línia de comandos** anomenat **Artisan** que ens ajudarà amb un munt de tasques rutinàries com la creació de
-  diferents components de codi, treball amb la base de dades i migracions, gestió de rutes, cachés, cues, tasques programades, etc.
-* Laravel Jetstream ofereix una implementació robusta per a l'autenticació i la gestió de sessions. Laravel Sanctum es utilitza per a APIs tokenitzades, proporcionant una solució elegant per a la autenticació d'APIs.
-* Laravel inclou proteccions de seguretat com la protecció CSRF, xifrat segur de contrasenyes i defenses contra injeccions SQL, garantint un entorn segur per al desenvolupament d'aplicacions web.
-* Amb Laravel, és possible construir arquitectures de microserveis eficaces, utilitzant Laravel Lumen o integrant-se amb altres serveis i APIs.
-* Laravel facilita la creació d'APIs RESTful amb característiques com les API Resources i la integració amb Laravel Passport per l'autenticació OAuth.
-* La comunitat de Laravel és una de les més actives i de suport en el món PHP, amb recursos com Laracasts, paquets de tercers, i fòrums extensos.
-
-## Primers passos amb Laravel
-
-### Instal·lacio amb docker (laravel sail)
+#### Instal·lacio amb docker (laravel sail)
 
 Si ja esteu desenvolupant Linux i Docker Compose està instal·lat, podeu utilitzar una senzilla ordre de terminal per a crear un nou projecte Laravel. Per exemple, per a crear una nova aplicació Laravel en un directori anomenat "exemple-app", podeu executar l'ordre següent al terminal:
 
+```bash
 curl -s https://laravel.build/example-app | bash
+``` 
 
 Per descomptat, podeu canviar "exemple-app" en aquest URL a qualsevol cosa que vulgueu - només assegureu-vos que el nom de l'aplicació només conté caràcters alfanumèrics, guions i guions baixos. El directori de l'aplicació Laravel es crearà dins del directori des del qual executeu l'ordre.
 
 La instal·lació del **Sail** pot trigar diversos minuts mentre els contenidors de l'aplicació del **sail** es construeixen a la vostra màquina local.
 
-Després de crear el projecte, 
-
-Seria bó comprovar que el .env inclou la següent configuració:
-
-```php
-WWWUSER = 1000
-WWWGROUP = 1000
-```
-
+ 
 Ara podeu navegar al directori de l'aplicació i iniciar Laravel Sail. Laravel Sail proporciona una interfície senzilla de línia d'ordres per a interactuar amb la configuració predeterminada de l'acoblador Laravel:
 ```php
 cd exemple-app && ./vendor/bin/sail up &
@@ -125,17 +73,12 @@ cd exemple-app && ./vendor/bin/sail up &
 
 Un cop iniciats els contenidors Docker de l'aplicació, podeu accedir a l'aplicació al vostre navegador web a: http://localhost.
 
-Per a executar una terminal en el contenidor haurem d'executar:
-
-```php
-./vendor/bin/sail bash
-```
-
 I per a inicialitzar la base de dades des de dins del contenidor:
 
 ```php
-php artisan migrate
+./vendor/bin/sail artisan migrate
 ```
+ 
 
 ##### phpmyadmin
 
@@ -143,181 +86,386 @@ Si volem que funcione el phpmyadmin haurien d'afegir un altre contenidor docker,
 
 ```php
 myadmin:
-    image: 'phpmyadmin:latest'
-    ports:
-      - 8080:80
-    environment:
-      MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
-    links:
-      - "mysql:db"
-    depends_on:
-      - mysql
-    networks:
-      - sail
+ image: 'phpmyadmin:latest'
+ ports:
+ - 8080:80
+ environment:
+ MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
+ links:
+ - "mysql:db"
+ depends_on:
+ - mysql
+ networks:
+ - sail
 ```
 
-### Instal·lació des de repositori github
 
-Seguiu aquests passos per a un repositori de Laravel amb Sail després de clonar des de Github. Aquest és un exemple
+### Configuració de Laravel
 
-1. **Clona el repositori, exemple:**
+La configuració en Laravel està centralitzada i organitzada en fitxers dins del directori **config/**. Aquests fitxers permeten ajustar el comportament de diferents aspectes de l'aplicació.
 
-    $ git clone https://github.com/example/laravel-backend-api.git
+#### Fitxer .env
 
-2. **Canvia el directori a l'aplicació/projecte de nova creació.**
-   
-    $ cd laravel-backend-api
+Laravel utilitza el fitxer `.env` per gestionar configuracions específiques de l'entorn. Aquest fitxer permet canviar paràmetres sense modificar el codi base.
 
-3. **Copia el fitxer .env**
-   
-    $ cp .env.example .env
+##### Exemple de `.env`:
+```env
+APP_NAME="LaravelApp"
+APP_ENV=local
+APP_KEY=base64:...
+APP_DEBUG=true
+APP_URL=http://localhost
 
-4. **Obre .env per a coincidir la configuració amb les línies següents:**
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+### Configuració predeterminada
 
-   ```php
-   DB_CONNECTION=mysql
-   DB_HOST=mysql
-   DB_PORT=3306
-   DB_DATABASE=batoiBook
-   DB_USERNAME=root
-   DB_PASSWORD=1234
-   
-5. ** Afegix el phpmyadmin a docker-compose.yml**
-   
-   ```php
-   myadmin:
-       image: 'phpmyadmin:latest'
-       ports:
-         - 8080:80
-       environment:
-         MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
-       links:
-         - "mysql:db"
-       depends_on:
-         - mysql
-       networks:
-         - sail
-    ```
+Els fitxers de configuració es troben al directori `config/`. A continuació es descriuen alguns dels més importants:
 
-5. **Instal·la totes les dependències requerides**
-   
-    $ docker run --rm -v $(pwd):/opt -w /opt laravelsail/php82-composer:latest composer install
-   
-    NOTA: Això pot trigar una estona si aquesta és la primera vegada que s'instal·la com a contenidor.
+#### **1. config/app.php**
+Conté configuracions globals de l'aplicació.
 
-6. **Executa els servidors amb Sail**
-   
-    $ vendor/bin/sail up -d
+- **`name`**: Nom de l'aplicació.
+- **`env`**: Entorn d'execució (`local`, `production`, `testing`).
+- **`debug`**: Habilita o deshabilita el mode depuració (`true` o `false`).
+- **`timezone`**: Zona horària de l'aplicació (per defecte `UTC`).
+- **`locale`**: Idioma predeterminat.
+- **`providers`**: Llista de proveïdors de serveis.
+- **`aliases`**: Aliases per a facades.
 
-7. **Entra en el phpmyadmin (localhost:8080) i crea la base de dades batoiBook.**
+#### **2. config/database.php**
+Configura les bases de dades de l'aplicació.
 
-8. **Inicia el terminal del contenidor**
-   
-    $ vendor/bin/sail bash
+- **`default`**: Connexió predeterminada (`mysql`, `sqlite`, `pgsql`, etc.).
+- **Configuracions per a cada connexió**:
+- **`mysql`**: Exemple:
+ ```php
+ 'mysql' => [
+ 'driver' => 'mysql',
+ 'host' => env('DB\_HOST', '127.0.0.1'),
+ 'port' => env('DB\_PORT', '3306'),
+ 'database' => env('DB\_DATABASE', 'laravel'),
+ 'username' => env('DB\_USERNAME', 'root'),
+ 'password' => env('DB\_PASSWORD', ''),
+ ],
+ ```
 
-9. **Genera la clau APP.KEY.**
-   
-    $ php artisan key:generate
+#### **3. config/mail.php**
+Configura el sistema d'enviament de correus electrònics.
 
-10. **Construeix la llavor.**
-    
-    $ php artisan migrate:fresh --seed
+- **`default`**: Transport predeterminat (`smtp`, `mailgun`, `sendmail`, etc.).
+- **Configuracions SMTP**:
+ ```php
+ 'mailers' => [
+ 'smtp' => [
+ 'transport' => 'smtp',
+ 'host' => env('MAIL\_HOST', 'smtp.mailtrap.io'),
+ 'port' => env('MAIL\_PORT', 2525),
+ 'username' => env('MAIL\_USERNAME'),
+ 'password' => env('MAIL\_PASSWORD'),
+ 'encryption' => env('MAIL\_ENCRYPTION', 'tls'),
+ ],
+ ],
+ ```
+#### **4. config/filesystems.php**
+Gestiona els sistemes d'arxius.
 
-11. **Genera els node_modules**
-    
-    $ npm install
+- **`default`**: Sistema predeterminat (local, s3, etc.).
+- **Configuració de discos**:
+```php
+ 'disks' => [
+ 'local' => [
+ 'driver' => 'local',
+ 'root' => storage_path('app'),
+ ],
+ 's3' => [
+ 'driver' => 's3',
+ 'key' => env('AWS_ACCESS_KEY_ID'),
+ 'secret' => env('AWS_SECRET_ACCESS_KEY'),
+ 'region' => env('AWS_DEFAULT_REGION'),
+ 'bucket' => env('AWS_BUCKET'),
+ ],
+ ],
+```
 
-    $ npm run build
+### Funcions d'ajuda
 
-Ara podeu obrir la vostra aplicació amb el vostre navegador: http://localhost
+Laravel proporciona **helpers** per treballar amb configuracions de manera senzilla i dinàmica.
 
-Ara que ja tenim tot el sistema preparat per a desenvolupar projectes Laravel, vegem els primers passos que hem de donar per a crear aquests projectes.
+#### **Accedir a configuracions**
 
+Utilitza la funció `config()` per obtenir valors de configuració des de qualsevol lloc de l'aplicació:
+
+```php
+config('app.name'); // Retorna el nom de l'aplicació
+```
+#### Canviar configuracions en temps d'execució
+
+Pots modificar configuracions de forma temporal durant l'execució de l'aplicació:
+
+```php
+config(['app.debug' => false]); // Desactiva el mode depuració
+``` 
+
+#### Establir valors predeterminats
+
+Si el valor no existeix, pots establir un valor predeterminat:
+
+```php
+$value = config('app.missing_key', 'valor per defecte');
+```
+Aquestes funcions són útils per ajustar l'aplicació a les necessitats de l'entorn o per gestionar configuracions específiques durant l'execució.
 
 ### El comanament Artisan
 
 Laravel inclou un interfície de línia de comandos (CLI, Command line interface) anomenat **Artisan**. Aquesta utilitat ens va a permetre realitzar múltiples tasques necessàries durant el procés de desenvolupament o desplegament a producció d'una aplicació, per la qual cosa ens facilitarà i accelerarà el treball.
 Per a veure una llista de totes les opcions que inclou Artisan podem executar el següent comando en un consola o terminal del sistema en la carpeta arrel del nostre projecte:
 
-    php artisan list
+```bash
+php artisan list
+``` 
 
 Si volem obtenir una ajuda més detallada sobre alguna de les opcions de Artisan simplement hem d'escriure la paraula **help** davant del comando en qüestió, per exemple:
 
-    php artisan help migrate
+```bash
+php artisan help migrate
+``` 
 
 A poc a poc anirem veient més opcions de Artisan, de moment anem a comentar solament dues opcions importants: el llistat de rutes i la generació de codi.
 
 Per a veure un llistat amb totes les rutes que hem definit en el fitxer routes.php podem executar el comando:
 
-    php artisan route:list
+```bash
+php artisan route:list
+``` 
 
 Açò ens mostrarà una taula amb el mètode, l'adreça, l'acció i els filtres definits per a totes les rutes. D'aquesta forma podem comprovar totes les rutes de la nostra aplicació i assegurar-nos que estiga tot correcte.
 
 
 ### Estructura d'un projecte Laravel
 
-En crear un nou projecte de Laravel se'ns generarà una estructura de carpetes i fitxers per a organitzar el nostre codi. És important que coneguem perquè val cada element i on hem de col·locar el nostre codi. Les carpetes que més utilitzarem i les que millor haurem de conèixer són:
 
-* **app** – Conté el codi central de la vostra aplicació. Aviat explorarem aquest directori amb més detall; no obstant això, gairebé totes les classes de la vostra aplicació estaran en aquest directori.
+Laravel segueix una estructura modular basada en el patró **MVC (Model-Vista-Controlador)**. Aquesta organització facilita la separació de responsabilitats, manteniment i escalabilitat. A continuació, es descriuen les carpetes més importants.
 
-* **bootstrap** - Conté el fitxer app.php que arrossega l'entorn de treball. Aquest directori també alberga un directori de memòria cau que conté els fitxers generats per l'entorn de treball per a l'optimització del rendiment, com ara els fitxers de memòria cau de rutes i serveis. Normalment no hauríeu de modificar cap fitxer dins d'aquest directori.
-* **config** – conté tots els fitxers de configuració de l'aplicació. És una gran idea llegir tots aquests fitxers i familiaritzar-se amb totes les opcions disponibles.
-* **database** – En aquesta carpeta s'inclou tot el relacionat amb la definició de la base de dades del nostre projecte. Dins d'ella podem trobar al seu torn tres carpetes: factors, migrations i seeds. En el capítol sobre base de dades analitzarem millor el seu contingut.
-* **public** – conté el fitxer index.php, que és el punt d'entrada per a totes les peticions que entren a la vostra aplicació i configura la càrrega automàtica. Aquest directori també allotja els vostres actius com imatges, JavaScript i CSS.
-* **lang** – En aquesta carpeta es guarden arxius PHP que contenen arrays amb els textos del nostre lloc web en
-  diferents llenguatges, solament serà necessari utilitzar-la en cas que es desitge que l'aplicació es puga traduir.
-* **resources** – conté les vostres vistes, així com els vostres actius crus i no compilats com CSS o JavaScript.
-* **storage** – En aquesta carpeta Laravel emmagatzema tota la informació interna necessaris per a l'execució de la web, com són els arxius de sessió, la caché, la compilació de les vistes, fique informació i els logs del sistema. El directori storage/app/public es pot utilitzar per emmagatzemar fitxers generats per l'usuari, com ara avatars de perfil, que haurien de ser accessibles públicament. Hauríeu de crear un enllaç simbòlic al públic/emmagatzematge que apunti a aquest directori. Podeu crear l'enllaç utilitzant l'ordre php artisan storage:link Artisan.
-* **routes** – En aquesta carpeta es defineixen totes les rutes del nostre lloc web, enllaçant una URL del navegador amb un mètode d'un controlador. A més ens permet realitzar validacions (mitjançant Middleware) i altres operacions sobre les rutes del nostre lloc. Hi han per a accedir a contingut web normal
-  ( web.php ), com per a serveis web ( api.php ), com per a comandos i altres opcions.
-* **tests**–Esta carpeta se utilitza per als fixers amb les proves automatitzades. Laravel inclou un sistema que facilita tot el procés de
-  proves amb PHPUnit.
-* **vendor** – En aquesta carpeta s'allotgen totes les llibreries i dependències que conformen el framework de Laravel. Aquesta carpeta tampoc l'haurem de modificar, ja que tot el codi que conté són llibreries que s'instal·len i actualitzen mitjançant l'eina **Composer**.
-  A més en la carpeta arrel també podem trobar dos fitxers molt importants i que també utilitzarem:
-* **.env** – Aquest fitxer s'utilitza per a emmagatzemar els valors de configuració que són propis de la màquina o instal·lació actual. El que ens permet canviar fàcilment la configuració segons la màquina en la qual s'instal·le i
-  tenir opcions diferents per a producció, per a diferents desenvolupadors, etc. Important, aquest fitxer hauria d'estar en el **.gitignore**.
-* **composer.json** – Aquest fitxer és l'utilitzat per Composer per a realitzar la instal·lació de Laravel. En una instal·lació inicial
-  únicament s'especificarà la instal·lació d'un paquet, el propi framework de Laravel, però podem especificar la instal·lació d'altres llibreries o paquets externs que afigen funcionalitat a Laravel.
+#### Carpetes principals
 
-#### Carpeta App
-La majoria de la vostra aplicació es troba al directori d'aplicacions. De manera predeterminada, aquest directori es troba a l'espai de noms d'App i el Composer el carrega automàticament utilitzant l'estàndard de càrrega automàtica PSR-4.
-El directori d'aplicacions conté una varietat de directoris addicionals com Console, Http i Providers. Penseu en els directoris Console i Http com proporcionar una API al nucli de la vostra aplicació. El protocol HTTP i la CLI són mecanismes per interactuar amb la vostra aplicació, però en realitat no contenen lògica d'aplicació. En altres paraules, són dues maneres d'emetre ordres a la vostra sol·licitud. El directori Consola conté totes les vostres ordres de l'Artisan, mentre que el directori Http conté les vostres controladores, programari intermediari i peticions.
+##### **1. app/**
+Conté la lògica principal de l'aplicació.
+  
+- **Models/**: Classes que representen les taules de la base de dades. Gestionen les relacions i la lògica de negoci.
+- **Http/Controllers/**: Controladors que processen les peticions i retornen respostes.
+- **Http/Middleware/**: Classes per filtrar i processar les peticions abans d'arribar als controladors.
+- **Observers/**: Classes per observar i respondre a esdeveniments dels models.
+- **Policies/**: Gestionen l'autenticació basada en permisos.
 
-Es generaran una varietat d'altres directoris dins del directori d'aplicacions a mesura que utilitzeu les ordres make Artisan per generar classes. Així, per exemple, el directori d'apps/Jobs no existirà fins que executeu l'ordre make:job Artisan per generar una classe de treball.
-* **app/Console** - Per definir els nostres comanaments
-* **app/Exceptions** - Per definir les nostres exempcions
-* **app/Models** - Per a definir els models
-* **app/Http/Controllers** – Conté tots els arxius amb les classes dels controladors que serveixen per a interactuar amb els models, les vistes i manejar la lògica de l'aplicació.
-* **app/Http/Middleware** – Són els filtres o classes intermèdies que podem utilitzar per a realitzar determinades accions, com la validació de permisos, abans o després de l'execució d'una petició a una ruta del nostre projecte web.
-* **Providers** - Conté els proveïdors de serveis de l'aplicació, més els que puguem definir nosaltres.
-* A més, ací s'inclouen, o es poden incloure, carpetes addicionals per a la nostra aplicació, com la carpeta **Events** per a definir els esdeveniments que ocórreguen, o diferents carpetes per a emmagatzemar el model de dades o classes de la nostra aplicació.
+##### **2. bootstrap/**
+
+Conté el fitxer `app.php`, que inicialitza el framework i carrega configuracions bàsiques. També inclou la **caché de rutes i serveis** per millorar el rendiment.
+
+##### **3. config/**
+
+Fitxers de configuració global de l'aplicació (base de dades, mail, cues, etc.). És recomanable revisar aquests fitxers per personalitzar-los segons les necessitats del projecte.
+
+##### **4. database/**
+
+Gestió de bases de dades.
+ 
+- **Migrations/**: Fitxers per definir l'estructura de les taules de manera programàtica.
+- **Factories/**: Generació de dades de prova per als models.
+- **Seeders/**: Inserció de dades inicials per a la base de dades.
+
+##### **5. public/**
+
+Punt d'entrada de l'aplicació. Conté:
+  
+- Fitxer `index.php`, que gestiona totes les peticions.
+- Recursos públics com **CSS, JavaScript, imatges**.
+
+##### **6. resources/**
+
+Carpeta de recursos per a la interfície d'usuari.
+  
+- **views/**: Conté les vistes Blade.
+- **lang/**: Fitxers de traducció per a aplicacions multilingües.
+- **css/** i **js/**: Recursos d'estil i funcionalitat del client.
+
+##### **7. routes/**
+Defineix totes les rutes de l'aplicació.
+
+- **web.php**: Rutes per a l'aplicació web.
+- **api.php**: Rutes per a APIs RESTful.
+- **console.php**: Comandes Artisan personalitzades.
+- **channels.php**: Rutes per a canals de difusió.
+
+##### **8. storage/**
+Emmagatzematge d'arxius generats per l'aplicació.
+
+- **app/**: Conté arxius d'usuari o aplicació.
+- **framework/**: Caché, sessions, i altres fitxers temporals.
+- **logs/**: Registres d'errors i activitat.
+
+##### **9. tests/**
+Inclou proves automatitzades per garantir el bon funcionament de l'aplicació.
+
+- **Feature/**: Proves completes que cobreixen múltiples components.
+- **Unit/**: Proves individuals per a components o mètodes específics.
+
+##### **10. vendor/**
+Carpeta gestionada per Composer. Conté totes les dependències i paquets de tercers utilitzats pel projecte. **No s'ha de modificar manualment.**
+
+
+### Desenvolupament del Frontend
+
+Laravel ofereix diverses opcions per al desenvolupament del frontend, depenent de si prefereixes utilitzar PHP o frameworks JavaScript com Vue o React.
+
+#### Utilitzant PHP
+
+##### Blade
+Blade és el motor de plantilles lleuger de Laravel que permet crear vistes amb una sintaxi senzilla per mostrar dades i iterar sobre elles.
+
+##### Livewire
+Livewire és un framework que facilita la construcció d'interfícies dinàmiques utilitzant PHP, sense necessitat de JavaScript addicional.
+
+#### Utilitzant Vue o React
+
+##### Inertia
+Inertia actua com a pont entre Laravel i frameworks com Vue o React, permetent construir aplicacions modernes sense gestionar rutes o autenticació al costat del client.
+
+#### Kits d'Inici
+Laravel proporciona kits com Breeze i Jetstream que ofereixen scaffolding per a l'autenticació i altres funcionalitats, utilitzant Blade, Livewire, Vue o React.
+
+#### Agrupació d'Actius
+Laravel utilitza **Vite** per compilar i agrupar els actius del frontend, oferint temps de compilació ràpids i reemplaçament de mòduls en calent durant el desenvolupament.
+
+
+### Laravel : Kits d'Inici
+
+Laravel ofereix diversos kits d'inici per agilitzar el desenvolupament d'aplicacions, proporcionant scaffolding per a l'autenticació i altres funcionalitats essencials.
+
+#### Laravel Breeze
+
+Breeze és un kit d'inici minimalista que implementa les funcionalitats bàsiques d'autenticació, incloent:
+
+- Inici de sessió
+- Registre
+- Restabliment de contrasenya
+- Verificació de correu electrònic
+- Confirmació de contrasenya
+
+Per defecte, Breeze utilitza plantilles Blade estilitzades amb Tailwind CSS. També ofereix opcions de scaffolding basades en Livewire o Inertia, amb la possibilitat d'utilitzar Vue o React.
+
+#### Laravel Jetstream
+
+Jetstream és un kit d'inici més robust que amplia les funcionalitats de Breeze, afegint:
+
+- Autenticació de dos factors
+- Gestió de sessions
+- Suport per a API mitjançant Laravel Sanctum
+- Opcionalment, gestió d'equips
+
+Jetstream està dissenyat amb Tailwind CSS i ofereix la possibilitat d'utilitzar Livewire o Inertia per al frontend.
+
+##### Instal·lació
+
+Per instal·lar Laravel Breeze en una aplicació Laravel existent:
+
+```bash
+composer require laravel/breeze --dev
+php artisan breeze:install
+php artisan migrate
+npm install
+npm run dev
+``` 
+Per instal·lar Laravel Jetstream:
+
+```bash 
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+php artisan migrate
+npm install
+npm run dev
+```
+Nota: Substitueix livewire per inertia si prefereixes utilitzar Inertia.
 
 
 ### Arquitectura d'un projecte Laravel
 
-Una vegada vista l'estructura de carpetes i arxius que es genera quan creguem un projecte Laravel, és important també tindre unes nocions bàsiques de com s'interconnecten els elements internament, i què fa que un projecte Laravel es puga posar en marxa.
 
-#### Els proveïdors de serveis (service providers)
+#### Cicle de Vida d'una Sol·licitud en Laravel
 
-Els proveïdors de serveis són els principals responsables de l'arrancada o posada en marxa de tot projecte Laravel, la qual cosa es coneix com bootstrapping. S'encarreguen de registrar els components del projecte, dependències externes, classes i mètodes deﬁnidos per nosaltres, per a fer-los accessibles a la resta de l'aplicació.
+Quan una sol·licitud HTTP arriba a una aplicació Laravel, aquesta segueix una sèrie de passos abans de retornar una resposta al client. A continuació, es detallen les etapes principals d'aquest procés:
 
-Si obrim l'arxiu **config/app.php** del nostre projecte Laravel, veurem entre altres coses una secció denominada **providers**, on es deﬁnix un array amb tots els proveïdors de serveis que es posen en marxa en arrancar l'aplicació. Entre altres coses, hi ha proveïdors de serveis per a accés a la base de dades (**DatabaseServiceProvider**), autenticació d'usuaris (**AuthServiceProvider**), etc.
+##### 1. Creació de la Instància de l'Aplicació
 
-##### Les classes del nucli de Laravel
+Laravel inicia creant una instància de l'aplicació, que serveix com a contenidor de serveis per a la gestió de dependències.
 
-Per a poder desenvolupar els components de les aplicacions Laravel, és necessari comptar amb una infraestructura prèvia de classes que ens faciliten aquesta tasca. Així, al llarg de les següents sessions farem ús d'algunes classes proporcionades per Laravel que vénen preinstal·lades amb el framework, com ara **Route,Model** etc, i que ens permeten o bé heretar d'elles per a crear altres subclasses (com és el cas dels models de dades) o bé utilitzar alguns mètodes d'utilitat que aquestes classes proporcionen (com el cas del classe **Route**, per exemple).
+##### 2. Selecció del Nucli (Kernel)
 
-Convé tindre present que totes aquestes classes pertanyents al nucli de Laravel parteixen d'un espai de noms comú anomenat **Illuminate** , per la qual cosa, en els arxius font on les utilitzem, serà freqüent trobar instruccions **use** que comencen per aquest espai de noms. Per exemple:
+Segons el tipus de sol·licitud (HTTP o consola), Laravel dirigeix la sol·licitud al nucli corresponent:
+
+- **HTTP Kernel**: Gestiona sol·licituds web.
+- **Console Kernel**: Gestiona comandes de consola.
+
+##### 3. Carregant els Bootstrapers
+
+Abans de processar la sol·licitud, Laravel executa una sèrie de bootstrapers que configuren aspectes com la gestió d'errors, el registre de logs i la detecció de l'entorn de l'aplicació.
+
+##### 4. Registre dels Proveïdors de Serveis
+
+Els proveïdors de serveis són responsables de carregar i configurar els diversos components de Laravel, com la base de dades, la cua de treballs, la validació i el sistema de rutes.
+
+##### 5. Execució del Middleware
+
+Laravel passa la sol·licitud a través d'una cadena de middleware, que poden realitzar tasques com la verificació d'autenticació, la protecció CSRF i la gestió de sessions.
+
+##### 6. Despatx de la Sol·licitud
+
+Després de passar pel middleware, la sol·licitud és dirigida al controlador o ruta corresponent, on es processa la lògica de l'aplicació.
+
+##### 7. Retorn de la Resposta
+
+Un cop processada la sol·licitud, es genera una resposta que és retornada al client.
+
+
+### Els Proveïdors de Serveis (Service Providers)
+
+Els **proveïdors de serveis** són responsables de l'arrencada o "bootstrapping" de qualsevol projecte Laravel. La seva funció principal és registrar els components, dependències externes, classes i mètodes que hem definit, fent-los accessibles a tota l'aplicació.
+
+Al fitxer **config/app.php** del projecte, trobaràs una secció anomenada **providers**. Aquest array conté tots els proveïdors de serveis que Laravel carrega quan l'aplicació s'inicia. Alguns exemples són:
+
+- **DatabaseServiceProvider**: Gestiona l'accés a bases de dades.
+- **AuthServiceProvider**: Configura el sistema d'autenticació d'usuaris.
+
+Un proveïdor de serveis pot contenir dos mètodes principals:
+
+- **register**: Defineix els serveis i els vincula al contenidor de Laravel.
+- **boot**: S'executa després de carregar tots els serveis, ideal per inicialitzar funcionalitats.
+
+---
+
+### Les Classes del Nucli de Laravel
+
+Laravel proporciona una infraestructura robusta de classes que faciliten el desenvolupament. Algunes d'aquestes classes són:
+
+- **Route**: Permet definir i gestionar rutes.
+- **Model**: Proporciona funcionalitats per a treballar amb la base de dades mitjançant Eloquent ORM.
+
+Aquestes classes estan organitzades dins de l'espai de noms **Illuminate**, per la qual cosa sovint veurem imports com:
 
 ```php
 use Illuminate\Database\Eloquent\Model;
 ```
 
-##### Altres elements
+### Altres elements
 
 A més dels dos pilars anteriors sobre els quals se sustenta fonamentalment el desenvolupament de projectes en Laravel, podem parlar d'altres elements que ens poden resultar d'utilitat en el desenvolupament, com són els facades i els contracts.
 
-Les facades proporcionen una interfície estàtica als elements de l'aplicació, de manera que faciliten l'accésa uns certs mètodes o utilitats. Per exemple, la facade	**cache** permet accedir de manera senzilla amb el seu mètode **get**a unes certes propietats cachejades prèviament.
+Les facades proporcionen una interfície estàtica als elements de l'aplicació, de manera que faciliten l'accésa uns certs mètodes o utilitats. Per exemple, la facade **cache** permet accedir de manera senzilla amb el seu mètode **get**a unes certes propietats cachejades prèviament.
 
 ```php
 return Cache::get('key');
@@ -335,7 +483,7 @@ De manera genèrica, els components de MVC es podrien definir com segueix:
 * El **Controlador**: **Respon a esdeveniments** (usualment accions de l'usuari) i **invoca peticions al 'model'** quan es fa alguna sol·licitud d'informació (per exemple, editar un document o un registre en una base de dades). Per tant es podria dir que el 'controlador' fa d'intermediari entre la 'vista' i el 'model'.
 * La **Vista**: **Presenta el 'model'** i les dades preparades pel controlador a l'usuari de **forma visual**. L'usuari podrà interactuar amb la vista i realitzar altres peticions que s'enviaran al controlador.
 
-![Modelo Vista Controlador](notas/PHP%20Teoria%20Batoi/imagenes/07/mvc.png)
+![Modelo Vista Controlador](imagenes/07/mvc.png)
 
 #### Funcionament bàsic
 
@@ -344,16 +492,1164 @@ El funcionament bàsic que segueix Laravel després d'una petició web a una URL
 * Totes les peticions entren a través del fitxer **public/index.php**, el qual en primer lloc comprovarà en el fitxer de rutes (**routes/web.php**) si la URL és vàlida i en cas de ser-ho al fet que controlador ha de fer la petició.
 
 * A continuació cridarà al mètode del controlador assignat per a aquesta ruta. Com hem vist, el controlador és el punt d'entrada de les peticions de l'usuari, el qual, depenent de la petició:
-    * Accedirà a la base de dades (si fóra necessari) a través dels "models" per a obtenir dades (o per a afegir, modificar o eliminar).
-    * Després d'obtenir les dades necessàries els prepararà per a passar-li'ls a la vista.
+* Accedirà a la base de dades (si fóra necessari) a través dels "models" per a obtenir dades (o per a afegir, modificar o eliminar).
+* Després d'obtenir les dades necessàries els prepararà per a passar-li'ls a la vista.
 
 * En el tercer pas el controlador cridarà a una vista amb una sèrie de dades associades, la qual es prepararà per a
   mostrar-se correctament a partir de les dades d'entrada i finalment es mostrarà a l'usuari.
   A continuació s'inclou un xicotet esquema d'aquest funcionament:
 
-<figure>
-  <img src="imagenes/07/l101.png" />
-  <figcaption>Funcionament Bàsic Laravel</figcaption>
-</figure>
 
+![](imagenes/07/l101.png)
+Funcionament Bàsic Laravel
+
+
+
+## Rutes
+[![](../img/ull.png)Video](https://youtu.be/oHJokaq0yeY)
+
+Podríem dir que existeixen dos tipus principals de rutes:
+
+- **Rutes web**: Emmagatzemades a l'arxiu `web.php`, ens permeten carregar diferents vistes en funció de la URL que indique el client.
+- **Rutes API**: Emmagatzemades a l'arxiu `api.php`, s'utilitzen per definir serveis **REST**.
+
+En aquest tema, ens centrarem en les rutes web, per la qual cosa editarem el contingut de l'arxiu `routes/web.php`. Aquest fitxer és el punt centralitzat per a la definició de rutes. Qualsevol ruta no definida en aquest fitxer no serà vàlida i generarà un error 404.
+
+Les rutes poden:
+1. Retornar directament un valor des del fitxer de rutes.
+2. Cridar una vista o un controlador.
+
+### Rutes simples
+
+Una ruta simple té una URL fixa i una funció que retorna una resposta. Per exemple, una petició tipus GET es defineix així:
+
+```php
+Route::get('/salut', function () {
+ return 'Hola món!';
+});
+```
+
+Quan accedim a `http://localhost/salut`, Laravel retornarà "Hola món!".
+
+### Rutes amb paràmetres
+
+Es poden definir paràmetres dinàmics a les rutes mitjançant claus `{}`. Per exemple:
+
+```php
+Route::get('/salut/{nom}', function ($nom) {
+ return 'Bon dia, ' . $nom;
+});
+```
+
+Si accedim a `/salut/Joan`, retornarà "Bon dia, Joan". Per definir un paràmetre opcional, afegim un símbol `?`:
+
+```php
+Route::get('/salut/{nom?}', function ($nom = 'Convidat') {
+ return 'Bon dia, ' . $nom;
+});
+```
+
+Ara, `/salut` retornarà "Bon dia, Convidat".
+
+### Validació de paràmetres
+
+Podem validar els paràmetres usant el mètode `where`. Per exemple:
+
+```php
+Route::get('/salut/{nom}', function ($nom) {
+ return 'Hola, ' . $nom;
+})->where('nom', '[A-Za-z]+');
+
+Route::get('/producte/{id}', function ($id) {
+ return 'Producte ID: ' . $id;
+})->where('id', '[0-9]+');
+
+Route::get('/usuari/{nom}/{id}', function ($nom, $id) {
+ return 'Usuari: ' . $nom . ', ID: ' . $id;
+})->where(['nom' => '[A-Za-z]+', 'id' => '[0-9]+']);
+```
+
+### Rutes amb nom (Named Routes)
+
+És possible assignar un nom a una ruta utilitzant el mètode `name`. Això permet referenciar-la fàcilment:
+
+```php
+Route::get('/contacte', function () {
+ return 'Pàgina de contacte';
+})->name('contacte');
+```
+
+Podem utilitzar el nom de la ruta a les plantilles Blade:
+
+```blade
+[Contacte]({{ route('contacte') }})
+```
+
+### Grups de rutes
+
+Laravel permet agrupar rutes per compartir configuracions com prefixos o middleware:
+
+```php
+Route::prefix('admin')->group(function () {
+ Route::get('/dashboard', function () {
+ return 'Admin Dashboard';
+ });
+
+ Route::get('/usuaris', function () {
+ return 'Admin Usuaris';
+ });
+});
+```
+
+Això crea les rutes `/admin/dashboard` i `/admin/usuaris`.
+
+### Rutes amb controladors
+
+Per gestionar lògica més complexa, és recomanable utilitzar controladors:
+
+```php
+Route::get('/usuari/{id}', [UsuariController::class, 'mostrar']);
+
+// Controlador definit amb l'artisan:
+// php artisan make:controller UsuariController
+```
+
+### Recursos i APIS
+
+Podem definir rutes amb el mètode `resource` per a CRUDs:
+
+```php
+Route::resource('articles', ArticleController::class);
+```
+
+Aquest mètode genera automàticament les rutes per accions com `index`, `create`, `store`, `show`, `edit`, `update` i `destroy`.
+
+---
+
+## Vistes
+
+[![](../img/ull.png)Video](https://youtu.be/D3uLYwkQ3C0)
+
+Les vistes són la forma de presentar el resultat (una pantalla del nostre lloc web) de forma visual a l'usuari. Laravel permet estructurar aquesta part de l'aplicació utilitzant **vistes simples** o **plantilles Blade**, una eina potent per modularitzar i reutilitzar el codi de les nostres vistes.
+
+### Què són les vistes?
+Les vistes es defineixen a la carpeta `resources/views` i estan dissenyades per separar la part visual de la lògica de l'aplicació. Aquesta separació millora l'estructura del projecte i facilita el manteniment del codi.
+
+Les vistes no han de contenir lògica de negoci ni fer consultes a bases de dades. Només han de rebre dades dels controladors i presentar-les a l'usuari.
+
+### Mostrar una vista
+
+Per mostrar una vista, podem utilitzar la funció `view()` des d'una ruta o controlador. Per exemple:
+
+```php
+Route::get('/', function () {
+ return view('welcome');
+});
+```
+
+### Passar dades a una vista
+
+És habitual passar dades a les vistes des d'una ruta o controlador. Es poden passar dades de diverses maneres:
+
+1. **Amb `with`:**
+
+```php
+Route::get('/', function () {
+ $nom = 'Nacho';
+ return view('inici')->with('nom', $nom);
+});
+```
+
+2. **Amb un array associatiu:**
+
+```php
+return view('inici', ['nom' => $nom]);
+```
+
+3. **Amb la funció `compact`:**
+
+```php
+return view('inici', compact('nom'));
+```
+
+4. **Utilitzant la funció `Route::view`:**
+
+```php
+Route::view('/', 'inici', ['nom' => 'Nacho']);
+```
+
+A la vista, podem utilitzar Blade per mostrar aquestes dades:
+
+```blade
+Benvingut/a, {{ $nom }}
+
+
+```
+
+---
+
+## Plantilles mitjançant Blade
+
+Laravel utilitza **Blade** per modularitzar i optimitzar les vistes. Els fitxers Blade tenen l'extensió `.blade.php` i permeten utilitzar una sintaxi específica per treballar amb dades, herència de plantilles, i estructures de control.
+
+### Mostrar dades
+
+Per mostrar dades en Blade, utilitzem doble claus:
+
+```blade
+Hola, {{ $nom }}
+
+
+```
+
+Per evitar problemes de seguretat com **XSS**, Blade utilitza la funció `e()` per escapar dades. Si volem mostrar dades sense escapament, podem fer servir:
+
+```blade
+{!! $html !!}
+
+
+```
+
+### Comentaris
+
+Els comentaris en Blade s'escriuen així:
+
+```blade
+{{-- Això és un comentari --}}
+```
+
+### Estructures de control
+
+1. **Condicionals:**
+
+```blade
+@if($condicio)
+ Condició complerta
+
+
+@elseif($altraCondicio)
+ Altra condició complerta
+
+
+@else
+ No s'ha complert cap condició
+
+
+@endif
+```
+
+2. **Bucle foreach:**
+
+```blade
+@foreach($elements as $element)
+ {{ $element }}
+
+
+@endforeach
+```
+
+3. **Forelse amb condició buida:**
+
+```blade
+@forelse($elements as $element)
+ {{ $element }}
+
+
+@empty
+ No hi ha elements
+
+
+@endforelse
+```
+
+### Herència de plantilles
+
+Per modularitzar, podem definir una plantilla base amb la directiva `@yield`:
+
+```blade
+
+
+@yield('title')
+
+
+ @include('partials.nav')
+ @yield('content')
+
+
+```
+
+Les vistes poden heretar aquesta plantilla amb `@extends` i definir les seccions:
+
+```blade
+@extends('layout')
+
+@section('title', 'Pàgina d'inici')
+
+@section('content')
+ Benvingut/a!
+============
+
+
+@endsection
+```
+
+### Components Blade
+
+Els **Components Blade** permeten definir elements reutilitzables:
+
+1. Crear component:
+
+```bash
+php artisan make:component Alert
+```
+
+2. Definir la lògica:
+
+```php
+class Alert extends Component {
+ public $type;
+ public function __construct($type) {
+    $this->type = $type;
+ }
+ public function render() {
+ return view('components.alert');
+ }
+}
+```
+
+3. Vista del component:
+
+```blade
+
+ {{ $slot }}
+
+```
+
+4. Utilitzar-lo en una vista:
+
+```blade
+Missatge enviat!
+```
+
+
+## Enllaçant amb CSS i Javascript en el client
+
+Ara que ja coneixem com utilitzar Blade per modularitzar les nostres vistes, és moment d'afegir estils CSS i scripts Javascript per millorar la presentació i funcionalitat del nostre projecte Laravel. Laravel integra **Vite**, una eina moderna per gestionar i empaquetar els recursos del frontend.
+
+### Què és Vite?
+
+Vite és una eina de construcció de frontend que ofereix un entorn de desenvolupament extremadament ràpid i empaqueta el codi per a producció. Amb Laravel, Vite permet:
+  
+- Gestionar fitxers CSS i Javascript del projecte.
+- Optimitzar els recursos per a producció.
+- Carregar els canvis en temps real durant el desenvolupament.
+
+Laravel inclou per defecte un connector oficial per treballar amb Vite.
+
+---
+
+### Instal·lació del connector Vite per a Laravel
+
+Si has creat una nova aplicació Laravel, trobaràs el fitxer `package.json` al directori arrel. Per començar, instal·la les dependències del frontend executant:
+
+```bash
+npm install
+```
+
+Això instal·larà totes les dependències definides al fitxer `package.json`, incloent-hi el connector de Laravel per a Vite.
+
+---
+
+### Configuració de Vite
+
+La configuració de Vite es troba al fitxer `vite.config.js`. Aquest fitxer defineix els punts d'entrada (CSS i Javascript) del projecte:
+
+```javascript
+import { defineConfig } from 'vite';
+import laravel from 'laravel-vite-plugin';
+
+export default defineConfig({
+ plugins: [
+ laravel([
+ 'resources/css/app.css',
+ 'resources/js/app.js',
+ ]),
+ ],
+});
+```
+
+És possible afegir connectors addicionals si utilitzes frameworks com Vue o React.
+
+---
+
+### Carregar CSS i Javascript a les vistes
+
+Un cop configurats els punts d'entrada al fitxer `vite.config.js`, pots carregar els recursos utilitzant la directiva `@vite` de Blade. Per exemple:
+
+```html
+
+
+
+ {{-- Altres metadades i configuracions --}}
+ @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+
+ {{-- Contingut de la vista --}}
+
+
+```
+
+Aquesta directiva s'encarrega automàticament de:
+- Injectar el client de desenvolupament per a substitució de mòduls (Hot Module Replacement - HMR).
+- Carregar els fitxers versionats en producció.
+
+---
+
+### Executar Vite
+
+Pots executar Vite de dues maneres:
+
+1. **Entorn de desenvolupament:**
+
+Durant el desenvolupament, pots executar el servidor de Vite per reflectir els canvis automàticament al navegador:
+
+ ```bash
+ npm run dev
+ ```
+
+2. **Producció:**
+
+Per empaquetar i versionar els recursos per a producció, executa:
+
+ ```bash
+ npm run build
+ ```
+
+---
+ 
+
+## Controladors
+
+[![](../img/ull.png)Video](https://www.youtube.com/watch?v=VwNTfrN8XTU&t=629s)
+
+Els controladors són una peça clau a Laravel per organitzar i estructurar la lògica de la nostra aplicació. Permeten separar la gestió de les rutes i la lògica del negoci, fent que el codi sigui més net, escalable i fàcil de mantenir.
+
+---
+
+### Crear un controlador
+
+Per crear un controlador, podem utilitzar l'ordre `php artisan make:controller`. Per convenció, els controladors solen acabar amb el sufix `Controller`. Exemple:
+
+```bash
+php artisan make:controller PruebaController
+```
+
+Això crea un fitxer dins de la carpeta `app/Http/Controllers`. El controlador estarà buit per defecte i podrem afegir-hi els mètodes necessaris.
+
+---
+
+### Controladors de recursos
+
+Podem generar un controlador de recursos amb l'opció `-r`. Això crearà un controlador amb mètodes predeterminats per a operacions comunes:
+
+```bash
+php artisan make:controller PruebaController -r
+```
+
+Els mètodes generats són:
+
+- `index`: Mostrar un llistat d'elements.
+- `create`: Mostrar un formulari per crear un nou element.
+- `store`: Emmagatzemar un nou element a la base de dades.
+- `show`: Mostrar un element específic.
+- `edit`: Mostrar un formulari per editar un element existent.
+- `update`: Actualitzar un element a la base de dades.
+- `destroy`: Eliminar un element.
+
+Per cridar un mètode d'aquest tipus des d'una ruta:
+
+```php
+Route::get('prueba', [PruebaController::class, 'index'])->name('listado\_prueba');
+```
+
+---
+
+### Rutes i controladors
+
+Laravel permet registrar totes les rutes associades a un controlador de recursos amb el mètode `Route::resource`:
+
+```php
+Route::resource('catalog', CatalogController::class);
+```
+
+Això genera rutes per a tots els mètodes del controlador de recursos (`index`, `show`, `create`, etc.). Si només volem algunes rutes, podem utilitzar:
+
+- **`only`:**
+
+ ```php
+ Route::resource('catalog', CatalogController::class)->only(['index', 'show']);
+ ```
+
+- **`except`:**
+
+ ```php
+ Route::resource('catalog', CatalogController::class)->except(['update', 'edit']);
+ ```
+
+---
+
+### Organització de vistes i controladors
+
+Les vistes associades a un controlador solen estar estructurades dins de la carpeta `resources/views` seguint el nom del controlador o el model. Exemple:
+
+- Controlador: `CatalogController`
+- Vistes: `resources/views/catalog/index.blade.php`, `resources/views/catalog/show.blade.php`, etc.
+
+Per renderitzar aquestes vistes des del controlador:
+
+```php
+public function index() {
+ return view('catalog.index');
+}
+```
+
+---
+
+### Subcarpetes i espais de noms
+
+Els controladors es poden organitzar en subcarpetes dins de `app/Http/Controllers`. Si un controlador es troba en una subcarpeta, cal incloure el seu espai de noms:
+
+```php
+// Fitxer: app/Http/Controllers/Photos/AdminController.php
+Route::get('admin', [App\Http\Controllers\Photos\AdminController::class, 'method']);
+```
+
+Laravel afegeix automàticament l'espai de noms per als controladors a `RouteServiceProvider`. Si crees subcarpetes, assegura't d'actualitzar el fitxer de rutes amb el nom complet del controlador.
+
+---
+ 
+ 
+## Exercici Pràctic: Guia d'Equips de Futbol Femení
+
+L'objectiu d'aquest exercici és construir una aplicació Laravel per gestionar una guia d'equips de futbol femení. Aprendrem a configurar rutes, controladors, vistes i a passar dades utilitzant les funcionalitats de Laravel.
+
+---
+
+#### Pas 1: Configurar el projecte
+
+1. **Crear un projecte Laravel anomenat `futbol-femeni`:**
+
+ ```bash
+  curl -s "https://laravel.build/futbol-femeni?with=mysql,mailpit" | bash
+ ```
+
+ Problemes:  des de dins de l'institut no funciona perquè els repositoris estan capats.
+
+Solució: 
+
+  * Quan falle . Copiar la següent [carpeta](recursos/docker.zip) a la carpeta del projecte.
+  * Canviar este troç del docker-compose.yml per este:
+
+```
+    laravel.test:
+        build:
+            context: './vendor/laravel/sail/runtimes/8.3'  
+```
+per
+```
+    laravel.test:
+        build:
+            context: './docker'
+```
+
+i despres acabem la instal·lació:
+
+```bash
+  cd futbol-femeni
+  ./vendor/bin/sail up 
+  ./vendor/bin/sail artisan migrate
+```
+
+2. **Qüestió:** Per què és important tenir una estructura clara al projecte Laravel?
+
+---
+
+#### Pas 2: Definir la ruta inicial
+
+1. **Editar `routes/web.php` per crear una ruta inicial:**
+
+```php
+Route::get('/', function () {
+   return "Benvingut a la Guia d"Equips de Futbol Femení!";
+});
+```
+
+2. **Qüestió:** Quina diferència hi ha entre definir una ruta directa i una que utilitza un controlador?
+
+---
+
+#### Pas 3: Crear un controlador
+
+1. **Generar un controlador anomenat `EquipController`:**
+
+```bash
+./vendor/bin/sail artisan make:controller EquipController
+```
+
+2. **Afegir un mètode `index` al controlador:**
+
+```php
+public function index() {
+   return view('equips.index');
+}
+```
+
+3. **Definir una ruta per al mètode `index`:**
+
+```php
+Route::get('/equips', [EquipController::class, 'index']);
+```
+
+4. **Qüestió:** Per què és recomanable separar la lògica en controladors?
+
+---
+
+#### Pas 4: Crear una vista
+
+1. **Crear una vista a `resources/views/equips/index.blade.php`:**
+
+```html
+<h1>Guia d'Equips</h1>
+```
+
+2. **Qüestió:** Què fa especial el motor de plantilles Blade en comparació amb HTML estàndard?
+
+---
+
+#### Pas 5: Passar dades a la vista
+
+1. **Modifica el mètode `index` per passar un array d'equips:**
+
+```php
+public function index() {
+   $equips = ['Barça Femení', 'Atlètic de Madrid', 'Real Madrid Femení'];
+   return view('equips.index', compact('equips'));
+}
+```
+
+2. **Afegeix un bucle `@foreach` a la vista:**
+
+```html
+<h1>Guia d'Equips</h1>
+<ul>
+   @foreach($equips as $equip)
+       <li>{{ $equip }}</li>
+   @endforeach
+</ul>
+```
+
+3. **Qüestió:** Com podem utilitzar Blade per fer el codi més segur?
+
+---
+
+#### Pas 6: Afegir estils amb Vite
+
+1. **Crear un fitxer CSS a `resources/css/equips.css`:**
+
+```css
+body {
+   font-family: Arial, sans-serif;
+}
+
+h1 {
+   color: darkblue;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin-right: 15px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: darkblue;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+}
+```
+
+2. **Incloure el fitxer CSS amb `@vite`:**
+
+  Modificar el fitxer vite.config.js per a que inclogui el fitxer CSS:
+
+``` 
+import laravel from 'laravel-vite-plugin';
+
+export default defineConfig({
+  plugins: [
+    laravel({
+      input: [
+        'resources/css/app.css',
+        'resources/css/equips.css',
+        'resources/js/app.js'],
+      refresh: true,
+    }),
+  ],
+});
+```
+    
+    i incloure el fitxer CSS a la vista:
+ 
+```html
+@vite('resources/css/equips.css')
+```
+
+3. **Executar Vite:**
+
+```bash
+npm install
+npm run build
+```
+
+4. **Qüestió:** Què és Hot Module Replacement (HMR) i com ajuda en el desenvolupament?
+
+---
+
+#### Pas 7: Ampliar funcionalitats
+
+1. **Afegir més camps als equips:**
+
+   ```php
+   public function index() {
+       $equips = [
+           ['nom' => 'Barça Femení', 'estadi' => 'Camp Nou', 'titols' => 30],
+           ['nom' => 'Atlètic de Madrid', 'estadi' => 'Cívitas Metropolitano', 'titols' => 10],
+           ['nom' => 'Real Madrid Femení', 'estadi' => 'Alfredo Di Stéfano', 'titols' => 5],
+       ];
+       return view('equips.index', compact('equips'));
+   }
+   ```
+
+2. **Actualitzar la vista per mostrar una taula:**
+
+   ```html
+   <h1>Guia d'Equips</h1>
+   <table>
+       <thead>
+           <tr>
+               <th>Nom</th>
+               <th>Estadi</th>
+               <th>Títols</th>
+           </tr>
+       </thead>
+       <tbody>
+           @foreach($equips as $equip)
+               <tr>
+                   <td>{{ $equip['nom'] }}</td>
+                   <td>{{ $equip['estadi'] }}</td>
+                   <td>{{ $equip['titols'] }}</td>
+               </tr>
+           @endforeach
+       </tbody>
+   </table>
+   ```
+
+3. **Crear una nova vista parcial per al menú de navegació:**
+  
+* Afegeix un fitxer nou a resources/views/partials/menu.blade.php amb el contingut següent:
+
+```html
+<nav>
+    <ul>
+        <li><a href="/">Inici</a></li>
+        <li><a href="/equips">Guia d'Equips</a></li>
+        <li><a href="/estadis">Llistat d'Estadis</a></li>
+    </ul>
+</nav>
+```
+
+* Modifica la vista resources/views/equips/index.blade.php per incloure el menú amb la directiva @include:
+
+```html
+@include('partials.menu')
+```
+
+
+4. Crear una plantilla base
+
+* Crea el fitxer resources/views/layouts/app.blade.php:
+
+```html
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>@yield('title','Guia de futbol femení')</title>
+      @vite(['resources/css/app.css', 'resources/css/equips.css'])
+</head>
+<body>
+      <header>
+        @include('partials.menu')
+      </header>
+      <main>
+       @yield('content')
+      </main>
+      <footer>
+          <p>&copy; 2024 Guia de Futbol Femení</p>
+      </footer>
+</body>
+</html>
+```
+
+* Modifica la vista resources/views/equips/index.blade.php per heretar de la plantilla base:
+      
+```php
+ @extends('layouts.app')
+@section('title', " Guia d'Equips" )
+@section('content')
+    <h1>Guia d'Equips</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Estadi</th>
+            <th>Títols</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach($equips as $equip )
+            <tr>
+                <td class="equip"><h2>{{ $equip['nom']  }}</h2></td>
+                <td class="equip">{{ $equip['estadi']  }}</td>
+                <td class="equip">{{ $equip['titols']  }}</td>
+            </tr>
+        @endforeach
+        </tbody>
+    </table>
+@endsection
+
+```
+
+5. Crear un component per als equips
+
+* Executa la següent comanda per crear un component Blade anomenat Equip:
+
+```bash
+./vendor/bin/sail artisan make:component Equip
+```
+
+* Afegeix els estils al fitxer CSS resources/css/equips.css:
+
+```css
+  .equip {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .equip h2 {
+  margin: 0;
+  color: darkblue;
+  }
+
+```
+* Modifica la vista resources/views/components/equip.blade.php per crear el component:
+
+```html
+<div class="equip">
+    <h2>{{ $nom }}</h2>
+    <p><strong>Estadi:</strong> {{ $estadi }}</p>
+    <p><strong>Títols:</strong> {{ $titols }}</p>
+</div>
+```
+* Crea un mètode al controlador d'equips per mostrar un equip:
+
+```php
+public function show($id) {
+    $equips = [
+        ['nom' => 'Barça Femení', 'estadi' => 'Camp Nou', 'titols' => 30],
+        ['nom' => 'Atlètic de Madrid', 'estadi' => 'Cívitas Metropolitano', 'titols' => 10],
+        ['nom' => 'Real Madrid Femení', 'estadi' => 'Alfredo Di Stéfano', 'titols' => 5],
+    ];
+    $equip = $equips[$id];
+    return view('equips.show', compact('equip'));
+}
+```
+
+* Crea la vista resources/views/equips/show.blade.php per utilitzar el component:
+
+```html
+@extends('layouts.app')
+@section('title', " Guia d'Equips" )
+@section('content')
+<x-equip
+   :nom="$equip['nom']"
+   :estadi="$equip['estadi']"
+   :titols="$equip['titols']"
+/>
+@endsection 
+```
+
+* Modifica el component (app/Views/components/Equip.php) per utilitzar les dades passades:
+
+```php
+public function __construct(
+     public string $nom,
+     public string $estadi,
+     public int $titols ) { }
+``` 
+
+* Crea la ruta:
+
+```php
+Route::get('/equips/{id}', [EquipController::class, 'show']);
+```
+
+ 6. **Qüestió:** Com podem fer per no repetir l'array d'equips en el controlador ?
+
+ 7. **Qüestió:** Què és un component Blade i quins avantatges té respecte a les vistes parcials?
+
+ 8. **Qüestio:** Què permet la directiva @yield i com es relaciona amb @section?
+
+ 9. **Qüestió:** Per què és important tenir una plantilla base en una aplicació web? 
+---
+
+#### Pas 8: Refactoritzar el codi
+
+1. **No repetir l'array d'equips en el controlador**
+
+```php
+public $equips = [
+        ['nom' => 'Barça Femení', 'estadi' => 'Camp Nou', 'titols' => 30],
+        ['nom' => 'Atlètic de Madrid', 'estadi' => 'Cívitas Metropolitano', 'titols' => 10],
+        ['nom' => 'Real Madrid Femení', 'estadi' => 'Alfredo Di Stéfano', 'titols' => 5],
+    ];
+
+    public function index() {
+        $equips = $this->equips;
+        return view('equips.index', compact('equips'));
+    }
+
+    public function show($id) {
+        $equip = $this->equips[$id];
+        return view('equips.show', compact('equip'));
+    }
+```
+
+2. **Passar les rutes a resource**
+    
+  ```php
+  Route::resource('equips', EquipController::class);
+  ```
+3. **Crear l'enllaç en el index per a vore un equip**
+
+```html
+@foreach($equips as $key => $equip)
+    <tr>
+        <td><a href="{{ route('equips.show', $key) }}">{{ $equip['nom'] }}</a></td>
+        <td>{{ $equip['estadi'] }}</td>
+        <td>{{ $equip['titols'] }}</td>
+    </tr>
+@endforeach
+```
+4. **Utilitza chatgpt per a donar estil a les vistes mitjançant tailwind**
+
+```html
+app.blade.php
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title', 'Guia de futbol femení')</title>
+    @vite(['resources/css/app.css'])
+</head>
+<body class="font-sans bg-gray-100 text-gray-900">
+<header class="bg-blue-800 text-white p-4">
+    @include('partials.menu')
+</header>
+<main class="container mx-auto p-6">
+    @yield('content')
+</main>
+<footer class="bg-blue-800 text-white text-center p-4">
+    <p>&copy; 2024 Guia de Futbol Femení</p>
+</footer>
+</body>
+</html>
+``` 
+
+```html
+index.blade.php
+@extends('layouts.app')
+
+@section('title', "Guia d'Equips")
+
+@section('content')
+<h1 class="text-3xl font-bold text-blue-800 mb-6">Guia d'Equips</h1>
+<table class="w-full border-collapse border border-gray-300">
+    <thead class="bg-gray-200">
+    <tr>
+        <th class="border border-gray-300 p-2">Nom</th>
+        <th class="border border-gray-300 p-2">Estadi</th>
+        <th class="border border-gray-300 p-2">Títols</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach($equips as $key => $equip)
+    <tr class="hover:bg-gray-100">
+        <td class="border border-gray-300 p-2">
+            <a href="{{ route('equips.show', $key) }}" class="text-blue-700 hover:underline">{{ $equip['nom'] }}</a>
+        </td>
+        <td class="border border-gray-300 p-2">{{ $equip['estadi'] }}</td>
+        <td class="border border-gray-300 p-2">{{ $equip['titols'] }}</td>
+    </tr>
+    @endforeach
+    </tbody>
+</table>
+@endsection
+``` 
+```html
+equip.blade.php
+<div class="equip border rounded-lg shadow-md p-4 bg-white">
+    <h2 class="text-xl font-bold text-blue-800">{{ $nom }}</h2>
+    <p><strong>Estadi:</strong> {{ $estadi }}</p>
+    <p><strong>Títols:</strong> {{ $titols }}</p>
+</div>
+``` 
+```html
+menu.blade.php
+<nav>
+    <ul class="flex space-x-4">
+        <li><a href="/" class="text-white hover:underline">Inici</a></li>
+        <li><a href="/equips" class="text-white hover:underline">Guia d'Equips</a></li>
+        <li><a href="/estadis" class="text-white hover:underline">Llistat d'Estadis</a></li>
+    </ul>
+</nav>
+```
+
+
+## Exercici: Guia d'Estadis de Futbol
+
+L'objectiu d'aquest exercici és crear una extensió de la guia d'equips de futbol femení per incloure una nova funcionalitat: un llistat d'estadis de futbol. Els alumnes implementaran rutes, controladors i vistes per mostrar estadis i les seves característiques.
+
+---
+
+### Instruccions
+
+#### **1. Crear un controlador d'estadis**
+
+1. Genera un nou controlador anomenat `EstadiController`.
+
+2. Afegeix un mètode `index` al controlador per retornar una vista amb un llistat d'estadis.
+
+```php
+$estadiosFutbolFemeni = [
+    [
+    'nom' => 'Estadi Johan Cruyff',
+    'ciutat' => 'Sant Joan Despí',
+    'capacitat' => 6000,
+    'equip_principal' => 'FC Barcelona Femení'
+    ],
+    [
+    'nom' => 'Centro Deportivo Wanda Alcalá de Henares',
+    'ciutat' => 'Alcalá de Henares',
+    'capacitat' => 2800,
+    'equip_principal' => 'Atlètic de Madrid Femení'
+    ],
+    [
+    'nom' => 'Estadio Alfredo Di Stéfano',
+    'ciutat' => 'Madrid',
+    'capacitat' => 6000,
+    'equip_principal' => 'Real Madrid Femení'
+    ]
+];
+```  
+---
+
+#### **2. Crear una ruta per als estadis**
+
+1. Defineix una nova ruta a `routes/web.php` que apunti al mètode `index` del controlador.
+
+---
+
+#### **3. Crear una vista per mostrar els estadis**
+
+1. Crea un fitxer de vista a `resources/views/estadis/index.blade.php` per mostrar els estadis en format de taula.
+2. Inclou el menu.
+
+---
+
+#### **4. Afegir estils al llistat d'estadis**
+
+1. Crea un fitxer CSS a `resources/css/estadis.css` per estilitzar la taula.
+
+2. Inclou el CSS a la vista utilitzant `@vite`.
+
+3. Executa Vite per aplicar els estils.
+
+---
+
+#### **5. Ampliar la guia d'estadis**
+
+1. Afegir una nova ruta /estadis/crear per mostrar un formulari que permet afegir un nou estadi.
+
+2. Crear un controlador amb un mètode crear que retorne una vista amb el formulari.
+
+3. Dissenyar un formulari Blade que contingui camps per al nom de l'estadi, ciutat i capacitat.
+
+4. Mostrar un missatge de confirmació quan l'usuari faci clic al botó d'enviar.
+
+5. Crea un component per als estadis.
+  
+6. Modifica la vista resources/views/estadis/index.blade.php per heretar de layouts.app.
+
+#### **6. Jugadores**
+
+Fes el mateix amb les jugadores, crea un controlador, una vista i un component.
+
+Exemple : 
+
+```php
+$jugadores = [
+    ['nom' => 'Alexia Putellas', 'equip' => 'Barça Femení', 'posició' => 'Migcampista'],
+    ['nom' => 'Esther González', 'equip' => 'Atlètic de Madrid', 'posició' => 'Davantera'],
+    ['nom' => 'Misa Rodríguez', 'equip' => 'Real Madrid Femení', 'posició' => 'Portera'],
+];
+```
+#### **7. Partits**
+ 
+Fes el mateix amb els partits, crea un controlador, una vista i un component.
+ 
+Exemple :
+
+```php
+$partits = [
+    ['local' => 'Barça Femení', 'visitant' => 'Atlètic de Madrid', 'data' => '2024-11-30', 'resultat' => null],
+    ['local' => 'Real Madrid Femení', 'visitant' => 'Barça Femení', 'data' => '2024-12-15', 'resultat' => '0-3'],
+];
+```
+
+#### **8. Modifica el menu**
+
+Per poder anar a totes les pantalles i canvia les rutes a anomenades.
+
+ ---
+
+#### Preguntes per reflexionar
+
+1. **Rutes:** Per què utilitzem un controlador per gestionar la lògica d'aquesta funcionalitat?
+2. **Blade:** Què passa si intentem accedir a una clau que no existeix en un array?
+3. **CSS i Vite:** Quina diferència hi ha entre incloure un fitxer CSS estàtic i utilitzar `@vite`?
 ![[imagenes/07/l101.png]]
