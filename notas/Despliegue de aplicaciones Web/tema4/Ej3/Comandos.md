@@ -4,8 +4,10 @@ sudo chfn -o umask=022 ddaw-ud4-deployer
 sudo mkdir /var/www/ddaw-ud4-a4/html -p 
 sudo chown ddaw-ud4-deployer:www-data /var/www/ddaw-ud4-a4/html
 sudo apt install acl -y
+
+sudo ln -s /etc/nginx/sites-available/dev.todo.cipfpbatoi.es /etc/nginx/sites-enabled/
 ```
-Host 18.235.170.221 futbolfem.cipfpbatoy.es
+Host 18.235.170.221 futbolfem.cipfpbatoi.es
 ```php
 <?php 
 namespace Deployer; 
@@ -35,3 +37,6 @@ git push origin master
 
 crear una keygen con user de despliege
 ir a github y añadir la clave
+
+```
+```
