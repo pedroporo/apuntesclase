@@ -56,7 +56,7 @@ server {
     location = /robots.txt  { access_log off; log_not_found off; }
     error_page 404 /index.php;
     location ~ \.php$ {
-        fastcgi_pass unix:/run/php/php8.3-fpm-futbolfem.cipfpbatoi.es.sock;
+        fastcgi_pass unix:/run/php/php8.3-fpm-futbolfem-cipfpbatoi-es.sock;
         fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
         include fastcgi_params;
     }
