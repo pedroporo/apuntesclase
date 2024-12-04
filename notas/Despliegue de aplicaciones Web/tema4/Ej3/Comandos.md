@@ -44,7 +44,7 @@ server {
     listen 80;
     listen [::]:80;
     server_name futbolfem.cipfpbatoi.es;
-    root /var/www/ddaw-ud4-a4/html/relase/futbol-femeni/public;
+    root /var/www/ddaw-ud4-a4/html/relase/futbol-femeni/routes;
     add_header X-Frame-Options "SAMEORIGIN";
     add_header X-Content-Type-Options "nosniff";
     index index.php;
