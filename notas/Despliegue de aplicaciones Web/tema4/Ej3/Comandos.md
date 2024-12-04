@@ -39,4 +39,28 @@ crear una keygen con user de despliege
 ir a github y añadir la clave
 
 ```
+server {
+    listen 80;
+    listen [::]:80;
+    server_name futbolfem.cipfpbatoi.es;
+    root /var/www/ddaw-ud4-a4/html/relase/futbol-femeni/public;
+    add_header X-Frame-Options "SAMEORIGIN";
+    add_header X-Content-Type-Options "nosniff";
+    index index.php;
+    charset utf-8;
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location = /robots.txt  { access_log off; log_not_found off; }
+    error_page 404 /index.php;
+    location ~ \.php$ {
+        fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+    location ~ /\.(?!well-known).* {
+        deny all;
+    }
+}
 ```
