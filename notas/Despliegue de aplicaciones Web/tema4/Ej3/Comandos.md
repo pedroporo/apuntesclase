@@ -5,7 +5,8 @@ sudo mkdir /var/www/ddaw-ud4-a4/html -p
 sudo chown ddaw-ud4-deployer:www-data /var/www/ddaw-ud4-a4/html
 sudo apt install acl -y
 
-sudo ln -s /etc/nginx/sites-available/dev.todo.cipfpbatoi.es /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/futbolfem.cipfpbatoi.es /etc/nginx/sites-enabled/
+sudo cp /etc/php/8.3/fpm/pool.d/002-es-cipfpbatoi-todo-dev.conf /etc/php/8.3/fpm/pool.d/futbolfem.cipfpbatoi.es.conf
 ```
 Host 18.235.170.221 futbolfem.cipfpbatoi.es
 ```php
@@ -55,7 +56,7 @@ server {
     location = /robots.txt  { access_log off; log_not_found off; }
     error_page 404 /index.php;
     location ~ \.php$ {
-        fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+        fastcgi_pass unix:/run/php/php8.3-fpm-futbolfem.cipfpbatoi.es.sock;
         fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
         include fastcgi_params;
     }
