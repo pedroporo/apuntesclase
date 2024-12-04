@@ -28,4 +28,7 @@ before('deploy:symlink', 'artisan:migrate');
 
 ```
 vendor/bin/dep deploy -vvv
+git commit -am '[*ADD] Feature a43534sg – CRUD usuaris'
+git push origin master
+
 ```
