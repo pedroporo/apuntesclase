@@ -5,7 +5,7 @@ sudo mkdir /var/www/ddaw-ud4-a4/html -p
 sudo chown ddaw-ud4-deployer:www-data /var/www/ddaw-ud4-a4/html
 sudo apt install acl -y
 ```
-
+Host 18.235.170.221 futbolfem.cipfpbatoy.es
 ```php
 <?php 
 namespace Deployer; 
@@ -32,3 +32,6 @@ git commit -am '[*ADD] Feature a43534sg – CRUD usuaris'
 git push origin master
 
 ```
+
+crear una keygen con user de despliege
+ir a github y añadir la clave
