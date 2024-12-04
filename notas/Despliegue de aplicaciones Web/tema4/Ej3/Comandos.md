@@ -9,6 +9,11 @@ sudo ln -s /etc/nginx/sites-available/futbolfem.cipfpbatoi.es /etc/nginx/sites-e
 sudo cp /etc/php/8.3/fpm/pool.d/002-es-cipfpbatoi-todo-dev.conf /etc/php/8.3/fpm/pool.d/futbolfem.cipfpbatoi.es.conf
 ```
 Host 18.235.170.221 futbolfem.cipfpbatoi.es
+
+```
+ddaw-ud4-deployer ALL=(ALL) NOPASSWD: /etc/init.d/php8.1-fpm restart
+ddaw-ud4-deployer ALL=(ALL) NOPASSWD: /bin/systemctl reload php-fpm
+```
 ```php
 <?php 
 namespace Deployer; 
