@@ -1,7 +1,6 @@
 [[UD5A01_cliente_dns_terminal.pdf#page=5&selection=68,0,69,20|UD5A01_cliente_dns_terminal, página 5]]
 
-> [[UD5A01_cliente_dns_terminal.pdf#page=5&selection=96,0,124,75|1]]. Realiza una consulta DNS para mostrar el registro SOA relacionado con el dominio del centro (cipfpbatoi.es). Muestra la instrucción que has ejecutado y sus resultados utilizando las 3 herramientas disponibles (dig, host, nslookup).
-
+> [[UD5A01_cliente_dns_terminal.pdf#page=5&selection=96,0,124,75|1. Realiza una consulta DNS para mostrar el registro SOA relacionado con el dominio del centro (cipfpbatoi.es). Muestra la instrucción que has ejecutado y sus resultados utilizando las 3 herramientas disponibles (dig, host, nslookup).]]
 
 ```
 Dig: dig +nostats cipfpbatoi.es SOA
@@ -17,4 +16,19 @@ Dig: dig +nostats cipfpbatoi.es NS
 Host: host -t NS cipfpbatoi.es
 
 nslookup: nslookup -q=NS cipfpbatoi.es
+```
+
+> [[UD5A01_cliente_dns_terminal.pdf#page=5&selection=158,0,162,73|3. ¿Cuáles son los servidores de correo del centro? Hay más de uno? ¿Cuál tiene más prioridad? Muestra la instrucción que has ejecutado y sus resultados.]]
+
+```
+Dig: dig +nostats cipfpbatoi.es MX
+
+Host: host -t MX cipfpbatoi.es
+
+nslookup: nslookup -q=MX cipfpbatoi.es
+```
+
+> [[UD5A01_cliente_dns_terminal.pdf#page=5&selection=164,0,183,61|4. Realiza un seguimiento de las consultas DNS que se realizan para resolver el dominio "gva.es" utilizando la herramienta dig y la opción trace. Muestra los nombres de los diferentes servidores de nombres que han consultado hasta llegar al servidor que contiene la información del dominio a buscar.]]
+```
+dig +trace cipfpbatoi.es
 ```
