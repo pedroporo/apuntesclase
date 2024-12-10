@@ -716,7 +716,7 @@ $path = $request->file('photo')->store('photos'); //Emmagatzemar un fitxer.
     
 ```
  
-## **2. Responses**
+### **2. Responses**
 
 ### **Creació de respostes**
  
@@ -748,7 +748,7 @@ return response()->download($pathToFile); //Descàrrega de fitxers.
 return response()->file($pathToFile); //Mostrar fitxers.
 ``` 
 
-## **3. Validació**
+### **3. Validació**
 
 ### **Introducció**
 Laravel ofereix un sistema potent i senzill per validar dades d'inputs.
