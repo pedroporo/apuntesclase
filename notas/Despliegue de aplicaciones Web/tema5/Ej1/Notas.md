@@ -9,7 +9,9 @@ Host: host -t SOA cipfpbatoi.es
 
 nslookup: nslookup -q=SOA cipfpbatoi.es
 ```
-[[UD5A01_cliente_dns_terminal.pdf#page=5&selection=126,0,126,1|2]]
+
+> [[UD5A01_cliente_dns_terminal.pdf#page=5&selection=126,0,156,19|2. ¿Cuáles son los servidores de nombres responsables del dominio del centro que pueden responder con autoridad? Hay más de uno? Muestra la instrucción que has ejecutado y sus resultados utilizando una de las 3 herramientas disponibles. Recuerda que los servidores de nombres autoritativos vienen establecidos por el tipo de registro NS]]
+
 ```
 Dig: dig +nostats cipfpbatoi.es NS
 
