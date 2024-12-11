@@ -37,3 +37,6 @@ dig +trace cipfpbatoi.es
 
 > [[UD5A01_cliente_dns_terminal.pdf#page=6&selection=17,0,70,11|5. Realiza una consulta DNS para mostrar todos los registros de la zona cipfpbatoi.es. La respuesta debe ser de un servidor con autoridad (Recuerda que para ello deberás de preguntar directamente a uno de los servidores de nombres autoritativos del dominio). Muestra la instrucción que has ejecutado y sus resultados.]]
 
+```
+dig @ns105.ovh.net cipfpbatoi.es ANY
+```
