@@ -2,5 +2,11 @@
   "theme": "obsidian",
   "accentColor": "",
   "cssTheme": "Atom",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "headings",
+    "footnotes",
+    "lists",
+    "properties"
+  ]
 }
