@@ -22,7 +22,7 @@ app2    IN      A       172.16.224.22
 app3    IN      A       172.16.224.23
 @       IN      MX      1 mail.pedro.ddaw.es.
 mail    IN      A       172.16.224.24
-www     IN      A       98.82.164.160
+www     IN      CNAME   dev.todo.cipfpbatoi.es
 @       IN      TXT     "google-site-verification=qW2WOnmUMDHWaF-2Tgfyzmwyk2BqWg4dghWqvW0PY8c8"
 ```
 
