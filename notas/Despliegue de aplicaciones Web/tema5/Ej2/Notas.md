@@ -29,4 +29,6 @@ www     IN      CNAME   dev.todo.cipfpbatoi.es
 ```
 sudo rndc flush
 sudo rndc reload
+sudo netstat -ntpapu
+
 ```
