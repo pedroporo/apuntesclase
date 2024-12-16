@@ -25,3 +25,8 @@ mail    IN      A       172.16.224.24
 www     IN      A       98.82.164.160
 @       IN      TXT     "google-site-verification=qW2WOnmUMDHWaF-2Tgfyzmwyk2BqWg4dghWqvW0PY8c8"
 ```
+
+```
+sudo rndc flush
+sudo rndc reload
+```
