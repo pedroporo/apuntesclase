@@ -15,8 +15,8 @@ $TTL    604800
 ;
 @       IN      NS      ns1.pedro.ddaw.es. 
 @       IN      NS      ns2.pedro.ddaw.es.
-ns1     IN      A       172.16.224.2 
-ns2     IN      A       172.16.224.3
+ns1     IN      A       100.28.192.202
+ns2     IN      A       100.28.192.202
 app1    IN      A       172.16.224.21
 app2    IN      A       172.16.224.22
 app3    IN      A       172.16.224.23
