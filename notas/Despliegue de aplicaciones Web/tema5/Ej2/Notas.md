@@ -14,8 +14,9 @@ $TTL    604800
                          604800 )       ; Negative Cache TTL
 ;
 @       IN      NS      ns1.pedro.ddaw.es. 
-@       IN      NS      ns2.ddaw.lan.
-@       IN      A       127.0.0.1
-@       IN      AAAA    ::1
-
+@       IN      NS      ns2.pedro.ddaw.es.
+ns1     IN      A       172.16.224.2 
+ns2     IN      A       172.16.224.3
+app1    IN      A       172.16.224.21
+app2    IN      A       172.16.224.22
 ```
