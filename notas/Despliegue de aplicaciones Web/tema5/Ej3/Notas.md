@@ -56,6 +56,7 @@ server_name app1.pedro.ddaw.es;
 location / {
     try_files $uri $uri/ =404;
 }
+}
 ```
 ```
 server { 
@@ -65,6 +66,7 @@ index index.html;
 server_name app2.pedro.ddaw.es;
 location / {
     try_files $uri $uri/ =404;
+}
 }
 ```
 ```
@@ -76,4 +78,13 @@ server_name app3.pedro.ddaw.es;
 location / {
     try_files $uri $uri/ =404;
 }
+}
+```
+
+```
+sudo nano /etc/nginx/sites-available/app1.pedro.ddaw.es
+sudo ln -s /etc/nginx/sites-available/app1.pedro.ddaw.es /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/app2.pedro.ddaw.es /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/app3.pedro.ddaw.es /etc/nginx/sites-enabled/
+sudo nginx -t
 ```
