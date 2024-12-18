@@ -45,5 +45,35 @@ sudo chmod -R 755 /var/www/app3.pedro.ddaw.es
 nano /var/www/app1.pedro.ddaw.es/index.html
 ```
 ```
-
+<h1>Pagina de app.pedro.ddaw.es</h1>
+```
+```
+server { 
+listen 80; 
+root /var/www/app1.pedro.ddaw.es; 
+index index.html; 
+server_name app1.pedro.ddaw.es;
+location / {
+    try_files $uri $uri/ =404;
+}
+```
+```
+server { 
+listen 80; 
+root /var/www/app2.pedro.ddaw.es; 
+index index.html; 
+server_name app2.pedro.ddaw.es;
+location / {
+    try_files $uri $uri/ =404;
+}
+```
+```
+server { 
+listen 80; 
+root /var/www/app3.pedro.ddaw.es; 
+index index.html; 
+server_name app3.pedro.ddaw.es;
+location / {
+    try_files $uri $uri/ =404;
+}
 ```
