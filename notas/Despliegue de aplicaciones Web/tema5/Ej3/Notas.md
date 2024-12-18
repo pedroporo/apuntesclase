@@ -28,3 +28,7 @@ mail    IN      A       172.16.224.24
 www     IN      CNAME   dev.todo.cipfpbatoi.es
 @       IN      TXT     "google-site-verification=qW2WOnmUMDHWaF-2Tgfyzmwyk2BqWg4dghWqvW0PY8c8"
 ```
+```
+pedro IN NS ns1.pedro.ddaw.es. 
+ns1.pedro IN A 100.28.192.202
+```
