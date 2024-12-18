@@ -32,3 +32,18 @@ www     IN      CNAME   dev.todo.cipfpbatoi.es
 pedro IN NS ns1.pedro.ddaw.es. 
 ns1.pedro IN A 100.28.192.202
 ```
+```
+sudo mkdir -p /var/www/app1.pedro.ddaw.es/
+sudo mkdir -p /var/www/app2.pedro.ddaw.es/
+sudo mkdir -p /var/www/app3.pedro.ddaw.es/
+sudo chown -R $USER:$USER /var/www/app1.pedro.ddaw.es/
+sudo chown -R $USER:$USER /var/www/app2.pedro.ddaw.es/
+sudo chown -R $USER:$USER /var/www/app3.pedro.ddaw.es/
+sudo chmod -R 755 /var/www/app1.pedro.ddaw.es
+sudo chmod -R 755 /var/www/app2.pedro.ddaw.es
+sudo chmod -R 755 /var/www/app3.pedro.ddaw.es
+nano /var/www/app1.pedro.ddaw.es/index.html
+```
+```
+
+```
