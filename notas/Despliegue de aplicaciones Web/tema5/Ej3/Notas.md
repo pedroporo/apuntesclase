@@ -20,9 +20,9 @@ $TTL    604800
 @       IN      NS      ns2.pedro.ddaw.es.
 ns1     IN      A       100.28.192.202
 ns2     IN      A       100.28.192.202
-app1    IN      A       172.16.224.21
-app2    IN      A       172.16.224.22
-app3    IN      A       172.16.224.23
+app1    IN      A       18.235.170.221
+app2    IN      A       18.235.170.221
+app3    IN      A       18.235.170.221
 @       IN      MX      1 mail.pedro.ddaw.es.
 mail    IN      A       172.16.224.24
 www     IN      CNAME   dev.todo.cipfpbatoi.es
