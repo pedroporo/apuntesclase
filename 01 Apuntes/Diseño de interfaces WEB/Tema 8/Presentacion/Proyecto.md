@@ -6,3 +6,9 @@ Y este se mide en terminos de **Eficiencia**,**Efectividad** y **Satisfacción**
 1. **Indagación**: Entrevistas, cuestionarios y preguntas a usuarios potenciales.
 2. **Inspección**: Análisis realizados por expertos mediante guías de estilo o evaluaciones. No requieren la participación del usuario final.
 3. **Prueba con usuarios**: Observación directa de cómo los usuarios interactúan con el sitio, obteniendo feedback de manera rápida.
+### Objetivos de Usabilidad
+- **Informativos**: Presentan información clara y accesible. La accesibilidad es un requisito fundamental.
+- **Comerciales**: Información sobre productos y servicios corporativos.
+- **Entretenimiento y ocio**: Difíciles de mantener, ya que deben sorprender continuamente al usuario.
+- **Artísticos**: Sitios más creativos que tienden a romper las convenciones.
+- **Colaborativos**: Espacios donde los usuarios contribuyen al contenido.
