@@ -12,3 +12,7 @@ Y este se mide en terminos de **Eficiencia**,**Efectividad** y **Satisfacción**
 - **Entretenimiento y ocio**: Difíciles de mantener, ya que deben sorprender continuamente al usuario.
 - **Artísticos**: Sitios más creativos que tienden a romper las convenciones.
 - **Colaborativos**: Espacios donde los usuarios contribuyen al contenido.
+
+## 1.2 Accesibilidad
+
+La accesibilidad es el acceso universal a la web, independientemente del hardware, software, idioma o discapacidades.
