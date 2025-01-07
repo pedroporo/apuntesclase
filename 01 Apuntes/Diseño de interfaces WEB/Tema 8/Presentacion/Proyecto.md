@@ -32,3 +32,5 @@ El **W3C** proporciona pautas de accesibilidad conocidas como **WCAG**, que se d
 - **Prioridad 1**: Obligatorio para el acceso de ciertos grupos de usuarios, si se cumple esta prioridad se proporciona un nivel de conformidad de A.
 - **Prioridad 2**: Muy recomendado, su incumplimiento dificulta el acceso, si se cumple esta prioridad y las anteriores se proporciona un nivel de conformidad de AA.
 - **Prioridad 3**: Opcional, pero su cumplimiento mejora la experiencia de ciertos usuarios, si se cumple esta prioridad y las anteriores se proporciona un nivel de conformidad de AAA.
+
+# 2. **Análisis de páginas web mal diseñadas**
