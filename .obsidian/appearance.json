@@ -6,9 +6,8 @@
   "enabledCssSnippets": [
     "headings",
     "footnotes",
-    "lists",
-    "properties",
     "Colored Sidebar Items",
-    "01-variables"
+    "01-variables",
+    "properties"
   ]
 }
