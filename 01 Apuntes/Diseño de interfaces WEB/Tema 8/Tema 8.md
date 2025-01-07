@@ -18,7 +18,6 @@ La **usabilidad** y la **accesibilidad** son dos aspectos fundamentales en el di
 
 ---
 ## Usabilidad
-
 ### Definición
 La **usabilidad** se define como la capacidad de un software para ser comprendido, aprendido, usado y atractivo para los usuarios en condiciones específicas de uso. Se mide en términos de:
 - **Eficiencia**: El tiempo que tarda un usuario en completar una tarea.
