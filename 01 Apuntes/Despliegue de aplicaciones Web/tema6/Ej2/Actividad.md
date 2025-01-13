@@ -27,6 +27,10 @@ local     upload-data
 
 #### 2. Activitat 2.- Desplegament de l’aplicació 
 - Executa les passes anteriors i llença 3 contenidors app1, app2 i app3 que estiguen executant l’aplicació i utilitzen el mateix volum per a gestionar les imatges pujades. 
+```
+docker build -t php-apache-upload .
+docker run -d -p 8000:80 -v upload-data:/var/www/html/uploads --name app1 php-apache-upload
+```
 Pega captures de pantalla on es vega:
 	-  El volum creat 
 	-  Els contenidors que estan en marxa 
