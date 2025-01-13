@@ -24,3 +24,11 @@ local     examen-php-pedroporo_persistent
 local     futbol-femeni_sail-mysql
 local     repositori-b-sic-pedroporo_persistent
 local     upload-data
+
+#### 2. Activitat 2.- Desplegament de l’aplicació 
+- Executa les passes anteriors i llença 3 contenidors app1, app2 i app3 que estiguen executant l’aplicació i utilitzen el mateix volum per a gestionar les imatges pujades. 
+Pega captures de pantalla on es vega:
+	-  El volum creat 
+	-  Els contenidors que estan en marxa 
+	-  El accés a les aplicacions de cada contenidor on es vegen totes les imatges. 
+	-  Els logs que demostren que cada contenidor a pujat una imatge
