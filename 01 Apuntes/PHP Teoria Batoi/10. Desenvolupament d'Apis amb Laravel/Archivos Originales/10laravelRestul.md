@@ -24,7 +24,7 @@
 
 
 ## Introducció als serveis REST
-
+![[imagenes/ull.png]]
 [![](imagenes/ull.png)Video](https://youtu.be/ByJ804KuEas)
 
 Una **API** (Application Programming Interface) és un conjunt de funcions i procediments pels quals, una aplicació externa accedeix a les dades, a manera de biblioteca com una capa d'abstracció i la API s'encarrega d'enviar la dada sol·licitada.
@@ -926,13 +926,15 @@ Required @OA\Info() not found
 Això vol dir que primer heu de crear aquesta notació.  Així que afegim-ho.  Prefereixo crear un controlador abstracte per a una API, però podeu afegir això a **app/Http/Controllers/Controller.php**
 
 
-```
+```php
 /**
  * @OA\Info(
- *    title="Your super  ApplicationAPI",
+ *    title="Futbol Femeni API Documentation",
  *    version="1.0.0",
  * )
- */
+ * @OA\PathItem(path="/api")
+*/  
+ 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
@@ -941,7 +943,7 @@ class Controller extends BaseController
 
 A continuació, hem d'afegir documents per a almenys una ruta, per exemple per per app/Http/Controllers/Api/LoginController.php:
 
-```
+```php
 /**
  * @OA\Post(
  * path="/login",
@@ -987,7 +989,7 @@ Ara mirarem les anotacions.  Intentaré explicar com utilitzar-les:
 
 Anem a afegir un codi de resposta 200:
 
-```
+```php
 * 	@OA\Response(
 *     response=200,
 *     description="Success",
@@ -1000,7 +1002,7 @@ Anem a afegir un codi de resposta 200:
 L'anotació **@OA\Property** té una clau de propietat(nom de camp) i un tipus.  El tipus pot tenir valors diferents: string, object, integer, array, boolean, etc.
 En aquesta resposta, vaig utilitzar el tipus objecte.  Podeu passar una referència a aquest objecte.  Crearem un objecte **user**.  Prefereixo afegir això a la classe Model.
 
-```
+```php
 /**
  *
  * @OA\Schema(
@@ -1035,23 +1037,18 @@ El gran problema d'este component és que no està ben documentat. Partint del s
 Primer cal possar l'inici del swagger en el **Controller.php** de la següent manera:
 
 
-```
+```php
 /**
  * @OA\Info(
- *    title="VideoClub ApplicationAPI",
- *    version="1.0.0",
+ *     title="API de Jugadores",
+ *     version="1.0.0",
+ *     description="Documentació de l'API per a gestionar jugadores"
  * )
- */
-
-/**
  * @OA\SecurityScheme(
+ *     securityScheme="bearerAuth",
  *     type="http",
- *     description="Login with email and password to get the authentication token",
- *     name="Token based Based",
- *     in="header",
  *     scheme="bearer",
- *     bearerFormat="JWT",
- *     securityScheme="apiAuth",
+ *     bearerFormat="JWT"
  * )
  */
 ```
@@ -1059,7 +1056,7 @@ La primera part serveix per a identificar el projecte i la segon per a l'autenti
 
 Ara omplirem el **model Movie.php** per a generar el schema Movie.
 
-```
+```php
 /**
  *
  * @OA\Schema(
@@ -1077,7 +1074,7 @@ Observeu que en el genre retorne un string perquè serà el que voldrè retornar
 
 Ara generarè el schema de la petició request del post de movie. No és exactament igual que esta perquè ací voldré el genre amb ID i restriccions en alguns camps. Ho puc fer en el **MoviePost.php** dins de request.
 
-```
+```php
 /**
  * @OA\Schema(
  *      title="Store Movie Request",
@@ -1210,6 +1207,7 @@ Per últim el controlador de movies queda de la següent manera.
      *      tags={"Movies"},
      *      summary="Get list of movies",
      *      description="Returns list of movies",
+     *      security={{"bearerAuth":{}}},
      *      @OA\Response(
      *          response=200,
      *          description="Successful operation",
@@ -1244,7 +1242,7 @@ Per últim el controlador de movies queda de la següent manera.
      *      tags={"Movies"},
      *      summary="Store new movie",
      *      description="Returns movie data",
-     *      security={ {"apiAuth": {} }},
+     *      security={{"bearerAuth":{}}},
      *      @OA\RequestBody(
      *          required=true,
      *          @OA\JsonContent(ref="#/components/schemas/MoviePost")
@@ -1312,37 +1310,38 @@ L'objectiu de l'exercici consisteix a implementar una API REST completa per gest
   
 - Configura el fitxer bootstrap/app.php per tal que els missatges d'errada vinguen en format json:
 
-  ```php
-  return Application::configure(basePath: dirname(__DIR__))
-    ->withRouting(
-        web: __DIR__.'/../routes/web.php',
-        api: __DIR__.'/../routes/api.php',
-        commands: __DIR__.'/../routes/console.php',
-        health: '/up',
-    )
-    ->withMiddleware(function (Middleware $middleware) {
+```php
+return Application::configure(basePath: dirname(__DIR__))
+->withRouting(
+    web: __DIR__.'/../routes/web.php',
+    api: __DIR__.'/../routes/api.php',
+    commands: __DIR__.'/../routes/console.php',
+    health: '/up',
+)
+->withMiddleware(function (Middleware $middleware) {
 
-    })
-    ->withExceptions(function (Exceptions $exceptions) {
-        $exceptions->shouldRenderJsonWhen(function (Request $request, Throwable $e) {
-            return $request->is('api/*') || $request->expectsJson();
-        });
-        $exceptions->render(function (Throwable $e, Request $request) {
-            if ($e instanceof \Illuminate\Validation\ValidationException) {
-                return response()->json([
-                    'message' => 'Dades no vàlides.',
-                    'errors' => $e->errors(),
-                ], 422);
-            }
+})
+->withExceptions(function (Exceptions $exceptions) {
+    $exceptions->render(function (Exception $e, Request $request) {
+        if ($request->is('api/*')) {
+            $statusCode = method_exists($e, 'getStatusCode') ? $e->getStatusCode() : 500;
+            return response()->json([
+                'success' => false,
+                'message' => $e->getMessage(),
+            ], $statusCode);
+        }
+    });
 
-            if ($e instanceof \Illuminate\Auth\AuthenticationException) {
-                return response()->json([
-                    'message' => 'No autenticat.',
-                ], 401);
-            }
-        });
-    })->create();
-  ```
+    $exceptions->render(function (Throwable $e, Request $request) {
+        if ($request->is('api/*')) {
+            return response()->json([
+                'success' => false,
+                'message' => $e->getMessage(),
+            ], 500);
+        }
+    });
+})->create();
+```
 
 ### Pas 2: Controladors i Rutes 
  
@@ -1429,22 +1428,94 @@ class JugadoraController extends BaseController
         return $this->sendResponse($jugadora, 'Jugadora Recuperada amb exit', 201);
     }
 
-    public function update(JugadoraRequest $request, Jugadora $jugadora)
+    public function update(JugadoraRequest $request, Jugadora $jugadore)
     {
-        $jugadora->update($request->validated());
-        return $this->sendResponse($jugadora, 'Jugadora Actualitzada amb exit', 201);
+        $jugadore->update($request->validated());
+        return $this->sendResponse($jugadore, 'Jugadora Actualitzada amb èxit', 201);
     }
 
-    public function destroy(Jugadora $jugadora)
+    public function destroy(Jugadora $jugadore)
     {
-        $jugadora->delete();
+        $jugadore->delete();
         return $this->sendResponse(null, 'Jugadora Eliminada amb exit', 201);
     }
 }
 
 ``` 
+### Pas 3: Resources
 
-### Pas 3: Autenticació i autorització
+- Genera un Recurso per a la Jugadora:
+
+```bash
+php artisan make:resource JugadoraResource
+```
+
+- Implementa el Recurs JugadoraResource:
+
+```php
+namespace App\Http\Resources;
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class JugadoraResource extends JsonResource
+{
+    /**
+     * Transform the resource into an array.
+     *
+     * @return array<string, mixed>
+     */
+    public function toArray(Request $request): array
+    {
+        return [
+            'id' => $this->id,
+            'nom' => $this->nom,
+            'equip' => $this->Equip->nom,
+            'posicio' => $this->posicio,
+            'dorsal' => $this->dorsal,
+            'edat' => $this->edat
+        ];
+    }
+}
+```
+
+- Modifica el controlador JugadoraController per a utilitzar el Recurs JugadoraResource:
+
+```php
+
+    public function index()
+    {
+        return  JugadoraResource::collection(Jugadora::paginate());
+    }
+    
+    public function show(Jugadora $jugadore)
+    {
+        return $this->sendResponse(new JugadoraResource($jugadore), 'Jugadora Recuperada amb èxit', 201);
+    }
+    
+    public function update(JugadoraRequest $request, Jugadora $jugadore)
+    {
+        $jugadore->update($request->validated());
+        return $this->sendResponse($jugadore, 'Jugadora Actualitzada amb èxit', 201);
+    }
+    
+    public function store(JugadoraRequest $request)
+    {
+        $jugadora = Jugadora::create($request->validated());
+        return $this->sendResponse(new JugadoraResource($jugadora), 'Jugadora Creada amb èxit', 201);
+    }
+    
+    public function destroy(Jugadora $jugadore)
+    {
+        $jugadore->delete();
+        return $this->sendResponse(null, 'Jugadora Eliminada amb èxit', 201);
+    }
+```
+    
+
+
+
+### Pas 4: Autenticació i autorització
 
 - Afegir al model User el trait HasApiTokens:
 
@@ -1471,7 +1542,7 @@ Route::middleware(['auth:sanctum','api'])->group( function () {
 });
 ```
 
-- Implementar el controlador   AuthController amb els mètodes login, register i logout:
+- Implementar el controlador AuthController amb els mètodes login, register i logout:
  
 ```php
 namespace App\Http\Controllers\Api;
@@ -1533,7 +1604,7 @@ class AuthController extends BaseController
 
 ```
 
-### Pas 4: Documentació amb Swagger
+### Pas 5: Documentació amb Swagger
 
 - Instal·la el paquet l5-swagger:
 
@@ -1546,10 +1617,18 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
 
 app/Http/Controllers/Controller.php
 ```php
- /**
+/**
  * @OA\Info(
  *    title="Futbol Femeni API Documentation",
  *    version="1.0.0",
+ * )
+ * @OA\PathItem(path="/api")
+**  
+ * @OA\SecurityScheme(
+ *     securityScheme="bearerAuth",
+ *     type="http",
+ *     scheme="bearer",
+ *     bearerFormat="JWT"
  * )
  */
 
@@ -1598,6 +1677,7 @@ app/Http/Controllers/Controller.php
      * )
      */
 ```
+
 - Executa la comanda per generar la documentació:
 
 ```bash
@@ -1606,7 +1686,8 @@ php artisan l5-swagger:generate
 
 - Accedeix a la documentació a través de la URL configurada en **config/l5-swagger.php** (per defecte /api/documentation).
 - Genera les annotacions per al model de Jugadora.
- ```php
+
+```php
   /**
 * @OA\Schema(
 *     schema="Jugadora",
@@ -1623,6 +1704,7 @@ php artisan l5-swagger:generate
 * )
   */
 ```
+
 - Genera les annotacions per al request
 
 ```php
@@ -1657,7 +1739,24 @@ php artisan l5-swagger:generate
  * )
  */
 ```
- 
+
+- Genera les annotacions per al json resource
+    
+```php
+  /**
+* @OA\Schema(
+*     schema="JugadoraResource",
+*     description="Esquema del recurs Jugadora",
+*     @OA\Property(property="id", type="integer", description="Identificador de la jugadora"),
+*     @OA\Property(property="nom", type="string", description="Nom de la jugadora"),
+*     @OA\Property(property="equip", type="string", description="Nom de l'equip de la jugadora"),
+*     @OA\Property(property="posicio", type="string", enum={"defensa", "migcampista", "davantera", "porter"}, description="Posició de la jugadora"),
+*     @OA\Property(property="dorsal", type="integer", description="Dorsal de la jugadora"),
+*     @OA\Property(property="edat", type="integer", description="Edat de la jugadora"),
+* )
+  */
+```
+
 - Genera les annotacions per a la resta de mètodes de l'API.
 
 ```php
@@ -1668,34 +1767,51 @@ use App\Models\Jugadora;
 
 class JugadoraController extends BaseController
 {
-/**
-* @OA\Get(
-*     path="/api/jugadores",
-*     summary="Llista totes les jugadores",
-*     tags={"Jugadores"},
-*     @OA\Response(
-*         response=200,
-*         description="Llista de jugadores",
-*         @OA\JsonContent(
-*             @OA\Property(property="data", type="array",
-*                 @OA\Items(ref="#/components/schemas/Jugadora")
-*             ),
-*             @OA\Property(property="links", type="object"),
-*             @OA\Property(property="meta", type="object")
-*         )
-*     )
-* )
-*/
-public function index()
-{
-return Jugadora::paginate(10);
-}
+
+    /**
+     * @OA\Get(
+     *     path="/api/jugadores",
+     *     summary="Llista totes les jugadores amb paginació",
+     *     tags={"Jugadores"},
+     *     security={{"bearerAuth":{}}},
+     *     @OA\Response(
+     *         response=200,
+     *         description="Llista de jugadores",
+     *         @OA\JsonContent(
+     *             @OA\Property(property="data", type="array",
+     *                 @OA\Items(ref="#/components/schemas/JugadoraResource")
+     *             ),
+     *             @OA\Property(property="links", type="object",
+     *                 @OA\Property(property="first", type="string", example="http://localhost/api/jugadores?page=1"),
+     *                 @OA\Property(property="last", type="string", example="http://localhost/api/jugadores?page=3"),
+     *                 @OA\Property(property="prev", type="string", example="null"),
+     *                 @OA\Property(property="next", type="string", example="http://localhost/api/jugadores?page=2")
+     *             ),
+     *             @OA\Property(property="meta", type="object",
+     *                 @OA\Property(property="current_page", type="integer", example=1),
+     *                 @OA\Property(property="from", type="integer", example=1),
+     *                 @OA\Property(property="last_page", type="integer", example=3),
+     *                 @OA\Property(property="path", type="string", example="http://localhost/api/jugadores"),
+     *                 @OA\Property(property="per_page", type="integer", example=15),
+     *                 @OA\Property(property="to", type="integer", example=15),
+     *                 @OA\Property(property="total", type="integer", example=45)
+     *             )
+     *         )
+     *     )
+     * )
+     */
+     
+    public function index()
+    {
+        return Jugadora::paginate(10);
+    }
 
     /**
      * @OA\Post(
      *     path="/api/jugadores",
      *     summary="Crea una nova jugadora",
      *     tags={"Jugadores"},
+     *     security={{"bearerAuth":{}}},
      *     @OA\RequestBody(
      *         required=true,
      *         @OA\JsonContent(ref="#/components/schemas/JugadoraRequest")
@@ -1703,7 +1819,7 @@ return Jugadora::paginate(10);
      *     @OA\Response(
      *         response=201,
      *         description="Jugadora creada amb èxit",
-     *         @OA\JsonContent(ref="#/components/schemas/Jugadora")
+     *         @OA\JsonContent(ref="#/components/schemas/JugadoraResource")
      *     )
      * )
      */
@@ -1718,6 +1834,7 @@ return Jugadora::paginate(10);
      *     path="/api/jugadores/{id}",
      *     summary="Mostra una jugadora",
      *     tags={"Jugadores"},
+     *     security={{"bearerAuth":{}}},
      *     @OA\Parameter(
      *         name="id",
      *         in="path",
@@ -1728,10 +1845,11 @@ return Jugadora::paginate(10);
      *     @OA\Response(
      *         response=200,
      *         description="Jugadora recuperada amb èxit",
-     *         @OA\JsonContent(ref="#/components/schemas/Jugadora")
+     *         @OA\JsonContent(ref="#/components/schemas/JugadoraResource")
      *     )
      * )
      */
+     
     public function show(Jugadora $jugadora)
     {
         return $this->sendResponse($jugadora, 'Jugadora Recuperada amb èxit', 201);
@@ -1742,6 +1860,7 @@ return Jugadora::paginate(10);
      *     path="/api/jugadores/{id}",
      *     summary="Actualitza una jugadora",
      *     tags={"Jugadores"},
+     *     security={{"bearerAuth":{}}},
      *     @OA\Parameter(
      *         name="id",
      *         in="path",
@@ -1756,10 +1875,11 @@ return Jugadora::paginate(10);
      *     @OA\Response(
      *         response=200,
      *         description="Jugadora actualitzada amb èxit",
-     *         @OA\JsonContent(ref="#/components/schemas/Jugadora")
+     *         @OA\JsonContent(ref="#/components/schemas/JugadoraResource")
      *     )
      * )
      */
+     
     public function update(JugadoraRequest $request, Jugadora $jugadora)
     {
         $jugadora->update($request->validated());
@@ -1771,6 +1891,7 @@ return Jugadora::paginate(10);
      *     path="/api/jugadores/{id}",
      *     summary="Elimina una jugadora",
      *     tags={"Jugadores"},
+     *     security={{"bearerAuth":{}}}, 
      *     @OA\Parameter(
      *         name="id",
      *         in="path",
@@ -1784,6 +1905,7 @@ return Jugadora::paginate(10);
      *     )
      * )
      */
+     
     public function destroy(Jugadora $jugadora)
     {
         $jugadora->delete();
