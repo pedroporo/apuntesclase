@@ -24,7 +24,6 @@
 
 
 ## Introducció als serveis REST
-![[imagenes/ull.png]]
 [![](imagenes/ull.png)Video](https://youtu.be/ByJ804KuEas)
 
 Una **API** (Application Programming Interface) és un conjunt de funcions i procediments pels quals, una aplicació externa accedeix a les dades, a manera de biblioteca com una capa d'abstracció i la API s'encarrega d'enviar la dada sol·licitada.
