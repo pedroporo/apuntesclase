@@ -1,3 +1,8 @@
+---  
+`css-style: "/my_css.css"`  
+---
+
+
 <style>
     img { margin: 20px 0; border-radius: 8px; }
 
