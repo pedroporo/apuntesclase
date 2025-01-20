@@ -43,4 +43,6 @@ Estableze el nuevo dueño de la carpeta /var/www/html de forma recursiva del con
 
 ## [[SA6AAQ62.-Containeritzacio-app-amb-servici-ldap.pdf#page=8&selection=16,0,18,1|Actividad 3]]
 - Crea una unitat organitzativa anomenada "usuaris" i crea un usuari per cada membre del grup que esteu fent la pràctica. Per això hauràs de: 
-	 Crear la OU usuaris • Crear un Grup Posix anomenat ‘default’ que pertanya a la organització (això hem de fer-ho perqué l’esquema per defecte d’usuaris té el atribut gid definit com a requerit • Crear els usuaris associats al grup POSIX i amb el shell "No login"
+	- Crear la OU usuaris 
+	-  Crear un Grup Posix anomenat ‘default’ que pertanya a la organització (això hem de fer-ho perqué l’esquema per defecte d’usuaris té el atribut gid definit com a requerit 
+	- Crear els usuaris associats al grup POSIX i amb el shell "No login"
