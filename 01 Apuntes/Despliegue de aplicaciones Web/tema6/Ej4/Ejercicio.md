@@ -35,4 +35,12 @@ Usa la imagen php y version 8.2-apache
 - RUN apt-get update && apt-get install -y libldap2-dev && docker-php-ext-configure ldap --with-libdir=lib/x86_64-linux-gnu && docker-php-ext-install ldap
 Ejecuta los comandos para instalar lo necesario de LDAP
 - RUN a2enmod rewrite
-Activa el modulo rewrite 
+Activa el modulo rewrite de apache
+- COPY ./web /var/www/html
+Copia el contenido de la carpeta web a la carpeta html del contenedor
+- RUN chown -R www-data:www-data /var/www/html
+Estableze el nuevo dueño de la carpeta /var/www/html de forma recursiva del contenedor
+
+## [[SA6AAQ62.-Containeritzacio-app-amb-servici-ldap.pdf#page=8&selection=16,0,18,1|Actividad 3]]
+- Crea una unitat organitzativa anomenada "usuaris" i crea un usuari per cada membre del grup que esteu fent la pràctica. Per això hauràs de: 
+	 Crear la OU usuaris • Crear un Grup Posix anomenat ‘default’ que pertanya a la organització (això hem de fer-ho perqué l’esquema per defecte d’usuaris té el atribut gid definit com a requerit • Crear els usuaris associats al grup POSIX i amb el shell "No login"
