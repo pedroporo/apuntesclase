@@ -48,5 +48,13 @@ Estableze el nuevo dueño de la carpeta /var/www/html de forma recursiva del con
 	
 	-  Crear un Grup Posix anomenat ‘default’ que pertanya a la organització (això hem de fer-ho perqué l’esquema per defecte d’usuaris té el atribut gid definit com a requerit 
 	
-	
+	![[Pasted image 20250120171805.png]]
 	- Crear els usuaris associats al grup POSIX i amb el shell "No login"
+	![[Pasted image 20250120171947.png]]
+
+## [[SA6AAQ62.-Containeritzacio-app-amb-servici-ldap.pdf#page=9&selection=0,0,2,1|Actividad4]]
+### 4.1 Modifica els arxius de configuració de l’arquitectura per a que el servidor LDAP faça ús d’una contrasenya segura per a l’administrador per a la connexió del administrador i la organització base siga "ddaw.com".
+
+### 4.2. Modifica l’aplicació web per a que mostre la informació del usuaris en format tabla.
+### 4.3. Explica el procés que seguiries per a autenticar els usuaris fent ús del servici LDAP que acabes de configurar.
+### 4.4. ¿Com podem donar d’alta els rol que té cada usuari? Busca informació al respecte
