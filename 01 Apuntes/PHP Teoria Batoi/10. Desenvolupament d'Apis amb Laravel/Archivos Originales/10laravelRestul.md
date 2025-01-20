@@ -1,6 +1,7 @@
----  
-`css-style: "/my_css.css"`  
 ---
+css-style: .obsidian/snippets/testTemas/my_css.css
+---
+
 
 
 <style>
