@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # La _Composition API_ de Vue3
 - [La _Composition API_ de Vue3](#la-composition-api-de-vue3)
   - [Introducción](#introducción)

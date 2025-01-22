@@ -54,8 +54,16 @@ Estableze el nuevo dueño de la carpeta /var/www/html de forma recursiva del con
 
 ## [[SA6AAQ62.-Containeritzacio-app-amb-servici-ldap.pdf#page=9&selection=0,0,2,1|Actividad4]]
 ### 4.1 Modifica els arxius de configuració de l’arquitectura per a que el servidor LDAP faça ús d’una contrasenya segura per a l’administrador per a la connexió del administrador i la organització base siga "ddaw.com".
-
+`LDAP_ADMIN_PASSWORD: "Admin_Password@#"`
 ### 4.2. Modifica l’aplicació web per a que mostre la informació del usuaris en format tabla.
 ![[Pasted image 20250120173030.png]]
 ### 4.3. Explica el procés que seguiries per a autenticar els usuaris fent ús del servici LDAP que acabes de configurar.
+Cuando se quiera logear pillaría del ldap el usuario y su hash de contraseña, luego comprobaría el hash con la ccontraseña introducida en el form y si coinciden lo dejo pasar, si no le pido que intente de nuevo.
+
+```
+var_dump(bin2hex(base64_decode('gdyb21LQTcIANtvYMT7QVQ=='))==md5('1234')) ;
+```
+
 ### 4.4. ¿Com podem donar d’alta els rol que té cada usuari? Busca informació al respecte
+Vas a crear un hijo y que sea Organisational Role, le das un nombre y le asignas un usuario
+![[Pasted image 20250122152602.png]]

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Testear nuestros componentes
 La librería que incluye Vue para testear las aplicaciones el **vue-test_utils** que proporciona herramientas para montar e interactuar con componentes. Para los tests unitarios usaremos [_Jest_](https://jestjs.io/).
 

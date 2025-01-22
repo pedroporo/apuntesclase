@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Typescript
 - [Typescript](#typescript)
   - [Introducción](#introducción)

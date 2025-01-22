@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Pinia
 Tabla de contenidos
 - [Pinia](#pinia)

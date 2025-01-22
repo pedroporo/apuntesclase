@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Conceptos básicos
 - [Conceptos básicos](#conceptos-básicos)
   - [Introducción](#introducción)
