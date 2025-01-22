@@ -59,7 +59,7 @@ Estableze el nuevo dueño de la carpeta /var/www/html de forma recursiva del con
 ![[Pasted image 20250120173030.png]]
 ### 4.3. Explica el procés que seguiries per a autenticar els usuaris fent ús del servici LDAP que acabes de configurar.
 Cuando se quiera logear pillaría del ldap el usuario y su hash de contraseña, luego comprobaría el hash con la contraseña introducida en el form y si coinciden lo dejo pasar, si no le pido que intente de nuevo.
-Cuando recivas la contraseña, lo que se hara es buscar en los usuarios alguno con ese nombre, luego se pillara la id y se buscara el la contraseña del usuario de ldap (la cual estara en base64), usaremos un if con la funcion de php bin2hex y dentro de esa funcion estara un base64_decode con la contraseña del ldap y lo compararemos que sea igual
+Cuando recivas la contraseña, lo que se hara es buscar en los usuarios alguno con ese nombre, luego se pillara la id y se buscara el la contraseña del usuario de ldap (la cual estara en base64), usaremos un if con la funcion de php bin2hex y dentro de esa funcion estara un base64_decode con la contraseña del ldap y lo compararemos que sea igual al input de la contraseña introducida en el login dentro de un metodo md5, si estas dos coinciden se le dejara pasar, sino se le volveria a pedir el login.
 
 ```
 var_dump(bin2hex(base64_decode('gdyb21LQTcIANtvYMT7QVQ=='))==md5('1234')) ;
