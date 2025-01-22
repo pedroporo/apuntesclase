@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Componentes en Vue
 - [Componentes en Vue](#componentes-en-vue)
   - [Introducción](#introducción)

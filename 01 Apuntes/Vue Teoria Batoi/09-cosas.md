@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Siguientes cosas a aprender en Vue
 Algunas cosas interesantes que nos pueden ser útiles en nuestros proyectos son:
 - [Siguientes cosas a aprender en Vue](#siguientes-cosas-a-aprender-en-vue)

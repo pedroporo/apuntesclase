@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Desarrollo guiado por pruebas (TDD)
 Es una forma de programar que consiste en escribir primero las pruebas que deba pasar el código (Test Dirve Development) y después refactorizarlo ([Refactoring](https://es.wikipedia.org/wiki/Refactorizaci%C3%B3n)). Para escribir las pruebas generalmente se utilizan las [pruebas unitarias](https://es.wikipedia.org/wiki/Prueba_unitaria) (unit test en inglés). 
 

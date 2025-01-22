@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Vue-router
 
 - [Vue-router](#vue-router)

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Directivas en Vue
 - [Directivas en Vue](#directivas-en-vue)
   - [Directivas básicas](#directivas-básicas)

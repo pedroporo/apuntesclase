@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Profundizando en Vue
 Tabla de contenidos
 - [Profundizando en Vue](#profundizando-en-vue)

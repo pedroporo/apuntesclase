@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Comunicación entre componentes
 - [Comunicación entre componentes](#comunicación-entre-componentes)
   - [Introducción](#introducción)

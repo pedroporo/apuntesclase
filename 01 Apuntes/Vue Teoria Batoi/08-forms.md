@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Formularios en Vue
 - [Formularios en Vue](#formularios-en-vue)
 - [Introducción](#introducción)
