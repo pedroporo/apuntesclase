@@ -1,3 +1,8 @@
+---
+tags:
+  - PHP
+dg-publish: true
+---
 # Desenvolupament Web en Entorn Servidor
 
 Ací pots trobar les anotacions del mòdul de *Desenvolupament web en entorn servidor*, que s'imparteix en el segon curs del cicle formatiu de grau superior de Desenvolupament d'Aplicacions Web.
