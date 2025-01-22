@@ -2,7 +2,6 @@
 dg-publish: true
 tags:
   - PHP
-tema: "2"
 ---
 # El llenguatge PHP
 
