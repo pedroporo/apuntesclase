@@ -59,3 +59,5 @@ Estableze el nuevo dueño de la carpeta /var/www/html de forma recursiva del con
 ![[Pasted image 20250120173030.png]]
 ### 4.3. Explica el procés que seguiries per a autenticar els usuaris fent ús del servici LDAP que acabes de configurar.
 ### 4.4. ¿Com podem donar d’alta els rol que té cada usuari? Busca informació al respecte
+Vas a crear un hijo y que sea Organisational Role, le das un nombre y le asignas un usuario
+![[Pasted image 20250122152602.png]]
