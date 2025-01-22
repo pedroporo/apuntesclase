@@ -1,5 +1,7 @@
 ---
 dg-publish: true
+tags:
+  - PHP
 ---
 # Desenvolupament d'Aplicacions Web: POO, Separació de Lògica i Presentació, Gestió d'Errors i Proves
 
