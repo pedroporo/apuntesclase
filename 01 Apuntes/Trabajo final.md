@@ -15,4 +15,11 @@ Info usuario
 		- Azul: No planificadas
 		- Verde: Planificadas
 		- Amarillo: Los dos tipos
-	- Hoja de inciden
+	- Hoja de incidencias
+		- Descripcion
+		- fecha
+		- hora
+	- Descripccion de llamada:
+		- Descripccion
+		- Fecha
+		- Hora
