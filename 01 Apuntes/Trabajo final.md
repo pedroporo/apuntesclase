@@ -9,5 +9,5 @@ Info usuario
 - Datos del usuario
 - Llamadas que hacemos nosotros
 	- Emejercia o no emerjencio
-		- Segu
+		- Depende a la que le clickes te sale las llamadas de esa categoria
 - Llamadas de ellos
