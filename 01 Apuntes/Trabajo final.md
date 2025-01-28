@@ -3,8 +3,9 @@ dar de alta:
 - Altas
 - Bajas
 - Modificaciones
-- Usuarios
+- Usuarios: Todos
 	- Si lcick perfil
+- Agenda del teleoperador (Solo usuarios(paciente) asignados)
 Info usuario
 - Datos del usuario
 - Llamadas que hacemos nosotros
