@@ -5,7 +5,7 @@ dar de alta:
 - Modificaciones
 - Usuarios: Todos
 	- Si lcick perfil
-- Agenda del teleoperador (Solo usuarios(paciente) asignados)
+- Agenda del teleoperador (Solo usuarios(paciente) asignados)(Llamada nosotros)
 Info usuario
 - Datos del usuario
 - Llamadas que hacemos nosotros
@@ -24,3 +24,8 @@ Info usuario
 		- Descripccion
 		- Fecha
 		- Hora
+
+Tipos de usuarios
+- Teleoperador
+- Paciente
+- CoordiandorTeleoperador(Administrador)
