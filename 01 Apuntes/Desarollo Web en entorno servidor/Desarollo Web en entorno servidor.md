@@ -20,6 +20,10 @@ php artisan make:middleware RoleMiddleware
 php artisan make:policy PatientPolicy --model=Patient
 php artisan make:request PatientRequest
 php artisan make:resource PatientResource
+
+
+php artisan make:controller Api/JugadoraController --api --model=Jugadora
+
 ```
 Ejecutar los comandos de db `php artisan migrate:fresh --seed`
 
