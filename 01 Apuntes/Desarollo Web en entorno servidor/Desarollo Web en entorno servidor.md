@@ -11,6 +11,7 @@ php artisan route:list
 php artisan make:resource JugadoraResource
 php artisan make:component Pacient
 php artisan make:model Pacient
+php artisan make:seeder ZoneSeeder
 
 php artisan make:migration add_role_to_users_table --table=users
 php artisan make:middleware RoleMiddleware
