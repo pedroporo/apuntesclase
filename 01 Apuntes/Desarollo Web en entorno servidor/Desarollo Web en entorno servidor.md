@@ -28,3 +28,29 @@ php artisan make:controller Api/JugadoraController --api --model=Jugadora
 Ejecutar los comandos de db `php artisan migrate:fresh --seed`
 
 
+```
+php artisan make:resource ContactResource
+php artisan make:component Contact
+php artisan make:model Contact
+php artisan make:seeder ContactSeeder
+php artisan make:factory ContactFactory -m Contact
+php artisan make:migration create_table_contacts --create=contacts
+php artisan make:policy ContactPolicy --model=Contact
+php artisan make:request ContactRequest
+php artisan make:resource ContactResource
+php artisan make:controller Api/ContactController --api --model=Contact
+
+
+
+
+
+
+
+
+
+php artisan make:controller Api/ContactController --api --model=Contact
+php artisan make:controller Api/CallController --api --model=Call
+php artisan make:controller Api/AlertController --api --model=Alert
+php artisan make:controller Api/OperatorController --api --model=User
+php artisan make:controller Api/ReportController --api --model=Report
+```
