@@ -53,4 +53,5 @@ php artisan make:controller Api/CallController --api --model=Call
 php artisan make:controller Api/AlertController --api --model=Alert
 php artisan make:controller Api/OperatorController --api --model=User
 php artisan make:controller Api/ReportController --api --model=Report
+
 ```
