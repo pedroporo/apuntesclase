@@ -91,10 +91,10 @@ php artisan make:controller Api/AlertController --api --model=Alert
 php artisan make:controller Api/OperatorController --api --model=User
 php artisan make:controller Api/ReportController --api --model=Report
 
-php artisan make:resource UserResource
 php artisan make:component User
+
+php artisan make:resource UserResource
 php artisan make:policy UserPolicy --model=User
-php artisan make:request UserRequest
 
 
 ```
