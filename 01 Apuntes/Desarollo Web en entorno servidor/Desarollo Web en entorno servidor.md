@@ -48,11 +48,6 @@ php artisan make:controller Api/ContactController --api --model=Contact
 
 
 
-php artisan make:controller Api/ContactController --api --model=Contact
-php artisan make:controller Api/CallController --api --model=Call
-php artisan make:controller Api/AlertController --api --model=Alert
-php artisan make:controller Api/OperatorController --api --model=User
-php artisan make:controller Api/ReportController --api --model=Report
 
 php artisan make:resource ContactResource
 php artisan make:component Contact
@@ -78,6 +73,22 @@ php artisan make:model Alert
 php artisan make:seeder AlertSeeder
 php artisan make:factory AlertFactory -m Alert
 php artisan make:migration create_table_alerts --create=alerts
-php artisan make:policy CallPolicy --model=Call
-php artisan make:request CallRequest
+php artisan make:policy AlertPolicy --model=Alert
+php artisan make:request AlertRequest
+
+php artisan make:resource ReportResource
+php artisan make:component Report
+php artisan make:model Report
+php artisan make:seeder ReportSeeder
+php artisan make:factory ReportFactory -m Report
+php artisan make:migration create_table_reports --create=reports
+php artisan make:policy ReportPolicy --model=Report
+php artisan make:request ReportRequest
+
+php artisan make:controller Api/ContactController --api --model=Contact
+php artisan make:controller Api/CallController --api --model=Call
+php artisan make:controller Api/AlertController --api --model=Alert
+php artisan make:controller Api/OperatorController --api --model=User
+php artisan make:controller Api/ReportController --api --model=Report
+
 ```
