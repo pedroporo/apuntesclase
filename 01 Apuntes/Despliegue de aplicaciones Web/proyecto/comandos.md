@@ -7,7 +7,7 @@ sudo apt install acl -y
 
 sudo apt install composer -y
 
-sudo apt -y install libapache2-mod-php php-{mbstring,xmlrpc,soap,gd,xml,curl,zip,cli,bcmath,tokenizer,json,pear,mysql}
+sudo apt -y install libapache2-mod-php php8.4-{mbstring,xmlrpc,soap,gd,xml,curl,zip,cli,bcmath,tokenizer,json,pear,mysql}
 
 
 sudo ln -s /etc/nginx/sites-available/api /etc/nginx/sites-enabled/
