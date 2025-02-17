@@ -5,9 +5,14 @@ sudo mkdir /var/www/api -p
 sudo chown deployer:www-data /var/www/api
 sudo apt install acl -y
 
-sudo ln -s /etc/nginx/sites-available/futbolfem.cipfpbatoi.es /etc/nginx/sites-enabled/
+sudo apt install composer -y
+
+sudo apt -y install libapache2-mod-php php-{mbstring,xmlrpc,soap,gd,xml,curl,zip,cli,bcmath,tokenizer,json,pear,mysql}
+
+
+sudo ln -s /etc/nginx/sites-available/api /etc/nginx/sites-enabled/
 sudo cp /etc/php/8.3/fpm/pool.d/002-es-cipfpbatoi-todo-dev.conf /etc/php/8.3/fpm/pool.d/futbolfem.cipfpbatoi.es.conf
 
-CREATE DATABASE laravel1;
-GRANT ALL PRIVILEGES ON laravel1.* TO 'pedro'@'localhost';
+CREATE DATABASE laravel;
+GRANT ALL PRIVILEGES ON laravel.* TO 'sail'@'localhost';
 ```
