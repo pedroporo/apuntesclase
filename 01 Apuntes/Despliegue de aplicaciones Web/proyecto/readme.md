@@ -35,7 +35,7 @@ Listado de usuarios que ha contribuido en la realización (Incluir foto en forma
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/pedroporo"><img src="https://avatars.githubusercontent.com/u/64787177?v=4?s=100" width="100px;" alt="pedroporo1000"/><br /><sub><b>pedroporo1000</b></sub></a><br /></td>
-    
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/Kokon4"><img src="https://avatars.githubusercontent.com/u/91149924?v=4?s=100" width="100px;" alt="Kokon4"/><br /><sub><b>Kokon4</b></sub></a><br /></td>
     </tr>
 
   </tbody>
