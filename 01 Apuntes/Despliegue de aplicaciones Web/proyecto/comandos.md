@@ -18,6 +18,6 @@ GRANT ALL PRIVILEGES ON laravel.* TO 'sail'@'localhost';
 ```
 
 ```
-projecte1 IN NS ns1.projecte1.ddaw.es. 
-ns1.projecte1 IN A 100.28.192.202
+projectegroup1 IN NS ns1.projectegroup1.ddaw.es. 
+ns1.projectegroup1 IN A 95.19.106.4
 ```
