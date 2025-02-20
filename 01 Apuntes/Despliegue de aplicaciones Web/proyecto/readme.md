@@ -25,6 +25,7 @@ Cualquier contribución al proyecto deberá seguir las siguientes [normas de con
 ## Documentación de desarrollo
 Enlace a la wiki / páginas con la documentación del proyecto
 Ejemplos https://github.com/mroutis/GitHub-Simple#documentaci%C3%B3n
+
 ## Lista de Contribuidores
 Listado de usuarios que ha contribuido en la realización (Incluir foto en formato tabla)
 
@@ -40,6 +41,7 @@ Listado de usuarios que ha contribuido en la realización (Incluir foto en forma
 
   </tbody>
 </table>
+
 ## Inspiración
 Este proyecto se desarrolla como respuesta a la crisis del COVID-19 y esta inspirado en la 
 cita previa de la ITV
