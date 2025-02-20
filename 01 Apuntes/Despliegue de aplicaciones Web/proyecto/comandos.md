@@ -16,3 +16,8 @@ sudo cp /etc/php/8.3/fpm/pool.d/002-es-cipfpbatoi-todo-dev.conf /etc/php/8.3/fpm
 CREATE DATABASE laravel;
 GRANT ALL PRIVILEGES ON laravel.* TO 'sail'@'localhost';
 ```
+
+```
+projecte1 IN NS ns1.projecte1.ddaw.es. 
+ns1.projecte1 IN A 100.28.192.202
+```
