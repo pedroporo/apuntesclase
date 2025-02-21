@@ -15,9 +15,12 @@ Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
 7. [Inspiración](#inspiración)
 8. [Licencia](#licencia)
 ## Tecnologías utilizadas
-Laravel ,php,
+Laravel
 ## Puesta en Marcha
 Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los entornos que hayamos definido
+
+### <font color="#2DC26B">Requisitos</font>
+4 GB de ram
 ## Entornos
 Enlaces a entornos de producción, staging, desarrollo (si existen)
 ## Guía de Contribución 
