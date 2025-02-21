@@ -22,7 +22,10 @@ Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los 
 ### <font color="#2DC26B">Requisitos</font>
 - [Docker](https://www.docker.com/)
 - [Docker compose](https://getcomposer.org/download/)
-- Laravel
+- [Laravel](https://laravel.com/docs/11.x/installation)
+### <font color="#2DC26B">Puesta en marcha (comandos)</font>
+1. `git clone https://github.com/pedroporo/Backend_DAW_ProyectoFinal`
+
 ## Entornos
 Enlaces a entornos de producción, staging, desarrollo (si existen)
 ## Guía de Contribución 
