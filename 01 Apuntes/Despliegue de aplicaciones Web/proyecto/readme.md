@@ -30,7 +30,7 @@ Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los 
 4. `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
 5. `sail up -d`
 ## Entornos
-Enlaces a entornos de producción, staging, desarrollo (si existen)
+null
 ## Guía de Contribución 
 Cualquier contribución al proyecto deberá seguir las siguientes [normas de contribución](CONTRIBUTING.md).
 ## Documentación de desarrollo
