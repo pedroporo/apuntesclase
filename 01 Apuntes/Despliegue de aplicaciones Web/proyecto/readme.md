@@ -20,7 +20,8 @@ Laravel
 Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los entornos que hayamos definido
 
 ### <font color="#2DC26B">Requisitos</font>
-4 GB de ram
+- [Docker](https://www.docker.com/)
+- [Docker compose](https://getcomposer.org/download/)
 ## Entornos
 Enlaces a entornos de producción, staging, desarrollo (si existen)
 ## Guía de Contribución 
