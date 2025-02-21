@@ -15,7 +15,7 @@ Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
 7. [Inspiración](#inspiración)
 8. [Licencia](#licencia)
 ## Tecnologías utilizadas
-Descripción de las tecnologías utilizadas para la construcción de proyecto
+Laravel ,php,
 ## Puesta en Marcha
 Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los entornos que hayamos definido
 ## Entornos
