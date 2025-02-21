@@ -22,6 +22,7 @@ Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los 
 ### <font color="#2DC26B">Requisitos</font>
 - [Docker](https://www.docker.com/)
 - [Docker compose](https://getcomposer.org/download/)
+- Laravel
 ## Entornos
 Enlaces a entornos de producción, staging, desarrollo (si existen)
 ## Guía de Contribución 
