@@ -24,8 +24,11 @@ Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los 
 - [Docker compose](https://getcomposer.org/download/)
 - [Laravel](https://laravel.com/docs/11.x/installation)
 ### <font color="#2DC26B">Puesta en marcha (comandos)</font>
-1. `git clone https://github.com/pedroporo/Backend_DAW_ProyectoFinal`
-
+1. `cd /destino/del/proyecto/`
+2. `git clone https://github.com/pedroporo/Backend_DAW_ProyectoFinal`
+3. `composer install --optimize-autoloader --no-progress --no-interaction --prefer-dist`
+4. `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
+5. `sail up -d`
 ## Entornos
 Enlaces a entornos de producción, staging, desarrollo (si existen)
 ## Guía de Contribución 
@@ -49,7 +52,9 @@ Listado de usuarios que ha contribuido en la realización (Incluir foto en forma
 
   </tbody>
 </table>
-
+<a href="https://github.com/pedroporo/Frontend_DAW_ProyectoFinal/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pedroporo/Frontend_DAW_ProyectoFinal" />
+</a>
 ## Inspiración
 Este proyecto se desarrolla como respuesta a la crisis del COVID-19 y esta inspirado en la 
 cita previa de la ITV
