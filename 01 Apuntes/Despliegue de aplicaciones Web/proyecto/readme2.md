@@ -2,7 +2,7 @@
 
 # Descripción
 PacienteZ es un proyecto de código abierto diseñado para desarrollar una aplicación de teleasistencia integral para pacientes, especialmente aquellos que requieren atención domiciliaria. El objetivo principal es mejorar la calidad de vida de los usuarios mediante una interacción sencilla y accesible.
-<sub>odio mi vida, porque quise hacer los redme</sub>
+
 # Tabla de Contenidos
 1. [Tecnologías utilizadas](#built-with)
 2. [Puesta en marcha](#puesta-en-marcha)
@@ -52,7 +52,7 @@ Listado de usuarios que ha contribuido en la realización (Incluir foto en forma
 
   </tbody>
 </table>
-
+<sub>quiero llorar, github no pilla las contribuciones de ivana</sub>
 ## Inspiración
 La inspiración para un proyecto de teleasistencia como el que estás desarrollando puede provenir de varias fuentes y necesidades sociales actuales:
 
