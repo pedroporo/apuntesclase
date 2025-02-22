@@ -1,4 +1,4 @@
-# Proyecto Frontend de paciente Z
+# Proyecto <font color="#3f3f3f">Frontend</font> <font color="#ff0000">Paciente Z</font>
 
 # Descripción
 PacienteZ es un proyecto de código abierto diseñado para desarrollar una aplicación de teleasistencia integral para pacientes, especialmente aquellos que requieren atención domiciliaria. El objetivo principal es mejorar la calidad de vida de los usuarios mediante una interacción sencilla y accesible.
