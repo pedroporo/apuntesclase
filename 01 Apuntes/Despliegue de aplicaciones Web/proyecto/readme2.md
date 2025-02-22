@@ -20,6 +20,7 @@ Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los 
 ### <font color="#2DC26B">Requisitos</font>
 
 ### <font color="#2DC26B">Puesta en marcha (comandos)</font>
+1. `npm install`
 
 
 ## Entornos

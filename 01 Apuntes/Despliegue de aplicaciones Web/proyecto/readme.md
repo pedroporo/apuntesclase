@@ -1,4 +1,4 @@
-# Proyecto Backend de paciente Z
+# Proyecto <font color="#3f3f3f">Backend</font> <font color="#ff0000">Paciente Z</font>
 
 # Descripción
 Pacientez es un proyecto de código abierto diseñado para desarrollar una aplicación de teleasistencia integral para pacientes, especialmente aquellos que requieren atención domiciliaria. El objetivo principal es mejorar la calidad de vida de los usuarios mediante una interacción sencilla y accesible.
@@ -35,7 +35,7 @@ null
 Cualquier contribución al proyecto deberá seguir las siguientes [normas de contribución](CONTRIBUTING.md).
 ## Documentación de desarrollo
 Enlace a la wiki / páginas con la documentación del proyecto
-Ejemplos https://github.com/pedroporo/Backend_DAW_ProyectoFinal/wiki
+Ejemplos https://github.com/pedroporo/Frontend_DAW_ProyectoFinal/wiki
 
 ## Lista de Contribuidores
 Listado de usuarios que ha contribuido en la realización (Incluir foto en formato tabla)
@@ -52,9 +52,7 @@ Listado de usuarios que ha contribuido en la realización (Incluir foto en forma
 
   </tbody>
 </table>
-<a href="https://github.com/pedroporo/Frontend_DAW_ProyectoFinal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pedroporo/Frontend_DAW_ProyectoFinal" />
-</a>
+
 ## Inspiración
 La inspiración para un proyecto de teleasistencia como el que estás desarrollando puede provenir de varias fuentes y necesidades sociales actuales:
 
@@ -64,7 +62,5 @@ La inspiración para un proyecto de teleasistencia como el que estás desarrolla
 4. **Expectativas de los Consumidores de Servicios Sanitarios**: La demanda de opciones más personalizadas y accesibles en el cuidado de la salud está impulsando la innovación en teleasistencia, permitiendo a los pacientes tener más control sobre su atención médica.
 
 En resumen, la inspiración para un proyecto de teleasistencia proviene de la combinación de necesidades sociales, avances tecnológicos y la búsqueda de soluciones innovadoras para mejorar la calidad de vida de las personas vulnerables.
-
-
 ## Licencia
 Este proyecto se desarrolla y distribuye de acuerdo a los términos de la [Licencia Mit](LICENSE) incluida.
