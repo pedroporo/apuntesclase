@@ -15,7 +15,7 @@ Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
 7. [Inspiración](#inspiración)
 8. [Licencia](#licencia)
 ## Tecnologías utilizadas
-Laravel
+Laravel,php,docker
 ## Puesta en Marcha
 Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los entornos que hayamos definido
 
@@ -29,13 +29,19 @@ Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los 
 3. `composer install --optimize-autoloader --no-progress --no-interaction --prefer-dist`
 4. `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
 5. `sail up -d`
+### <font color="#2DC26B">Puesta en marcha (comandos)</font>
+1. `cd /destino/del/proyecto/`
+2. `git clone https://github.com/pedroporo/Backend_DAW_ProyectoFinal`
+3. `composer install --optimize-autoloader --no-progress --no-interaction --prefer-dist`
+4. `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
+5. `sail up -d`
 ## Entornos
 null
 ## Guía de Contribución 
 Cualquier contribución al proyecto deberá seguir las siguientes [normas de contribución](CONTRIBUTING.md).
 ## Documentación de desarrollo
 Enlace a la wiki / páginas con la documentación del proyecto
-Ejemplos https://github.com/mroutis/GitHub-Simple#documentaci%C3%B3n
+Ejemplos https://github.com/pedroporo/Backend_DAW_ProyectoFinal/wiki
 
 ## Lista de Contribuidores
 Listado de usuarios que ha contribuido en la realización (Incluir foto en formato tabla)
