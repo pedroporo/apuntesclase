@@ -21,10 +21,13 @@ Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los 
 
 ### <font color="#2DC26B">Puesta en marcha (comandos)</font>
 1. `npm install`
-
-
+**si estas en el entorno de desarrollo debes de usar**
+-  `npm run dev`
+**Y si estas en entrono de deploy usa**
+- `npm run build`
+y usa los archivos de la carpeta dist
 ## Entornos
-null
+Develop,local
 ## Guía de Contribución 
 Cualquier contribución al proyecto deberá seguir las siguientes [normas de contribución](CONTRIBUTING.md).
 ## Documentación de desarrollo
