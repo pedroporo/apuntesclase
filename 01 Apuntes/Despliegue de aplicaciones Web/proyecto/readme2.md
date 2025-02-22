@@ -53,6 +53,7 @@ Listado de usuarios que ha contribuido en la realización (Incluir foto en forma
   </tbody>
 </table>
 <sub>quiero llorar, github no pilla las contribuciones de ivana</sub>
+<br>
 ## Inspiración
 La inspiración para un proyecto de teleasistencia como el que estás desarrollando puede provenir de varias fuentes y necesidades sociales actuales:
 
