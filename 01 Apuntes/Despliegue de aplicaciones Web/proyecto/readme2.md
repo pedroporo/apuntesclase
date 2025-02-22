@@ -1,7 +1,7 @@
-# Proyecto Backend de paciente Z
+# Proyecto Frontend de paciente Z
 
 # Descripción
-Pacientez es un proyecto de código abierto diseñado para desarrollar una aplicación de teleasistencia integral para pacientes, especialmente aquellos que requieren atención domiciliaria. El objetivo principal es mejorar la calidad de vida de los usuarios mediante una interacción sencilla y accesible.
+PacienteZ es un proyecto de código abierto diseñado para desarrollar una aplicación de teleasistencia integral para pacientes, especialmente aquellos que requieren atención domiciliaria. El objetivo principal es mejorar la calidad de vida de los usuarios mediante una interacción sencilla y accesible.
 <sub>odio mi vida, porque quise hacer los redme</sub>
 # Tabla de Contenidos
 1. [Tecnologías utilizadas](#built-with)
@@ -18,16 +18,9 @@ Laravel,php,docker
 Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los entornos que hayamos definido
 
 ### <font color="#2DC26B">Requisitos</font>
-- [Docker](https://www.docker.com/)
-- [Docker compose](https://getcomposer.org/download/)
-- [Laravel](https://laravel.com/docs/11.x/installation)
-- [PHP 8.4](https://php.watch/articles/php-84-install-upgrade-guide-debian-ubuntu)
+
 ### <font color="#2DC26B">Puesta en marcha (comandos)</font>
-1. `cd /destino/del/proyecto/`
-2. `git clone https://github.com/pedroporo/Backend_DAW_ProyectoFinal`
-3. `composer install --optimize-autoloader --no-progress --no-interaction --prefer-dist`
-4. `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
-5. `sail up -d`
+
 
 ## Entornos
 null
@@ -40,8 +33,8 @@ Ejemplos https://github.com/pedroporo/Backend_DAW_ProyectoFinal/wiki
 ## Lista de Contribuidores
 Listado de usuarios que ha contribuido en la realización (Incluir foto en formato tabla)
 
-<a href="https://github.com/pedroporo/Backend_DAW_ProyectoFinal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pedroporo/Backend_DAW_ProyectoFinal" />
+<a href="https://github.com/pedroporo/Frontend_DAW_ProyectoFinal/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pedroporo/Frontend_DAW_ProyectoFinal" />
 </a>
 <table>
   <tbody>
@@ -52,9 +45,7 @@ Listado de usuarios que ha contribuido en la realización (Incluir foto en forma
 
   </tbody>
 </table>
-<a href="https://github.com/pedroporo/Frontend_DAW_ProyectoFinal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pedroporo/Frontend_DAW_ProyectoFinal" />
-</a>
+
 ## Inspiración
 La inspiración para un proyecto de teleasistencia como el que estás desarrollando puede provenir de varias fuentes y necesidades sociales actuales:
 
