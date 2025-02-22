@@ -41,6 +41,8 @@ Listado de usuarios que ha contribuido en la realización (Incluir foto en forma
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/pedroporo"><img src="https://avatars.githubusercontent.com/u/64787177?v=4?s=100" width="100px;" alt="pedroporo1000"/><br /><sub><b>pedroporo1000</b></sub></a><br /></td>
     <td align="center" valign="top" width="14.28%"><a href="https://github.com/Kokon4"><img src="https://avatars.githubusercontent.com/u/91149924?v=4?s=100" width="100px;" alt="Kokon4"/><br /><sub><b>Kokon4</b></sub></a><br /></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/FerriAchede"><img src="https://avatars.githubusercontent.com/u/152427942?v=4?s=100" width="100px;" alt="FerriAchede"/><br /><sub><b>Ferran</b></sub></a><br /></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/AaronFlores12"><img src="https://avatars.githubusercontent.com/u/150167366?v=4?s=100" width="100px;" alt="AaronFlores12"/><br /><sub><b>AaronFlores12</b></sub></a><br /></td>
     </tr>
 
   </tbody>
