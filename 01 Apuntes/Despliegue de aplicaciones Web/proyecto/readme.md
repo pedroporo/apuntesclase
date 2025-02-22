@@ -23,13 +23,14 @@ Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los 
 - [Docker](https://www.docker.com/)
 - [Docker compose](https://getcomposer.org/download/)
 - [Laravel](https://laravel.com/docs/11.x/installation)
+- [PHP 8.4](https://php.watch/articles/php-84-install-upgrade-guide-debian-ubuntu)
 ### <font color="#2DC26B">Puesta en marcha (comandos)</font>
 1. `cd /destino/del/proyecto/`
 2. `git clone https://github.com/pedroporo/Backend_DAW_ProyectoFinal`
 3. `composer install --optimize-autoloader --no-progress --no-interaction --prefer-dist`
 4. `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
 5. `sail up -d`
-### <font color="#2DC26B">Puesta en marcha (comandos)</font>
+### <font color="#2DC26B">Instalacio (comandos)</font>
 1. `cd /destino/del/proyecto/`
 2. `git clone https://github.com/pedroporo/Backend_DAW_ProyectoFinal`
 3. `composer install --optimize-autoloader --no-progress --no-interaction --prefer-dist`
