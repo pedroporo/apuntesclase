@@ -20,11 +20,11 @@ Proceso de instalación, comandos, Requisitos, etc. Debemos tener en cuenta los 
 ### <font color="#2DC26B">Requisitos</font>
 
 ### <font color="#2DC26B">Puesta en marcha (comandos)</font>
-1. `npm install`
+1. `npm install` <br>
 **si estas en el entorno de desarrollo debes de usar**
--  `npm run dev`
+-  `npm run dev`<br>
 **Y si estas en entrono de deploy usa**
-- `npm run build`
+- `npm run build` <br>
 y usa los archivos de la carpeta dist
 ## Entornos
 Develop,local
