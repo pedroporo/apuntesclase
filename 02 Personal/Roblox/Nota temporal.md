@@ -1,3 +1,5 @@
 
 primer caracter
-![[Pasted image 20250322161725.png]]
+![[Pasted image 20250322165853.png]]
+segundo caracter
+![[Pasted image 20250322170141.png]]
