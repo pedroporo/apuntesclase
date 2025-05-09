@@ -14,4 +14,9 @@ Twilio usar strea para voz https://www.twilio.com/docs/voice/twiml/stream
 - Agregar la opcion de telefono x Agente
 ### Info
 - Nombre (Obligatiorio)
-- Descrippc
+- Descrippcion (opcional)
+- Listar todo lo que hace
+# Llamadas
+- Subir archivo csv
+- opcion de crearla a mano
+- Listado de todas las llamadas
