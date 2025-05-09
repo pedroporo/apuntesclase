@@ -12,3 +12,6 @@ Twilio usar strea para voz https://www.twilio.com/docs/voice/twiml/stream
 - Contraseña
 # Agentes
 - Agregar la opcion de telefono x Agente
+### Info
+- Nombre (Obligatiorio)
+- Descrippc
