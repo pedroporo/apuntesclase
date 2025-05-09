@@ -8,3 +8,6 @@ Twilio usar strea para voz https://www.twilio.com/docs/voice/twiml/stream
 - Datos de configuracion de correos
 # Perfil de usuario
 - Nombre
+- Email
+- Contraseña
+# Agentes
