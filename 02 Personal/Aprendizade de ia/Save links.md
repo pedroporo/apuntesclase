@@ -8,3 +8,5 @@
 ## Importantes
 [Video explicado](https://www.youtube.com/watch?v=9Ge0sMm65jo)
 [Video opcional](https://www.youtube.com/watch?v=yAcWnfsZhzo)
+[Video explicado repo](https://github.com/ImadSaddik/Train_Your_Language_Model_Course)
+[Video opcional repo](https://github.com/rasbt/LLMs-from-scratch)
