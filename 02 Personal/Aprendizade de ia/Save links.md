@@ -21,8 +21,9 @@
 [RepVid3](https://github.com/ImadSaddik/Train_Your_Language_Model_Course)
 
 `max_steps= 10e9 / 2**19
-
+`warmup_steps= 375e6 / 2**19`
 ```
+375e6 (375 Millones de tokens)
 10e9 (10 Billones de tokens)
 2**19(tokens per step)
 ```
