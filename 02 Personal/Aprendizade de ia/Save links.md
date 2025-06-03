@@ -20,4 +20,9 @@
 [Vid3](https://www.youtube.com/watch?v=9Ge0sMm65jo)
 [RepVid3](https://github.com/ImadSaddik/Train_Your_Language_Model_Course)
 
-max_steps= 10e9 / 2**19 (tokens per step)
+`max_steps= 10e9 / 2**19
+
+```
+10e9 (10 Billones de tokens)
+2**19(tokens per step)
+```
