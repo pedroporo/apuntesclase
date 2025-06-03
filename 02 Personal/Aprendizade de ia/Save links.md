@@ -19,3 +19,5 @@
 [RepVid2](https://github.com/karpathy/build-nanogpt)
 [Vid3](https://www.youtube.com/watch?v=9Ge0sMm65jo)
 [RepVid3](https://github.com/ImadSaddik/Train_Your_Language_Model_Course)
+
+max
