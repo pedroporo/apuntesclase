@@ -5,3 +5,4 @@ En realidad no me importa cómo me llames. He sido un espectador silencioso, vie
 zzz:
 
 primera letra de contra: c
+sexta letra de la contraseña: B
