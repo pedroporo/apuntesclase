@@ -8,22 +8,3 @@ primera letra de contra: c
 sexta letra de la contraseña: B
 septima letra de la contraseña: O
 novena letra de la contraseña: R
-
-
-
-i
-d
-d
-i
-d
-i
-i
-d
-d
-d
-d
-i
-i
-d
-i
-i
