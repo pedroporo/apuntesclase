@@ -10,7 +10,7 @@ En este bloque vamos a conocer el framework **Vue** que es uno de los más utili
 6. [Profundizando en Vue](06-profundizando.md)
 7. [Pinia](07-pinia.md)
    - NOTA: para Vue 2 consultar [Vuex](07-vuex.md)
-8. [Formularios](01%20Apuntes/Vue%20Teoria%20Batoi/08-forms.md)
+8. [Formularios](01%20Apuntes/DAW/Vue%20Teoria%20Batoi/08-forms.md)
 9. [Testeando componentes](0x-testing.md)
 10. [Y más...](09-cosas.md)
 11. [Composition API](10-vue3_composition_api.md)

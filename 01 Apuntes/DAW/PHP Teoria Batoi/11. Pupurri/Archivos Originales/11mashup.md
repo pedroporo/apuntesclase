@@ -578,17 +578,17 @@ composer require laravel/socialite
 **Configurar OAuth Consent Screen**
 
 * Vés a "APIs & Services > OAuth consent screen".
-* Selecciona l'usuari extern i omple els detalls necessaris. ![Fig.1](imagenes/09/consentiment1.png).
-* Afegeix la informació del teu domini i els detalls de l'aplicació. ![Fig.2](imagenes/09/consentiment2.png).
+* Selecciona l'usuari extern i omple els detalls necessaris. ![Fig.1](consentiment1.png).
+* Afegeix la informació del teu domini i els detalls de l'aplicació. ![Fig.2](consentiment2.png).
 
 
 **Crear Credencials**
 
 * Vés a "APIs & Services > Credentials".
 * Clica a "Create Credentials" i selecciona "OAuth client ID".
-* Selecciona l'aplicació web com a tipus d'aplicació. ![Fig.3](imagenes/09/credencials1.png).
+* Selecciona l'aplicació web com a tipus d'aplicació. ![Fig.3](credencials1.png).
 * Afegeix les URL de redirecció autoritzades des de Laravel (p. ex., http://localhost/auth/google/callback per a l'entorn de desenvolupament).
-* Obté l'ID de Client i el Secret de Client: Després de crear les credencials, anota l'ID de client i el secret que Google proporciona. ![Fig.4](imagenes/09/credencials2.png).
+* Obté l'ID de Client i el Secret de Client: Després de crear les credencials, anota l'ID de client i el secret que Google proporciona. ![Fig.4](credencials2.png).
 
 #### Pas 3 - Configuració de Socialite per a Google
 

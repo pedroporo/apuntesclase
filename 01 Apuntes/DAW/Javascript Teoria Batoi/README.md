@@ -18,7 +18,7 @@ En este primer bloque vamos a conocer el lenguaje Javascript. El bloque se divid
 location, history, otros objetos)
 * [7-Eventos](06-eventos.md): Escuchadores. Tipos de eventos. Los objetos _this_ y _event_. Propagación de eventos (_bubbling_)
 * [8-Objetos nativos](07-globales.md): Funciones globales. Objetos nativos del lenguaje: Math, Date, RegExp, ...
-* [9-Validación de formularios](01%20Apuntes/Javascript%20Teoria%20Batoi/08-forms.md): Validación de formularios. La API de validación de formularios. Expresiones regulares
+* [9-Validación de formularios](01%20Apuntes/DAW/Javascript%20Teoria%20Batoi/08-forms.md): Validación de formularios. La API de validación de formularios. Expresiones regulares
 * 
 * [10-APIs HTML5](10-apis.md): Drag and drop. API Storage. Geolocalización. API de Google Maps
 * [11-Más cosas a aprender...](11-mas.md): WebComponents. WebSockets. WebWorkers. Typescript.
