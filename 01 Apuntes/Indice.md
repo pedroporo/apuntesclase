@@ -3,10 +3,15 @@ dg-publish: true
 tags:
   - gardenEntry
 ---
-Asignaturas
+**Asignaturas:**
 Acceso a datos
-Desarrollo de inter
-Horario:
+Desarrollo de interfaces
+Digitalizacion aplicada el sistema productivo GS
+Itinerario personal para la empleabilidad II
+Módulo optativo
+Programación de servicios y procesos
+**Programación multimedia y dispositivos móviles******
+**Horario:**
 
 
 
