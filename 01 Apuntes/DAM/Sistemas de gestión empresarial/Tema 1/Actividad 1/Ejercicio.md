@@ -2,4 +2,5 @@
 Curso:
 Titulo de la actividad:
 Pedro Guill Ferri
-Fecha de entrega: `$= dv.current().file.mtime`
+Fecha de entrega: `$= dv.date("today")`
+
