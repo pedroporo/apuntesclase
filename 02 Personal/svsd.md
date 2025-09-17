@@ -1,10 +1,12 @@
-worldmemistic.cloudflareaccess.com
-
-En realidad no me importa cómo me llames. He sido un espectador silencioso, viendo la evolución de las especies, el auge y la caída de los imperios. Pero recuerda siempre que soy poderoso y perdurable. Respétame y te cuidaré; ignórame y sufrirás las consecuencias.
-
-zzz:
-
-primera letra de contra: c
-sexta letra de la contraseña: B
-septima letra de la contraseña: O
-novena letra de la contraseña: R
+```
+- 05816635
+ - 38934822
+- 07391088
+ - 92982762
+- 61785304
+ - 22920813
+- 94181365
+ - 78878938
+- 56450899
+ - 94945426
+```
