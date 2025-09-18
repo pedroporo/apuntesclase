@@ -16,4 +16,6 @@ Fecha de entrega: `$= dv.date("today")`
 
 1. Selecciona al menos 4 departamentos (por ejemplo: ventas, compras, recursos humanos, logística) e indica qué procesos se mejorarían con el ERP y qué problemas actuales se resolverían.
 	-  Logistica:
-			
+			Se solucionaria el problema de donde esta cada producto y que cliente compro cada cosa para enviarselo a su casa.
+	- Ventas:
+			Se facilitaria la gestion de clientes y 
