@@ -3,7 +3,7 @@
 const allFolders = tp.app.vault.getAllLoadedFiles().filter(item => item instanceof tp.obsidian.TFolder).map(folder => folder.path);
 
 const parentPath = await tp.system.suggester(allFolders, allFolders); // Elegir carpeta padre
-const plantillaNombre = "Plantilla";
+const plantillaNombre = "Plantilla1";
 const notaIndiceNombre = "00 - Índice";
 const abrirNota = true;
 
