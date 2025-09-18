@@ -15,11 +15,7 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "notas/PHP Teoria Batoi",
-      "template": "09 Templates/Default.md"
-    },
-    {
-      "folder": "notas/Javascript Teoria Batoi",
+      "folder": "01 Apuntes",
       "template": "09 Templates/Default.md"
     }
   ],
