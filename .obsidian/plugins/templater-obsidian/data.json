@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "templates",
+  "templates_folder": "09 Templates",
   "templates_pairs": [
     [
       "",
@@ -16,11 +16,11 @@
   "folder_templates": [
     {
       "folder": "notas/PHP Teoria Batoi",
-      "template": "templates/Default.md"
+      "template": "09 Templates/Default.md"
     },
     {
       "folder": "notas/Javascript Teoria Batoi",
-      "template": "templates/Default.md"
+      "template": "09 Templates/Default.md"
     }
   ],
   "enable_file_templates": false,
