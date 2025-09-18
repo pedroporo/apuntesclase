@@ -1,6 +1,6 @@
 <%*
-// Obtener todas las carpetas disponibles en el 
-const allFolders = tp.app.vault.getAllLoadedFiles().filter(item => item instanceof this.app.vault.constructor.TFolder).map(folder => folder.name);
+// Obtener todas las carpetas disponibles en el vaul
+const allFolders = tp.app.vault.getAllLoadedFiles().filter(item => item instanceof tp.obsidian.TFolder).map(folder => folder.path);
 
 const parentPath = await tp.system.suggester(allFolders, allFolders); // Elegir carpeta padre
 const plantillaNombre = "Plantilla";
