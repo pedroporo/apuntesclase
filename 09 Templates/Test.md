@@ -1,7 +1,6 @@
-<%*// Obtener todas las carpetas disponibles en el vault
-const allFolders = this.app.vault.getAllLoadedFiles()
-    .filter(item => item instanceof this.app.vault.constructor.TFolder)
-    .map(folder => folder.path);
+<%*
+// Obtener todas las carpetas disponibles en el 
+const allFolders = tp.app.vault.getAllLoadedFiles().filter(item => item instanceof this.app.vault.constructor.TFolder).map(folder => folder.name);
 
 const parentPath = await tp.system.suggester(allFolders, allFolders); // Elegir carpeta padre
 const plantillaNombre = "Plantilla";
