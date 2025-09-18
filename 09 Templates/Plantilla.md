@@ -4,4 +4,5 @@
 --- 
 ## 📂 Archivos en esta carpeta
 
-```dataview LIST FROM "<% tp.file.folder(true) %>" WHERE file.name != "00 - Índice" SORT file.name ASC
+```dataview 
+LIST FROM "<% tp.file.folder(true) %>" WHERE file.name != "00 - Índice" SORT file.name ASC
