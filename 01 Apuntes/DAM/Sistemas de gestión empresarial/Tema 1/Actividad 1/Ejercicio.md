@@ -1,4 +1,4 @@
-Last modified date: <%+ tp.file.last_modified_date() %>
+Ultima Modificacion: <%+ tp.file.last_modified_date() %>
 Curso:
 Titulo de la actividad:
 Pedro Guill Ferri
@@ -16,4 +16,4 @@ Fecha de entrega: `$= dv.date("today")`
 
 1. Selecciona al menos 4 departamentos (por ejemplo: ventas, compras, recursos humanos, logística) e indica qué procesos se mejorarían con el ERP y qué problemas actuales se resolverían.
 	-  Logistica:
-		
+			
