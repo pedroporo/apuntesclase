@@ -123,3 +123,13 @@ Estas son las razones principales:
 	- Renovación del hardware cuando queda obsoleto.
 	- Contratación de consultores externos para soporte o personalización.
 <center>ERP en la Nube</center>
+>[!info]
+>Es más económico y fácil de mantener, pero se depende del proveedor y de la conexión a internet.
+
+- Costes iniciales: mucho más bajos, solo se paga una suscripción (mensual o anual).
+- Mantenimiento y actualizaciones: están incluidos y los gestiona el proveedor automáticamente.
+- Costes ocultos:
+	- Dependencia del proveedor para soporte y continuidad del servicio.
+	- Necesidad de una conexión a internet estable para trabajar.
+	- Posibles costes adicionales si se requieren personalizaciones avanzadas.
+
