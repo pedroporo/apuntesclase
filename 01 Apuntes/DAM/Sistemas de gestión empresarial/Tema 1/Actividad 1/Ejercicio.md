@@ -51,3 +51,14 @@ Yo eligiría en la nube ya que la empresa es pequeña y no tendrían tantos recu
 
 
 
+### Webgrafia
+[Enlaze 1](https://www.blog.crownet.net/erp-cloud-vs-on-premise-ventajas-y-desafios/)
+[Enlaze 2](https://www.icm.es/2021/05/16/diferencias-erp-on-premise-y-erp-cloud/)
+[Enlaze 3]()
+[Enlaze 4]()
+[Enlaze 5]()
+[Enlaze 6]()
+[Enlaze 7]()
+[Enlaze 8]()
+[Enlaze 9]()
+[Enlaze 10]()
