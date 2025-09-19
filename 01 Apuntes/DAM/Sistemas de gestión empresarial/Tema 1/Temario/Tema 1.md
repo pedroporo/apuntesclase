@@ -74,8 +74,27 @@ Características principales:
 - La empresa necesita un equipo de TI interno para administrar, actualizar y dar soporte al sistema.
 - La seguridad y el control de los datos dependen exclusivamente de la empresa, lo que es positivo en sectores muy regulados (ej. banca, salud).
 
-| Ventajas  | Desventajas |
-| --------- | ----------- |
-| Control t |             |
-|           |             |
-|           |             |
+| Ventajas                                 | Desventajas                        |
+| ---------------------------------------- | ---------------------------------- |
+| Control total de los datos y del sistema | Altos costes iniciales             |
+| Personalizacion mas profunda             | Mantenimiento complejo y constante |
+| Puede funcionar sin conexion a internet  | Menos flexibilidad y escalabilidad |
+
+<center>ERP en la Nube</center>
+>[!info]
+>El ERP está alojado en los servidores del proveedor (por ejemplo, SAP Cloud, Oracle NetSuite, Odoo Cloud). El acceso se realiza vía internet mediante un navegador o aplicación móvil.
+
+
+Características principales:
+- Modelo de suscripción (pago mensual o anual, SaaS: Software as a Service).
+- Acceso desde cualquier lugar y dispositivo conectado a internet.
+- Las actualizaciones y el mantenimiento los realiza el proveedor automáticamente.
+- Alta escalabilidad: la empresa puede aumentar o reducir usuarios/módulos según necesidad.
+
+
+| Ventajas                                     | Desventajas                                     |
+| -------------------------------------------- | ----------------------------------------------- |
+| Costes iniciales reducidos                   | Dependencia total de la conexión a<br>internet. |
+| Accesible desde cualquier lugar.             | Menor control directo sobre los datos.          |
+| Actualizaciones automáticas sin interrupción | Menos flexibilidad y escalabilidad              |
+ 
