@@ -91,10 +91,35 @@ Características principales:
 - Las actualizaciones y el mantenimiento los realiza el proveedor automáticamente.
 - Alta escalabilidad: la empresa puede aumentar o reducir usuarios/módulos según necesidad.
 
-
-| Ventajas                                     | Desventajas                                     |
-| -------------------------------------------- | ----------------------------------------------- |
-| Costes iniciales reducidos                   | Dependencia total de la conexión a<br>internet. |
-| Accesible desde cualquier lugar.             | Menor control directo sobre los datos.          |
-| Actualizaciones automáticas sin interrupción | Menos flexibilidad y escalabilidad              |
+| Ventajas                                     | Desventajas                                                                                 |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Costes iniciales reducidos                   | Dependencia total de la conexión a<br>internet.                                             |
+| Accesible desde cualquier lugar.             | Menor control directo sobre los datos.                                                      |
+| Actualizaciones automáticas sin interrupción | Posibles problemas de compatibilidad si se requieren personalizaciones muy específicas.<br> |
  
+# 4. ¿Por qué los ERP se utilizan más en la nube hoy en día?
+
+>[!info]
+>El modelo Cloud ERP ha ganado terreno frente al On-Premise porque responde mejor a las necesidades actuales de las empresas, que buscan agilidad, flexibilidad y reducción de costes.
+
+
+Estas son las razones principales:
+- No requieren grandes inversiones en infraestructura
+- Escalables según el crecimiento de la empresa
+- Acceso remoto y colaboración global
+- Seguridad y copias de respaldo gestionadas por el proveedor
+
+# 5. Costes de implantación y costes ocultos de un ERP.
+<center>ERP On-Premise</center>
+
+>[!info]
+>Se tiene control total sobre el ERP, pero implica inversión inicial elevada, mantenimiento constante y costes adicionales inesperados.
+
+- Costes iniciales: requiere comprar las licencias del software y todo el hardware necesario (servidores, redes, almacenamiento).
+- Mantenimiento: se necesita personal especializado para mantener el sistema funcionando correctamente.
+- Actualizaciones: son complejas y pueden implicar costes adicionales importantes.
+- Costes ocultos:
+	- Interrupciones del sistema que afectan la operativa.
+	- Renovación del hardware cuando queda obsoleto.
+	- Contratación de consultores externos para soporte o personalización.
+<center>ERP en la Nube</center>
