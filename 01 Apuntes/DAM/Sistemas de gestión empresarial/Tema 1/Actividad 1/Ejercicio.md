@@ -46,7 +46,8 @@ Yo eligiría en la nube ya que la empresa es pequeña y no tendrían tantos recu
 
 4. Explica al menos 3 riesgos o problemas que la empresa podría encontrar durante la implantación (ejemplo: resistencia al cambio de los empleados, interrupciones en la operativa, dependencia del proveedor).
 - Riesgo 1: Que los empleados pueden no llegar a entender del todo el nuevo software que se le proporcionaran.
-- Riesgo 2: 
+- Riesgo 2: Problemas a la hora de cambiar al nuevo software podrian haber caso de elementos duplicados o errores a la hora de transferencia.
+- Riesgo 3: No haber elegido un ERP que se ajuste a nuestras necesidades completas.
 
 
 
