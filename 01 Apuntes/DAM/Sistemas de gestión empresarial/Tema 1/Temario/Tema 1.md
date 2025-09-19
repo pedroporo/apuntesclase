@@ -45,20 +45,37 @@ El gran objetivo es **unificar todos los datos en una única base**, evitando du
 En esta década surgen y se consolidan **los grandes proveedores** de ERP: SAP, Oracle, Microsoft.
 
 <center>2000 en adelante: ERP flexibles</center>
->[!inLos ERP se convierten y se hacen mas adaptables y escalables dependiendo de las necesidades de las empresas.
+>[!info] 
+>Los ERP se convierten y se hacen mas adaptables y escalables dependiendo de las necesidades de las empresas.
+
 Incluyen nuevas funciones:
-Se diseñan de forma modular (se instalan solo los módulos que la empresa
-necesita).
-Se integran con sistemas de CRM (Customer Relationship Management),
-ampliando el enfoque hacia la relación con clientes.
-Surgen herramientas de análisis de datos y reporting, que permiten medir el
-rendimiento de la empresa en tiempo real.
+- Se diseñan de forma modular (se instalan solo los módulos que la empresa necesita).
+- Se integran con sistemas de CRM (Customer Relationship Management), ampliando el enfoque hacia la relación con clientes.
+- Surgen herramientas de análisis de datos y reporting, que permiten medir el rendimiento de la empresa en tiempo real.
 Aparecen ERP orientados a pymes, con menor coste y mayor facilidad de uso.
 
 <center>Hoy en día: ERP en la nube, BD e IA</center>
+>[!info]
+>La tendencia actual de los ERP en la nube es ofrecer acceso desde cualquier lugar y dispositivo, con actualizaciones automáticas y menor coste al no requerir infraestructura propia, funcionando mediante un modelo de pago por uso.
+
 Integración con nuevas tecnologías:
-Big Data - análisis masivo de información.
-IA - predicciones de ventas, detección de fraudes, chatbots integrados.
-IoT - integración de sensores y dispositivos conectados a la producción.
-Se potencia la movilidad, permitiendo que trabajadores y directivos gestionen
-procesos desde tablets o smartphones.
+- Big Data - análisis masivo de información.
+- IA - predicciones de ventas, detección de fraudes, chatbots integrados.
+- IoT - integración de sensores y dispositivos conectados a la producción.
+Se potencia la movilidad, permitiendo que trabajadores y directivos gestionen procesos desde tablets o smartphones.
+
+# 3. Diferencias entre ERP on-premise y en la nube.
+<center>ERP On-Premise</center>
+>[!info]
+>El ERP se instala y funciona en los servidores físicos de la empresa, dentro de sus instalaciones. La organización compra licencias de uso y se encarga de la infraestructura (hardware, seguridad, mantenimiento).
+
+Características principales:
+- Se requiere inversión inicial elevada: compra de licencias, servidores y contratación de personal técnico.
+- La empresa necesita un equipo de TI interno para administrar, actualizar y dar soporte al sistema.
+- La seguridad y el control de los datos dependen exclusivamente de la empresa, lo que es positivo en sectores muy regulados (ej. banca, salud).
+
+| Ventajas  | Desventajas |
+| --------- | ----------- |
+| Control t |             |
+|           |             |
+|           |             |
