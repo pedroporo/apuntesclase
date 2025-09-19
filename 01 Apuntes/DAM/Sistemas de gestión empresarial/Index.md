@@ -21,39 +21,54 @@ El cumplimiento de esta estructura será considerado un criterio dentro de la ev
 
 
 ```dataviewjs
-// Carpeta raíz basada en la carpeta actual de la nota donde se ejecuta el script
 const temasRoot = dv.current().file.folder;
 
-let temas = dv.pages(`"${temasRoot}"`).where(p => p.file.path.startsWith(temasRoot) && !p.file.path.includes("/Actividad ") && !p.file.path.includes("/Temario/")).groupBy(p => p.file.folder.split("/").pop());
+dv.header(1, temasRoot.split("/").pop()); // Mostrar carpeta actual raíz
 
-temas.forEach(tema => {
-  dv.header(2, tema.key); 
-  let temarioFolder = `${temasRoot}/${tema.key}/Temario`; 
-  let temarioFiles = dv.pages(`"${temarioFolder}"`) .where(p => p.file.extension === "md"); 
-  let allFiles = app.vault.getFiles(); 
-  let pdfFiles = allFiles.filter(f => f.extension === "pdf" && f.path.startsWith(temarioFolder)); 
-  if (temarioFiles.length === 0 && pdfFiles.length === 0) { 
-	  dv.paragraph("No hay temario"); 
-  } else { 
-	  dv.header(3, "Temario"); // Listar md 
-	  if (temarioFiles.length > 0) { 
-		  dv.list(temarioFiles.file.name.map(n => dv.fileLink(`${temarioFolder}/${n}`))); 
-		  }
-  if (pdfFiles.length > 0) { 
-  dv.list(pdfFiles.map(f => dv.fileLink(f.path))); 
-  } 
+// Obtener carpetas que son temas (nombres que empiezan con "Tema ")
+const allPages = dv.pages(`"${temasRoot}"`).where(p => p.file.path.startsWith(temasRoot));
+const temasKeys = new Set();
+
+allPages.forEach(p => {
+  // Obtener la carpeta del archivo, por ejemplo "Sistemas de gestión empresarial/Tema 1"
+  let folders = p.file.folder.split("/");
+  // Buscar carpetas que empiecen con "Tema "
+  folders.forEach(f => {
+    if(f.startsWith("Tema ")) temasKeys.add(f);
+  });
+});
+
+[...temasKeys].sort().forEach(temaKey => {
+  dv.header(2, temaKey);
+
+  // Temario buscando md y pdf en la carpeta Temario dentro del tema
+  const temarioFolder = `${temasRoot}/${temaKey}/Temario`;
+  let temarioFiles = dv.pages(`"${temarioFolder}"`).where(p => p.file.extension === "md");
+  let allFiles = app.vault.getFiles();
+  let pdfFiles = allFiles.filter(f => f.extension === "pdf" && f.path.startsWith(temarioFolder));
+
+  if (temarioFiles.length === 0 && pdfFiles.length === 0) {
+    dv.paragraph("No hay temario");
+  } else {
+    dv.header(3, "Temario");
+    if (temarioFiles.length > 0) {
+      dv.list(temarioFiles.file.name.map(n => dv.fileLink(`${temarioFolder}/${n}`)));
+    }
+    if (pdfFiles.length > 0) {
+      dv.list(pdfFiles.map(f => dv.fileLink(f.path)));
+    }
   }
 
-  // Listar Actividades dentro del Tema actual
-  let actividades = dv.pages(`"${temasRoot}/${tema.key}"`).where(p => p.file.folder.includes("Actividad"));
+  // Actividades dentro del tema en carpetas que contengan "Actividad"
+  let actividades = dv.pages(`"${temasRoot}/${temaKey}"`).where(p => p.file.folder.includes("Actividad"));
   if (actividades.length) {
     dv.header(3, "Actividades");
     actividades.forEach(act => {
       dv.paragraph(dv.fileLink(act.file.name));
     });
-  }else { dv.paragraph("No hay actividades"); }
+  } else {
+    dv.paragraph("No hay actividades");
+  }
 });
 
 ```
-
-
