@@ -27,7 +27,22 @@ const temasRoot = dv.current().file.folder;
 let temas = dv.pages(`"${temasRoot}"`).where(p => p.file.path.startsWith(temasRoot) && !p.file.path.includes("/Actividad ") && !p.file.path.includes("/Temario/")).groupBy(p => p.file.folder.split("/").pop());
 
 temas.forEach(tema => {
-  dv.header(2, tema.key); // Listar archivos (md y pdf) dentro de la carpeta Temario del tema let temarioFolder = `${temasRoot}/${tema.key}/Temario`; let temarioFiles = dv.pages(`"${temarioFolder}"`) .where(p => p.file.extension === "md"); // Además buscar PDFs en esa misma carpeta let allFiles = app.vault.getFiles(); let pdfFiles = allFiles.filter(f => f.extension === "pdf" && f.path.startsWith(temarioFolder)); if (temarioFiles.length === 0 && pdfFiles.length === 0) { dv.paragraph("No hay temario"); } else { dv.header(3, "Temario"); // Listar md if (temarioFiles.length > 0) { dv.list(temarioFiles.file.name.map(n => dv.fileLink(`${temarioFolder}/${n}`))); } // Listar pdf if (pdfFiles.length > 0) { dv.list(pdfFiles.map(f => dv.fileLink(f.path))); } }
+  dv.header(2, tema.key); 
+  let temarioFolder = `${temasRoot}/${tema.key}/Temario`; 
+  let temarioFiles = dv.pages(`"${temarioFolder}"`) .where(p => p.file.extension === "md"); 
+  let allFiles = app.vault.getFiles(); 
+  let pdfFiles = allFiles.filter(f => f.extension === "pdf" && f.path.startsWith(temarioFolder)); 
+  if (temarioFiles.length === 0 && pdfFiles.length === 0) { 
+	  dv.paragraph("No hay temario"); 
+  } else { 
+	  dv.header(3, "Temario"); // Listar md 
+	  if (temarioFiles.length > 0) { 
+		  dv.list(temarioFiles.file.name.map(n => dv.fileLink(`${temarioFolder}/${n}`))); 
+		  }
+  if (pdfFiles.length > 0) { 
+  dv.list(pdfFiles.map(f => dv.fileLink(f.path))); 
+  } 
+  }
 
   // Listar Actividades dentro del Tema actual
   let actividades = dv.pages(`"${temasRoot}/${tema.key}"`).where(p => p.file.folder.includes("Actividad"));
@@ -36,7 +51,7 @@ temas.forEach(tema => {
     actividades.forEach(act => {
       dv.paragraph(dv.fileLink(act.file.name));
     });
-  }
+  }else { dv.paragraph("No hay actividades"); }
 });
 
 ```
