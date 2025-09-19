@@ -1,6 +1,6 @@
 Ultima Modificacion: <%+ tp.file.last_modified_date() %>
-Curso:
-Titulo de la actividad:
+Curso: Desarollo de aplicaciones multiplataforma segundo
+Titulo de la actividad: Proyecto de implantación de un ERP en una empresa
 Pedro Guill Ferri
 Fecha de entrega: `$= dv.date("today")`
 
@@ -27,3 +27,17 @@ Fecha de entrega: `$= dv.date("today")`
 
 [[Act1.1.pdf#page=1&selection=29,0,30,61|Ejercicio 2]]
 2. Decide si recomendarías un ERP privativo (ej. SAP, Oracle) o un ERP de código abierto (ej. Odoo, ERPNext). Justifica la elección en base a:
+- Costes. 
+- Escalabilidad. 
+- Personalización. 
+- Soporte técnico.
+
+Yo recomendaria un ERP de código abierto por el tamaño de la empresa, ya que la mayoria de los codigo abierto son gratuitos, tienen mucha personalizacion ya que muedes modificar el codigo y puedes preguntar en foros de ese software por ayuda
+
+[[Act1.1.pdf#page=1&selection=39,0,45,27|Ejercicio 3]]
+3. Elige entre On-Premise o en la Nube y justifica tu decisión considerando: 
+- Tamaño de la empresa. 
+- Recursos económicos y técnicos. 
+- Necesidad de acceso remoto.
+
+Yo eligiria en la nuve ya que la empresa es pequeña y no tendrian tantos recursos para invertir en equipo para hacer el
