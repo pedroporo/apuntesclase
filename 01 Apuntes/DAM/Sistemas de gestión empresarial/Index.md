@@ -21,12 +21,31 @@ El cumplimiento de esta estructura será considerado un criterio dentro de la ev
 
 
 ```dataviewjs
-//const temasRoot = "Temas"; 
-const temasRoot= dv.current().file.folder;
-let temas = dv.pages(`"${temasRoot}"`).where(p => p.file.path.startsWith(temasRoot) && !p.file.path.includes("/Actividad ") && !p.file.path.includes("/Temario/")).groupBy(p => p.file.folder.split("/")[1]); temas.forEach(tema => { dv.header(2, tema.key);
-let temario = dv.pages(`"${temasRoot}/${tema.key}/Temario"`).sort(p => p.file.name); if (temario.length) { dv.header(3, "Temario"); dv.list(temario.file.name.map(n => dv.fileLink(n))); } 
-let actividades = dv.pages(`"${temasRoot}/${tema.key}"`).where(p => p.file.folder.includes("Actividad")); 
-if (actividades.length) { dv.header(3, "Actividades"); 
-actividades.forEach(act => { dv.paragraph(dv.fileLink(act.file.name)); }); } });
+// Carpeta raíz basada en la carpeta actual de la nota donde se ejecuta el script
+const temasRoot = dv.current().file.folder;
+
+let temas = dv.pages(`"${temasRoot}"`).where(p => p.file.path.startsWith(temasRoot) && !p.file.path.includes("/Actividad ") && !p.file.path.includes("/Temario/")).groupBy(p => p.file.folder.split("/")[1]);
+
+temas.forEach(tema => {
+  dv.header(2, tema.key);
+
+  // Listar Temario dentro del Tema actual
+  let temario = dv.pages(`"${temasRoot}/${tema.key}/Temario"`).sort(p => p.file.name);
+  if (temario.length) {
+    dv.header(3, "Temario");
+    dv.list(temario.file.name.map(n => dv.fileLink(n)));
+  }
+
+  // Listar Actividades dentro del Tema actual
+  let actividades = dv.pages(`"${temasRoot}/${tema.key}"`).where(p => p.file.folder.includes("Actividad"));
+  if (actividades.length) {
+    dv.header(3, "Actividades");
+    actividades.forEach(act => {
+      dv.paragraph(dv.fileLink(act.file.name));
+    });
+  }
+});
+
 ```
+
 
