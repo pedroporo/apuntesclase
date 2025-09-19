@@ -12,17 +12,17 @@ Fecha de entrega: `$= dv.date("today")`
 > Correos electrónicos para la atención al cliente. 
 > La dirección de la empresa ha decidido implantar un ERP para centralizar todos los procesos y mejorar la eficiencia.
 
-[[Act1.1.pdf#page=1&selection=5,0,22,33|Act1.1, página 1]]
+[[Act1.1.pdf#page=1&selection=5,0,22,33|Ejercicio 1]]
 
 1. Selecciona al menos 4 departamentos (por ejemplo: ventas, compras, recursos humanos, logística) e indica qué procesos se mejorarían con el ERP y qué problemas actuales se resolverían.
-	-  Logistica:
-			Se solucionaria el problema de donde esta cada producto y que cliente compro cada cosa para enviarselo a su casa.
+	-  Logística:
+			Se solucionaría el problema de donde esta cada producto y que cliente compro cada cosa para enviárselo a su casa.
 	- Ventas:
-			Se facilitaria la gestion de clientes, cuanto gasta cada uno en nuestra tienda y las ofertas que se le proporcianrian, y se resolveria el problema de gestion de correos 
+			Se facilitaría la gestión de clientes, cuanto gasta cada uno en nuestra tienda y las ofertas que se le proporcionaran, y se resolvería el problema de gestión de correos 
 	- Compras:
-			Se automatizaria la gestion de proveedores y pedidos, y evitara errores a la hora de enviar pedidos
+			Se automatizaría la gestión de proveedores y pedidos, y evitara errores a la hora de enviar pedidos
 	- Recursos humanos:
-			Se facilitaria la gestion de los horarios y nominas, y se solucionaria los turnos.
+			Se facilitaría la gestión de los horarios y nominas, y se solucionaría los turnos.
 
 
 [[Act1.1.pdf#page=1&selection=29,0,30,61|Ejercicio 2]]
@@ -32,7 +32,7 @@ Fecha de entrega: `$= dv.date("today")`
 - Personalización. 
 - Soporte técnico.
 
-Yo recomendaria un ERP de código abierto por el tamaño de la empresa, ya que la mayoria de los codigo abierto son gratuitos, tienen mucha personalizacion ya que muedes modificar el codigo y puedes preguntar en foros de ese software por ayuda
+Yo recomendaria un ERP de código abierto por el tamaño de la empresa, ya que la mayoría de los código abierto son gratuitos, tienen mucha personalización ya que puedes modificar el código y puedes preguntar en foros de ese software por ayuda
 
 [[Act1.1.pdf#page=1&selection=39,0,45,27|Ejercicio 3]]
 3. Elige entre On-Premise o en la Nube y justifica tu decisión considerando: 
@@ -40,4 +40,13 @@ Yo recomendaria un ERP de código abierto por el tamaño de la empresa, ya que l
 - Recursos económicos y técnicos. 
 - Necesidad de acceso remoto.
 
-Yo eligiria en la nuve ya que la empresa es pequeña y no tendrian tantos recursos para invertir en equipo para hacer el
+Yo eligiría en la nube ya que la empresa es pequeña y no tendrían tantos recursos para invertir en equipo para hacer el suyo propio, ademas que uno en la nuve puedes acceder a el cuando quieras
+
+[[Act1.1.pdf#page=1&selection=46,0,66,60|Ejercicio 4]]
+
+4. Explica al menos 3 riesgos o problemas que la empresa podría encontrar durante la implantación (ejemplo: resistencia al cambio de los empleados, interrupciones en la operativa, dependencia del proveedor).
+- Riesgo 1: Que los empleados pueden no llegar a entender del todo el nuevo software que se le proporcionaran.
+- Riesgo 2: 
+
+
+
