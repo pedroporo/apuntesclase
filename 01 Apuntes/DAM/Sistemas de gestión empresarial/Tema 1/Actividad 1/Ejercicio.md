@@ -18,5 +18,6 @@ Fecha de entrega: `$= dv.date("today")`
 	-  Logistica:
 			Se solucionaria el problema de donde esta cada producto y que cliente compro cada cosa para enviarselo a su casa.
 	- Ventas:
-			Se facilitaria la gestion de clientes, cuanto gasta cada uno en nuestra tienda y las ofertas que se le proporcianrian
-	- 
+			Se facilitaria la gestion de clientes, cuanto gasta cada uno en nuestra tienda y las ofertas que se le proporcianrian, y se resolveria el problema de gestion de correos 
+	- Compras:
+			Se automatizaria la gestion de proveedores y pedidos
