@@ -46,10 +46,11 @@ allPages.forEach(p => {
   // Actividades igual que antes
   let actividades = dv.pages(`"${temasRoot}/${temaKey}"`)
     .where(p => p.file.folder.includes("Actividad"));
-  /*let actividadesPdf = app.vault.getFiles().filter(
-    f => f.extension === "pdf" && f.path.startsWith(temarioFolder)
-  );*/
-  dv.paragraph(actividades);
+    
+  let actividadesPdf = app.vault.getFiles().filter(
+    f => f.extension === "pdf" && f.path.startsWith("${temasRoot}/${temaKey}") && f.path.includes("Actividad")
+  );
+  dv.paragraph(actividadesPdf);
   if (actividades.length) {
     dv.header(3, "Actividades");
     actividades.forEach(act => {
