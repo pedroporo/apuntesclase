@@ -133,3 +133,11 @@ Estas son las razones principales:
 	- Necesidad de una conexión a internet estable para trabajar.
 	- Posibles costes adicionales si se requieren personalizaciones avanzadas.
 
+# 6. Los tipos de sistemas en la nube (IaaS, PaaS y SaaS)
+
+
+| Tipo de servicio                          | Definición | Qué ofrece el proveedor | Qué gestiona la empresa | Ejemplos |
+| ----------------------------------------- | ---------- | ----------------------- | ----------------------- | -------- |
+| IaaS<br>(Infrastructure as a Service)<br> |            |                         |                         |          |
+| PaaS (Platform as a Service)              |            |                         |                         |          |
+|                                           |            |                         |                         |          |
