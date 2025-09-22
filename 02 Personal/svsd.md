@@ -15,7 +15,7 @@
 
 ```
 # Cloudflare API token
-dns_cloudflare_api_token=vwvKG0f3krUtJXX--jlW-IeQ5w3_qMDkXjT373la
+dns_cloudflare_api_token=
 ```
 Propagation Seconds
 120
