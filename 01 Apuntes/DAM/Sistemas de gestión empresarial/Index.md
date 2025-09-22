@@ -182,3 +182,60 @@ allPages.forEach(p => {
 });
 
 ```
+
+c
+
+```dataviewjs
+const temasRoot = dv.current().file.folder;
+dv.header(1, temasRoot.split("/").pop());
+
+// Detectar temas
+const allFiles = app.vault.getFiles();
+const temasKeys = new Set();
+/*allFiles.forEach(f => {
+  const folders = f.path.split("/");
+  for (let i = 0; i < folders.length; i++) {
+    if (folders[i].startsWith("Tema ")) temasKeys.add(folders[i]);
+  }
+});*/
+/*allFiles.forEach(f => {
+  const folders = p.file.folder.split("/");
+  for (let i = 0; i < folders.length; i++) {
+    if (folders[i].startsWith("Tema ")) temasKeys.add(folders[i]);
+  }
+});
+
+
+[...temasKeys].sort().forEach(temaKey => {
+  dv.header(2, temaKey);
+
+  // LISTAR archivos en Temario y subcarpetas
+  const temarioFolder = `${temasRoot}/${temaKey}/Temario`;
+  const temarioFiles = allFiles.filter(f => 
+    f.path.startsWith(temarioFolder) && (f.extension === "md" || f.extension === "pdf")
+  );
+
+  if (temarioFiles.length === 0) {
+    dv.paragraph("No hay temario");
+  } else {
+    dv.header(3, "Temario");
+    dv.list(temarioFiles.map(f => dv.fileLink(f.path)));
+  }
+
+  // ACTIVIDADES como antes (sólo usando .md)
+  const actividades = allFiles.filter(f => 
+    f.path.startsWith(`${temasRoot}/${temaKey}`) &&
+    f.path.includes("Actividad") &&
+    f.extension === "md"
+  );
+  if (actividades.length) {
+    dv.header(3, "Actividades");
+    actividades.forEach(f => {
+      dv.paragraph(dv.fileLink(f.path));
+    });
+  } else {
+    dv.paragraph("No hay actividades");
+  }
+});
+
+```
