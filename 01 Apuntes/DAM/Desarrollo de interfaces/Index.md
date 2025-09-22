@@ -17,6 +17,7 @@ allPages.forEach(p => {
     if (f.startsWith("Tema ")) temasKeys.add(f);
   });
 });
+
 [...temasKeys].sort().forEach(temaKey => {
   dv.header(2, temaKey);
   // Carpeta Temario
@@ -45,6 +46,10 @@ allPages.forEach(p => {
   // Actividades igual que antes
   let actividades = dv.pages(`"${temasRoot}/${temaKey}"`)
     .where(p => p.file.folder.includes("Actividad"));
+  /*let actividadesPdf = app.vault.getFiles().filter(
+    f => f.extension === "pdf" && f.path.startsWith(temarioFolder)
+  );*/
+  dv.paragraph(actividades);
   if (actividades.length) {
     dv.header(3, "Actividades");
     actividades.forEach(act => {
