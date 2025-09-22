@@ -9,6 +9,7 @@ dv.header(1, temasRoot.split("/").pop());
 
 // Detecta carpetas de tema
 const allPages = dv.pages(`"${temasRoot}"`).where(p => p.file.path.startsWith(temasRoot));
+//dv.paragraph(allPages);
 const temasKeys = new Set();
 allPages.forEach(p => {
   let folders = p.file.folder.split("/");
@@ -21,17 +22,23 @@ allPages.forEach(p => {
   // Carpeta Temario
   const temarioFolder = `${temasRoot}/${temaKey}/Temario`;
   // Markdown recursivos
-  let temarioFiles = dv.pages().where(
+  let temarioMdFiles = dv.pages().where(
     p => p.file.path.startsWith(temarioFolder)
   );
-  //dv.paragraph(temarioFiles);
+  // PDFs recursivos usando API de Obsidian
+  let pdfFiles = app.vault.getFiles().filter(
+    f => f.extension === "pdf" && f.path.startsWith(temarioFolder)
+  );
 
-  if (temarioFiles.length === 0) {
+  if (temarioMdFiles.length === 0 && pdfFiles.length === 0) {
     dv.paragraph("No hay temario");
   } else {
     dv.header(3, "Temario");
-    if (temarioFiles.length > 0) {
-      dv.list(temarioFiles.map(f => dv.fileLink(f.file.path)));
+    if (temarioMdFiles.length > 0) {
+      dv.list(temarioMdFiles.map(f => dv.fileLink(f.file.path)));
+    }
+    if (pdfFiles.length > 0) {
+      dv.list(pdfFiles.map(f => dv.fileLink(f.path)));
     }
   }
 
@@ -47,5 +54,4 @@ allPages.forEach(p => {
     dv.paragraph("No hay actividades");
   }
 });
-
 ```
