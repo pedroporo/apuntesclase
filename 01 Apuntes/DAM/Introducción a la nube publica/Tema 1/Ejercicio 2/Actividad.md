@@ -21,7 +21,7 @@ Es un servicio de redes que se usa para seleccionar servicios web y usarlos junt
 
 **Public subnet**:
 
-Es una subred que tiene una ruta en su tabla de enrutamiento hacia una Internet Gateway. Esta configuración permite que las instancias dentro de la subred se comuniquen directamente con Internet. Para que esta comunicación funcione, las instancias en una subred pública deben tener direcciones IP públicas o direcciones IP elásticas asignadas. La presencia de una ruta para el destino 0.0.0.0/0 que apunta a una puerta de enlace de Internet es el criterio clave para determinar si una subred es pública.
+Es una subred que tiene una ruta en su tabla de enrutamiento hacia el Internet Gateway. Esta configuración permite que las instancias dentro de la subred se comuniquen directamente con Internet. Para que esta comunicación funcione, las instancias en una subred pública deben tener direcciones IP públicas o direcciones IP elásticas asignadas. La presencia de una ruta para el destino 0.0.0.0/0 que apunta a una puerta de enlace de Internet es el criterio clave para determinar si una subred es pública.
 
 **Private Subnet**:
 

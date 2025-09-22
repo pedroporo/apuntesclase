@@ -142,8 +142,9 @@ Estas son las razones principales:
 | **IaaS**<br>(Infrastructure as a Service)<br> | Infraestructura básica en la nube | Servidores, almacenamiento, redes                      | Sistema operativo, software y aplicaciones   | Amazon AWS, Microsoft Azure<br>               |
 | **PaaS** (Platform as a Service)              | Plataforma de desarrollo completa | Servidores, almacenamiento, bases de datos, middleware | Desarrollo y gestión de aplicaciones propias | Google App Engine, Heroku<br>                 |
 | **SaaS** (Software as a Service)              | Aplicación lista para usar        | Aplicación completa, actualizaciones y mantenimiento   | Solo el uso del software                     | Salesforce, SAPS/4HANA Cloud, Odoo en la nube |
-![[Pasted image 20250922173503.png]]
 
+![[Pasted image 20250922173503.png]]
+^tiposDeSistemas
 # 7. Tipos de ERP (Privativos y de Código Abierto)
 
 | Característica<br> | ERP Privativo                                                         | ERP Open Source                                         |
