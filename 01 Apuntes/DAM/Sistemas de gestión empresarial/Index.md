@@ -22,45 +22,45 @@ El cumplimiento de esta estructura será considerado un criterio dentro de la ev
 
 ```dataviewjs
 const temasRoot = dv.current().file.folder;
+dv.header(1, temasRoot.split("/").pop());
 
-dv.header(1, temasRoot.split("/").pop()); // Mostrar carpeta actual raíz
-
-// Obtener carpetas que son temas (nombres que empiezan con "Tema ")
+// Detecta carpetas de tema
 const allPages = dv.pages(`"${temasRoot}"`).where(p => p.file.path.startsWith(temasRoot));
 const temasKeys = new Set();
-
 allPages.forEach(p => {
-  // Obtener la carpeta del archivo, por ejemplo "Sistemas de gestión empresarial/Tema 1"
   let folders = p.file.folder.split("/");
-  // Buscar carpetas que empiecen con "Tema "
   folders.forEach(f => {
-    if(f.startsWith("Tema ")) temasKeys.add(f);
+    if (f.startsWith("Tema ")) temasKeys.add(f);
   });
 });
-
 [...temasKeys].sort().forEach(temaKey => {
   dv.header(2, temaKey);
-
-  // Temario buscando md y pdf en la carpeta Temario dentro del tema
+  // Carpeta Temario
   const temarioFolder = `${temasRoot}/${temaKey}/Temario`;
-  let temarioFiles = dv.pages(`"${temarioFolder}"`).where(p => p.file.extension === "md");
-  let allFiles = app.vault.getFiles();
-  let pdfFiles = allFiles.filter(f => f.extension === "pdf" && f.path.startsWith(temarioFolder));
+  // Markdown recursivos
+  let temarioMdFiles = dv.pages().where(
+    p => p.file.path.startsWith(temarioFolder)
+  );
+  // PDFs recursivos usando API de Obsidian
+  let pdfFiles = app.vault.getFiles().filter(
+    f => f.extension === "pdf" && f.path.startsWith(temarioFolder)
+  );
 
-  if (temarioFiles.length === 0 && pdfFiles.length === 0) {
+  if (temarioMdFiles.length === 0 && pdfFiles.length === 0) {
     dv.paragraph("No hay temario");
   } else {
     dv.header(3, "Temario");
-    if (temarioFiles.length > 0) {
-      dv.list(temarioFiles.file.name.map(n => dv.fileLink(`${temarioFolder}/${n}`)));
+    if (temarioMdFiles.length > 0) {
+      dv.list(temarioMdFiles.map(f => dv.fileLink(f.file.path)));
     }
     if (pdfFiles.length > 0) {
       dv.list(pdfFiles.map(f => dv.fileLink(f.path)));
     }
   }
 
-  // Actividades dentro del tema en carpetas que contengan "Actividad"
-  let actividades = dv.pages(`"${temasRoot}/${temaKey}"`).where(p => p.file.folder.includes("Actividad"));
+  // Actividades igual que antes
+  let actividades = dv.pages(`"${temasRoot}/${temaKey}"`)
+    .where(p => p.file.folder.includes("Actividad"));
   if (actividades.length) {
     dv.header(3, "Actividades");
     actividades.forEach(act => {
@@ -70,7 +70,6 @@ allPages.forEach(p => {
     dv.paragraph("No hay actividades");
   }
 });
-
 ```
 
 
@@ -148,17 +147,12 @@ allPages.forEach(p => {
   const temarioFolder = `${temasRoot}/${temaKey}/Temario`;
   // Markdown recursivos
   let temarioMdFiles = dv.pages().where(
-    p => p.file.path.startsWith(temarioFolder) && p.file.extension === "md"
+    p => p.file.path.startsWith(temarioFolder)
   );
   // PDFs recursivos usando API de Obsidian
   let pdfFiles = app.vault.getFiles().filter(
     f => f.extension === "pdf" && f.path.startsWith(temarioFolder)
   );
-  //const pdfFiles1 = app.vault.getFiles().filter(file => file.extension === 'pdf')
-  //dv.list(pdfFiles1.map(file => dv.fileLink(file.path))) 
-  const pdfFiles1 = app.vault.getFiles().filter(file => file.path.startsWith(temarioFolder))
-  //dv.list(pdfFiles1.map(file => dv.fileLink(file.path)))     
-  dv.paragraph(pdfFiles);
 
   if (temarioMdFiles.length === 0 && pdfFiles.length === 0) {
     dv.paragraph("No hay temario");
