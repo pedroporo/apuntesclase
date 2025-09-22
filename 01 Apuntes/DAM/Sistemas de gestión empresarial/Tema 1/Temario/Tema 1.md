@@ -136,6 +136,7 @@ Estas son las razones principales:
 # 6. Los tipos de sistemas en la nube (IaaS, PaaS y SaaS)
 
 
+
 | Tipo de servicio                              | Definición                        | Qué ofrece el proveedor                                | Qué gestiona la empresa                      | Ejemplos                                      |
 | --------------------------------------------- | --------------------------------- | ------------------------------------------------------ | -------------------------------------------- | --------------------------------------------- |
 | **IaaS**<br>(Infrastructure as a Service)<br> | Infraestructura básica en la nube | Servidores, almacenamiento, redes                      | Sistema operativo, software y aplicaciones   | Amazon AWS, Microsoft Azure<br>               |
