@@ -154,6 +154,10 @@ allPages.forEach(p => {
   let pdfFiles = app.vault.getFiles().filter(
     f => f.extension === "pdf" && f.path.startsWith(temarioFolder)
   );
+  //const pdfFiles1 = app.vault.getFiles().filter(file => file.extension === 'pdf')
+  //dv.list(pdfFiles1.map(file => dv.fileLink(file.path))) 
+  const pdfFiles1 = app.vault.getFiles().filter(file => file.path.startsWith(temarioFolder))
+  //dv.list(pdfFiles1.map(file => dv.fileLink(file.path)))     
   dv.paragraph(pdfFiles);
 
   if (temarioMdFiles.length === 0 && pdfFiles.length === 0) {
