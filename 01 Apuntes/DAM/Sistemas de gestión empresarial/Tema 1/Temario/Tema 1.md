@@ -152,3 +152,22 @@ Estas son las razones principales:
 | Coste              | Alto (licencias, mantenimiento y soporte)                             | Bajo (principalmente personalización y soporte)         |
 | Escalabilidad      | Media-alta; pensados para medianas y grandes empresas                 | Muy escalable; adaptable a empresas de cualquier tamaño |
 | Ejemplos           | SAP Business One, SAPS/4HANA, Oracle NetSuite, Microsoft Dynamics 365 | Odoo, ERPNext, Dolibarr                                 |
+# 8. Definicion de CRM
+
+| Apartado              | Contenido                                                                                                                                                                                                                                                     |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Definición<br>        | CRM (Customer Relationship Management): software que gestiona y analiza las interacciones con clientes actuales y potenciales para mejorar ventas, marketing y atención al cliente.                                                                           |
+| Funciones principales | - Gestión de contactos<br>- Seguimiento de ventas<br>- Automatización de marketing<br>- Atención al cliente<br>- Análisis y reportes                                                                                                                          |
+| Tipos de CRM<br>      | - **Operativo**: automatiza ventas, marketing y atención al cliente<br>- **Analítico**: analiza datos de clientes para tomar decisiones estratégicas<br>- **Colaborativo**: facilita la coordinación entre departamentos compartiendo información de clientes |
+| Beneficios            | - Mejora la relación y fidelización de clientes<br>- Aumenta eficiencia en ventas y marketing<br>- Permite decisiones basadas en datos<br>- Facilita comunicación interna<br>- Optimiza seguimiento de clientes<br>                                           |
+| Ejemplos populares    | Salesforce, HubSpot, Microsoft Dynamics 365, Zoho CRM, Odoo CRM                                                                                                                                                                                               |
+
+# 9. Definicion de BI
+
+| Apartado              | Contenido                                                                                                                                                                                      |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Definición<br>        | BI (Business Intelligence): conjunto de estrategias, herramientas y procesos que permiten a las empresas recoger, analizar y transformar datos en información útil para la toma de decisiones. |
+| Funciones principales |                                                                                                                                                                                                |
+| Tipos de BI<br>       |                                                                                                                                                                                                |
+| Beneficios            |                                                                                                                                                                                                |
+| Ejemplos populares    |                                                                                                                                                                                                |
