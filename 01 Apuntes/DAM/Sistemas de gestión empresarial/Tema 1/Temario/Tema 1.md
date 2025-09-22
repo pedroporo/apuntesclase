@@ -145,10 +145,10 @@ Estas son las razones principales:
 
 # 7. Tipos de ERP (Privativos y de Código Abierto)
 
-| Característica<br> | ERP Privativo                                         | ERP Open Source                                    |
-| ------------------ | ----------------------------------------------------- | -------------------------------------------------- |
-| Soporte            | Profesional garantizado por el proveedor              | Comunidad online o consultores externos            |
-| Personalización    | Limitada, principalmente mediante módulos adicionales | Muy flexible, se puede modificar el código fuente  |
-| Coste              | Alto (licencias, mantenimiento y soporte)             | Bajo (principalmente<br>personalización y soporte) |
-| Escalabilidad      |                                                       |                                                    |
-| Ejemplos           |                                                       |                                                    |
+| Característica<br> | ERP Privativo                                         | ERP Open Source                                   |
+| ------------------ | ----------------------------------------------------- | ------------------------------------------------- |
+| Soporte            | Profesional garantizado por el proveedor              | Comunidad online o consultores externos           |
+| Personalización    | Limitada, principalmente mediante módulos adicionales | Muy flexible, se puede modificar el código fuente |
+| Coste              | Alto (licencias, mantenimiento y soporte)             | Bajo (principalmente personalización y soporte)   |
+| Escalabilidad      | Media-alta; pensados para medianas y grandes empresas |                                                   |
+| Ejemplos           |                                                       |                                                   |
