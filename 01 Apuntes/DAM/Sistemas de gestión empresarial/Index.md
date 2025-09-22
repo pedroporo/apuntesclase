@@ -72,3 +72,113 @@ allPages.forEach(p => {
 });
 
 ```
+
+
+a
+
+```dataviewjs
+const temasRoot = dv.current().file.folder;
+dv.header(1, temasRoot.split("/").pop()); // Mostrar carpeta actual raíz
+
+// Obtener carpetas que son temas (nombres que empiezan con "Tema ")
+const allPages = dv.pages(`"${temasRoot}"`).where(p => p.file.path.startsWith(temasRoot));
+const temasKeys = new Set();
+allPages.forEach(p => {
+  let folders = p.file.folder.split("/");
+  folders.forEach(f => {
+    if (f.startsWith("Tema ")) temasKeys.add(f);
+  });
+});
+
+[...temasKeys].sort().forEach(temaKey => {
+  dv.header(2, temaKey);
+  
+  // Temario: buscar md y pdf en carpeta Temario y subcarpetas
+  const temarioFolder = `${temasRoot}/${temaKey}/Temario`;
+  let temarioAllFiles = dv.pages('"'+temarioFolder+'"')
+    .where(p => p.file.path.startsWith(temarioFolder));
+  let mdFiles = temarioAllFiles.where(p => p.file.extension === "md");
+  let pdfFiles = temarioAllFiles.where(p => p.file.extension === "pdf");
+
+  if (mdFiles.length === 0 && pdfFiles.length === 0) {
+    dv.paragraph("No hay temario");
+  } else {
+    dv.header(3, "Temario");
+    if (mdFiles.length > 0) {
+      dv.list(mdFiles.map(f => dv.fileLink(f.file.path)));
+    }
+    if (pdfFiles.length > 0) {
+      dv.list(pdfFiles.map(f => dv.fileLink(f.file.path)));
+    }
+  }
+
+  // Actividades dentro del tema en carpetas que contengan "Actividad"
+  let actividades = dv.pages(`"${temasRoot}/${temaKey}"`)
+    .where(p => p.file.folder.includes("Actividad"));
+  if (actividades.length) {
+    dv.header(3, "Actividades");
+    actividades.forEach(act => {
+      dv.paragraph(dv.fileLink(act.file.name));
+    });
+  } else {
+    dv.paragraph("No hay actividades");
+  }
+});
+
+```
+
+b
+
+```dataviewjs
+const temasRoot = dv.current().file.folder;
+dv.header(1, temasRoot.split("/").pop());
+
+// Detecta carpetas de tema
+const allPages = dv.pages(`"${temasRoot}"`).where(p => p.file.path.startsWith(temasRoot));
+const temasKeys = new Set();
+allPages.forEach(p => {
+  let folders = p.file.folder.split("/");
+  folders.forEach(f => {
+    if (f.startsWith("Tema ")) temasKeys.add(f);
+  });
+});
+
+[...temasKeys].sort().forEach(temaKey => {
+  dv.header(2, temaKey);
+  // Carpeta Temario
+  const temarioFolder = `${temasRoot}/${temaKey}/Temario`;
+  // Markdown recursivos
+  let temarioMdFiles = dv.pages().where(
+    p => p.file.path.startsWith(temarioFolder) && p.file.extension === "md"
+  );
+  // PDFs recursivos usando API de Obsidian
+  let pdfFiles = app.vault.getFiles().filter(
+    f => f.extension === "pdf" && f.path.startsWith(temarioFolder)
+  );
+
+  if (temarioMdFiles.length === 0 && pdfFiles.length === 0) {
+    dv.paragraph("No hay temario");
+  } else {
+    dv.header(3, "Temario");
+    if (temarioMdFiles.length > 0) {
+      dv.list(temarioMdFiles.map(f => dv.fileLink(f.file.path)));
+    }
+    if (pdfFiles.length > 0) {
+      dv.list(pdfFiles.map(f => dv.fileLink(f.path)));
+    }
+  }
+
+  // Actividades igual que antes
+  let actividades = dv.pages(`"${temasRoot}/${temaKey}"`)
+    .where(p => p.file.folder.includes("Actividad"));
+  if (actividades.length) {
+    dv.header(3, "Actividades");
+    actividades.forEach(act => {
+      dv.paragraph(dv.fileLink(act.file.name));
+    });
+  } else {
+    dv.paragraph("No hay actividades");
+  }
+});
+
+```
