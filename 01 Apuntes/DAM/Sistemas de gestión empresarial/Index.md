@@ -205,17 +205,14 @@ allPages.forEach(p => {
   let temarioFiles = dv.pages().where(
     p => p.file.path.startsWith(temarioFolder)
   );
-  dv.paragraph(temarioFiles);
+  //dv.paragraph(temarioFiles);
 
-  if (temarioMdFiles.length === 0 && pdfFiles.length === 0) {
+  if (temarioFiles.length === 0) {
     dv.paragraph("No hay temario");
   } else {
     dv.header(3, "Temario");
-    if (temarioMdFiles.length > 0) {
-      dv.list(temarioMdFiles.map(f => dv.fileLink(f.file.path)));
-    }
-    if (pdfFiles.length > 0) {
-      dv.list(pdfFiles.map(f => dv.fileLink(f.path)));
+    if (temarioFiles.length > 0) {
+      dv.list(temarioFiles.map(f => dv.fileLink(f.file.path)));
     }
   }
 
