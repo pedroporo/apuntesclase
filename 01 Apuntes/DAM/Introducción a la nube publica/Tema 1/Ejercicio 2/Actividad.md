@@ -41,3 +41,5 @@ Un Network Access Control List  es una capa que actúa como un firewall para co
 
 
 2. Calculo de costos:
+![[My Estimate - Calculadora de precios de AWS.pdf#page=1]]
+![[My Estimate - Calculadora de precios de AWS.pdf#page=2]]
