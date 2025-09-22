@@ -48,14 +48,16 @@ allPages.forEach(p => {
     .where(p => p.file.folder.includes("Actividad"));
     
   let actividadesPdf = app.vault.getFiles().filter(
-    f => f.extension === "pdf" && f.path.startsWith("${temasRoot}/${temaKey}") && f.path.includes("Actividad")
+    f => f.extension === "pdf" && f.path.startsWith(`${temasRoot}/${temaKey}/Actividad`)
   );
-  dv.paragraph(actividadesPdf);
-  if (actividades.length) {
+  
+  
+  if (actividades.length && actividadesPdf.length) {
     dv.header(3, "Actividades");
     actividades.forEach(act => {
       dv.paragraph(dv.fileLink(act.file.name));
     });
+    dv.list(actividadesPdf.map(f => dv.fileLink(f.path)));
   } else {
     dv.paragraph("No hay actividades");
   }
