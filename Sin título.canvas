@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"7b4b9e009710dd8e","x":-275,"y":110,"width":400,"height":400,"type":"file","file":"01 Apuntes/DAM/Introducción a la nube publica/Tema 1/Ejercicio 2/My Estimate - Calculadora de precios de AWS.pdf"},
-		{"id":"9c3c9a621d9bbfa2","x":-200,"y":80,"width":250,"height":60,"type":"text","text":""},
-		{"id":"23a6faa64077aba1","x":-640,"y":180,"width":400,"height":400,"color":"6","type":"file","file":"01 Apuntes/DAM/Sistemas de gestión empresarial/Index.md"}
-	],
-	"edges":[]
-}
