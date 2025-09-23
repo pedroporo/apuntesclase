@@ -124,21 +124,49 @@ float price
 
 ```mermaid
 erDiagram
-    CAR {
-        string registrationNumber
-        string make
-        string model
-    }
-    PERSON {
-        string firstName
-        string lastName
-        int age
-    }
-    PERSON:::foo ||--|| CAR : owns
-    PERSON o{--|| HOUSE:::bar : has
 
-    classDef foo stroke:#f00
-    classDef bar stroke:#0f0
-    classDef foobar stroke:#00f
+CUSTOMER ||--o{ ORDER : places
+
+ORDER ||--|{ ORDER_ITEM : contains
+
+PRODUCT ||--o{ ORDER_ITEM : includes
+
+CUSTOMER {
+
+string id
+
+string name
+
+string email
+
+}
+
+ORDER {
+
+string id PK "Hola"
+
+date orderDate
+
+string status
+
+}
+
+PRODUCT {
+
+string id
+
+string name
+
+float price
+
+}
+
+ORDER_ITEM {
+
+int quantity
+
+float price
+
+}
 
 ```
