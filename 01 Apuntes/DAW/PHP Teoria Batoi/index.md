@@ -2,6 +2,8 @@
 tags:
   - PHP
 dg-publish: true
+cover: "[[phplogo.png]]"
+image: "[[phplogo.png]]"
 ---
 # Desenvolupament Web en Entorn Servidor
 
