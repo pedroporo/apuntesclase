@@ -92,7 +92,7 @@ string name
 string email
 
 }
-style CUSTOMER fill:#f9f,stroke:#333,stroke-width:4px
+
 ORDER {
 
 string id
@@ -120,4 +120,25 @@ int quantity
 float price
 
 }
+```
+
+```mermaid
+erDiagram
+    CAR {
+        string registrationNumber
+        string make
+        string model
+    }
+    PERSON {
+        string firstName
+        string lastName
+        int age
+    }
+    PERSON:::foo ||--|| CAR : owns
+    PERSON o{--|| HOUSE:::bar : has
+
+    classDef foo stroke:#f00
+    classDef bar stroke:#0f0
+    classDef foobar stroke:#00f
+
 ```
