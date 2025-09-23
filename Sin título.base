@@ -1,3 +1,7 @@
 views:
   - type: cards
     name: Tabla
+    order:
+      - file.name
+      - cover
+      - image
