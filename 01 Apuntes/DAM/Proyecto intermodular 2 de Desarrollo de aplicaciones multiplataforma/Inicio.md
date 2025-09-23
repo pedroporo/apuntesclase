@@ -48,4 +48,5 @@ int quantity
 float price
 
 }
+class CUSTOMER internal-link;
 ```
