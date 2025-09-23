@@ -72,3 +72,52 @@ allPages.forEach(p => {
 });
 ```
 
+
+
+```mermaid
+erDiagram
+
+CUSTOMER ||--o{ ORDER : places
+
+ORDER ||--|{ ORDER_ITEM : contains
+
+PRODUCT ||--o{ ORDER_ITEM : includes
+
+CUSTOMER {
+
+string id
+
+string name
+
+string email
+
+}
+style CUSTOMER fill:#f9f,stroke:#333,stroke-width:4px
+ORDER {
+
+string id
+
+date orderDate
+
+string status
+
+}
+
+PRODUCT {
+
+string id
+
+string name
+
+float price
+
+}
+
+ORDER_ITEM {
+
+int quantity
+
+float price
+
+}
+```
