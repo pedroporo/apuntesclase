@@ -19,6 +19,8 @@ string name
 
 string email
 
+internal-link
+
 }
 
 ORDER {
@@ -48,5 +50,15 @@ int quantity
 float price
 
 }
-class CUSTOMER internal-link;
+
 ```
+
+```mermaid
+graph TD
+
+Biology --> Chemistry
+
+class Biology,Chemistry internal-link;
+```
+
+
