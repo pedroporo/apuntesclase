@@ -1,7 +1,13 @@
 views:
-  - type: cards
+  - type: table
     name: Tabla
     order:
       - file.name
       - cover
       - image
+    sort:
+      - property: image
+        direction: ASC
+  - type: cards
+    name: Vista
+    cardSize: 410

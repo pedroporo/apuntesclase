@@ -1,9 +1,9 @@
 ---
+cover: "[[01 Apuntes/DAW/PHP Teoria Batoi/imagenes/02/phplogo.png]]"
+image: "[[01 Apuntes/DAW/PHP Teoria Batoi/imagenes/02/phplogo.png]]"
 tags:
   - PHP
 dg-publish: true
-cover: "![[phplogo.png]]"
-image: "![[phplogo.png]]"
 ---
 # Desenvolupament Web en Entorn Servidor
 
