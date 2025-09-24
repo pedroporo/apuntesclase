@@ -25,17 +25,11 @@ int age
 
 }
 
-PERSON:::foo ||--|| CAR : owns
+PERSON ||--|| CAR : owns
 
-PERSON o{--|| HOUSE:::bar : has
+PERSON o{--|| HOUSE : has
 
-  
 
-classDef foo stroke:#f00
-
-classDef bar stroke:#0f0
-
-classDef foobar stroke:#00f
 ```
 
 
