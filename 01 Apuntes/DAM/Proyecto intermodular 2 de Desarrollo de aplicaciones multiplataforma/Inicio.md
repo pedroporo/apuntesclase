@@ -4,20 +4,12 @@ dg-publish: true
 
 ```mermaid
 erDiagram
-    TABLE1 ||--o{ TABLE2 : relationship
-    TABLE1 {
-        string id PK
-        string name
-    }
-    TABLE2 {
-        string id PK
-        string description
-    }
-    %% Aplica la clase al nodo que quieres enlazar
-    classDef internal-link fill:#f9f,stroke:#333,stroke-width:2px;
-    class TABLE1 internal-link;
+    id1||--||id2 : label
+    style id1 fill:#f9f,stroke:#333,stroke-width:4px
+    style id2 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 
 ```
+
 
 ```mermaid
 graph TD
