@@ -32,10 +32,12 @@ Archivo de actividad: [[PRACTICA 1 - Gestion de Procesos en Linux.pdf]]
 	 ![[Pasted image 20250924163138.png]]
 	 - nice:
 	 ![[Pasted image 20250924163822.png|700]]
+	 - renice:
+	 
 2. Presta atención a los cambios de estado, prioridades, etc. 
 3. Investiga que hace el comando xkill. Pruébalo y proporciona ejemplos de uso. 
 Lo que hace es como el kill, pero a demas si no le especificas un proceso te dara un cursor y haciendole click a la ventana que quieres quitar lo quitara
-
+![[Pasted image 20250924164154.png]]
 4. ¿Qué hace el comando killall? 
 
 Matar el proceso usando su nombre.
