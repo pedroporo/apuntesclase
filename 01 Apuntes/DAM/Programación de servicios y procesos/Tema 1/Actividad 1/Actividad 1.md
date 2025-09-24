@@ -30,6 +30,8 @@ Archivo de actividad: [[PRACTICA 1 - Gestion de Procesos en Linux.pdf]]
 	 ![[Pasted image 20250924163014.png|300]]
 	 - top:
 	 ![[Pasted image 20250924163138.png]]
+	 - nice:
+	 
 	 - 
 2. Presta atención a los cambios de estado, prioridades, etc. 
 3. Investiga que hace el comando xkill. Pruébalo y proporciona ejemplos de uso. 
