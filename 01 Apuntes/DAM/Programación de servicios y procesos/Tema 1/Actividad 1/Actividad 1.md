@@ -26,8 +26,15 @@ Archivo de actividad: [[PRACTICA 1 - Gestion de Procesos en Linux.pdf]]
 	 - ps:
 	 ![[Pasted image 20250924162527.png|400]]
 	 ![[Pasted image 20250924162646.png]]
+	 - kill:
+	 ![[Pasted image 20250924163014.png|300]]
+	 - top:
+	 ![[Pasted image 20250924163138.png]]
 	 - 
 2. Presta atención a los cambios de estado, prioridades, etc. 
 3. Investiga que hace el comando xkill. Pruébalo y proporciona ejemplos de uso. 
 4. ¿Qué hace el comando killall? 
-5. Busca qué utilidades ( de línea de comandos y de interfaz gráfica) están disponibles en Windows/Mac para la administración de procesos (list,kill,etc.) Prueba las opciones más importantes disponibles.
+
+Matar el proceso usando su nombre.
+
+1. Busca qué utilidades ( de línea de comandos y de interfaz gráfica) están disponibles en Windows/Mac para la administración de procesos (list,kill,etc.) Prueba las opciones más importantes disponibles.
