@@ -33,8 +33,9 @@ Archivo de actividad: [[PRACTICA 1 - Gestion de Procesos en Linux.pdf]]
 	 - nice:
 	 ![[Pasted image 20250924163822.png|700]]
 	 - renice:
-	 
+	 ![[Pasted image 20250924164809.png]]
 2. Presta atención a los cambios de estado, prioridades, etc. 
+Hize lo de las prioridades y todo eso
 3. Investiga que hace el comando xkill. Pruébalo y proporciona ejemplos de uso. 
 Lo que hace es como el kill, pero a demas si no le especificas un proceso te dara un cursor y haciendole click a la ventana que quieres quitar lo quitara
 ![[Pasted image 20250924164154.png]]
