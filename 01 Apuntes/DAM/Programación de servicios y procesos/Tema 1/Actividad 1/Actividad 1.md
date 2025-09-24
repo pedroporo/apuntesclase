@@ -44,3 +44,9 @@ Lo que hace es como el kill, pero a demas si no le especificas un proceso te dar
 Matar el proceso usando su nombre.
 
 1. Busca qué utilidades ( de línea de comandos y de interfaz gráfica) están disponibles en Windows/Mac para la administración de procesos (list,kill,etc.) Prueba las opciones más importantes disponibles.
+- Windows:
+	- taskkill
+	- tasklist
+	- WMIC
+	- qprocess
+	- 
