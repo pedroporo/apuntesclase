@@ -52,6 +52,13 @@ PEDIDO ||--|| ALBARAN : "Tiene"
 ALBARAN }o--|| RUTA : "Se reparte"
 RUTA }o--|| REPARTIDOR : "Le asignan"
 UBICACION }o--|| REPARTIDOR: "Reparte a"
+REPARTIDOR ||--|| CAMION : "Conduze"
+PEDIDO ||--o{ LINEAPEDIDO : "Contiene"
+LINEAPEDIDO }o--|| PRODUCTO : "Puede estar"
+PRODUCTO ||--|| INVENTARIO : "Esta"
+PRODUCTO ||--o{ PEDIDOPROV : ""
+PRODUCTO }o--o{ PROVEEDOR: "Puede comprarse en"
+PROVEEDOR
 ```
 
 
