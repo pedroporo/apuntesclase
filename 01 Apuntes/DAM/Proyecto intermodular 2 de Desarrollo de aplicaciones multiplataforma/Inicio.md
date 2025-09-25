@@ -58,7 +58,7 @@ LINEAPEDIDO }o--|| PRODUCTO : "Puede estar"
 PRODUCTO ||--|| INVENTARIO : "Esta"
 PRODUCTO ||--o{ PEDIDOPROV : ""
 PRODUCTO }o--o{ PROVEEDOR: "Puede comprarse en"
-PROVEEDOR
+PROVEEDOR ||--o{ PEDIDOPROV : "Suplie"
 ```
 
 
