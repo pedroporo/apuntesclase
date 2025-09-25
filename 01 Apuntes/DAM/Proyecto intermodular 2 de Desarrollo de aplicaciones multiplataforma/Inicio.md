@@ -5,29 +5,9 @@ dg-publish: true
 ```mermaid
 erDiagram
 
-CAR {
-
-string registrationNumber
-
-string make
-
-string model
-
+CLIENTE{
+	
 }
-
-PERSON {
-
-string firstName
-
-string lastName
-
-int age
-
-}
-
-PERSON ||--|| CAR : owns
-
-PERSON o{--|| HOUSE : has
 
 
 ```
