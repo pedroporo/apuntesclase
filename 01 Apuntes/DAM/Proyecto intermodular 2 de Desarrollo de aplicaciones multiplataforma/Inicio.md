@@ -46,7 +46,12 @@ CLIENTE ||--o{ DIRECCION : "Tiene"
 DIRECCION ||--o{ PEDIDO : "Esta"
 DIRECCION ||--o{ FACTURA : "Esta"
 CODIGOPOSTAL ||--o{ DIRECCION: "Contiente"
-CIUDAD ||--o{ CODIGOPOSTAL
+CIUDAD ||--o{ CODIGOPOSTAL : "Tiene"
+FACTURA ||--|| ALBARAN: "Hay"
+PEDIDO ||--|| ALBARAN : "Tiene"
+ALBARAN }o--|| RUTA : "Se reparte"
+RUTA }o--|| REPARTIDOR : "Le asignan"
+UBICACION }o--|| REPARTIDOR: "Reparte a"
 ```
 
 
