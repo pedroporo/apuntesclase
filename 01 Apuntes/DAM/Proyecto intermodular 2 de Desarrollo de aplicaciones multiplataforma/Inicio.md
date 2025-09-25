@@ -10,7 +10,13 @@ CLIENTE{
 	varchar nombre
 	varchar dni
 }
+DIRECCTION{
+}
 
+CODIGOPOSTAL{
+}
+CIUDAD{
+}
 
 ```
 
