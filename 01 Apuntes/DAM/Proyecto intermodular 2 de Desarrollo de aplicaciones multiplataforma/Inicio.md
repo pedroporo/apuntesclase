@@ -10,7 +10,7 @@ CLIENTE{
 	varchar nombre
 	varchar dni
 }
-DIRECCTION{
+DIRECCION{
 }
 
 CODIGOPOSTAL{
@@ -41,7 +41,12 @@ PROVEEDOR{
 }
 INVENTARIO{
 }
-CLIENTE ||--o{ PED
+CLIENTE ||--o{ PEDIDO : "Puede Hacer"
+CLIENTE ||--o{ DIRECCION : "Tiene"
+DIRECCION ||--o{ PEDIDO : "Esta"
+DIRECCION ||--o{ FACTURA : "Esta"
+CODIGOPOSTAL ||--o{ DIRECCION: "Contiente"
+CIUDAD ||--o{ CODIGOPOSTAL
 ```
 
 
