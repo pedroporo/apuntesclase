@@ -7,7 +7,8 @@ erDiagram
 
 CLIENTE{
 	int id pk
-	varchar
+	varchar nombre
+	varchar dni
 }
 
 
