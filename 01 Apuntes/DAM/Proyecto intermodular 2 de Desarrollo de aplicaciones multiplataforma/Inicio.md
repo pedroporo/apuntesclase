@@ -6,7 +6,8 @@ dg-publish: true
 erDiagram
 
 CLIENTE{
-	
+	int id pk
+	varchar
 }
 
 
