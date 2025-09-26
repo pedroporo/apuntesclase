@@ -20,13 +20,16 @@ En definitiva, la digitalización es un **motor de cambio empresarial** que no s
 
 Para comprender cómo se lleva a cabo la digitalización en la práctica, es fundamental diferenciar dos entornos tecnológicos que históricamente han estado separados pero que hoy convergen cada vez más:
 
-* **Entorno IT (Information Technology – Tecnologías de la Información):**\
-  Engloba todas las infraestructuras, sistemas y aplicaciones dedicadas al procesamiento y **gestión** de la **información** dentro de una empresa. \
-  Aquí encontramos servidores, bases de datos, redes de comunicación, aplicaciones de gestión como ERP (Enterprise Resource Planning) o CRM (Customer Relationship Management), correo electrónico corporativo, plataformas de e-commerce, etc.\
+* **Entorno IT (Information Technology – Tecnologías de la Información):**
+  Engloba todas las infraestructuras, sistemas y aplicaciones dedicadas al procesamiento y **gestión** de la **información** dentro de una empresa. 
+  Aquí encontramos servidores, bases de datos, redes de comunicación, aplicaciones de gestión como ERP (Enterprise Resource Planning) o CRM (Customer Relationship Management), correo electrónico corporativo, plataformas de e-commerce, etc.
   Los departamentos típicos que forman parte del entorno IT son: administración, finanzas, recursos humanos, marketing, ventas y, por supuesto, el propio **departamento de sistemas informáticos**.
-* **Entorno OT (Operation Technology – Tecnologías de la Operación):**\
-  Se refiere a las tecnologías que controlan y supervisan dispositivos físicos, procesos industriales y operaciones de producción. \
-  Incluyen los sistemas de control industrial (ICS): sistemas SCADA (Supervisory Control and Data Acquisition), los PLC (Controladores Lógicos Programables), así como sensores, robots y maquinaria automatizada en las plantas de fabricación.\ <mark style="color:$info;">Ejemplo. En una planta de automóviles: Los PLC controlan robots de soldadura y cintas transportadoras. El SCADA permite a los ingenieros supervisar toda la línea de producción desde una sala de control. El ICS integra todo (SCADA + PLC + sensores + comunicaciones) para que la planta funcione de forma coordinada.</mark>
+* **Entorno OT (Operation Technology – Tecnologías de la Operación):**
+  Se refiere a las tecnologías que controlan y supervisan dispositivos físicos, procesos industriales y operaciones de producción. 
+  Incluyen los sistemas de control industrial (ICS): sistemas SCADA (Supervisory Control and Data Acquisition), los PLC (Controladores Lógicos Programables), así como sensores, robots y maquinaria automatizada en las plantas de fabricación.
+>[!Example]
+>Ejemplo. En una planta de automóviles: Los PLC controlan robots de soldadura y cintas transportadoras. El SCADA permite a los ingenieros supervisar toda la línea de producción desde una sala de control. El ICS integra todo (SCADA + PLC + sensores + comunicaciones) para que la planta funcione de forma coordinada.
+
 
 Tradicionalmente, IT y OT han funcionado como mundos separados: uno orientado a la **gestión de la información** y el otro a la **operación física de los procesos**. Sin embargo, la transformación digital actual busca integrarlos. La conexión entre IT y OT es vital porque permite, por ejemplo, que un sensor en una máquina de producción (OT) envíe sus datos a un sistema de análisis (IT), lo que facilita detectar fallos antes de que ocurran, ajustar la producción en tiempo real o planificar el mantenimiento preventivo.
 
