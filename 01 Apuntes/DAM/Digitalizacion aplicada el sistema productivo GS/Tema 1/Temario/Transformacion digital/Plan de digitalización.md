@@ -2,7 +2,6 @@
 dg-publish: true
 ---
 
-# 
 
 La digitalización de una empresa no puede hacerse de forma improvisada. Requiere un **plan estructurado**, que permita ordenar las acciones, aprovechar los recursos y reducir los riesgos. Generalmente, un plan de digitalización se desarrolla en varias fases:
 
