@@ -24,9 +24,8 @@ Empresa seleccionada: Carrefour
 	- Programas de subscripcion para clientes (El club carrefour (Si no me crees aqui esta el [enlaze](https://www.carrefour.es/clubcarrefour/)))
 
 - **OT:**
-	- Centros logísticos avanzados con algoritmos de optimización y robotización de procesos.
-	- Etiquetas RFID para la gestión automatizada y trazabilidad de prendas en tiendas y almacenes.
-	- Plataformas de pago móvil y pruebas de compra sin caja (self-checkout) en tiendas físicas.
+	- Pago online y pasas a recogerlo.
+	- 
 
 2. **Impacto en la empresa: **
 
@@ -36,11 +35,5 @@ Empresa seleccionada: Carrefour
 
 3.  Propuestas de mejora
 
-- **1. Uso ampliado de inteligencia artificial para personalización hipersegmentada**
-
-	 - Inditex podría profundizar en la IA para personalizar recomendaciones en tiempo real, tanto online como en tienda física, incrementando la conversión y la fidelización.
-    
-
-- **2. Implantar gemelos digitales en tiendas para optimizar el flujo de clientes y la disposición de productos**
-
-	- Crear réplicas virtuales de puntos de venta permitiría simular experiencias, mejorar la disposición de artículos, prever picos de afluencia y optimizar el personal y los recursos de cada ubicación.
+- 
+- 
