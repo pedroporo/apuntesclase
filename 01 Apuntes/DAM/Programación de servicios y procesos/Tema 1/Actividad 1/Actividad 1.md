@@ -49,4 +49,9 @@ Matar el proceso usando su nombre.
 	- tasklist
 	- WMIC
 	- qprocess
-	- 
+- MacOS:
+	- ps
+	- kill
+	- top
+	- htop
+	- Activity Monitor
