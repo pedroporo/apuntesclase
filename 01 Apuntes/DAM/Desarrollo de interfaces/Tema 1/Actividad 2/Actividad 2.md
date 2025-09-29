@@ -13,4 +13,6 @@ Dibuixant l’arbre de navegació contestarem a aquestes i altres preguntes habi
 
 Aplicacion seleccionada: Venta de videojuegos
 
+Árbol de navegación:
+
 ![[Drawing 2025-09-29 16.15.14.excalidraw]]
