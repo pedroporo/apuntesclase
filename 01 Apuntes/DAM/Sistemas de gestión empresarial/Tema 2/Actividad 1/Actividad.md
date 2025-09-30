@@ -144,3 +144,4 @@ Step 10: (30/09/2025 11:31:46) Comentario del usuario: "Y esta seria la compa"
 ![[Pasted image 20250930180200.png]]  
 
 ## 3P - Módulos
+
