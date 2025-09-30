@@ -212,4 +212,16 @@ Step 27: (30/09/2025 17:19:27) Clic del usuario con botón primario en "Odoo - P
 
   
 
-![](file:///tmp/lu759038bduh.tmp/lu759038be2i_tmp_d435fac9.png)
+![[Pasted image 20250930200143.png]]
+
+Step 31: (30/09/2025 17:20:58) Clic del usuario con botón primario en "Odoo - Reuniones (29 sept – 5 oct 2025) y 1 página más - Perfil 1: Microsoft Edge"
+
+  
+
+![[Pasted image 20250930200226.png]]
+
+Step 34: (30/09/2025 17:21:54) Comentario del usuario: "412 Tablas en la base de odoo"
+
+  
+
+![[Pasted image 20250930200302.png]]
