@@ -88,7 +88,7 @@ Step 3: (30/09/2025 11:29:43) Inicio de arrastre del mouse del usuario en "Odoo 
 
   
 
-![[Pasted image 20250930184029.png]]  
+![[Pasted image 20250930212835.png]]  
 
 
 Step 4: (30/09/2025 11:30:32) Clic del usuario con botón primario en "Odoo - Aplicaciones y 1 página más - Perfil 1: Microsoft Edge"
