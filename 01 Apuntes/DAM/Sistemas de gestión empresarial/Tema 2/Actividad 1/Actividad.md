@@ -170,3 +170,11 @@ Step 83: (30/09/2025 11:43:27) Comentario del usuario: "Creacion de presupuesto"
   
 
 ![[Pasted image 20250930193844.png]]
+
+Step 117: (30/09/2025 11:47:11) Comentario del usuario: "captura de factura"
+
+  
+
+![[Pasted image 20250930194016.png]]
+
+## 4P - Bases de datos
