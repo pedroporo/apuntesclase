@@ -68,237 +68,27 @@ Step 9: (30/09/2025 10:43:23) Comentario del usuario: "Inicio de sesion de postg
 ## 2P - Personalización en Odoo 
   
 
-[Next](#Recorded_Steps)
 
-Step 1: (30/09/2025 11:25:14) Clic del usuario con botón primario en "Microsoft Edge: 1 ventana en ejecución (botón)"
+Step 1: (30/09/2025 11:27:32) Comentario del usuario: "Y estas son las configuraciones que eleji para odoo"
 
-No se guardaron capturas de pantalla para esta acción.
-
+el db pass: odoopgpwd
   
 
-[Previous Next](#Recorded_Steps)
+![[Pasted image 20250930183914.png]]  
 
-Step 2: (30/09/2025 11:25:16) Clic del usuario con botón primario en "Odoo y 1 página más - Perfil 1: Microsoft Edge"
 
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#Recorded_Steps)
-
-Step 3: (30/09/2025 11:25:20) Clic del usuario con botón primario en "Odoo y 1 página más - Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#Recorded_Steps)
-
-Step 4: (30/09/2025 11:25:24) Entrada de teclado del usuario en "Odoo y 1 página más - Perfil 1: Microsoft Edge (ventana)", en "Odoo y 1 página más - Perfil 1: Microsoft Edge" [...] No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#Recorded_Steps)
-
-Step 5: (30/09/2025 11:25:43) Clic del usuario con botón primario en "Odoo y 1 página más - Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous](#Top_of_index_html) [Next](#No_se_guardaron_capturas_de_pant)
-
-Step 6: (30/09/2025 11:25:46) Entrada de teclado del usuario en "Odoo y 1 página más - Perfil 1: Microsoft Edge (ventana)", en "Odoo y 1 página más - Perfil 1: Microsoft Edge" [... Alt-2 ... Backspace ...]
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous](#Top_of_index_html) [Next](#No_se_guardaron_capturas_de_pant)
-
-Step 7: (30/09/2025 11:26:00) Doble clic del usuario con botón primario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 8: (30/09/2025 11:26:00) Clic del usuario con botón primario en "Odoo y 1 página más - Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 9: (30/09/2025 11:26:01) Entrada de teclado del usuario en "Odoo y 1 página más - Perfil 1: Microsoft Edge (ventana)", en "Odoo y 1 página más - Perfil 1: Microsoft Edge" [... Ctrl-C Ctrl-C Ctrl-C] No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 10: (30/09/2025 11:26:02) Clic del usuario con botón primario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 11: (30/09/2025 11:26:02) Entrada de teclado del usuario en "Odoo y 1 página más - Perfil 1: Microsoft Edge (ventana)", en "Odoo y 1 página más - Perfil 1: Microsoft Edge" [... Ctrl-V] No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 12: (30/09/2025 11:26:03) Clic del usuario con botón primario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 13: (30/09/2025 11:26:06) Clic del usuario con botón primario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 14: (30/09/2025 11:26:08) Entrada de teclado del usuario en "Odoo y 1 página más - Perfil 1: Microsoft Edge (ventana)", en "Odoo y 1 página más - Perfil 1: Microsoft Edge" [...] No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 15: (30/09/2025 11:26:15) Clic del usuario con botón primario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 16: (30/09/2025 11:26:17) Inicio de arrastre del mouse del usuario No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#No_se_guardaron_capturas_de_pant)
-
-Step 17: (30/09/2025 11:26:30) Fin de arrastre del mouse del usuario No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous](#Top_of_index_html) [Next](#Previous_Next)
-
-Step 18: (30/09/2025 11:26:31) Clic del usuario con botón primario No se guardaron capturas de pantalla para esta acción.
-
-[Previous](#Top_of_index_html) [Next](#Previous_Next)
-
-Step 19: (30/09/2025 11:26:32) Clic del usuario con botón primario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#Previous_Next)
-
-Step 20: (30/09/2025 11:26:38) Clic del usuario con botón primario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#Previous_Next)
-
-Step 21: (30/09/2025 11:26:40) Inicio de arrastre del mouse del usuario No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#Previous_Next)
-
-Step 22: (30/09/2025 11:26:53) Fin de arrastre del mouse del usuario No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#Previous_Next)
-
-Step 23: (30/09/2025 11:26:53) Clic del usuario con botón primario No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#Previous_Next)
-
-Step 24: (30/09/2025 11:26:54) Inicio de arrastre del mouse del usuario en "Odoo y 1 página más- Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#Previous_Next)
-
-Step 25: (30/09/2025 11:26:55) Fin de arrastre del mouse del usuario en "Odoo - Microsoft Edge (región)", en "Odoo y 1 página más - Perfil 1: Microsoft Edge" No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous](#Top_of_index_html) [Next](#page_4)
-
-Step 26: (30/09/2025 11:26:57) Clic del usuario con botón primario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous](#Top_of_index_html) [Next](#page_4)
-
-Step 27: (30/09/2025 11:27:32) Comentario del usuario: "Y estas son las configuraciones que eleji para odoo"
-
-  
-
-![](file:///tmp/lu317174gtb7.tmp/lu317174gtd3_tmp_f6cb84fe.png)  
-
-[Previous Next](#page_4)
-
-Step 28: (30/09/2025 11:27:36) Clic del usuario con botón primario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous Next](#page_4)
-
-Step 29: (30/09/2025 11:27:46) Rueda abajo del mouse del usuario en "Odoo y 1 página más -Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous](#Top_of_index_html) [Next](#page_5)
-
-Step 30: (30/09/2025 11:29:24) Clic del usuario con botón primario en "Odoo - Aplicaciones y 1 página más - Perfil 1: Microsoft Edge"
-
-No se guardaron capturas de pantalla para esta acción.
-
-  
-
-[Previous](#Top_of_index_html) [Next](#page_6)
 
 Step 31: (30/09/2025 11:29:27) Clic del usuario con botón primario en "Odoo - Aplicaciones y 1 página más - Perfil 1: Microsoft Edge"
 
   
 
-![](file:///tmp/lu317174gtb7.tmp/lu317174gtd3_tmp_a2d368c7.png)  
-
-[Previous](#Top_of_index_html) [Next](#page_7)
+![[Pasted image 20250930184010.png]]  
 
 Step 32: (30/09/2025 11:29:43) Inicio de arrastre del mouse del usuario en "Odoo - Aplicaciones y 1 página más - Perfil 1: Microsoft Edge"
 
   
 
-![](file:///tmp/lu317174gtb7.tmp/lu317174gtd3_tmp_9ba74df9.png)  
+![[Pasted image 20250930184029.png]]  
 
 [Previous](#Top_of_index_html) [Next](#page_8)
 
@@ -466,7 +256,7 @@ Step 53: (30/09/2025 11:31:19) Clic del usuario con botón primario en "Odoo - Y
 
   
 
-![](file:///tmp/lu317174gtb7.tmp/lu317174gtd3_tmp_ac1739ae.png)  
+![[Pasted image 20250930183657.png]]  
 
 [Previous](#Top_of_index_html) [Next](#page_28)
 
@@ -474,7 +264,7 @@ Step 54: (30/09/2025 11:31:20) Entrada de teclado del usuario en "Odoo - YourCom
 
   
 
-![](file:///tmp/lu317174gtb7.tmp/lu317174gtd3_tmp_2f37ef77.png)  
+![[Pasted image 20250930183646.png]]  
 
 [Previous](#Top_of_index_html) [Next](#page_29)
 
@@ -482,7 +272,7 @@ Step 55: (30/09/2025 11:31:21) Clic del usuario con botón primario en "Testeos.
 
   
 
-![](file:///tmp/lu317174gtb7.tmp/lu317174gtd3_tmp_46f705e6.png)  
+![[Pasted image 20250930183635.png]]  
 
 [Previous](#page_28)
 
