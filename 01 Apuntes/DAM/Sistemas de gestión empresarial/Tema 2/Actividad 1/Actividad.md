@@ -152,3 +152,21 @@ Step 5: (30/09/2025 11:34:14) Clic del usuario con botón primario en "Odoo - Ap
 Step 6: (30/09/2025 11:37:07) Clic del usuario con botón primario en "Odoo - Conversaciones y 1 página más - Perfil 1: Microsoft Edge"
 
 ![[Pasted image 20250930193401.png]]
+Step 34: (30/09/2025 11:38:42) Rueda arriba del mouse del usuario en "Odoo - Nuevo y 1 página más - Perfil 1: Microsoft Edge"
+
+  
+
+![[Pasted image 20250930193608.png]]
+
+![[Pasted image 20250930193643.png]]
+Step 59: (30/09/2025 11:41:40) Comentario del usuario: "Y ya tenemos nuestro producto SGE"
+
+  
+
+![[Pasted image 20250930193740.png]]
+
+Step 83: (30/09/2025 11:43:27) Comentario del usuario: "Creacion de presupuesto"
+
+  
+
+![[Pasted image 20250930193844.png]]
