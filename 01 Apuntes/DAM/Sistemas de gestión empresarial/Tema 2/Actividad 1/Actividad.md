@@ -490,6 +490,4 @@ Step 56: (30/09/2025 11:31:46) Comentario del usuario: "Y esta seria la compa"
 
   
 
-![](file:///tmp/lu317174gtb7.tmp/lu317174gtd3_tmp_a0b983d7.png)  
-
-[Return to top of page...](#Recorded_Steps)
+![[Pasted image 20250930180200.png]]  
