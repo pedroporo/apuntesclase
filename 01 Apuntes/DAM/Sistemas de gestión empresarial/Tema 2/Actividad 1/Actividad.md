@@ -201,4 +201,15 @@ Step 4:
 ## 5P - Tareas adicionales
 Step 2: (30/09/2025 17:14:11) Comentario del usuario: "Despues de la instalacion hay 374 Tablas"
 
-![](file:///tmp/lu759038bduh.tmp/lu759038bdwd_tmp_62c8b71d.png)
+![[Pasted image 20250930195107.png]]
+
+Step 17: (30/09/2025 17:17:52) Clic del usuario con botón primario en "Odoo - Nuevo y 1 página más - Perfil 1: Microsoft Edge"
+
+  
+
+![[Pasted image 20250930195224.png]]
+Step 27: (30/09/2025 17:19:27) Clic del usuario con botón primario en "Odoo - P00008 y 1 página más - Perfil 1: Microsoft Edge"
+
+  
+
+![](file:///tmp/lu759038bduh.tmp/lu759038be2i_tmp_d435fac9.png)
