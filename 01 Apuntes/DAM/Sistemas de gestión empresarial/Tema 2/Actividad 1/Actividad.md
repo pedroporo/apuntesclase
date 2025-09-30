@@ -178,3 +178,27 @@ Step 117: (30/09/2025 11:47:11) Comentario del usuario: "captura de factura"
 ![[Pasted image 20250930194016.png]]
 
 ## 4P - Bases de datos
+Step 1: (30/09/2025 17:03:10) Clic del usuario con botón primario en "pgAdmin 4: 1 ventana en ejecución (botón)"
+
+![[Pasted image 20250930194643.png]]  
+
+  
+Step 2: (30/09/2025 17:03:37) Comentario del usuario: "Captura de res users"
+
+![[Pasted image 20250930194655.png]]  
+
+Step 3: (30/09/2025 17:07:05) Comentario del usuario: "Vista de clientes en db"
+
+  
+
+![[Pasted image 20250930194707.png]]  
+
+
+Step 4: 
+`SELECT * FROM public.res_partner ORDER BY id ASC`
+  
+
+## 5P - Tareas adicionales
+Step 2: (30/09/2025 17:14:11) Comentario del usuario: "Despues de la instalacion hay 374 Tablas"
+
+![](file:///tmp/lu759038bduh.tmp/lu759038bdwd_tmp_62c8b71d.png)
