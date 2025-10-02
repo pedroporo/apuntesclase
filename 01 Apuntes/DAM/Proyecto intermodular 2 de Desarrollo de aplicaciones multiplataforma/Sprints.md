@@ -93,7 +93,8 @@ Se propone una duración realista de 4 semanas por sprint. Los sprints están se
 
 ***
 
-#### 4) Backoffice Windows Forms
+#### 4) Backoffice Windows Forms 
+Yes
 
 | Issue | Tipo | Etiqueta |
 | :-- | :-- | :-- |
@@ -111,6 +112,7 @@ Se propone una duración realista de 4 semanas por sprint. Los sprints están se
 ***
 
 #### 5) Backoffice Odoo (ERP)
+Yes
 
 | Issue | Tipo | Etiqueta |
 | :-- | :-- | :-- |
