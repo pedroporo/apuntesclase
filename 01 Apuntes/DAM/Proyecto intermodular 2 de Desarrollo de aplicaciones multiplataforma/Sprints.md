@@ -76,6 +76,7 @@ Se propone una duración realista de 4 semanas por sprint. Los sprints están se
 ***
 
 #### 3) App móvil/escritorio para clientes
+yes
 
 | Issue | Tipo | Etiqueta |
 | :-- | :-- | :-- |
