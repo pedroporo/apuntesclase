@@ -20,6 +20,15 @@ dns_cloudflare_api_token=
 Propagation Seconds
 120
 
+Enable autoscroll in linux:
+`xinput set-prop {MOUSEID} "libinput Scroll Method Enabled" 0, 0, 1`
+Ej:
+`xinput set-prop 12 "libinput Scroll Method Enabled" 0, 0, 1`
+Disable autoscroll in linux:
+`xinput set-prop {MOUSEID} "libinput Scroll Method Enabled" 0, 0, 0`
+
+List:
+`xinput list`
 
 ![[Pasted image 20251003163328.png]]
 
