@@ -81,16 +81,48 @@ UBICACION{
 	datetime fechaHora
 }
 CAMION{
+	int id PK 
+	string matricula 
+	string modelo 
+	float capacidadKg 
+	date fechaCompra 
+	string estadoServicio
 }
 LINEAPEDIDO{
+	int id PK 
+	int idPedido FK 
+	int idProducto FK 
+	int cantidad 
+	float precioUnitario
 }
 PRODUCTO{
+	int id PK 
+	string nombre 
+	string descripcion 
+	float precio 
+	float pesoKg 
+	int idProveedor FK
 }
 PEDIDOPROV{
+	int id PK 
+	int idProveedor FK 
+	date fechaPedido 
+	string estadoPedido 
+	date fechaRecepcion
 }
 PROVEEDOR{
+	int id PK 
+	string nombre 
+	string telefono 
+	string email 
+	string direccion
 }
 INVENTARIO{
+	int id PK 
+	int idProducto FK 
+	int cantidadDisponible 
+	string ubicacionAlmacen 
+	datetime fechaUltimaActualizacion
 }
 CLIENTE ||--o{ PEDIDO : "Puede Hacer"
 CLIENTE ||--o{ DIRECCION : "Tiene"
