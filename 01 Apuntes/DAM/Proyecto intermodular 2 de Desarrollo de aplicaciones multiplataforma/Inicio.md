@@ -100,11 +100,11 @@ PRODUCTO{
 	string nombre 
 	string descripcion 
 	float precio 
-	float pesoKg 
-	int idProveedor FK
+	float pesoKg
 }
 PEDIDOPROV{
 	int id PK 
+	int idProducto FK
 	int idProveedor FK 
 	date fechaPedido 
 	string estadoPedido 
