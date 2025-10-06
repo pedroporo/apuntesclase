@@ -16,3 +16,5 @@ Aplicacion seleccionada: Venta de videojuegos
 Árbol de navegación:
 
 ![[Drawing 2025-09-29 16.15.14.excalidraw]]
+
+Link del proyecto en figma: 
