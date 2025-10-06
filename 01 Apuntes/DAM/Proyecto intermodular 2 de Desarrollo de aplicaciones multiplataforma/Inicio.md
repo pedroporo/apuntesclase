@@ -9,27 +9,76 @@ CLIENTE{
 	int id pk
 	varchar nombre
 	varchar dni
-	varchar apellidos 
-	string telefono string email date fechaRegistro
+	varchar telefono
+	varchar email 
+	date fechaRegistro
 }
 DIRECCION{
+	int id PK 
+	string calle 
+	string numero 
+	string piso 
+	string observaciones 
+	int idCodigoPostal FK 
+	int idCliente FK
 }
 
 CODIGOPOSTAL{
+	int id PK 
+	string codigo 
+	int idCiudad FK
 }
 CIUDAD{
+	int id PK 
+	string nombre 
+	string provincia
 }
 FACTURA{
+	int id PK 
+	int idPedido FK 
+	date fechaEmision 
+	float total 
+	string metodoPago 
+	string estadoPago
 }
 PEDIDO{
+	int id PK 
+	int idCliente FK 
+	date fechaPedido 
+	string estadoPedido 
+	date fechaEstimadaEntrega 
+	int idRuta FK
 }
 ALBARAN{
+	int id PK 
+	int idPedido FK 
+	date fechaEmision 
+	string firmaCliente 
+	string observaciones
 }
 RUTA{
+	int id PK 
+	date fecha 
+	float distanciaEstimada 
+	float duracionEstimada 
+	int idCamion FK 
+	int idRepartidor FK
 }
 REPARTIDOR{
+	int id PK 
+	string nombre 
+	string apellidos 
+	string telefono 
+	string email 
+	string licenciaConduccion 
+	date fechaContratacion
 }
 UBICACION{
+	int id PK 
+	int idRuta FK 
+	string latitud 
+	string longitud 
+	datetime fechaHora
 }
 CAMION{
 }
