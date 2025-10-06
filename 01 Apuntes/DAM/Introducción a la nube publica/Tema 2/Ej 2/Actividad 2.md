@@ -11,3 +11,5 @@ title: tarea1_PedroGuillFerri
 ![[Pasted image 20251006194633.png]]
 4. Replica la creación del ec2 usando la terminal (AWS CLI) mediante script, pero en vez de un Ubuntu coge la ami de un Debian.
 ![[Pasted image 20251006194942.png]]
+
+![[Pasted image 20251006195740.png]]
