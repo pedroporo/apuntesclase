@@ -1,13 +1,14 @@
 ---
-title: "Introducción a Python - Primeros pasos con Python"
-source: "https://j2logo.com/python/tutorial/introduccion-a-python/"
+title: Introducción a Python - Primeros pasos con Python
+source: https://j2logo.com/python/tutorial/introduccion-a-python/
 author:
   - "[[j2logo]]"
 published: 2020-03-04
 created: 2025-10-06
-description: "En este tutorial de introducción a Python descubrirás las características principales del lenguaje para crear tu primera aplicación."
+description: En este tutorial de introducción a Python descubrirás las características principales del lenguaje para crear tu primera aplicación.
 tags:
-  - "clippings"
+  - clippings
+  - python
 ---
 En este tutorial de introducción a Python vas a descubrir las características principales del lenguaje, aquello que lo hace único y que te hará falta conocer para implementar cualquier programa en este lenguaje.
 
@@ -52,13 +53,7 @@ En el intérprete de Python podemos escribir expresiones e instrucciones que est
 
 Puedes probar, por ejemplo, a escribir `2 + 3`. El resultado debe ser el siguiente:
 
-\>>> 2 \+ 3
-
-5
-
-\>>> 2 + 3 5
-
-```
+```python
 >>> 2 + 3
 5
 ```
@@ -71,7 +66,7 @@ O ejecutar la instrucción `print('¡Hola mundo!')`:
 
 \>>> print('¡Hola mundo!') ¡Hola mundo!
 
-```
+```python
 >>> print('¡Hola mundo!')
 ¡Hola mundo!
 ```
@@ -92,7 +87,7 @@ print (suma)
 
 suma = 2 + 3 print(suma)
 
-```
+```python
 suma = 2 + 3
 print(suma)
 ```
@@ -135,7 +130,7 @@ b is None \# Compara si la identidad de la variable b es None
 
 5 + 2 # Suma del número 5 y el número 2 a < 10 # Compara si el valor de la variable a es menor que 10 b is None # Compara si la identidad de la variable b es None 3 \* (200 - c) # Resta a 200 el valor de c y lo multiplica por 3
 
-```
+```python
 5 + 2  # Suma del número 5 y el número 2
 a < 10  # Compara si el valor de la variable a es menor que 10
 b is None  # Compara si la identidad de la variable b es None
@@ -158,7 +153,7 @@ Ejemplos de sentencias son la asignación ` = ` o las instrucciones `if`, `if ..
 
 Normalmente, las sentencias ocupan una sola línea. Por ejemplo:
 
-```
+```python
 a = 2 + 3  # Asigna a la variable <a> el resultado de 2 + 3
 ```
 
@@ -166,7 +161,7 @@ Sin embargo, aquellas sentencias que son muy largas pueden ocupar más de una l�
 
 Para dividir una sentencia en varias líneas se utiliza el carácter `\`. Por ejemplo:
 
-```
+```python
 a = 2 + 3 + 5 + \
     7 + 9 + 4 + \
     6
@@ -176,7 +171,7 @@ Además de la separación explícita (la que se realiza con el carácter `\`), e
 
 Por ejemplo, podemos inicializar una lista del siguiente modo:
 
-```
+```python
 a = [1, 2, 7,
      3, 8, 4,
      9]
@@ -192,7 +187,9 @@ Un bloque de código es un grupo de sentencias relacionadas bien delimitadas. A 
 
 El sangrado o indentación consiste en mover un bloque de texto hacia la derecha insertando espacios o tabuladores al principio de la línea, dejando un margen a la izquierda.
 
-👉🏻 Esta es una de las principales características de Python.
+> [!info]
+> 👉🏻 Esta es una de las principales características de Python.
+
 
 Un bloque comienza con un nuevo sangrado y acaba con la primera línea cuyo sangrado sea menor. De nuevo, la guía de estilo de Python recomienda usar los espacios en lugar de las tabulaciones para realizar el sangrado. Yo suelo utilizar 4 espacios.
 
@@ -202,7 +199,7 @@ Un bloque comienza con un nuevo sangrado y acaba con la primera línea cuyo sang
 
 Veamos todo esto con un ejemplo:
 
-```
+```python
 def suma_numeros(numeros):  # Bloque 1
     suma = 0                # Bloque 2
     for n in numeros:       # Bloque 2
@@ -222,7 +219,7 @@ Los comentarios son ignorados por el intérprete de Python. Solo tienen sentido 
 Para añadir un comentario a tu código simplemente comienza una línea con el carácter `#`:
 
 
-```
+```python
 # Esta línea es un comentario
 
 a = 5
@@ -235,14 +232,14 @@ print(a * 2)
 
 Para escribir comentarios que ocupan varias líneas, simplemente escribe cada una de las líneas anteponiendo el carácter `#`:
 
-```
+```python
 # Este comentario ocupa
 # 2 líneas
 ```
 
 También puedes escribir un comentario en varias líneas si lo encierras entre tres comillas simples `'''` o dobles `"""`
 
-```
+```python
 a = 2
 
 '''Este comentario
@@ -261,7 +258,7 @@ Los docstrings son utilizados para generar la documentación de un programa. Ade
 
 Veámoslo con un ejemplo:
 
-```
+```python
 def suma(a, b):
     """Esta función devuelve la suma de los parámetros a y b"
     return a + b
