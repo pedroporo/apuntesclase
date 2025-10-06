@@ -1,13 +1,14 @@
 ---
-title: "Entiende cómo la Psicología de los colores impacta en el Marketing de tu negocio"
-source: "https://blog.workana.com/emprendimiento/como-la-psicologia-de-los-colores-impacta-en-el-marketing/"
+title: Entiende cómo la Psicología de los colores impacta en el Marketing de tu negocio
+source: https://blog.workana.com/emprendimiento/como-la-psicologia-de-los-colores-impacta-en-el-marketing/
 author:
   - "[[Juliana Belmudes]]"
 published: 2019-01-25
 created: 2025-10-06
-description: "Los colores tienen un poderoso impacto en el comportamiento humano. Entienda cómo la Psicología de los colores impacta en el Marketing de tu negocio."
+description: Los colores tienen un poderoso impacto en el comportamiento humano. Entienda cómo la Psicología de los colores impacta en el Marketing de tu negocio.
 tags:
-  - "clippings"
+  - clippings
+  - teoriadelColor
 ---
 ![](https://blog.workana.com/wp-content/uploads/2019/01/Colores-Marketing-Workana-principal.jpg)
 
@@ -29,7 +30,7 @@ En 1810, El poeta alemán Johann Wolfgang von Goethe publica un libro llamado «
 
 ![https://lh6.googleusercontent.com/-s0-hzOz_3GMWgpVDwSYZxW-qApc4Yz5mPistD0hwk5vC-7NvAmXDJP08A9Zd9mKf2c_Q6qqmk0iN1fbQCHaooPrlRbrYB6w9vhmw0pHSvnv_MRZh3p3JYgGM_CM1h-puINWzuuN](https://lh4.googleusercontent.com/3Jim9x9iVjZLqpyDw38lJJGIbgu3ZIsWVa-E94cQFJSI69SCXQwbv2mPUpFlM4DjVUqEzR84JnQaI2YJYbTmo87i7rc4iugUcHWBkzEpAskkSg-yekpon8lZRFRkT8OOFTopv4s2NBp8ubWWHw)
 
-F uente: Wikipedia (https://pt.wikipedia.org/wiki/Teoria\_das\_cores)
+F uente: [Wikipedia](https://pt.wikipedia.org/wiki/Teoria\_das\_cores)
 
 Aproximadamente 200 años después, los aportes de la psicóloga, socióloga y profesora de la teoría de la comunicación Eva Heller, gracias a la publicidad y a la propaganda, se convirtieron en una de las más importantes contribuciones para la psicología de los colores.
 
