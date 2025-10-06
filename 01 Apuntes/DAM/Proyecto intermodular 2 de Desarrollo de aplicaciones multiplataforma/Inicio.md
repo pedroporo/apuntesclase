@@ -9,6 +9,8 @@ CLIENTE{
 	int id pk
 	varchar nombre
 	varchar dni
+	varchar apellidos 
+	string telefono string email date fechaRegistro
 }
 DIRECCION{
 }
