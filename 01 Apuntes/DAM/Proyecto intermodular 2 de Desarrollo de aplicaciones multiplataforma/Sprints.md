@@ -40,6 +40,7 @@ Se propone una duración realista de 4 semanas por sprint. Los sprints están se
 ### Issues detallados para cada proyecto/aplicación
 
 #### 1) Backend/API Central y Utilidades CLI
+YES
 
 | Issue | Tipo | Etiqueta |
 | :-- | :-- | :-- |
