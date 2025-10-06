@@ -148,17 +148,15 @@ Por su parte, una sentencia o declaración es una instrucción que define una ac
 
 En definitiva, las sentencias son las instrucciones que componen nuestro programa y determinan su comportamiento.
 
-Ejemplos de sentencias son la asignación `=` o las instrucciones `if`, `if ... else ...`, `for` o `while` entre otras.
+Ejemplos de sentencias son la asignación ` = ` o las instrucciones `if`, `if ... else ...`, `for` o `while` entre otras.
 
+> [!tip]
 > ❗️ Una sentencia está delimitada por el carácter `Enter (\n)`.
+
 
 #### Sentencias de más de una línea
 
 Normalmente, las sentencias ocupan una sola línea. Por ejemplo:
-
-a = 2 \+ 3 \# Asigna a la variable <a> el resultado de 2 + 3
-
-a = 2 + 3 # Asigna a la variable <a> el resultado de 2 + 3
 
 ```
 a = 2 + 3  # Asigna a la variable <a> el resultado de 2 + 3
@@ -167,14 +165,6 @@ a = 2 + 3  # Asigna a la variable <a> el resultado de 2 + 3
 Sin embargo, aquellas sentencias que son muy largas pueden ocupar más de una línea ([la guía de estilo PEP 8](https://www.python.org/dev/peps/pep-0008/), recomienda una longitud de línea máxima de 72 caracteres).
 
 Para dividir una sentencia en varias líneas se utiliza el carácter `\`. Por ejemplo:
-
-a = 2 \+ 3 \+ 5 \+ \\
-
-7 \+ 9 \+ 4 \+ \\
-
-6
-
-a = 2 + 3 + 5 + \\ 7 + 9 + 4 + \\ 6
 
 ```
 a = 2 + 3 + 5 + \
@@ -185,14 +175,6 @@ a = 2 + 3 + 5 + \
 Además de la separación explícita (la que se realiza con el carácter `\`), en Python la continuación de línea es implícita siempre y cuando la expresión vaya dentro de los caracteres `()`, `[]` y `{}`.
 
 Por ejemplo, podemos inicializar una lista del siguiente modo:
-
-a = \[1, 2, 7,
-
-3, 8, 4,
-
-9\]
-
-a = \[1, 2, 7, 3, 8, 4, 9\]
 
 ```
 a = [1, 2, 7,
@@ -214,23 +196,11 @@ El sangrado o indentación consiste en mover un bloque de texto hacia la derecha
 
 Un bloque comienza con un nuevo sangrado y acaba con la primera línea cuyo sangrado sea menor. De nuevo, la guía de estilo de Python recomienda usar los espacios en lugar de las tabulaciones para realizar el sangrado. Yo suelo utilizar 4 espacios.
 
-❗️ Configura tu IDE de desarrollo para que use los espacios en lugar de los tabuladores para el sangrado. Establece el número de espacios a 4 ó 2.
+> [!info]
+> ❗️ Configura tu IDE de desarrollo para que use los espacios en lugar de los tabuladores para el sangrado. Establece el número de espacios a 4 ó 2.
+
 
 Veamos todo esto con un ejemplo:
-
-def suma\_numeros (numeros): \# Bloque 1
-
-suma = 0 \# Bloque 2
-
-for n in numeros: \# Bloque 2
-
-suma += n \# Bloque 3
-
-print (suma) \# Bloque 3
-
-return suma \# Bloque 2
-
-def suma\_numeros(numeros): # Bloque 1 suma = 0 # Bloque 2 for n in numeros: # Bloque 2 suma += n # Bloque 3 print(suma) # Bloque 3 return suma # Bloque 2
 
 ```
 def suma_numeros(numeros):  # Bloque 1
@@ -251,15 +221,6 @@ Los comentarios son ignorados por el intérprete de Python. Solo tienen sentido 
 
 Para añadir un comentario a tu código simplemente comienza una línea con el carácter `#`:
 
-\# Esta línea es un comentario
-
-a = 5
-
-\# Resultado de multiplicar a por 2
-
-print (a \* 2)
-
-\# Esta línea es un comentario a = 5 # Resultado de multiplicar a por 2 print(a \* 2)
 
 ```
 # Esta línea es un comentario
@@ -274,28 +235,12 @@ print(a * 2)
 
 Para escribir comentarios que ocupan varias líneas, simplemente escribe cada una de las líneas anteponiendo el carácter `#`:
 
-\# Este comentario ocupa
-
-\# 2 líneas
-
-\# Este comentario ocupa # 2 líneas
-
 ```
 # Este comentario ocupa
 # 2 líneas
 ```
 
 También puedes escribir un comentario en varias líneas si lo encierras entre tres comillas simples `'''` o dobles `"""`
-
-a = 2
-
-'' 'Este comentario
-
-también ocupa 2 líneas' ''
-
-print (a)
-
-a = 2 '''Este comentario también ocupa 2 líneas''' print(a)
 
 ```
 a = 2
@@ -315,14 +260,6 @@ Los docstrings son un tipo de comentarios especiales que se usan para documentar
 Los docstrings son utilizados para generar la documentación de un programa. Además, suelen utilizarlos los entornos de desarrollo para mostrar la documentación al programador de forma fácil e intuitiva.
 
 Veámoslo con un ejemplo:
-
-def suma (a, b):
-
-"" "Esta función devuelve la suma de los parámetros a y b"
-
-return a + b
-
-def suma(a, b): """Esta función devuelve la suma de los parámetros a y b" return a + b
 
 ```
 def suma(a, b):
