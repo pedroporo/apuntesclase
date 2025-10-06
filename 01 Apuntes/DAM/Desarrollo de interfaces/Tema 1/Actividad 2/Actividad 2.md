@@ -17,4 +17,13 @@ Aplicacion seleccionada: Venta de videojuegos
 
 ![[Drawing 2025-09-29 16.15.14.excalidraw]]
 
-Link del proyecto en figma: 
+Link del proyecto en figma: [Enlaze](https://www.figma.com/design/bHUtw3GJyEMcwVuXwG15UK/Tienda-Videojuegos-SA?node-id=1-7&t=KHPWAZHYrgJP9ocg-1)
+
+![[Tienda Videojuegos SA.pdf#page=1]]
+![[Tienda Videojuegos SA.pdf#page=2]]
+![[Tienda Videojuegos SA.pdf#page=3]]
+![[Tienda Videojuegos SA.pdf#page=4]]
+![[Tienda Videojuegos SA.pdf#page=5]]
+![[Tienda Videojuegos SA.pdf#page=6]]
+![[Tienda Videojuegos SA.pdf#page=7]]
+![[Tienda Videojuegos SA.pdf#page=8]]
