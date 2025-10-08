@@ -4,7 +4,7 @@ tags:
   - gardenEntry
 ---
 
-![[Recording 20251007173759.m4a]]
+
 **Asignaturas:**
 Acceso a datos
 Desarrollo de interfaces
