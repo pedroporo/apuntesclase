@@ -7,6 +7,8 @@ tags:
 
 ![[Recording 20251008154634.m4a]]
 
+![[Recording 20251008174218.m4a]]
+
 **Asignaturas:**
 Acceso a datos
 Desarrollo de interfaces
