@@ -1,7 +1,10 @@
 ---
 dg-publish: true
 ---
-
+Curso: Desarollo de aplicaciones multiplataforma segundo
+Titulo de la actividad: Práctica de Docker y Odoo
+Pedro Guill Ferri
+Fecha de entrega: `$= dv.date("today")`
 # Instalacion del docker en windows
 # Pasos grabados
 
