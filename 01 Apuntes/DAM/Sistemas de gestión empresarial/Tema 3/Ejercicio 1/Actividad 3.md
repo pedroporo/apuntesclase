@@ -135,3 +135,5 @@ services:
 ```
 
 Captura del `docker compose up -d`
+![[Pasted image 20251013201607.png]]
+
