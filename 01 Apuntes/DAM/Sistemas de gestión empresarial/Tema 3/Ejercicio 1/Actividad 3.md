@@ -111,4 +111,27 @@ newgrp docker
 # Odoo en linux
 
 Fichero docker compose:
-''
+```yml
+services:
+	web:
+		image: odoo:15.0
+		depends_on:
+			- db
+		ports:
+			- "8069:8069"
+		volumes:
+			- ./odoo-data:/var/lib/odoo
+			- ./odoo-config:/etc/odoo
+			- ./odoo-addons:/mnt/extra-addons
+	db:
+		image: postgres:15
+		environment:
+			- POSTGRES_DB=postgres
+			- POSTGRES_PASSWORD=odoo
+			- POSTGRES_USER=odoo
+			- PGDATA=/var/lib/postgresql/data/pgdata
+		volumes:
+			- ./odoo-db:/var/lib/postgresql/data/pgdata
+```
+
+Captura del `docker compose up -d`
