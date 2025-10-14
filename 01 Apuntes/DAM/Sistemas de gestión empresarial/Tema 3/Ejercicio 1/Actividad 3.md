@@ -141,7 +141,7 @@ Captura del `docker compose up -d`
 ![[Pasted image 20251013201607.png]]
 
 # Pasos grabados
-
+57gg-kgyy-q3nn
 ## Paso 1: initial
 - **Hora:** 2025-10-13T20:19:23.779436
 - **Descripción:** Recording session started
