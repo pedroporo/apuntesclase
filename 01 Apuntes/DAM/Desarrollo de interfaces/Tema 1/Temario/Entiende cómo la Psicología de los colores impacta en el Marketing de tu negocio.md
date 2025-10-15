@@ -26,9 +26,7 @@ Dicho todo eso… ¿Estás listo para familiarizarse con el significado de los c
 
 ## ¿Qué es la psicología del color?
 
-En 1810, El poeta alemán Johann Wolfgang von Goethe publica un libro llamado « [Teoría de los colores](https://www.amazon.com/Theory-Colours-Johann-Wolfgang-Goethe/dp/132992987X) «. Quizás, esta sea una de las contribuciones más antiguas en este campo. Incluso sin una base cie
-![[Recording 20251006153625.m4a]]
-ntífica, en este libro, Goethe afirma que el negro, desde el punto de vista de la psicología humana, es un color, y no la ausencia de colores, como aseveran los físicos.
+En 1810, El poeta alemán Johann Wolfgang von Goethe publica un libro llamado « [Teoría de los colores](https://www.amazon.com/Theory-Colours-Johann-Wolfgang-Goethe/dp/132992987X) «. Quizás, esta sea una de las contribuciones más antiguas en este campo. Incluso sin una base científica, en este libro, Goethe afirma que el negro, desde el punto de vista de la psicología humana, es un color, y no la ausencia de colores, como aseveran los físicos.
 
 ![https://lh6.googleusercontent.com/-s0-hzOz_3GMWgpVDwSYZxW-qApc4Yz5mPistD0hwk5vC-7NvAmXDJP08A9Zd9mKf2c_Q6qqmk0iN1fbQCHaooPrlRbrYB6w9vhmw0pHSvnv_MRZh3p3JYgGM_CM1h-puINWzuuN](https://lh4.googleusercontent.com/3Jim9x9iVjZLqpyDw38lJJGIbgu3ZIsWVa-E94cQFJSI69SCXQwbv2mPUpFlM4DjVUqEzR84JnQaI2YJYbTmo87i7rc4iugUcHWBkzEpAskkSg-yekpon8lZRFRkT8OOFTopv4s2NBp8ubWWHw)
 
