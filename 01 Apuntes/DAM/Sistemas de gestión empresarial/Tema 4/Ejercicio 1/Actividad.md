@@ -352,3 +352,6 @@ dg-publish: true
 ![Captura](Capturas/step_055_20251014_204129_934981.png)
 (Contraseñas asignadas: 1234)
 
+# 7. Inicio de Sesión
+
+
