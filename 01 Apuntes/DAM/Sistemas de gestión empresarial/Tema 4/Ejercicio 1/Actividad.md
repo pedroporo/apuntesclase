@@ -173,3 +173,99 @@ dg-publish: true
 - **Ventana:** Steps Recorder Pro
 ![Captura](Capturas/step_027_20251014_200452_960661.png)
 
+# 3. Rellenar Información de Perfil
+
+## Paso 29: click
+- **Hora:** 2025-10-14T20:06:10.781860
+- **Descripción:** Left-clicked at (24, 146)
+- **Ventana:** Odoo - Aplicaciones - Brave
+![Captura](Capturas/step_028_20251014_200610_396155.png)
+
+## Paso 30: click
+- **Hora:** 2025-10-14T20:06:11.787858
+- **Descripción:** Left-clicked at (53, 199)
+- **Ventana:** Odoo - Aplicaciones - Brave
+![Captura](Capturas/step_029_20251014_200611_367893.png)
+
+## Paso 31: click
+- **Hora:** 2025-10-14T20:06:13.119319
+- **Descripción:** Left-clicked at (127, 290)
+- **Ventana:** Odoo - Usuarios - Brave
+![Captura](Capturas/step_030_20251014_200612_992196.png)
+
+## Paso 32: click
+- **Hora:** 2025-10-14T20:06:14.246610
+- **Descripción:** Left-clicked at (50, 215)
+- **Ventana:** Odoo - Administrator - Brave
+![Captura](Capturas/step_031_20251014_200614_079954.png)
+
+## Paso 33: click
+- **Hora:** 2025-10-14T20:06:16.905295
+- **Descripción:** Left-clicked at (1826, 946)
+- **Ventana:** Odoo - Administrator - Brave
+![Captura](Capturas/step_032_20251014_200616_736641.png)
+
+## Paso 34: click
+- **Hora:** 2025-10-14T20:12:12.482319
+- **Descripción:** Left-clicked at (37, 225)
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_033_20251014_201212_299577.png)
+
+## Paso 35: click
+- **Hora:** 2025-10-14T20:12:15.395912
+- **Descripción:** Left-clicked at (1831, 946)
+- **Ventana:** Odoo - Marc - Brave
+![Captura](Capturas/step_034_20251014_201215_234735.png)
+
+# 4. Modificar la información de la compañía
+## Paso 36: click
+- **Hora:** 2025-10-14T20:13:26.105144
+- **Descripción:** Left-clicked at (366, 138)
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_035_20251014_201325_940681.png)
+
+## Paso 37: click
+- **Hora:** 2025-10-14T20:13:27.174473
+- **Descripción:** Left-clicked at (341, 206)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_036_20251014_201327_001483.png)
+
+## Paso 38: click
+- **Hora:** 2025-10-14T20:13:28.474028
+- **Descripción:** Left-clicked at (189, 291)
+- **Ventana:** Odoo - Compañías - Brave
+![Captura](Capturas/step_037_20251014_201328_360074.png)
+
+## Paso 39: click
+- **Hora:** 2025-10-14T20:13:30.177718
+- **Descripción:** Left-clicked at (1832, 947)
+- **Ventana:** Odoo - My Company - Brave
+![Captura](Capturas/step_038_20251014_201330_034221.png)
+
+## Paso 40: click
+- **Hora:** 2025-10-14T20:13:36.603885
+- **Descripción:** Left-clicked at (43, 231)
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_039_20251014_201336_453708.png)
+
+## Paso 41: click
+- **Hora:** 2025-10-14T20:16:07.263786
+- **Descripción:** Left-clicked at (665, 443)
+- **Ventana:** Odoo - My Company - Brave
+![Captura](Capturas/step_040_20251014_201607_113138.png)
+
+## Paso 42: click
+- **Hora:** 2025-10-14T20:16:09.122978
+- **Descripción:** Left-clicked at (1171, 449)
+- **Ventana:** Odoo - My Company - Brave
+![Captura](Capturas/step_041_20251014_201608_964351.png)
+
+## Paso 43: click
+- **Hora:** 2025-10-14T20:16:14.455455
+- **Descripción:** Left-clicked at (53, 230)
+- **Ventana:** Odoo - My Company - Brave
+![Captura](Capturas/step_042_20251014_201614_292168.png)
+
+
+# 5. Creación de Departamentos
+> Solo voy a poner las capt
