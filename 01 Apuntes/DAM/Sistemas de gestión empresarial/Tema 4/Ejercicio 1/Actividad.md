@@ -492,3 +492,45 @@ dg-publish: true
 
 # 9. Envió de mensajes y respuestas
 usuario:  dagr@gmail.com
+## Paso 1: initial
+- **Hora:** 2025-10-17T20:22:15.679843
+- **Descripción:** Recording session started
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_000_initial_20251017_202215_555069.png)
+
+## Paso 2: click
+- **Hora:** 2025-10-17T20:22:16.860350
+- **Descripción:** Left-clicked at (963, 406)
+- **Ventana:** Odoo - Brave
+![Captura](Capturas/step_001_20251017_202216_737215.png)
+
+## Paso 3: click
+- **Hora:** 2025-10-17T20:22:18.312797
+- **Descripción:** Left-clicked at (875, 486)
+- **Ventana:** Odoo - Brave
+![Captura](Capturas/step_002_20251017_202218_174148.png)
+
+## Paso 4: click
+- **Hora:** 2025-10-17T20:22:23.841463
+- **Descripción:** Left-clicked at (992, 557)
+- **Ventana:** Odoo - Brave
+![Captura](Capturas/step_003_20251017_202223_648459.png)
+
+## Paso 5: click
+- **Hora:** 2025-10-17T20:24:08.341769
+- **Descripción:** Left-clicked at (146, 436)
+- **Ventana:** Odoo - Conversaciones - Brave
+![Captura](Capturas/step_004_20251017_202408_213094.png)
+
+## Paso 6: click
+- **Hora:** 2025-10-17T20:24:43.674580
+- **Descripción:** Left-clicked at (1171, 997)
+- **Ventana:** Odoo - Conversaciones - Brave
+![Captura](Capturas/step_005_20251017_202443_535358.png)
+
+## Paso 7: click
+- **Hora:** 2025-10-17T20:24:53.629184
+- **Descripción:** Left-clicked at (1159, 914)
+- **Ventana:** Odoo - Conversaciones - Brave
+![Captura](Capturas/step_006_20251017_202453_475160.png)
+
