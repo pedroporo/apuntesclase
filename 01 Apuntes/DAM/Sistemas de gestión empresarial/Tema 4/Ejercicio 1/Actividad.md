@@ -55,25 +55,6 @@ Vamos a rellenar el usuario con nuestra información, nuestro administrador es M
 - **Descripción:** Left-clicked at (1832, 947)
 - **Ventana:** Odoo - My Company - Brave
 ![Captura](Capturas/step_038_20251014_201330_034221.png)
-
-## Paso 40: click
-- **Hora:** 2025-10-14T20:13:36.603885
-- **Descripción:** Left-clicked at (43, 231)
-- **Ventana:** Steps Recorder Pro
-![Captura](Capturas/step_039_20251014_201336_453708.png)
-
-## Paso 41: click
-- **Hora:** 2025-10-14T20:16:07.263786
-- **Descripción:** Left-clicked at (665, 443)
-- **Ventana:** Odoo - My Company - Brave
-![Captura](Capturas/step_040_20251014_201607_113138.png)
-
-## Paso 42: click
-- **Hora:** 2025-10-14T20:16:09.122978
-- **Descripción:** Left-clicked at (1171, 449)
-- **Ventana:** Odoo - My Company - Brave
-![Captura](Capturas/step_041_20251014_201608_964351.png)
-
 ## Paso 43: click
 - **Hora:** 2025-10-14T20:16:14.455455
 - **Descripción:** Left-clicked at (53, 230)
@@ -108,41 +89,12 @@ Vamos a rellenar el usuario con nuestra información, nuestro administrador es M
 - **Ventana:** Odoo - Departamentos - Brave
 ![Captura](Capturas/step_046_20251014_201922_667359.png)
 
-## Paso 48: click
-- **Hora:** 2025-10-14T20:19:28.049037
-- **Descripción:** Left-clicked at (905, 350)
-- **Ventana:** Odoo - Nuevo - Brave
-![Captura](Capturas/step_047_20251014_201927_912754.png)
-
-## Paso 49: click
-- **Hora:** 2025-10-14T20:19:29.644191
-- **Descripción:** Left-clicked at (852, 383)
-- **Ventana:** Odoo - Nuevo - Brave
-![Captura](Capturas/step_048_20251014_201929_495793.png)
-
-## Paso 50: click
-- **Hora:** 2025-10-14T20:19:30.821736
-- **Descripción:** Left-clicked at (1137, 309)
-- **Ventana:** Odoo - Nuevo - Brave
-![Captura](Capturas/step_049_20251014_201930_677126.png)
-
-## Paso 51: click
-- **Hora:** 2025-10-14T20:19:32.243518
-- **Descripción:** Left-clicked at (1142, 340)
-- **Ventana:** Odoo - Nuevo - Brave
-![Captura](Capturas/step_050_20251014_201932_094211.png)
-
 ## Paso 52: click
 - **Hora:** 2025-10-14T20:19:37.823816
 - **Descripción:** Left-clicked at (39, 220)
 - **Ventana:** Odoo - Nuevo - Brave
 ![Captura](Capturas/step_051_20251014_201937_661862.png)
 
-## Paso 53: click
-- **Hora:** 2025-10-14T20:21:25.094279
-- **Descripción:** Left-clicked at (1678, 451)
-- **Ventana:** Steps Recorder Pro
-![Captura](Capturas/step_052_20251014_202124_955461.png)
 
 # 6. Creación de Usuarios y Asignación a Departamentos:
 > Solo voy a poner las capturas de la creación de 1 empleado
