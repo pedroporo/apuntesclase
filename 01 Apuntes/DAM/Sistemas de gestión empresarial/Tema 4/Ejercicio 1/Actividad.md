@@ -13,32 +13,11 @@ Ponemos los datos de inicio de sesión del administrador y ya estamos dentro
 ![Captura](Capturas/step_011_20251014_195941_877848.png)
 
 # 2. Instalación de módulos
-
-## Paso 24: click
-- **Hora:** 2025-10-14T20:01:32.187574
-- **Descripción:** Left-clicked at (240, 926)
-- **Ventana:** Odoo - Aplicaciones - Brave
-![Captura](Capturas/step_023_20251014_200131_944224.png)
-
-## Paso 25: click
-- **Hora:** 2025-10-14T20:01:35.103847
-- **Descripción:** Left-clicked at (908, 222)
-- **Ventana:** Odoo - Aplicaciones - Brave
-![Captura](Capturas/step_024_20251014_200134_853685.png)
-
-## Paso 26: click
-- **Hora:** 2025-10-14T20:01:36.902887
-- **Descripción:** Left-clicked at (956, 307)
-- **Ventana:** Odoo - Aplicaciones - Brave
+## Paso 1: Selección de módulos
+Se pone la lista de módulos, se seleccionan y se le da a instalar modulos
 ![Captura](Capturas/step_025_20251014_200136_637991.png)
 
-## Paso 27: click
-- **Hora:** 2025-10-14T20:01:42.190817
-- **Descripción:** Left-clicked at (1825, 948)
-- **Ventana:** Odoo - Aplicaciones - Brave
-![Captura](Capturas/step_026_20251014_200141_962458.png)
-
-## Paso 28: click
+## Paso 2: Disfruta de los modulos instalados
 - **Hora:** 2025-10-14T20:04:53.351476
 - **Descripción:** Left-clicked at (1827, 940)
 - **Ventana:** Steps Recorder Pro
