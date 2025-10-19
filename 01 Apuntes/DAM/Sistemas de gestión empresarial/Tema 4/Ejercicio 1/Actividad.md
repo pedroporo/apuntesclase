@@ -33,37 +33,11 @@ Para modificar la información de perfil necesitamos ir a ajustes primero
 Para agregar nuestra información ficticia vamos a seleccionar nuestro usuario.
 En nuestro caso seria el Administrador.
 ![Captura](Capturas/step_030_20251014_200612_992196.png)
-## Paso 32: click
-- **Hora:** 2025-10-14T20:06:14.246610
-- **Descripción:** Left-clicked at (50, 215)
-- **Ventana:** Odoo - Administrator - Brave
-![Captura](Capturas/step_031_20251014_200614_079954.png)
-
-## Paso 33: click
-- **Hora:** 2025-10-14T20:06:16.905295
-- **Descripción:** Left-clicked at (1826, 946)
-- **Ventana:** Odoo - Administrator - Brave
-![Captura](Capturas/step_032_20251014_200616_736641.png)
-
-## Paso 34: click
-- **Hora:** 2025-10-14T20:12:12.482319
-- **Descripción:** Left-clicked at (37, 225)
-- **Ventana:** Steps Recorder Pro
+## Paso 2: Guardar el nuevo información
+Vamos a rellenar el usuario con nuestra información, nuestro administrador es Marc el Marcador :)
 ![Captura](Capturas/step_033_20251014_201212_299577.png)
 
-## Paso 35: click
-- **Hora:** 2025-10-14T20:12:15.395912
-- **Descripción:** Left-clicked at (1831, 946)
-- **Ventana:** Odoo - Marc - Brave
-![Captura](Capturas/step_034_20251014_201215_234735.png)
-
 # 4. Modificar la información de la compañía
-## Paso 36: click
-- **Hora:** 2025-10-14T20:13:26.105144
-- **Descripción:** Left-clicked at (366, 138)
-- **Ventana:** Steps Recorder Pro
-![Captura](Capturas/step_035_20251014_201325_940681.png)
-
 ## Paso 37: click
 - **Hora:** 2025-10-14T20:13:27.174473
 - **Descripción:** Left-clicked at (341, 206)
