@@ -25,24 +25,14 @@ Se pone la lista de módulos, se seleccionan y se le da a instalar modulos
 
 # 3. Rellenar Información de Perfil
 
-## Paso 29: click
-- **Hora:** 2025-10-14T20:06:10.781860
-- **Descripción:** Left-clicked at (24, 146)
-- **Ventana:** Odoo - Aplicaciones - Brave
-![Captura](Capturas/step_028_20251014_200610_396155.png)
-
-## Paso 30: click
-- **Hora:** 2025-10-14T20:06:11.787858
-- **Descripción:** Left-clicked at (53, 199)
-- **Ventana:** Odoo - Aplicaciones - Brave
+## Paso 1: Ir a ajustes
+Para modificar la información de perfil necesitamos ir a ajustes primero
 ![Captura](Capturas/step_029_20251014_200611_367893.png)
 
-## Paso 31: click
-- **Hora:** 2025-10-14T20:06:13.119319
-- **Descripción:** Left-clicked at (127, 290)
-- **Ventana:** Odoo - Usuarios - Brave
+## Paso 2: Seleccionar al usuario
+Para agregar nuestra información ficticia vamos a seleccionar nuestro usuario.
+En nuestro caso seria el Administrador.
 ![Captura](Capturas/step_030_20251014_200612_992196.png)
-
 ## Paso 32: click
 - **Hora:** 2025-10-14T20:06:14.246610
 - **Descripción:** Left-clicked at (50, 215)
