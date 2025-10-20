@@ -1,13 +1,14 @@
 ---
-title: "Resolver problema ‘externally-managed-environment’ al instalar mediante pip3 – Red-Orbita"
-source: "https://red-orbita.com/?p=11681"
+title: Resolver problema ‘externally-managed-environment’ al instalar mediante pip3 – Red-Orbita
+source: https://red-orbita.com/?p=11681
 author:
   - "[[rokitoh]]"
 published: 2024-02-28
 created: 2025-10-06
 description:
 tags:
-  - "clippings"
+  - clippings
+  - python
 ---
 ¿Alguna vez has intentado instalar una herramienta crucial en tu sistema Debian 12 Bookworm solo para encontrarte con el desconcertante mensaje de error ‘externally-managed-environment’ al usar pip3? En este artículo, te proporcionaremos una solución rápida y sencilla para superar este obstáculo y seguir adelante con tus proyectos sin problemas.
 
