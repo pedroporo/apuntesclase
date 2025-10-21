@@ -5,46 +5,20 @@ dg-publish: true
 
 # 1. Crea 5 proveedores diferentes rellenando toda la información de cada uno.
 
-## Paso 2: click
-- **Hora:** 2025-10-21T19:54:03.734218
-- **Descripción:** Left-clicked at (12, 135)
-- **Ventana:** Odoo - Conversaciones - Brave
+## Paso 1:Ir a sección de compras
+Para crear los proveedores vamos a abrir el meno y seleccionar la opción <font color="#ffff00">Compra</font>.
 ![Captura](Capturas/step_001_20251021_195403_568561.png)
-
-## Paso 3: click
-- **Hora:** 2025-10-21T19:54:05.040050
-- **Descripción:** Left-clicked at (94, 328)
-- **Ventana:** Odoo - Solicitudes de presupuesto - Brave
-![Captura](Capturas/step_002_20251021_195404_797949.png)
-
-## Paso 4: click
-- **Hora:** 2025-10-21T19:54:08.249945
-- **Descripción:** Left-clicked at (178, 142)
-- **Ventana:** Odoo - Solicitudes de presupuesto - Brave
+## Paso 2: Ir a pestaña de proveedores
+Ahora desde compras vamos a tener que ir a la pestaña proveedores
 ![Captura](Capturas/step_003_20251021_195407_947978.png)
 
-## Paso 5: click
-- **Hora:** 2025-10-21T19:54:10.211752
-- **Descripción:** Left-clicked at (179, 229)
-- **Ventana:** Odoo - Proveedores - Brave
-![Captura](Capturas/step_004_20251021_195409_970239.png)
+## Paso 3: Creación del proveedor
+Para creear el proveedor vamos a hacer una compañia y rellenaremos todos los datos posibles
 
-## Paso 6: click
-- **Hora:** 2025-10-21T19:54:12.261171
-- **Descripción:** Left-clicked at (56, 222)
-- **Ventana:** Odoo - Nuevo - Brave
-![Captura](Capturas/step_005_20251021_195412_101616.png)
-
-## Paso 7: click
-- **Hora:** 2025-10-21T19:56:19.092960
-- **Descripción:** Left-clicked at (1711, 522)
-- **Ventana:** Odoo - Nuevo - Brave
 ![Captura](Capturas/step_006_20251021_195618_926294.png)
 
-## Paso 8: click
-- **Hora:** 2025-10-21T19:57:56.012281
-- **Descripción:** Left-clicked at (646, 562)
-- **Ventana:** Odoo - Nuevo - Brave
+## Paso 4: Crear Contacto empresa
+Antes de finalizar la cre
 ![Captura](Capturas/step_007_20251021_195755_840751.png)
 
 ## Paso 9: click
