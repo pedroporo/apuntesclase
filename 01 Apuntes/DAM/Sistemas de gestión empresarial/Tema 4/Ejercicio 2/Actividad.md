@@ -18,13 +18,11 @@ Para creear el proveedor vamos a hacer una compañia y rellenaremos todos los da
 ![Captura](Capturas/step_006_20251021_195618_926294.png)
 
 ## Paso 4: Crear Contacto empresa
-Antes de finalizar la cre
+Antes de finalizar la creación del proovedor vamos a crear un contacto para poder comunicarnos con el
 ![Captura](Capturas/step_007_20251021_195755_840751.png)
 
-## Paso 9: click
-- **Hora:** 2025-10-21T19:58:22.281828
-- **Descripción:** Left-clicked at (1770, 430)
-- **Ventana:** Odoo - Nuevo - Brave
+## Paso 5: Seleccionar método de venta y guardar
+Ahora vamos a introducir los datos necesarios de ventas y guardamos
 ![Captura](Capturas/step_008_20251021_195822_110769.png)
 
 
