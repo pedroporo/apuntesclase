@@ -258,5 +258,77 @@ dg-publish: true
 
 # Crear instancia windows y hacer que se vean
 
+## Paso 1: annotation
+- **Hora:** 2025-10-23T17:24:04.794158
+- **Descripción:** Windwos1
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_001_20251023_172404_830657.png)
+
+## Paso 2: annotation
+- **Hora:** 2025-10-23T17:24:19.658048
+- **Descripción:** Windwos 2
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_002_20251023_172419_674589.png)
+
+## Paso 3: annotation
+- **Hora:** 2025-10-23T17:26:43.936698
+- **Descripción:** Reglas de entrada
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_003_20251023_172643_950444.png)
+
+## Paso 4: annotation
+- **Hora:** 2025-10-23T17:27:24.144562
+- **Descripción:** Reglas Salida
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_004_20251023_172724_154255.png)
+
+## Paso 5: annotation
+- **Hora:** 2025-10-23T17:27:53.648051
+- **Descripción:** Pantalla de conexion RDP
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_005_20251023_172753_657797.png)
+
+## Paso 6: annotation
+- **Hora:** 2025-10-23T17:28:33.759844
+- **Descripción:** Contraseña descifrada
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_006_20251023_172833_769177.png)
+
+## Paso 7: annotation
+- **Hora:** 2025-10-23T17:29:01.551691
+- **Descripción:** Conectandose con remmina
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_007_20251023_172901_565171.png)
+
+## Paso 8: annotation
+- **Hora:** 2025-10-23T17:30:28.734696
+- **Descripción:** Conexion RDP a Windows realizada
+- **Ventana:** ec2-3-81-132-198.compute-1.amazonaws.com
+![Captura](Capturas/step_008_20251023_173028_744554.png)
+
+## Paso 9: annotation
+- **Hora:** 2025-10-23T17:31:39.885980
+- **Descripción:** Ip Windows
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_009_20251023_173139_895825.png)
+
+## Paso 10: annotation
+- **Hora:** 2025-10-23T17:32:33.533521
+- **Descripción:** Ping de maquina windows a la linux
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_010_20251023_173233_545599.png)
+
+## Paso 11: annotation
+- **Hora:** 2025-10-23T17:36:59.682647
+- **Descripción:** Ping a la maquina windows despues de activar el network discovery
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_011_20251023_173659_692042.png)
+
+## Paso 12: initial
+- **Hora:** 2025-10-23T17:37:37.517838
+- **Descripción:** Recording session started
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_000_initial_20251023_173737_401580.png)
+
 
 
