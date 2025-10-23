@@ -1,0 +1,165 @@
+{
+  "recording_info": {
+    "name": "Recording_1023_1737",
+    "total_steps": 11,
+    "recording_date": "2025-10-23T17:37:43.806062",
+    "saved_date": "2025-10-23T17:37:43.806070",
+    "version": "2.0"
+  },
+  "steps": [
+    {
+      "timestamp": "2025-10-23T17:24:04.794158",
+      "action_type": "annotation",
+      "description": "Windwos1",
+      "screenshot_path": "steps_recorder/screenshots/step_001_20251023_172404_830657.png",
+      "mouse_position": [
+        932,
+        605
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:24:19.658048",
+      "action_type": "annotation",
+      "description": "Windwos 2",
+      "screenshot_path": "steps_recorder/screenshots/step_002_20251023_172419_674589.png",
+      "mouse_position": [
+        932,
+        632
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:26:43.936698",
+      "action_type": "annotation",
+      "description": "Reglas de entrada",
+      "screenshot_path": "steps_recorder/screenshots/step_003_20251023_172643_950444.png",
+      "mouse_position": [
+        1276,
+        797
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:27:24.144562",
+      "action_type": "annotation",
+      "description": "Reglas Salida",
+      "screenshot_path": "steps_recorder/screenshots/step_004_20251023_172724_154255.png",
+      "mouse_position": [
+        972,
+        656
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:27:53.648051",
+      "action_type": "annotation",
+      "description": "Pantalla de conexion RDP",
+      "screenshot_path": "steps_recorder/screenshots/step_005_20251023_172753_657797.png",
+      "mouse_position": [
+        340,
+        730
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:28:33.759844",
+      "action_type": "annotation",
+      "description": "Contrase\u00f1a descifrada",
+      "screenshot_path": "steps_recorder/screenshots/step_006_20251023_172833_769177.png",
+      "mouse_position": [
+        429,
+        819
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:29:01.551691",
+      "action_type": "annotation",
+      "description": "Conectandose con remmina",
+      "screenshot_path": "steps_recorder/screenshots/step_007_20251023_172901_565171.png",
+      "mouse_position": [
+        911,
+        603
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:30:28.734696",
+      "action_type": "annotation",
+      "description": "Conexion RDP a Windows realizada",
+      "screenshot_path": "steps_recorder/screenshots/step_008_20251023_173028_744554.png",
+      "mouse_position": [
+        755,
+        476
+      ],
+      "window_title": "ec2-3-81-132-198.compute-1.amazonaws.com",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:31:39.885980",
+      "action_type": "annotation",
+      "description": "Ip Windows",
+      "screenshot_path": "steps_recorder/screenshots/step_009_20251023_173139_895825.png",
+      "mouse_position": [
+        878,
+        593
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:32:33.533521",
+      "action_type": "annotation",
+      "description": "Ping de maquina windows a la linux",
+      "screenshot_path": "steps_recorder/screenshots/step_010_20251023_173233_545599.png",
+      "mouse_position": [
+        907,
+        619
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    },
+    {
+      "timestamp": "2025-10-23T17:36:59.682647",
+      "action_type": "annotation",
+      "description": "Ping a la maquina windows despues de activar el network discovery",
+      "screenshot_path": "steps_recorder/screenshots/step_011_20251023_173659_692042.png",
+      "mouse_position": [
+        945,
+        601
+      ],
+      "window_title": "Steps Recorder Pro",
+      "additional_info": {
+        "type": "annotation"
+      }
+    }
+  ]
+}
