@@ -90,6 +90,67 @@ Ahora vamos a introducir los datos necesarios de ventas y guardamos
 ![Captura](Capturas/step_003_20251023_200523_998867.png)
 
 # 3. Realiza una solicitud de compra para cada producto de 50, 30, 20, 15 y 5. (Respectivamente a la creación del producto).
+# Pasos grabados
+
+## Paso 1: annotation
+- **Hora:** 2025-10-23T20:15:50.076796
+- **Descripción:** Creacion de Pedido de compra de Palets de plastico
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_001_20251023_201550_097149.png)
+
+## Paso 2: initial
+- **Hora:** 2025-10-23T20:16:28.468723
+- **Descripción:** Recording session started
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_000_initial_20251023_201628_248319.png)
+
+## Paso 3: click
+- **Hora:** 2025-10-23T20:16:29.772730
+- **Descripción:** Left-clicked at (32, 221)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_002_20251023_201629_597451.png)
+
+## Paso 4: click
+- **Hora:** 2025-10-23T20:16:31.493811
+- **Descripción:** Left-clicked at (753, 419)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_003_20251023_201631_313281.png)
+
+## Paso 5: click
+- **Hora:** 2025-10-23T20:16:33.150701
+- **Descripción:** Left-clicked at (716, 485)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_004_20251023_201632_983087.png)
+
+## Paso 6: click
+- **Hora:** 2025-10-23T20:16:34.346936
+- **Descripción:** Left-clicked at (532, 609)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_005_20251023_201634_171981.png)
+
+## Paso 7: click
+- **Hora:** 2025-10-23T20:16:35.551118
+- **Descripción:** Left-clicked at (531, 615)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_006_20251023_201635_370005.png)
+
+## Paso 8: click
+- **Hora:** 2025-10-23T20:16:36.801156
+- **Descripción:** Left-clicked at (561, 676)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_007_20251023_201636_627094.png)
+
+## Paso 9: click
+- **Hora:** 2025-10-23T20:16:40.280570
+- **Descripción:** Left-clicked at (871, 614)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_008_20251023_201640_111452.png)
+
+## Paso 10: click
+- **Hora:** 2025-10-23T20:16:48.340004
+- **Descripción:** Left-clicked at (324, 703)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_009_20251023_201648_164652.png)
 
 # 4. Envíalo al proveedor correspondiente y confirma el pedido de cada producto.
 
