@@ -71,6 +71,23 @@ Ahora vamos a introducir los datos necesarios de ventas y guardamos
 - **Ventana:** Odoo - Categorías de productos - Brave
 ![Captura](Capturas/step_006_20251023_195859_567442.png)
 ### Productos
+## Paso 1: annotation
+- **Hora:** 2025-10-23T20:03:46.533821
+- **Descripción:** Creacion de Producto Info
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_001_20251023_200346_556776.png)
+
+## Paso 2: annotation
+- **Hora:** 2025-10-23T20:04:39.692788
+- **Descripción:** Creacion de Producto Compra
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_002_20251023_200439_709546.png)
+
+## Paso 3: annotation
+- **Hora:** 2025-10-23T20:05:23.988568
+- **Descripción:** Creacion de producto Inventario
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_003_20251023_200523_998867.png)
 
 # 3. Realiza una solicitud de compra para cada producto de 50, 30, 20, 15 y 5. (Respectivamente a la creación del producto).
 
