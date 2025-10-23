@@ -256,5 +256,7 @@ dg-publish: true
 - **Ventana:** ec2-user@PGF-SSH-Server:~
 ![Captura](Capturas/step_183_20251016_173218_248860.png)
 
+# Crear instancia windows y hacer que se vean
+
 
 
