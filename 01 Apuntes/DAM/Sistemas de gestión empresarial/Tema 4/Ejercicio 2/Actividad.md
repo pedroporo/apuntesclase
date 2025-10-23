@@ -154,7 +154,12 @@ Ahora vamos a introducir los datos necesarios de ventas y guardamos
 
 # 4. Envíalo al proveedor correspondiente y confirma el pedido de cada producto.
 
+Cuando este la solicitud solo le das a Confirmar pedido y se le envia al prooveedor
+
+![[Pasted image 20251023202217.png]]
+
 # 5. Recibe los productos y crea la factura. Luego confírmalo.
+
 
 # 6. Para realizar el pago: crea previamente el banco, y luego realiza el pago. 
 
