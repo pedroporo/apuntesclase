@@ -27,6 +27,50 @@ Ahora vamos a introducir los datos necesarios de ventas y guardamos
 
 
 # 2. Crea las categorías de los productos y a continuación, crea 5 productos distintos con la información de cada uno de los apartados asociados a este.
+### Categorias
+
+## Paso 1: initial
+- **Hora:** 2025-10-23T19:57:28.363274
+- **Descripción:** Recording session started
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_000_initial_20251023_195728_008552.png)
+
+## Paso 2: click
+- **Hora:** 2025-10-23T19:57:30.695577
+- **Descripción:** Left-clicked at (460, 140)
+- **Ventana:** Odoo - Solicitudes de presupuesto - Brave
+![Captura](Capturas/step_001_20251023_195730_386207.png)
+
+## Paso 3: click
+- **Hora:** 2025-10-23T19:57:34.367000
+- **Descripción:** Left-clicked at (559, 255)
+- **Ventana:** Odoo - Categorías de productos - Brave
+![Captura](Capturas/step_002_20251023_195734_242667.png)
+
+## Paso 4: click
+- **Hora:** 2025-10-23T19:57:48.103775
+- **Descripción:** Left-clicked at (33, 222)
+- **Ventana:** Odoo - Nuevo - Brave
+![Captura](Capturas/step_003_20251023_195747_955245.png)
+
+## Paso 5: annotation
+- **Hora:** 2025-10-23T19:58:53.913254
+- **Descripción:** Categoria Materiales la cual es hija de esenciales
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_004_20251023_195853_928988.png)
+
+## Paso 6: click
+- **Hora:** 2025-10-23T19:58:56.976877
+- **Descripción:** Left-clicked at (52, 222)
+- **Ventana:** Odoo - All / Eseenciales / Materiales - Brave
+![Captura](Capturas/step_005_20251023_195856_833193.png)
+
+## Paso 7: click
+- **Hora:** 2025-10-23T19:58:59.691617
+- **Descripción:** Left-clicked at (173, 182)
+- **Ventana:** Odoo - Categorías de productos - Brave
+![Captura](Capturas/step_006_20251023_195859_567442.png)
+### Productos
 
 # 3. Realiza una solicitud de compra para cada producto de 50, 30, 20, 15 y 5. (Respectivamente a la creación del producto).
 
