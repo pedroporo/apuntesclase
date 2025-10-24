@@ -160,6 +160,66 @@ Cuando este la solicitud solo le das a Confirmar pedido y se le envia al proovee
 
 # 5. Recibe los productos y crea la factura. Luego confírmalo.
 
+## Paso 1: initial
+- **Hora:** 2025-10-23T20:24:37.374418
+- **Descripción:** Recording session started
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_000_initial_20251023_202437_229148.png)
+
+## Paso 2: click
+- **Hora:** 2025-10-23T20:24:40.355628
+- **Descripción:** Left-clicked at (132, 294)
+- **Ventana:** Odoo - P00004 - Brave
+![Captura](Capturas/step_001_20251023_202440_169056.png)
+
+## Paso 3: click
+- **Hora:** 2025-10-23T20:24:46.930838
+- **Descripción:** Left-clicked at (505, 272)
+- **Ventana:** Odoo - P00004 - Brave
+![Captura](Capturas/step_002_20251023_202446_736062.png)
+
+## Paso 4: click
+- **Hora:** 2025-10-23T20:24:57.423094
+- **Descripción:** Left-clicked at (75, 266)
+- **Ventana:** Odoo - P00004 - Brave
+![Captura](Capturas/step_003_20251023_202457_136935.png)
+
+## Paso 5: click
+- **Hora:** 2025-10-23T20:25:20.069209
+- **Descripción:** Left-clicked at (56, 266)
+- **Ventana:** Odoo - WH/IN/00004 - Brave
+![Captura](Capturas/step_004_20251023_202519_893082.png)
+
+## Paso 6: click
+- **Hora:** 2025-10-23T20:25:24.330016
+- **Descripción:** Left-clicked at (517, 334)
+- **Ventana:** Odoo - stock.immediate.transfer,1 - Brave
+![Captura](Capturas/step_005_20251023_202524_136340.png)
+
+## Paso 7: click
+- **Hora:** 2025-10-23T20:25:36.318362
+- **Descripción:** Left-clicked at (887, 216)
+- **Ventana:** Odoo - WH/IN/00004 - Brave
+![Captura](Capturas/step_006_20251023_202536_144580.png)
+
+## Paso 8: click
+- **Hora:** 2025-10-23T20:26:16.117114
+- **Descripción:** Left-clicked at (31, 258)
+- **Ventana:** Odoo - P00004 - Brave
+![Captura](Capturas/step_007_20251023_202615_928405.png)
+
+## Paso 9: click
+- **Hora:** 2025-10-23T20:26:25.645845
+- **Descripción:** Left-clicked at (67, 259)
+- **Ventana:** Odoo - Borrador de factura FACTU/2025/10/0001 - Brave
+![Captura](Capturas/step_008_20251023_202625_457594.png)
+
+## Paso 10: click
+- **Hora:** 2025-10-23T20:26:29.016972
+- **Descripción:** Left-clicked at (534, 279)
+- **Ventana:** Odoo - Borrador de factura FACTU/2025/10/0001 - Brave
+![Captura](Capturas/step_009_20251023_202628_829172.png)
+
 
 # 6. Para realizar el pago: crea previamente el banco, y luego realiza el pago. 
 
