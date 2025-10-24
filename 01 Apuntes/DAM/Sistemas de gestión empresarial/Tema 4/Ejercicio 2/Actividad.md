@@ -290,3 +290,4 @@ Cuando este la solicitud solo le das a Confirmar pedido y se le envia al proovee
 
 
 # 7. Comprueba que los productos están en el inventario y que están las unidades acordadas de cada uno de los productos.
+![[Pasted image 20251024164538.png]]
