@@ -222,5 +222,35 @@ Cuando este la solicitud solo le das a Confirmar pedido y se le envia al proovee
 
 
 # 6. Para realizar el pago: crea previamente el banco, y luego realiza el pago. 
+## Paso 4: click
+- **Hora:** 2025-10-24T16:23:47.352992
+- **Descripción:** Left-clicked at (759, 411)
+- **Ventana:** Odoo - Facturas - Brave
+![Captura](Capturas/step_003_20251024_162346_949445.png)
+
+## Paso 5: annotation
+- **Hora:** 2025-10-24T16:24:15.215870
+- **Descripción:** Cuenta
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_004_20251024_162415_231675.png)
+
+## Paso 6: click
+- **Hora:** 2025-10-24T16:24:18.431939
+- **Descripción:** Left-clicked at (529, 412)
+- **Ventana:** Odoo - Facturas - Brave
+![Captura](Capturas/step_005_20251024_162418_046502.png)
+
+## Paso 7: click
+- **Hora:** 2025-10-24T16:24:24.319854
+- **Descripción:** Left-clicked at (15, 139)
+- **Ventana:** Odoo - Facturas - Brave
+![Captura](Capturas/step_006_20251024_162423_533941.png)
+
+## Paso 8: click
+- **Hora:** 2025-10-24T16:24:25.501095
+- **Descripción:** Left-clicked at (77, 324)
+- **Ventana:** Odoo - Solicitudes de presupuesto - Brave
+![Captura](Capturas/step_007_20251024_162425_351134.png)
+
 
 # 7. Comprueba que los productos están en el inventario y que están las unidades acordadas de cada uno de los productos.
