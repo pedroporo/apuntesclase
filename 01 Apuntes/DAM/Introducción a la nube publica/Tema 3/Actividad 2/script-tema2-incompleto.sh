@@ -73,12 +73,12 @@ RTABLE_ID=$(aws ec2 create-route-table \
   --region us-east-1a \
   --output text)
 
-echo "Tabla de rutas ID: $IGW"
+echo "Tabla de rutas ID: $RTABLE_ID"
 
 # Agregar una ruta para salida a internet
 
 aws ec2 create-route \
   --route-table-id $RTABLE_ID \
-  --destination-cidr-block
+  --destination-cidr-block 172.16.0.0/16
 
 # Asociar la tabla de rutas a la subred
