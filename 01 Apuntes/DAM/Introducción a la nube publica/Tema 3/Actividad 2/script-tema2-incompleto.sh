@@ -11,7 +11,7 @@ VPC_ID=$(aws ec2 create-vpc \
 echo "VPC ID: $VPC_ID"
 
 # Habilitar DNS en la VPC
-aws ec2 modify-vpc-attribute --vpc-id $VPC_ID --enable-dns-hostnames
+aws ec2 modify-vpc-attribute --region us-east-1 --vpc-id $VPC_ID --enable-dns-hostnames
 
 # Crear Subred y guardar su ID
 SUBNET_ID=$(aws ec2 create-subnet \
@@ -87,11 +87,11 @@ aws ec2 create-route \
   --route-table-id $RTABLE_ID \
   --destination-cidr-block 0.0.0.0/0 \
   --gateway-id $IGW \
-  --region us-east-1a 
+  --region us-east-1
 
 # Asociar la tabla de rutas a la subred
 
 aws ec2 associate-route-table \
   --route-table-id $RTABLE_ID \
   --subnet-id $SUBNET_ID \
-  --region us-east-1a
+  --region us-east-1
