@@ -58,6 +58,7 @@ echo "Instance ID: $INSTANCE_ID"
 
 IGW=$(aws ec2 create-internet-gateway \
   --region us-east-1a \
+  --query 'InternetGateway.InternetGatewayId' \
   --output text)
 
 echo "Internet Gateway ID: $IGW"
@@ -71,6 +72,7 @@ aws ec2 attach-internet-gateway --internet-gateway-id $IGW --vpc-id $VPC_ID --re
 RTABLE_ID=$(aws ec2 create-route-table \
   --vpc-id $VPC_ID \
   --region us-east-1a \
+  --query 'RouteTable.RouteTableId' \
   --output text)
 
 echo "Tabla de rutas ID: $RTABLE_ID"
