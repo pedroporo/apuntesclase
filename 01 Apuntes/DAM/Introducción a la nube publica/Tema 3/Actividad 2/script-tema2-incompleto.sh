@@ -56,9 +56,15 @@ echo "Instance ID: $INSTANCE_ID"
 
 # Crear Internet Gateway y guardar su ID
 
+IGW=$(aws ec2 create-internet-gateway \
+  --region us-east-1a \
+  --output text)
+
+echo "Internet Gateway ID: $IGW"
 
 # Adjuntar el IGW a la VPC
 
+aws ec2 attach-internet-gateway --internet-gateway-id $IGW --vpc-id $VPC_ID --region us-east-1 --output text
 
 # Crear tabla de rutas y guardar su ID
 
