@@ -45,7 +45,7 @@ aws ec2 create-tags --resources $SG_ID --tags "Key=Name,Value=migruposeguridad"
 INSTANCE_ID=$(aws ec2 run-instances \
     --image-id ami-0c7217cdde317cfec \
     --instance-type t2.small \
-    --key-name vockey \
+    --key-name awsKeys \
     --subnet-id $SUBNET_ID \
     --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=tres}]' \
     --private-ip-address 172.16.0.111 \
