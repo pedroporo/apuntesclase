@@ -64,12 +64,21 @@ echo "Internet Gateway ID: $IGW"
 
 # Adjuntar el IGW a la VPC
 
-aws ec2 attach-internet-gateway --internet-gateway-id $IGW --vpc-id $VPC_ID --region us-east-1 --output text
+aws ec2 attach-internet-gateway --internet-gateway-id $IGW --vpc-id $VPC_ID --region us-east-1a
 
 # Crear tabla de rutas y guardar su ID
 
+RTABLE_ID=$(aws ec2 create-route-table \
+  --vpc-id $VPC_ID \
+  --region us-east-1a \
+  --output text)
+
+echo "Tabla de rutas ID: $IGW"
 
 # Agregar una ruta para salida a internet
 
+aws ec2 create-route \
+  --route-table-id $RTABLE_ID \
+  --destination-cidr-block
 
 # Asociar la tabla de rutas a la subred
