@@ -79,6 +79,6 @@ echo "Tabla de rutas ID: $RTABLE_ID"
 
 aws ec2 create-route \
   --route-table-id $RTABLE_ID \
-  --destination-cidr-block 172.16.0.0/16
+  --destination-cidr-block 0.0.0.0/0
 
 # Asociar la tabla de rutas a la subred
