@@ -36,8 +36,9 @@ Empresa:
 	
 10. Tras el proceso anterior, se registrará el pago de cada pedido.
 ![[Pasted image 20251028203412.png]]
+![[Pasted image 20251028203432.png]]
 11. Comprobar en el inventario la cantidad de producto que nos queda de cada producto vendido.
-
+![[Pasted image 20251028203549.png]]
 12. Mostrar el informe de venta.
-
+![[Pasted image 20251028203650.png]]
 Proporciona un desglose detallado de cada paso, mostrando cómo se configuró cada sección, utilizando capturas de pantalla o instrucciones específicas del ERP utilizado
