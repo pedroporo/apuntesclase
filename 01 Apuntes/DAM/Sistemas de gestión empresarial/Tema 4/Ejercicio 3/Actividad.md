@@ -27,10 +27,15 @@ Empresa:
 ![[Pasted image 20251028202644.png]]
 9. Para poder realizar la venta, como ya está en formato venta, debéis realizar los pasos pertinentes, y utilizar los dos métodos:
 	- Primero entrega de paquetes y luego facturación.
+	![[Pasted image 20251028203002.png]]
+	![[Pasted image 20251028203114.png]]
 	- Primero facturación y luego entrega de paquetes.
+	![[Pasted image 20251028203221.png]]
+	![[Pasted image 20251028203316.png]]
+	
 	
 10. Tras el proceso anterior, se registrará el pago de cada pedido.
-
+![[Pasted image 20251028203412.png]]
 11. Comprobar en el inventario la cantidad de producto que nos queda de cada producto vendido.
 
 12. Mostrar el informe de venta.
