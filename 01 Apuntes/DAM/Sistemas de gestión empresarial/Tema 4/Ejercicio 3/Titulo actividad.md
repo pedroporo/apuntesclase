@@ -16,7 +16,7 @@ Para comprender el módulo de ventas se va a empezar con la ayuda que brinda la 
 
 6. Generar un presupuesto para cada cliente, sin repetir productos, con una cantidad decente de ellos, y deben venderse de cada producto, aunque sea una unidad. Enviándole el presupuesto por correo una vez generado.
 
-7. Una vez acepte el cliente, se confirmará y se trabajará con el pedido de venta.
+Una vez acepte el cliente, se confirmará y se trabajará con el pedido de venta.
 
 8. Para poder realizar la venta, como ya está en formato venta, debéis realizar los pasos pertinentes, y utilizar los dos métodos:
 
