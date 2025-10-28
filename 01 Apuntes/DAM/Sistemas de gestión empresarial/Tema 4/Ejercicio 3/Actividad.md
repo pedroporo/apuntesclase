@@ -16,8 +16,12 @@ Una vez realizada la ayuda, se va a gestionar el resto de los apartados del mód
 ![[Pasted image 20251028200314.png]]
 
 6. Creación de clientes. En este caso se deben crear 3 clientes distintos, uno de ellos será autónomo y los otros dos deben ser una empresa. (En los clientes que son empresa, debéis generar un contacto en cada una de ellas rellenando toda la información pertinente, imagen incluida).
-
+Autonomo:
+![[Pasted image 20251028200925.png]]
+Empresa: 
+![[Pasted image 20251028201142.png]]
 7. Generar un presupuesto para cada cliente, sin repetir productos, con una cantidad decente de ellos, y deben venderse de cada producto, aunque sea una unidad. Enviándole el presupuesto por correo una vez generado.
+
 8. Una vez acepte el cliente, se confirmará y se trabajará con el pedido de venta.
 9. Para poder realizar la venta, como ya está en formato venta, debéis realizar los pasos pertinentes, y utilizar los dos métodos:
 	- Primero entrega de paquetes y luego facturación.
