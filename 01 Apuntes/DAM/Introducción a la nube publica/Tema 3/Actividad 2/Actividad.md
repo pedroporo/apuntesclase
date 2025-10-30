@@ -203,3 +203,4 @@ aws ec2 associate-route-table \
 # Parte 2
 
 Crear otra subred en la vpc que ha creado el script y crear otra maquina a mano en esa subred
+
