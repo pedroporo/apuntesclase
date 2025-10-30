@@ -245,5 +245,22 @@ Crear otra subred en la vpc que ha creado el script y crear otra maquina a mano 
 - **Hora:** 2025-10-30T17:15:27.077978
 - **Descripción:** Left-clicked at (1442, 559)
 - **Ventana:** VPC | us-east-1 - Brave
-![Captura](Capturas/step_006_20251030_171526_904913.png)
+![[Pasted image 20251030171842.png]]
+
+
+# Lanzamiento de la instancia
+
+## Paso 1: annotation
+- **Hora:** 2025-10-30T17:20:51.194931
+- **Descripción:** Nombre y imagen
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_001_20251030_172051_236067.png)
+
+## Paso 2: annotation
+- **Hora:** 2025-10-30T17:21:36.306584
+- **Descripción:** Claves y config de red
+- **Ventana:** Steps Recorder Pro
+![Captura](Capturas/step_002_20251030_172136_334125.png)
+
+
 
