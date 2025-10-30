@@ -204,29 +204,15 @@ aws ec2 associate-route-table \
 
 Crear otra subred en la vpc que ha creado el script y crear otra maquina a mano en esa subred
 
-
-## Paso 1: initial
-- **Hora:** 2025-10-30T17:13:27.032034
-- **Descripción:** Recording session started
-- **Ventana:** Steps Recorder Pro
-![Captura](Capturas/step_000_initial_20251030_171326_837017.png)
-
-## Paso 2: click
-- **Hora:** 2025-10-30T17:13:28.707827
-- **Descripción:** Left-clicked at (650, 358)
-- **Ventana:** VPC | us-east-1 - Brave
+## Paso 1
+Se va a ir a vpc > subredes y se va a crear una subren en mivpc
 ![Captura](Capturas/step_001_20251030_171328_545017.png)
 
-## Paso 3: click
-- **Hora:** 2025-10-30T17:13:31.334318
-- **Descripción:** Left-clicked at (564, 422)
-- **Ventana:** VPC | us-east-1 - Brave
-![Captura](Capturas/step_002_20251030_171331_169029.png)
 
-## Paso 4: annotation
-- **Hora:** 2025-10-30T17:15:04.860546
-- **Descripción:** Bloque de CIDR
-- **Ventana:** Steps Recorder Pro
+
+
+## Paso 2
+Para ello se le va a dar un nombre y la zona de dispo
 ![Captura](Capturas/step_003_20251030_171504_876611.png)
 
 ## Paso 5: click
@@ -250,18 +236,15 @@ Crear otra subred en la vpc que ha creado el script y crear otra maquina a mano 
 
 # Lanzamiento de la instancia
 
-## Paso 1: annotation
-- **Hora:** 2025-10-30T17:20:51.194931
-- **Descripción:** Nombre y imagen
-- **Ventana:** Steps Recorder Pro
+Para lanzar se va a poner el nombre y el sistema, yo voy a elegir linux:
 ![Captura](Capturas/step_001_20251030_172051_236067.png)
 
-## Paso 2: annotation
-- **Hora:** 2025-10-30T17:21:36.306584
-- **Descripción:** Claves y config de red
-- **Ventana:** Steps Recorder Pro
+Luego la red sera la vpc con la subred que hemos creado nosotros y el grupo de seguridad ya creado
 ![Captura](Capturas/step_002_20251030_172136_334125.png)
 
 
 ![[Pasted image 20251030172601.png]]
 
+
+Ping de una instancia a otra:
+![[Pasted image 20251030172904.png]]
