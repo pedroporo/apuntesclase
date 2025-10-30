@@ -213,24 +213,6 @@ Se va a ir a vpc > subredes y se va a crear una subren en mivpc
 
 ## Paso 2
 Para ello se le va a dar un nombre y la zona de disponibilidad, el bloque de la vpc y la de la subred, este sera 172.16.16.0/20
-![Captura](Capturas/step_003_20251030_171504_876611.png)
-
-## Paso 5: click
-- **Hora:** 2025-10-30T17:15:10.663592
-- **Descripción:** Left-clicked at (1718, 962)
-- **Ventana:** VPC | us-east-1 - Brave
-![Captura](Capturas/step_004_20251030_171510_490373.png)
-
-## Paso 6: click
-- **Hora:** 2025-10-30T17:15:13.432092
-- **Descripción:** Left-clicked at (254, 448)
-- **Ventana:** VPC | us-east-1 - Brave
-![Captura](Capturas/step_005_20251030_171513_257038.png)
-
-## Paso 7: click
-- **Hora:** 2025-10-30T17:15:27.077978
-- **Descripción:** Left-clicked at (1442, 559)
-- **Ventana:** VPC | us-east-1 - Brave
 ![[Pasted image 20251030171842.png]]
 
 
