@@ -263,4 +263,5 @@ Crear otra subred en la vpc que ha creado el script y crear otra maquina a mano 
 ![Captura](Capturas/step_002_20251030_172136_334125.png)
 
 
+![[Pasted image 20251030172601.png]]
 
