@@ -212,7 +212,7 @@ Se va a ir a vpc > subredes y se va a crear una subren en mivpc
 
 
 ## Paso 2
-Para ello se le va a dar un nombre y la zona de dispo
+Para ello se le va a dar un nombre y la zona de disponibilidad, el bloque de la vpc y la de la subred, este sera 172.16.16.0/20
 ![Captura](Capturas/step_003_20251030_171504_876611.png)
 
 ## Paso 5: click
