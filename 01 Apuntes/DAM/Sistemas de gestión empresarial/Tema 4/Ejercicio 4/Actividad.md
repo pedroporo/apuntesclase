@@ -15,6 +15,7 @@ Fecha de entrega: `$= dv.date("today")`
 
 
 1. Instalar el módulo de sitio web “sitio web”.
+![[Pasted image 20251104194131.png]]
 2. Tenéis que modificar el logo por el de vuestra empresa. Y aumentarle el tamaño.
 3. Debéis personalizar el teléfono y las redes sociales.
 4. Debéis generar varias páginas web (mínimos):
