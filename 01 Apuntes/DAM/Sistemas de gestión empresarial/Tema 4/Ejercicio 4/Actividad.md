@@ -1,9 +1,19 @@
 ---
 dg-publish: true
 ---
+Ultima Modificacion: <%+ tp.file.last_modified_date() %>
+
+Curso: Desarollo de aplicaciones multiplataforma segundo
+
+Titulo de la actividad: **Act 4.4 - Página web y Comercio electrónico**
+
+Alumno: Pedro Guill Ferri
+
+Fecha de entrega: `$= dv.date("today")`
+
+![IMG](https://picsum.photos/200/300)
 
 
-# Act 4.4 - Página web y Comercio electrónico
 1. Instalar el módulo de sitio web “sitio web”.
 2. Tenéis que modificar el logo por el de vuestra empresa. Y aumentarle el tamaño.
 3. Debéis personalizar el teléfono y las redes sociales.
