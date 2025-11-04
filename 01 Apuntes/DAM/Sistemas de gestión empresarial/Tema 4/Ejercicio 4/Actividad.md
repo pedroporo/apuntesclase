@@ -27,7 +27,7 @@ Fecha de entrega: `$= dv.date("today")`
 	- Inicio – con información resumida de la empresa y un carrusel de fotos.
 	![[Pasted image 20251104195222.png]]
 	- Quienes somos – con la información de los jefes y empleados más importantes.
-	
+	![[Pasted image 20251104195718.png]]
 	- Que vendemos o Productos - información sobre los productos que se ofrecen de la empresa.
 	- Una página a vuestro gusto con más información sobre la empresa.
 	- Por último, una de contacto, añadiendo más opciones a la hora de rellenar el formulario, con más preguntas y entrega de documentación.
