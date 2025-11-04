@@ -20,10 +20,14 @@ Fecha de entrega: `$= dv.date("today")`
 ![[Pasted image 20251104194605.png]]
 
 2. Tenéis que modificar el logo por el de vuestra empresa. Y aumentarle el tamaño.
+![[Pasted image 20251104194835.png]]
 3. Debéis personalizar el teléfono y las redes sociales.
+![[Pasted image 20251104195110.png]]
 4. Debéis generar varias páginas web (mínimos):
 	- Inicio – con información resumida de la empresa y un carrusel de fotos.
+	![[Pasted image 20251104195222.png]]
 	- Quienes somos – con la información de los jefes y empleados más importantes.
+	
 	- Que vendemos o Productos - información sobre los productos que se ofrecen de la empresa.
 	- Una página a vuestro gusto con más información sobre la empresa.
 	- Por último, una de contacto, añadiendo más opciones a la hora de rellenar el formulario, con más preguntas y entrega de documentación.
