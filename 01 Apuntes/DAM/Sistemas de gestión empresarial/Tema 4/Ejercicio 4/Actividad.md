@@ -40,6 +40,7 @@ Hay uno repetido porque sin querer lo duplique
 
 ![[Pasted image 20251104201010.png]]
 2. Debéis realizar externamente la compra de 2 o más productos. A continuación, entrar como administrador y proceder a realizar los pasos necesarios para facturar y enviar la información pertinente al cliente hasta llegar al paso de “pagado”.
+![[Pasted image 20251104201606.png]]
 3. Para finalizar la configuración de los módulos, se cambiará el nombre del sitio web por el de la empresa. Y se añadirán 2 métodos de pago.
 	- Paypal.
 	- Libre elección.
