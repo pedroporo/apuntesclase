@@ -39,12 +39,14 @@ Hay uno repetido porque sin querer lo duplique
 ![[Pasted image 20251104200857.png]]
 
 ![[Pasted image 20251104201010.png]]
-2. Debéis realizar externamente la compra de 2 o más productos. A continuación, entrar como administrador y proceder a realizar los pasos necesarios para facturar y enviar la información pertinente al cliente hasta llegar al paso de “pagado”.
+6. Debéis realizar externamente la compra de 2 o más productos. A continuación, entrar como administrador y proceder a realizar los pasos necesarios para facturar y enviar la información pertinente al cliente hasta llegar al paso de “pagado”.
 ![[Pasted image 20251104201606.png]]
-3. Para finalizar la configuración de los módulos, se cambiará el nombre del sitio web por el de la empresa. Y se añadirán 2 métodos de pago.
+7. Para finalizar la configuración de los módulos, se cambiará el nombre del sitio web por el de la empresa. Y se añadirán 2 métodos de pago.
 	- Paypal.
+	![[Pasted image 20251104201900.png]]
 	- Libre elección.
-	![[Pasted image 20251104201139.png]]
-4. Por último, debéis configurar la opción de optimizar SEO, dependiendo de la empresa que se haya desarrollado. Se tendrá en cuenta el trabajo a la hora de realizar la página web. Y puntuará el tema de si se rellenan imágenes, si se pone información, la estética de la página y lo trabajada que esté.
+	![[Pasted image 20251104202013.png]]
+8. Por último, debéis configurar la opción de optimizar SEO, dependiendo de la empresa que se haya desarrollado. Se tendrá en cuenta el trabajo a la hora de realizar la página web. Y puntuará el tema de si se rellenan imágenes, si se pone información, la estética de la página y lo trabajada que esté.
+![[Pasted image 20251104202237.png]]
 
 Proporciona un desglose detallado de cada paso, mostrando cómo se configuró cada sección, utilizando capturas de pantalla o instrucciones específicas del ERP utilizado
