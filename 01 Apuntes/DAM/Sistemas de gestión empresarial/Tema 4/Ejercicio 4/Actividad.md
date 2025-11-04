@@ -11,7 +11,7 @@ Alumno: Pedro Guill Ferri
 
 Fecha de entrega: `$= dv.date("today")`
 
-![IMG](https://picsum.photos/200/300)
+<center><img src="https://picsum.photos/400/600" alt="Portada" /></center>
 
 
 1. Instalar el módulo de sitio web “sitio web”.
