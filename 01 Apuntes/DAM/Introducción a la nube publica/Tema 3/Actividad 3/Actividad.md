@@ -13,3 +13,4 @@ Como me dijiste que los 2 usan el mismo grupo de seguridad te pongo solo esto
 ## conexión al servidor Apache desde un navegador 
 ![[Pasted image 20251110183305.png]]
 ## conexión al servicio de base de datos desde la instancia del servidor web
+![[Pasted image 20251110185602.png]]
