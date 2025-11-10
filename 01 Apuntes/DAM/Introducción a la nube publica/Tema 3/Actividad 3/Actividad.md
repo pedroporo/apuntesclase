@@ -6,7 +6,8 @@ dg-publish: true
 
 ![[Pasted image 20251110164710.png]]
 ## configuración de las reglas de entrada de los grupos de seguridad de las dos instancias
-
+Como me dijiste que los 2 usan el mismo grupo de seguridad te pongo solo esto
+![[Pasted image 20251110183013.png]]
 ## conexión al servidor Apache desde un navegador 
 
 ## conexión al servicio de base de datos desde la instancia del servidor web
