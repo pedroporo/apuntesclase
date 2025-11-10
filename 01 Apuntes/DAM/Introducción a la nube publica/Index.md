@@ -1,6 +1,12 @@
 ---
 dg-publish: true
 ---
+```bash
+eval $(ssh-agent)
+ssh-add ~/Documentos/credentials/awsKeys.pem
+ssh-add -l
+ssh -i awsKeys.pem -A ubuntu@3.81.118.106
+```
 
 ```dataviewjs
 const temasRoot = dv.current().file.folder;
