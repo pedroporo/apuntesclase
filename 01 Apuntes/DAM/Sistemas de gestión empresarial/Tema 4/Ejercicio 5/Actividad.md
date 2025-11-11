@@ -18,8 +18,8 @@ Fecha de entrega: `$= dv.date("today")`
 ![[Pasted image 20251111191026.png]]
 
 # 2. Cambiar el nombre del punto de venta, por el nombre de la tienda y la ubicación.
-
-
+![[Pasted image 20251111192637.png]]
+![[Pasted image 20251111192717.png]]
 # 3. Pon que usuarios tienen acceso al TPV, 2 usuarios de tu elección y el Administrador.
 
 
