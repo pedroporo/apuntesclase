@@ -30,14 +30,17 @@ Fecha de entrega: `$= dv.date("today")`
 
 ![[Pasted image 20251111192927.png]]
 # 6. Hacer que todos los productos creados en actividades anteriores aparezcan en el TPV.
-
+![[Pasted image 20251111193334.png]]
 
 # 7. Generar las categorías necesarias para cada producto. (Se deben generar desde fuera del producto)
 
-
+![[Pasted image 20251111193502.png]]
 # 8. Realizar 2 ventas mediante el TPV a 2 Clientes distintos. Una mediante el pago en efectivo y otro mediante transferencia bancaria.
 
-
+- Efectivo:
+![[Pasted image 20251111193559.png]]
+- Transferencia bancaria:
+![[Pasted image 20251111193720.png]]
 # 9. Comprobar que aparecen los pedidos en el módulo de TPV.
 
 
