@@ -49,4 +49,6 @@ Al lado de buscar ordenes hay que poner el estado en pagado
 ![[Pasted image 20251111193813.png]]
 
 # 11. Además, una vez creado todo, añade al TPV 2 productos que tengan que ver con tu empresa, pero que no los hayas creado previamente, y haz que se muestren en el TPV.
+Se han creado los productos **Mantata** y **patata(Marca apple)**
 
+![[Pasted image 20251111194409.png]]
