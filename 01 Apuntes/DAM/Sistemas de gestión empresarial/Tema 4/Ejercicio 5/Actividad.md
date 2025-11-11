@@ -22,13 +22,13 @@ Fecha de entrega: `$= dv.date("today")`
 ![[Pasted image 20251111192717.png]]
 # 3. Pon que usuarios tienen acceso al TPV, 2 usuarios de tu elección y el Administrador.
 
-
+![[Pasted image 20251111192637.png]]
 # 4. Añadir la opción de que se imprima automáticamente el recibo.
 
-
+![[Pasted image 20251111192637.png]]
 # 5. Entrar en el TPV y mostrar y comprobar que no aparecen los productos.
 
-
+![[Pasted image 20251111192927.png]]
 # 6. Hacer que todos los productos creados en actividades anteriores aparezcan en el TPV.
 
 
