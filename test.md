@@ -1,7 +1,74 @@
+
+# When you realize
+## This is not
+### Uncompiled Markdown
+#### But actual HTML
+##### With some really
+###### Weird styles.
+
+---
+
+**So this content is basically both valid HTML and valid Markdown. Boom.**
+
+---
+
+This is a paragraph where we'll test inline styles: **this is a strong tag**, *this is an em tag*, `this is a code tag`, [this is a link](https://codepen.io).
+
+---
+
+```html
+This is a code block
+```
+
+---
+
+This is a first paragraph.
+
+This is a second paragraph.  
+With a line break.
+
+---
+
+![This is an image](https://picsum.photos/200)
+
+---
+
+> This is a quote.
+
+---
+
+* This
+* Is 
+* An 
+* Unordered
+* List
+
+1. This
+2. Is
+3. An
+4. Ordered
+5. List
+
+---
+
+<input type="checkbox" /> Unchecked checkbox
+<input type="checkbox" checked /> Checked checkbox
+
 <head> 
 <meta charset="UTF-8" /> 
 <title>Test page</title> 
 <style> 
+pre,
+code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+pre {
+  padding: .5rem;
+  line-height: 1.25;
+  overflow-x: scroll;
+}
+
 @media print {
   *,
   *:before,
@@ -62,6 +129,21 @@
   }
 }
 
+a,
+a:visited {
+  color: #01ff70;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #2ecc40;
+}
+
+.retro-no-decoration {
+  text-decoration: none;
+}
+
 html {
   font-size: 12px;
 }
@@ -83,57 +165,57 @@ body {
 }
 
 p,
-.air-p {
+.retro-p {
   font-size: 1rem;
   margin-bottom: 1.3rem;
 }
 
 h1,
-.air-h1,
+.retro-h1,
 h2,
-.air-h2,
+.retro-h2,
 h3,
-.air-h3,
+.retro-h3,
 h4,
-.air-h4 {
+.retro-h4 {
   margin: 1.414rem 0 .5rem;
   font-weight: inherit;
   line-height: 1.42;
 }
 
 h1,
-.air-h1 {
+.retro-h1 {
   margin-top: 0;
   font-size: 3.998rem;
 }
 
 h2,
-.air-h2 {
+.retro-h2 {
   font-size: 2.827rem;
 }
 
 h3,
-.air-h3 {
+.retro-h3 {
   font-size: 1.999rem;
 }
 
 h4,
-.air-h4 {
+.retro-h4 {
   font-size: 1.414rem;
 }
 
 h5,
-.air-h5 {
+.retro-h5 {
   font-size: 1.121rem;
 }
 
 h6,
-.air-h6 {
+.retro-h6 {
   font-size: .88rem;
 }
 
 small,
-.air-small {
+.retro-small {
   font-size: .707em;
 }
 
@@ -149,112 +231,34 @@ textarea {
   max-width: 100%;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300);
+html,
+body {
+  background-color: #222;
+  min-height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
 
 body {
-  color: #444;
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-weight: 300;
+  color: #fafafa;
+  font-family: "Courier New";
+  line-height: 1.45;
   margin: 6rem auto 1rem;
   max-width: 48rem;
-  text-align: center;
-}
-
-img {
-  border-radius: 50%;
-  height: 200px;
-  margin: 0 auto;
-  width: 200px;
-}
-
-a,
-a:visited {
-  color: #3498db;
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: #2980b9;
+  padding: .25rem;
 }
 
 pre {
-  background-color: #fafafa;
-  padding: 1rem;
-  text-align: left;
+  background-color: #333;
 }
 
 blockquote {
-  margin: 0;
-  border-left: 5px solid #7a7a7a;
-  font-style: italic;
-  padding: 1.33em;
-  text-align: left;
-}
-
-ul,
-ol,
-li {
-  text-align: left;
-}
-
-p {
-  color: #777;
+  border-left: 3px solid #01ff70;
+  padding-left: 1rem;
 }
 
 </style>
 </head>
-# When you realize
-## This is not
-### Uncompiled Markdown
-#### But actual HTML
-##### With some really
-###### Weird styles.
 
----
-
-**So this content is basically both valid HTML and valid Markdown. Boom.**
-
----
-
-This is a paragraph where we'll test inline styles: **this is a strong tag**, *this is an em tag*, `this is a code tag`, [this is a link](https://codepen.io).
-
----
-
-```html
-This is a code block
-```
-
----
-
-This is a first paragraph.
-
-This is a second paragraph.  
-With a line break.
-
----
-
-![This is an image](https://picsum.photos/200)
-
----
-
-> This is a quote.
-
----
-
-* This
-* Is 
-* An 
-* Unordered
-* List
-
-1. This
-2. Is
-3. An
-4. Ordered
-5. List
-
----
-
-<input type="checkbox" /> Unchecked checkbox
-<input type="checkbox" checked /> Checked checkbox
