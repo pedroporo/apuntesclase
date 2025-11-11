@@ -1,9 +1,3 @@
----
-cssclasses:
-  - retro
----
-<head> </head>
-```css
 pre,
 code {
   font-family: Menlo, Monaco, "Courier New", monospace;
@@ -204,4 +198,3 @@ blockquote {
   border-left: 3px solid #01ff70;
   padding-left: 1rem;
 }
-```
