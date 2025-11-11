@@ -43,9 +43,10 @@ Fecha de entrega: `$= dv.date("today")`
 ![[Pasted image 20251111193720.png]]
 # 9. Comprobar que aparecen los pedidos en el módulo de TPV.
 
-
+![[Pasted image 20251111193927.png]]
 # 10. Por último, y manteniendo la sesión del TPV, accede a los pedidos y muestra que todo esté correcto. Si se debe realizar algún paso extra para gestionar los pedidos, debes mostrarlo.
-
+Al lado de buscar ordenes hay que poner el estado en pagado
+![[Pasted image 20251111193813.png]]
 
 # 11. Además, una vez creado todo, añade al TPV 2 productos que tengan que ver con tu empresa, pero que no los hayas creado previamente, y haz que se muestren en el TPV.
 
