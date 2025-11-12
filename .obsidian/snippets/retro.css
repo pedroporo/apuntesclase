@@ -24,7 +24,7 @@
     text-decoration: underline;
   }
 
-  .retro-themea[href]:after {
+  .retro-theme a[href]:after {
     content: " (" attr(href) ")";
   }
 
