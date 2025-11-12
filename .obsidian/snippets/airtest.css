@@ -140,7 +140,7 @@ p {
   color: #777 !important;
 }
 
-  *,
+  /**,
   *:before,
   *:after {
     background: transparent !important;
@@ -196,5 +196,5 @@ p {
   h2,
   h3 {
     page-break-after: avoid !important;
-  }
+  }*/
 }
