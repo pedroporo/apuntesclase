@@ -116,13 +116,13 @@
   color: #2980b9 !important;
 }
 
-pre {
+.air-theme pre {
   background-color: #fafafa !important;
   padding: 1rem !important;
   text-align: left !important;
 }
 
-blockquote {
+.air-theme blockquote {
   margin: 0 !important;
   border-left: 5px solid #7a7a7a !important;
   font-style: italic !important;
@@ -130,13 +130,13 @@ blockquote {
   text-align: left !important;
 }
 
-ul,
-ol,
-li {
+.air-theme ul,
+.air-theme ol,
+.air-theme li {
   text-align: left !important;
 }
 
-p {
+.air-theme p {
   color: #777 !important;
 }
 
