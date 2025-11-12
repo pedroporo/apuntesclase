@@ -140,61 +140,61 @@
   color: #777 !important;
 }
 
-  /**,
-  *:before,
-  *:after {
+/*  .air-theme *,
+  .air-theme *:before,
+  .air-theme *:after {
     background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
 
-  a,
-  a:visited {
+  .air-theme a,
+  .air-theme a:visited {
     text-decoration: underline !important;
   }
 
-  a[href]:after {
+  .air-theme a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  abbr[title]:after {
+  .air-theme abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
+  .air-theme a[href^="#"]:after,
+  .air-theme a[href^="javascript:"]:after {
     content: "";
   }
 
-  pre,
-  blockquote {
+  .air-theme pre,
+  .air-theme blockquote {
     border: 1px solid #999 !important;
     page-break-inside: avoid !important;
   }
 
-  thead {
+  .air-theme thead {
     display: table-header-group !important;
   }
 
-  tr,
-  img {
+  .air-theme tr,
+  .air-theme img {
     page-break-inside: avoid !important;
   }
 
-  img {
+  .air-theme img {
     max-width: 100% !important;
   }
 
-  p,
-  h2,
-  h3 {
+  .air-theme p,
+  .air-theme h2,
+  .air-theme h3 {
     orphans: 3;
     widows: 3;
   }
 
-  h2,
-  h3 {
+  .air-theme h2,
+  .air-theme h3 {
     page-break-after: avoid !important;
   }*/
 }
