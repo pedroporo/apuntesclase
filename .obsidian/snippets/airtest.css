@@ -148,7 +148,7 @@
     box-shadow: none !important;
     text-shadow: none !important;
   }
-
+/*
   a,
   a:visited {
     text-decoration: underline !important;
@@ -166,7 +166,7 @@
   a[href^="javascript:"]:after {
     content: "";
   }
-
+*/
   /*pre,
   blockquote {
     border: 1px solid #999 !important;
