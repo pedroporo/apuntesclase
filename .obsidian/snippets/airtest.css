@@ -1,95 +1,95 @@
 @media print {
 
-html {
+.air-theme html {
   font-size: 12px !important;
 }
 
 @media screen and (min-width: 32rem) and (max-width: 48rem) {
-  html {
+  .air-theme html {
     font-size: 15px !important;
   }
 }
 
 @media screen and (min-width: 48rem) {
-  html {
+  .air-theme html {
     font-size: 16px !important;
   }
 }
 
-body {
+.air-theme body {
   line-height: 1.85 !important;
 }
 
-p,
-.air-p {
+.air-theme p,
+.air-theme .air-p {
   font-size: 1rem !important;
   margin-bottom: 1.3rem !important;
 }
 
-h1,
-.air-h1,
-h2,
-.air-h2,
-h3,
-.air-h3,
-h4,
-.air-h4 {
+.air-theme h1,
+.air-theme .air-h1,
+.air-theme h2,
+.air-theme .air-h2,
+.air-theme h3,
+.air-theme .air-h3,
+.air-theme h4,
+.air-theme .air-h4 {
   margin: 1.414rem 0 .5rem !important;
   font-weight: inherit !important;
   line-height: 1.42 !important;
 }
 
-h1,
-.air-h1 {
+.air-theme h1,
+.air-theme .air-h1 {
   margin-top: 0 !important;
   font-size: 3.998rem !important;
 }
 
-h2,
-.air-h2 {
+.air-theme h2,
+.air-theme .air-h2 {
   font-size: 2.827rem !important;
 }
 
-h3,
-.air-h3 {
+.air-theme h3,
+.air-theme .air-h3 {
   font-size: 1.999rem !important;
 }
 
-h4,
-.air-h4 {
+.air-theme h4,
+.air-theme .air-h4 {
   font-size: 1.414rem !important;
 }
 
-h5,
-.air-h5 {
+.air-theme h5,
+.air-theme .air-h5 {
   font-size: 1.121rem !important;
 }
 
-h6,
-.air-h6 {
+.air-theme h6,
+.air-theme .air-h6 {
   font-size: .88rem !important;
 }
 
-small,
-.air-small {
+.air-theme small,
+.air-theme .air-small {
   font-size: .707em !important;
 }
 
 /* https://github.com/mrmrs/fluidity */
 
-img,
-canvas,
-iframe,
-video,
-svg,
-select,
-textarea {
+.air-theme img,
+.air-theme canvas,
+.air-theme iframe,
+.air-theme video,
+.air-theme svg,
+.air-theme select,
+.air-theme textarea {
   max-width: 100% !important;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300);
 
-body {
+.air-theme body {
   color: #444 !important;
   font-family: 'Open Sans', Helvetica, sans-serif !important;
   font-weight: 300 !important;
@@ -98,21 +98,21 @@ body {
   text-align: center !important;
 }
 
-img {
+.air-theme img {
   border-radius: 50% !important;
   height: 200px !important;
   margin: 0 auto !important;
   width: 200px !important;
 }
 
-a,
-a:visited {
+.air-theme a,
+.air-theme a:visited {
   color: #3498db !important;
 }
 
-a:hover,
-a:focus,
-a:active {
+.air-theme a:hover,
+.air-theme a:focus,
+.air-theme a:active {
   color: #2980b9 !important;
 }
 
