@@ -1,6 +1,5 @@
 ---
 cssclasses:
-  - air-theme
 ---
 
 
