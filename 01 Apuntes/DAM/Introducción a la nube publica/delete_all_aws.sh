@@ -29,8 +29,7 @@ INDENT='    '
 
 echo "Using profile $AWS_PROFILE"
 
-aws ec2 describe-regions --output text --query 'Regions[].[RegionName, OptInStatus]' | sort -r |
-  while read REGION OptInStatus; do
+for REGION in $REGIONS; do
 
     export AWS_REGION=$REGION
     RegName=$(echo "$REGIONS" | grep "^${REGION}")
@@ -38,7 +37,7 @@ aws ec2 describe-regions --output text --query 'Regions[].[RegionName, OptInStat
       echo "* Region ${RegName}"
 
       # get default vpc
-      vpc=$(aws ec2 describe-vpcs --filter Name=isDefault,Values=true --output text --query 'Vpcs[0].VpcId')
+      vpc=$(aws ec2 describe-vpcs --region $RegName --filter Name=isDefault,Values=true --output text --query 'Vpcs[0].VpcId')
       if [ "${vpc}" = "None" ]; then
         echo "${INDENT}No default vpc found"
         continue
@@ -46,19 +45,19 @@ aws ec2 describe-regions --output text --query 'Regions[].[RegionName, OptInStat
       echo "${INDENT}Found default vpc ${vpc}"
 
       # get internet gateway
-      igw=$(aws ec2 describe-internet-gateways --filter Name=attachment.vpc-id,Values=${vpc} --output text --query 'InternetGateways[0].InternetGatewayId')
+      igw=$(aws ec2 describe-internet-gateways --region $RegName --filter Name=attachment.vpc-id,Values=${vpc} --output text --query 'InternetGateways[0].InternetGatewayId')
       if [ "${igw}" != "None" ]; then
         echo "${INDENT}Detaching and deleting internet gateway ${igw}"
-        aws ec2 detach-internet-gateway --internet-gateway-id ${igw} --vpc-id ${vpc}
-        aws ec2 delete-internet-gateway --internet-gateway-id ${igw}
+        aws ec2 detach-internet-gateway --region $RegName --internet-gateway-id ${igw} --vpc-id ${vpc}
+        aws ec2 delete-internet-gateway --region $RegName --internet-gateway-id ${igw}
       fi
 
       # get subnets
-      subnets=$(aws ec2 describe-subnets --filters Name=vpc-id,Values=${vpc} --output text --query 'Subnets[].SubnetId')
+      subnets=$(aws ec2 describe-subnets --region $RegName --filters Name=vpc-id,Values=${vpc} --output text --query 'Subnets[].SubnetId')
       if [ "${subnets}" != "None" ]; then
         for subnet in ${subnets}; do
           echo "${INDENT}Deleting subnet ${subnet}"
-          aws ec2 delete-subnet --subnet-id ${subnet}
+          aws ec2 delete-subnet --region $RegName --subnet-id ${subnet}
         done
       fi
 
@@ -69,22 +68,16 @@ aws ec2 describe-regions --output text --query 'Regions[].[RegionName, OptInStat
 
       # delete default vpc
       echo "${INDENT}Deleting vpc ${vpc}"
-      aws ec2 delete-vpc --vpc-id ${vpc}
+      aws ec2 delete-vpc --region $RegName --vpc-id ${vpc}
 
       # get default dhcp options
-      dhcp=$(aws ec2 describe-dhcp-options --output text --query 'DhcpOptions[0].DhcpOptionsId')
+      dhcp=$(aws ec2 describe-dhcp-options --region $RegName --output text --query 'DhcpOptions[0].DhcpOptionsId')
       if [ "${dhcp}" != "None" ]; then
         echo "${INDENT}Deleting dhcp ${dhcp}"
-        aws ec2 delete-dhcp-options --dhcp-options-id ${dhcp}
+        aws ec2 delete-dhcp-options --region $RegName --dhcp-options-id ${dhcp}
       fi
-      # Delete all ec2 instances
-      aws ec2 describe-instances --region $RegName | jq -r .Reservations[].Instances[].InstanceId | xargs -L 1 -I {} aws ec2 modify-instance-attribute \
-        --region $RegName \
-        --no-disable-api-termination \
-        --instance-id {}
-      aws ec2 describe-instances --region $RegName | jq -r .Reservations[].Instances[].InstanceId | xargs -L 1 -I {} aws ec2 terminate-instances \
-        --region $RegName \
-        --instance-id {}
+
+      
     fi
 
   done
