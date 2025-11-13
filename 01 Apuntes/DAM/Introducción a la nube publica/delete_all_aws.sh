@@ -77,7 +77,14 @@ for REGION in $REGIONS; do
         aws ec2 delete-dhcp-options --region $RegName --dhcp-options-id ${dhcp}
       fi
 
-      
+      # Delete all ec2 instances
+      aws ec2 describe-instances --region $RegName | jq -r .Reservations[].Instances[].InstanceId | xargs -L 1 -I {} aws ec2 modify-instance-attribute \
+        --region $RegName \
+        --no-disable-api-termination \
+        --instance-id {}
+      aws ec2 describe-instances --region $RegName | jq -r .Reservations[].Instances[].InstanceId | xargs -L 1 -I {} aws ec2 terminate-instances \
+        --region $RegName \
+        --instance-id {}
     fi
 
   done
