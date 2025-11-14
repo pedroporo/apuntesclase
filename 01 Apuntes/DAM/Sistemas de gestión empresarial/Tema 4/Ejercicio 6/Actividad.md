@@ -17,6 +17,8 @@ Fecha de entrega: `$= dv.date("today")`
 
 # 1. Instala el módulo de CRM, aunque en principio deberíais tenerlo instalado de las primeras prácticas. 
 
+Ya esta instalado
+
 # 2. Debéis crear 3 supuestos de venta, con clientes nuevos. Rellenando toda la información ya que son clientes que debemos captar. Si tenéis más de una sede, debéis repartillos entre estas. 
 
 # 3. Modifica las columnas para que se adapten a las necesidades de empresa. 
