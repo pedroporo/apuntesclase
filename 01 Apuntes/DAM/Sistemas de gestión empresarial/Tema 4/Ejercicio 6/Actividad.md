@@ -38,3 +38,9 @@ Ya esta instalado
 # 7. “Solo queda esperar a que el cliente acepte la oferta”. Por ello, una vez aceptado “hipotéticamente”, debéis acceder al apartado de mis presupuestos y hacer el proceso para realizar la factura y el envío. Debiendo realizar todos los pasos para tener el proceso.
 Factura:
 ![[Pasted image 20251116123649.png]]
+
+Envio:
+![[Pasted image 20251116124205.png]]
+
+Informe: 
+![[Pasted image 20251116124335.png]]
