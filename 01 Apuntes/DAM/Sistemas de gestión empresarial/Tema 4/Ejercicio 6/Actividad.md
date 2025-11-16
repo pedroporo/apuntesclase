@@ -20,7 +20,7 @@ Fecha de entrega: `$= dv.date("today")`
 Ya esta instalado
 
 # 2. Debéis crear 3 supuestos de venta, con clientes nuevos. Rellenando toda la información ya que son clientes que debemos captar. Si tenéis más de una sede, debéis repartillos entre estas. 
-
+![[Pasted image 20251116120755.png]]
 
 # 3. Modifica las columnas para que se adapten a las necesidades de empresa. 
 
