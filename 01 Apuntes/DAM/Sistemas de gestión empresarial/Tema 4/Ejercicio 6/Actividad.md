@@ -25,6 +25,7 @@ Ya esta instalado
 ![[Pasted image 20251116121903.png]]
 
 # 3. Modifica las columnas para que se adapten a las necesidades de empresa. 
+![[Pasted image 20251116122423.png]]
 
 # 4. Propón a continuación, el siguiente paso, ya sea una reunión u otro contacto con el cliente, y añade la hora y día indicada con el cliente. 
 
