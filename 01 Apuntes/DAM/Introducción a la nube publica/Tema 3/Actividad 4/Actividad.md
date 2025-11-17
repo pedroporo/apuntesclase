@@ -21,6 +21,7 @@ dg-publish: true
 	![[Pasted image 20251117194551.png]]
 Usa ping o telnet para verificar conectividad entre: 
 - EC2 en VPC-A ↔ VPC-B (mediante TGW).
+vpc-b to a
 - EC2 en VPC-A ↔ VPC-C (mediante Peering).
 ![[Pasted image 20251117193421.png]]
 
