@@ -10,11 +10,16 @@ dg-publish: true
 			VPC-C:
 			![[Pasted image 20251117193833.png]]
 2. Tres VPCs en la misma o diferentes regiones: 
-	- VPC-A: 10.0.0.0/16 
-	- VPC-B: 10.1.0.0/16 
-	- VPC-C: 10.2.0.0/16 Lanza instancias EC2 en cada VPC. 
+	- VPC-A: 10.0.0.0/16
+	![[Pasted image 20251117194624.png]]
+	- VPC-B: 10.1.0.0/16
+	![[Pasted image 20251117194722.png]]
+	- VPC-C: 10.2.0.0/16
+	![[Pasted image 20251117194551.png]]
 Usa ping o telnet para verificar conectividad entre: 
 - EC2 en VPC-A ↔ VPC-B (mediante TGW).
 - EC2 en VPC-A ↔ VPC-C (mediante Peering).
 ![[Pasted image 20251117193421.png]]
 
+ec-vpc-c to ec-vpc-a
+![[Pasted image 20251117194518.png]]
