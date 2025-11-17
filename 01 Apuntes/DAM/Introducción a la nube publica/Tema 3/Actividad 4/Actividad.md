@@ -6,6 +6,10 @@ dg-publish: true
 	![[Pasted image 20251117195312.png]]
 			VPC-B:
 			![[Pasted image 20251117195550.png]]
+		sec grp vpc- b
+		![[Pasted image 20251117201028.png]]
+		sec grp vpc- A
+		![[Pasted image 20251117201054.png]]
 	- VPC-A y VPC-C mediante una VPC Peering Connection. 
 			VPC-A
 		![[Pasted image 20251117193541.png]]
@@ -22,6 +26,10 @@ dg-publish: true
 Usa ping o telnet para verificar conectividad entre: 
 - EC2 en VPC-A ↔ VPC-B (mediante TGW).
 vpc-b to a
+
+![[Pasted image 20251117200845.png]]
+vpc a to b
+![[Pasted image 20251117200916.png]]
 - EC2 en VPC-A ↔ VPC-C (mediante Peering).
 ![[Pasted image 20251117193421.png]]
 
