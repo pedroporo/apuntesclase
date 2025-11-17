@@ -3,6 +3,7 @@ dg-publish: true
 ---
 1. Configurar la comunicación entre tres VPCs: 
 	- VPC-A y VPC-B mediante un Transit Gateway. 
+	![[Pasted image 20251117195312.png]]
 	- VPC-A y VPC-C mediante una VPC Peering Connection. 
 			VPC-A
 		![[Pasted image 20251117193541.png]]
