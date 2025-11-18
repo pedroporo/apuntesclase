@@ -29,8 +29,16 @@ Será necesario ampliar la infraestructura de manera temporal para evitar satura
 2. Diseño de estrategias de escalabilidad
 	- Escalabilidad vertical: aumentar recursos de las instancias existentes (CPU, RAM, disco).
 	
-	- Escalabilidad horizontal: habilitar autoscaling con balanceo de carga para que se creen instancias adicionales automáticamente cuando la carga lo requiera (distribuyendo el tráfico mediante un load balancer).
-
-La solución debe garantizar alta disponibilidad y equilibrio de carga durante los días críticos.
-1. Estudio de costes
-2. Comparativa y conclusiones
+	- Escalabilidad horizontal: habilitar autoscaling con balanceo de carga para que se creen instancias adicionales automáticamente cuando la carga lo requiera (distribuyendo el tráfico mediante un load balancer). La solución debe garantizar alta disponibilidad y equilibrio de carga durante los días críticos.
+3. Estudio de costes
+	- Calcular el coste estimado adicional necesario para soportar el incremento de usuarios durante noviembre. 
+	- Utilizar las calculadoras oficiales de los proveedores:
+		- [AWS](https://calculator.aws/#/):
+		- [Google](https://cloud.google.com/products/calculator):
+4. Comparativa y conclusiones:
+	- Elaborar una tabla comparativa de costes y características entre ambas plataformas.
+	- Analizar:
+		- Coste total estimado.
+		- Facilidad de configuración y despliegue.
+		- Servicios disponibles para la escalabilidad.
+	- Redactar un breve informe con conclusiones justificadas sobre la opción más rentable y eficiente.
