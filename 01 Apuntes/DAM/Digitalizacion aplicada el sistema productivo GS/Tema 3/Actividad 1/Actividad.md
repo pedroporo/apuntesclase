@@ -34,7 +34,9 @@ Será necesario ampliar la infraestructura de manera temporal para evitar satura
 	- Calcular el coste estimado adicional necesario para soportar el incremento de usuarios durante noviembre. 
 	- Utilizar las calculadoras oficiales de los proveedores:
 		- [AWS](https://calculator.aws/#/):
-			![[01 Apuntes/DAM/Digitalizacion aplicada el sistema productivo GS/Tema 3/Actividad 1/My Estimate - Calculadora de precios de AWS.pdf]]
+			![[01 Apuntes/DAM/Digitalizacion aplicada el sistema productivo GS/Tema 3/Actividad 1/My Estimate - Calculadora de precios de AWS.pdf#page=1]]
+
+
 			![[01 Apuntes/DAM/Digitalizacion aplicada el sistema productivo GS/Tema 3/Actividad 1/My Estimate - Calculadora de precios de AWS.pdf#page=2]]
 		- [Google](https://cloud.google.com/products/calculator):
 			[Enlaze a la estimacion](https://cloud.google.com/products/calculator/estimate-preview/CiQ3NzY1MmRmNy00MzJkLTQxN2QtOTkzYy1lNzM0YmIwMmU4NTgQAQ%3D%3D)
@@ -59,6 +61,6 @@ Escavillad Horizontal
 | TOTAL/ mes           | 6073,34 USD                                                                | 333,89 €                     |
 
 Ya que hemos elegido la escavillad horizontal lo que haremos es agregar mas maquinas según las usemos.
-El coste total de google cloud es 333,89 € ya que se ha usado la opcion de solo usar 1 maquina y que las otras se mantengan inactivas si no se necesitan, las de amazon son 52,94 USD he encontrado que es mas facil configurar amazon que google ya que da mas opciones a primera vista.
+El coste total de google cloud es 333,89 € ya que se ha usado la opcion de solo usar 1 maquina y que las otras se mantengan inactivas si no se necesitan, las de amazon son 52,94 USD he encontrado que es mas fácil configurar amazon que google ya que da mas opciones a primera vista.
 
-Yo usaria AWS ya que te da mas facilidades a la hora de crear las cosas y muchas mas opciones
+Yo usaria AWS ya que te da mas facilidades a la hora de crear las cosas y muchas mas opciones, si se configura bien seria mucho mas rentable que google y el precio elevado a sido por errores míos, he usado la esca labilidad horizontal ya que es mas fácil, ya que son 4 maquinas mas que las que hay
