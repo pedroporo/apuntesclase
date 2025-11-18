@@ -32,7 +32,8 @@ dg-publish: true
 
 # 4. **Estimación y comparación de costes**  
    - **AWS** (calculado con la AWS Pricing Calculator):  
-   
+   ![[01 Apuntes/DAM/Digitalizacion aplicada el sistema productivo GS/Tema 3/Actividad 1/My Estimate - Calculadora de precios de AWS.pdf#page=1]]
+   ![[01 Apuntes/DAM/Digitalizacion aplicada el sistema productivo GS/Tema 3/Actividad 1/My Estimate - Calculadora de precios de AWS.pdf#page=2]]
      - Costo inicial: **462 USD**  
      - Costo mensual: **6 073,34 USD**  
      - Costo total 12 meses: **73 342,08 USD**  
@@ -54,3 +55,14 @@ dg-publish: true
    - **Coste total:** Aunque Google presenta un coste mensual ligeramente menor, la diferencia no compensa la mayor complejidad en la configuración de backup y certificados.  
    - **Facilidad de despliegue:** La arquitectura horizontal (Auto Scaling + ALB) ya está documentada y probada en AWS, con plantillas CloudFormation disponibles, lo que acelera la entrega.  
    - **Conclusión:** Recomiendo la solución **AWS** como la opción más rentable y eficiente para atender la campaña de Black Friday, garantizando alta disponibilidad, escalabilidad y menor riesgo de interrupción.  
+
+#### Datos de comparacion de los servicios
+
+| 5 instancias totales | Aws                                                                        | Google                       |
+| -------------------- | -------------------------------------------------------------------------- | ---------------------------- |
+| Instancias virtuales | 52,94 USD                                                                  | 1,00 € / dependiendo del uso |
+| Base de datos        | 650,40 USD                                                                 | 195,24 €                     |
+| Almacenamiento       | 5320,00 USD (selecione 1000 Teabytes por error y es mu tarde pa cambiarlo) | 85,74 €                      |
+| SSL                  | 462,00 USD                                                                 | 4,29 €                       |
+| Backups y logs       | 50,00 USD                                                                  | 23,17 € + 24,44 €            |
+| TOTAL/ mes           | 6073,34 USD                                                                | 333,89 €                     |
