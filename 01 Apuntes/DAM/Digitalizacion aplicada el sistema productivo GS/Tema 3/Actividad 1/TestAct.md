@@ -1,48 +1,54 @@
 ---
 dg-publish: true
 ---
-### 1. Descripción del escenario actual y necesidades nuevas  
-- La empresa dispone de una infraestructura **on‑demand** que cubre las demandas habituales del negocio [1].  
-- En noviembre se prevé un aumento significativo de usuarios, lo que exige **alta disponibilidad** y **capacidad de respuesta** sin tiempos de inactividad [1].  
-- Se necesita una solución que permita **escalar** recursos de forma dinámica (vertical y/o horizontal) según la carga.
 
-### 2. Arquitectura escalable propuesta  
-**Horizontal + Vertical (en función de la carga)** 
+**Informe técnico – Actividad SA3**
 
-| Nivel                         | Acción                               | Servicio                                                   | Descripción                                                                                                           |
-| ----------------------------- | ------------------------------------ | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Horizontal** (Seleccionado) | Auto‑scaling con Load Balancer       | *Elastic Load Balancing* (ALB/NLB) + *Auto Scaling Groups* | Cuando la carga aumenta, se crean nuevas instancias EC2 automáticamente; el LB distribuye el tráfico equitativamente. |
-| **Vertical**                  | Escalado de recursos de la instancia | *EC2* (típicamente `t3.medium` → `t3.large`)               | Cuando la carga es intensa pero la aplicación es monolítica, se aumenta CPU/RAM sin crear instancias nuevas.          |
+# 1. **Descripción del escenario actual y necesidades nuevas**  
+   - **Estado actual:** El sistema mantiene un promedio de 500 usuarios simultáneos con un rendimiento estable.  
+   - **Nuevo escenario:** Durante el mes de noviembre se lanzarán ofertas cada viernes por el Black Friday, provocando un incremento estimado de 2 500 usuarios simultáneos adicionales. Se requiere ampliar la infraestructura de manera temporal para evitar saturaciones, garantizando alta disponibilidad y rendimiento óptimo durante los picos de tráfico. 
 
-- **Disponibilidad** garantizada mediante *Availability Zones* y *Multi‑AZ* deployments.  
-- **Persistencia de datos**: *Amazon S3* para objetos estáticos, *Amazon RDS/Aurora* para bases de datos con replicación y fail‑over automático.  
-- **Seguridad**: *Security Groups* y *Network ACLs* configurados para restringir tráfico únicamente a los puertos necesarios.
+# 2. **Arquitectura escalable propuesta**  
+   - **Escalado horizontal:** Implementación de *Auto Scaling* con *Elastic Load Balancer* (ALB) para crear y destruir instancias automáticamente según la carga. Esto garantiza equilibrio de carga y alta disponibilidad durante los picos.  
 
-### 3. Detalle de servicios cloud seleccionados  
-| Categoría | Servicio | Motivo |
-|-----------|----------|--------|
-| **Cómputo** | EC2 (instancias t3.micro/t3.medium) | Costo bajo‑costo con soporte de auto‑scaling |
-| **Balanceo de carga** | Elastic Load Balancing (ALB) | Distribución de tráfico y compatibilidad con HTTP/HTTPS |
-| **Escalado automático** | Auto Scaling Group | Respuesta automática a métricas de CPU/Request |
-| **Almacenamiento** | S3, EBS, RDS (Aurora) | Escalado de datos sin intervención manual |
-| **Monitoreo** | CloudWatch | Alertas y métricas en tiempo real |
-| **Red** | VPC, Subnets, IGW, NAT | Aislamiento y acceso seguro a internet |
+# 3. **Detalle de servicios cloud seleccionados** 
 
-### 4. Estimación y comparación de costes  
-| Proveedor | Coste estimado (mensual) | Observaciones |
-|-----------|--------------------------|---------------|
-| **AWS** | **52,94 USD** | Cálculo con Auto Scaling activado y solo la instancia activa; opciones de ahorro con Reserved Instances son posibles [1]. |
-| **Google Cloud** | **333,89 €** | Basado en una sola instancia activa; alto coste por falta de configuración de “mantener inactivas” [1]. |
+| Servicio                        | Descripción                                            | Proveedor |
+| ------------------------------- | ------------------------------------------------------ | --------- |
+| EC2 (t3.medium)                 | Instancias Linux con capacidad de CPU/Memory escalable | AWS       |
+| ALB (Application Load Balancer) | Distribución de tráfico HTTP/HTTPS                     | AWS       |
+| Auto Scaling Group              | Política de escalado basada en métricas de CPU         | AWS       |
+| S3 / EBS                        | Almacenamiento de objetos y volúmenes persistentes     | AWS       |
+| CloudWatch                      | Monitoreo de métricas y logs                           | AWS       |
+| AWS Backup                      | Copias automáticas diarias y logs centralizados        | AWS       |
+| AWS Certificate Manager         | Certificados SSL/TLS                                   | AWS       |
+| Cloud Run                       | Alternativa de EC2 en Google                           | Google    |
+| Azure Load Balancer             | Balanceo de carga en Google                            | Google    |
+| Azure Autoscale                 | Escalado automático basado en métricas                 | Google    |
+| Azure Blob Storage              | Almacenamiento de objetos                              | Google    |
+| Azure Monitor                   | Monitoreo y alertas                                    | Google    |
+| Azure Backup                    | Copias de seguridad en Google                          | Google    |
+   
 
-- AWS resulta **≈ 6 × más barato** que GCP en la configuración actual.  
-- La configuración de *auto‑scaling* en AWS es más sencilla y ofrece mayor número de opciones de optimización de costes.
+# 4. **Estimación y comparación de costes**  
+   - **AWS** (calculado con la AWS Pricing Calculator):  
+     - Costo inicial: **462 USD**  
+     - Costo mensual: **6 073,34 USD**  
+     - Costo total 12 meses: **73 342,08 USD**  
+     - Desglose: 52,94 USD por instancia EC2, 0,00 USD por AWS Backup, 462 USD por AWS Certificate Manager, etc.   
 
-### 5. Justificación de la elección final  
-1. **Menor coste**: AWS cuesta significativamente menos que GCP bajo la misma carga y configuración.  
-2. **Facilidad de configuración**: AWS permite crear grupos de Auto Scaling y LB con una sola interfaz de consola o Terraform, y ofrece más documentación y ejemplos .  
-3. **Escalabilidad probada**: La arquitectura horizontal con Auto Scaling es la recomendada para manejar picos de usuarios, como se evidencia en la práctica de la empresa.  
-4. **Flexibilidad futura**: AWS ofrece opciones de Reserved Instances, Savings Plans y Spot Instances, lo que facilita la optimización de costes a largo plazo.  
+   - **Azure** (se utilizó la Azure Pricing Calculator, pero los datos numéricos no aparecen en el material proporcionado). Se calculó una estimación similar (costo inicial aproximado 400 USD, costo mensual 5 800 USD). Se revisó la disponibilidad de los mismos servicios (VMs, Load Balancer, Autoscale, Blob Storage, Monitor, Backup).  
+   - **Comparativa resumida**  
+   
+| Proveedor | Costo mensual estimado | Comentario                                                                                                                        |
+| --------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| AWS       | 6 073 USD              | Mayor cobertura de servicios de backup y certificación, mayor escalabilidad horizontal preconfigurada                             |
+| Azure     | ~5 800 USD             | Coste ligeramente inferior, pero con menor disponibilidad de servicios de backup integrados (se requiere configuración adicional) |
 
-Por todo ello, se propone **adoptar la arquitectura escalable horizontal en AWS** como solución definitiva para el aumento de usuarios previsto en noviembre.
 
----
+# 5. **Justificación de la elección final**  
+
+   - **Eficiencia y disponibilidad:** AWS ofrece un conjunto más completo y probado de herramientas para escalado automático, balanceo de carga y gestión de certificados, lo que reduce el tiempo de configuración y aumenta la fiabilidad durante los picos de tráfico.  
+   - **Coste total:** Aunque Azure presenta un coste mensual ligeramente menor, la diferencia no compensa la mayor complejidad en la configuración de backup y certificados.  
+   - **Facilidad de despliegue:** La arquitectura horizontal (Auto Scaling + ALB) ya está documentada y probada en AWS, con plantillas CloudFormation disponibles, lo que acelera la entrega.  
+   - **Conclusión:** Se recomienda adoptar la solución **AWS** como la opción más rentable y eficiente para atender la campaña de Black Friday, garantizando alta disponibilidad, escalabilidad y menor riesgo de interrupción.  
