@@ -9,10 +9,10 @@ dg-publish: true
 ### 2. Arquitectura escalable propuesta  
 **Horizontal + Vertical (en función de la carga)** 
 
-| Nivel | Acción | Servicio | Descripción |
-|-------|--------|----------|-------------|
-| **Horizontal** | Auto‑scaling con Load Balancer | *Elastic Load Balancing* (ALB/NLB) + *Auto Scaling Groups* | Cuando la carga aumenta, se crean nuevas instancias EC2 automáticamente; el LB distribuye el tráfico equitativamente. |
-| **Vertical** | Escalado de recursos de la instancia | *EC2* (típicamente `t3.medium` → `t3.large`) | Cuando la carga es intensa pero la aplicación es monolítica, se aumenta CPU/RAM sin crear instancias nuevas. |
+| Nivel                         | Acción                               | Servicio                                                   | Descripción                                                                                                           |
+| ----------------------------- | ------------------------------------ | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Horizontal** (Seleccionado) | Auto‑scaling con Load Balancer       | *Elastic Load Balancing* (ALB/NLB) + *Auto Scaling Groups* | Cuando la carga aumenta, se crean nuevas instancias EC2 automáticamente; el LB distribuye el tráfico equitativamente. |
+| **Vertical**                  | Escalado de recursos de la instancia | *EC2* (típicamente `t3.medium` → `t3.large`)               | Cuando la carga es intensa pero la aplicación es monolítica, se aumenta CPU/RAM sin crear instancias nuevas.          |
 
 - **Disponibilidad** garantizada mediante *Availability Zones* y *Multi‑AZ* deployments.  
 - **Persistencia de datos**: *Amazon S3* para objetos estáticos, *Amazon RDS/Aurora* para bases de datos con replicación y fail‑over automático.  
@@ -35,12 +35,12 @@ dg-publish: true
 | **Google Cloud** | **333,89 €** | Basado en una sola instancia activa; alto coste por falta de configuración de “mantener inactivas” [1]. |
 
 - AWS resulta **≈ 6 × más barato** que GCP en la configuración actual.  
-- La configuración de *auto‑scaling* en AWS es más sencilla y ofrece mayor número de opciones de optimización de costes, según la opinión del autor [1].
+- La configuración de *auto‑scaling* en AWS es más sencilla y ofrece mayor número de opciones de optimización de costes.
 
 ### 5. Justificación de la elección final  
-1. **Menor coste**: AWS cuesta significativamente menos que GCP bajo la misma carga y configuración [1].  
-2. **Facilidad de configuración**: AWS permite crear grupos de Auto Scaling y LB con una sola interfaz de consola o Terraform, y ofrece más documentación y ejemplos [1].  
-3. **Escalabilidad probada**: La arquitectura horizontal con Auto Scaling es la recomendada para manejar picos de usuarios, como se evidencia en la práctica de la empresa [1].  
+1. **Menor coste**: AWS cuesta significativamente menos que GCP bajo la misma carga y configuración.  
+2. **Facilidad de configuración**: AWS permite crear grupos de Auto Scaling y LB con una sola interfaz de consola o Terraform, y ofrece más documentación y ejemplos .  
+3. **Escalabilidad probada**: La arquitectura horizontal con Auto Scaling es la recomendada para manejar picos de usuarios, como se evidencia en la práctica de la empresa.  
 4. **Flexibilidad futura**: AWS ofrece opciones de Reserved Instances, Savings Plans y Spot Instances, lo que facilita la optimización de costes a largo plazo.  
 
 Por todo ello, se propone **adoptar la arquitectura escalable horizontal en AWS** como solución definitiva para el aumento de usuarios previsto en noviembre.
