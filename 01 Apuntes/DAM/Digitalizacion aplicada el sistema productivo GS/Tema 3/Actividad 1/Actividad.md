@@ -37,11 +37,21 @@ Será necesario ampliar la infraestructura de manera temporal para evitar satura
 			![[01 Apuntes/DAM/Digitalizacion aplicada el sistema productivo GS/Tema 3/Actividad 1/My Estimate - Calculadora de precios de AWS.pdf]]
 			![[01 Apuntes/DAM/Digitalizacion aplicada el sistema productivo GS/Tema 3/Actividad 1/My Estimate - Calculadora de precios de AWS.pdf#page=2]]
 		- [Google](https://cloud.google.com/products/calculator):
-			![Enlaze a la estima](https://cloud.google.com/products/calculator/estimate-preview/CiQ3NzY1MmRmNy00MzJkLTQxN2QtOTkzYy1lNzM0YmIwMmU4NTgQAQ%3D%3D)
+			[Enlaze a la estimacion](https://cloud.google.com/products/calculator/estimate-preview/CiQ3NzY1MmRmNy00MzJkLTQxN2QtOTkzYy1lNzM0YmIwMmU4NTgQAQ%3D%3D)
 4. Comparativa y conclusiones:
 	- Elaborar una tabla comparativa de costes y características entre ambas plataformas.
+	
+|                      | Google | Aws |
+| -------------------- | ------ | --- |
+| Instancias virtuales |        |     |
+| Base de datos        |        |     |
+|                      |        |     |
+|                      |        |     |
+
 	- Analizar:
 		- Coste total estimado.
+			
 		- Facilidad de configuración y despliegue.
 		- Servicios disponibles para la escalabilidad.
+		
 	- Redactar un breve informe con conclusiones justificadas sobre la opción más rentable y eficiente.
