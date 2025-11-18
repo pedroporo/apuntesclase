@@ -44,14 +44,18 @@ Será necesario ampliar la infraestructura de manera temporal para evitar satura
 		- Coste total estimado.
 		- Facilidad de configuración y despliegue.
 		- Servicios disponibles para la escalabilidad.
-		
 	- Redactar un breve informe con conclusiones justificadas sobre la opción más rentable y eficiente.
 Tabla comparativa:
 
-|                      | Aws | Google |
-| -------------------- | --- | ------ |
-| Instancias virtuales |     |        |
-| Base de datos        |     |        |
-| Almacenamiento       |     |        |
-| SSL                  |     | 4,29 € |
-| Backups y logs       |     |        |
+Escalavilidad Horizontal
+
+| 5 instancias totales | Aws         | Google                       |
+| -------------------- | ----------- | ---------------------------- |
+| Instancias virtuales | 52,94 USD   | 1,00 € / dependiendo del uso |
+| Base de datos        | 650,40 USD  | 195,24 €                     |
+| Almacenamiento       | 5320,00 USD | 85,74 €                      |
+| SSL                  | 462,00 USD  | 4,29 €                       |
+| Backups y logs       | 50,00 USD   | 23,17 € + 24,44 €            |
+| TOTAL/ mes           | 6073,34 USD | 333,89 €                     |
+
+Ya que hemos elegido la escalavilidad horizontal lo que haremos es agregar mas maquinas segun las usemos
