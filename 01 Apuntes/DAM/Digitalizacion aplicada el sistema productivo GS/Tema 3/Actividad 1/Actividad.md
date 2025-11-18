@@ -35,6 +35,7 @@ Será necesario ampliar la infraestructura de manera temporal para evitar satura
 	- Utilizar las calculadoras oficiales de los proveedores:
 		- [AWS](https://calculator.aws/#/):
 		- [Google](https://cloud.google.com/products/calculator):
+			![](https://cloud.google.com/products/calculator/estimate-preview/CiQwYjRkOTI0Ny03Zjg3LTQxZmUtOTA4Ni02MjI1MjkxNjVhODIQAQ%3D%3D)
 4. Comparativa y conclusiones:
 	- Elaborar una tabla comparativa de costes y características entre ambas plataformas.
 	- Analizar:
