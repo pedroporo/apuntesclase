@@ -47,15 +47,18 @@ Será necesario ampliar la infraestructura de manera temporal para evitar satura
 	- Redactar un breve informe con conclusiones justificadas sobre la opción más rentable y eficiente.
 Tabla comparativa:
 
-Escalavilidad Horizontal
+Escavillad Horizontal
 
-| 5 instancias totales | Aws         | Google                       |
-| -------------------- | ----------- | ---------------------------- |
-| Instancias virtuales | 52,94 USD   | 1,00 € / dependiendo del uso |
-| Base de datos        | 650,40 USD  | 195,24 €                     |
-| Almacenamiento       | 5320,00 USD | 85,74 €                      |
-| SSL                  | 462,00 USD  | 4,29 €                       |
-| Backups y logs       | 50,00 USD   | 23,17 € + 24,44 €            |
-| TOTAL/ mes           | 6073,34 USD | 333,89 €                     |
+| 5 instancias totales | Aws                                                                        | Google                       |
+| -------------------- | -------------------------------------------------------------------------- | ---------------------------- |
+| Instancias virtuales | 52,94 USD                                                                  | 1,00 € / dependiendo del uso |
+| Base de datos        | 650,40 USD                                                                 | 195,24 €                     |
+| Almacenamiento       | 5320,00 USD (selecione 1000 Teabytes por error y es mu tarde pa cambiarlo) | 85,74 €                      |
+| SSL                  | 462,00 USD                                                                 | 4,29 €                       |
+| Backups y logs       | 50,00 USD                                                                  | 23,17 € + 24,44 €            |
+| TOTAL/ mes           | 6073,34 USD                                                                | 333,89 €                     |
 
-Ya que hemos elegido la escalavilidad horizontal lo que haremos es agregar mas maquinas segun las usemos
+Ya que hemos elegido la escavillad horizontal lo que haremos es agregar mas maquinas según las usemos.
+El coste total de google cloud es 333,89 € ya que se ha usado la opcion de solo usar 1 maquina y que las otras se mantengan inactivas si no se necesitan, las de amazon son 52,94 USD he encontrado que es mas facil configurar amazon que google ya que da mas opciones a primera vista.
+
+Yo usaria AWS ya que te da mas facilidades a la hora de crear las cosas y muchas mas opciones
