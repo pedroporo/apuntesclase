@@ -34,7 +34,8 @@ Será necesario ampliar la infraestructura de manera temporal para evitar satura
 	- Calcular el coste estimado adicional necesario para soportar el incremento de usuarios durante noviembre. 
 	- Utilizar las calculadoras oficiales de los proveedores:
 		- [AWS](https://calculator.aws/#/):
-		 ![](https://calculator.aws/#/estimate?id=f9a869ab0b7bfc546c321ecba35b07f98cb4ffae)
+			![[01 Apuntes/DAM/Digitalizacion aplicada el sistema productivo GS/Tema 3/Actividad 1/My Estimate - Calculadora de precios de AWS.pdf]]
+			![[01 Apuntes/DAM/Digitalizacion aplicada el sistema productivo GS/Tema 3/Actividad 1/My Estimate - Calculadora de precios de AWS.pdf#page=2]]
 		- [Google](https://cloud.google.com/products/calculator):
 			![](https://cloud.google.com/products/calculator/estimate-preview/CiQwYjRkOTI0Ny03Zjg3LTQxZmUtOTA4Ni02MjI1MjkxNjVhODIQAQ%3D%3D)
 4. Comparativa y conclusiones:
