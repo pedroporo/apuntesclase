@@ -1,11 +1,9 @@
 #!/bin/bash
-
-
 INSTANCE_COUNT=4
 INSTANCE_TYPE="t2.micro"
 AMI_ID="ami-0c7217cdde317cfec"
-KEY_NAME="tu-clave-ssh"  # Reemplaza con tu clave SSH
-SECURITY_GROUP="sg-12345678"  # Reemplaza con tu grupo de seguridad
+KEY_NAME="awsKeys"
+SECURITY_GROUP="sg-12345678"
 REGION="us-east-1"  
 
 
