@@ -1,10 +1,12 @@
 #!/bin/bash
+
+
 INSTANCE_COUNT=4
 INSTANCE_TYPE="t2.micro"
-AMI_ID="ami-0c7217cdde317cfec"
-KEY_NAME="awsKeys"
+AMI_ID="ami-0c55b159cbfafe1d0" 
+KEY_NAME="tu-clave-ssh"
 SECURITY_GROUP="sg-12345678"
-REGION="us-east-1"  
+REGION="us-east-1"
 
 
 create_instance() {
