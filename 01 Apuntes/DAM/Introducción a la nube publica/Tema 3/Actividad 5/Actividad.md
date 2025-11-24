@@ -17,3 +17,8 @@ Fecha de entrega: `$= dv.date("today")`
 ## Configuracion de zona alojada
 
 ![[Pasted image 20251124192305.png]]
+
+## Registros R53
+Registro a maquina 1:
+![[Pasted image 20251124193734.png]]
+Registro a maquina 2: ![[Pasted image 20251124194035.png]]
