@@ -22,3 +22,5 @@ Fecha de entrega: `$= dv.date("today")`
 Registro a maquina 1:
 ![[Pasted image 20251124193734.png]]
 Registro a maquina 2: ![[Pasted image 20251124194035.png]]
+Registro Maquina 3:![[Pasted image 20251124194159.png]]
+Registro Maquina 4:![[Pasted image 20251124194412.png]]
