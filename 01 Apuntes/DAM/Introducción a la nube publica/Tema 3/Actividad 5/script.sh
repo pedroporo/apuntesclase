@@ -28,11 +28,9 @@ create_instance() {
 for i in {1..4}; do
   instance_name="Webserver-$i"
   user_data="#!/bin/bash
-    yum update -y
-    yum install -y httpd
-    systemctl start httpd
-    systemctl enable httpd
-    echo '<html><body><h1>Webserver $i de Pedro Guill ferri en la màquina $i</h1></body></html>' > /var/www/html/index.html
+    sudo apt update -y 
+    sudo apt install apache2 -y
+    echo '<html><body><h1>Webserver $i de Pedro Guill ferri en la maquina $i</h1></body></html>' > /var/www/html/index.html
   "
   create_instance "$instance_name" "$user_data"
 done
