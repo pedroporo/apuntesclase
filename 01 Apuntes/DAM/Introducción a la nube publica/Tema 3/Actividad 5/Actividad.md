@@ -104,3 +104,6 @@ done
 
 # Instancia de windows en la red captura de navegador al www
 ![[Pasted image 20251124200701.png]]
+
+## Enlaze al video
+
