@@ -3,11 +3,11 @@
 
 INSTANCE_COUNT=4
 INSTANCE_TYPE="t2.micro"
-AMI_ID="ami-0c55b159cbfafe1d0" 
-KEY_NAME="tu-clave-ssh"
+AMI_ID="ami-0ecb62995f68bb549" 
+KEY_NAME="awsKeys"
 SECURITY_GROUP="sg-12345678"
 REGION="us-east-1"
-
+SUBNET_ID="subnet-048543a2dd17a49ac"
 
 create_instance() {
   local instance_name=$1
@@ -19,6 +19,7 @@ create_instance() {
     --instance-type $INSTANCE_TYPE \
     --key-name $KEY_NAME \
     --security-group-ids $SECURITY_GROUP \
+    --subnet-id $SUBNET_ID \
     --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$instance_name}]" \
     --user-data "$user_data" \
     --region $REGION
