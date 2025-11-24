@@ -22,7 +22,9 @@ create_instance() {
     --subnet-id $SUBNET_ID \
     --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$instance_name}]" \
     --user-data "$user_data" \
+    --associate-public-ip-address \
     --region $REGION
+    
 }
 
 
