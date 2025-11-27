@@ -22,6 +22,7 @@ Para la actividad debéis generar una nueva base de datos, con la opción de “
 ![[Pasted image 20251127201618.png]]
 ## 1. Debes generar 2 grupos nuevos para el módulo de inventario, con los siguientes nombres y permisos.
 - Jefe de departamento, con todos los permisos de los apartados de "Información general”, “Operaciones”, “Productos”, “Informes”. 
+![[Pasted image 20251127202713.png]]
 - Empleados departamento, con acceso de lectura en “Operaciones/transferencias”, “Operaciones/reposición” y todas las opciones de “Productos”.
 
 ## 2. Debéis añadir 3 campos nuevos dentro de las transacciones, pidiendo la siguiente información:
