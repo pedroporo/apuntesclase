@@ -30,6 +30,7 @@ Para la actividad debéis generar una nueva base de datos, con la opción de “
 - Es importante (boolean). `isImportant boo`
 - Fecha de pedido del cliente (fecha). `clientPurcharseDate date`
 - Previsión de envío en días (entero). `arribeInDays int`
+![[Pasted image 20251128202459.png]]
 
 ## 3. Genera un nuevo apartado (Ventana dentro de la transacción) donde muestres los días previstos de envío en lugar de en la parte superior. (Podéis utilizar xpath o html).
 
