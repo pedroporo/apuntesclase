@@ -14,18 +14,12 @@ Fecha de entrega: `$= dv.date("today")`
 
 <center><img src="https://picsum.photos/500/700" alt="Portada" /></center>
 > [!info] Contexto
-> Pau i Maria estan pensant a estudiar el cicle formatiu de grau superior Desenrotllament
-> d'Aplicacions Multiplataforma però els agradaria saber les opcions de futur que tindran
-> una vegada finalitzen els seus estudis. Estan plantejant-se la possibilitat de, una vegada
-> finalitzat el cicle, emprendre en el sector o buscar treball per compte d'altri i és el
-> moment d'ajudar-los a prendre la decisió analitzant totes les possibilitats.
-> Durant el primer curs, abordarem els següents Resultats d'Aprenentatge i d'esta manera
-> els ajudarem en la recerca del seu futur laboral:
-> RA 1. Identificar les necessitats del sector productiu, relacionant-les amb projectes
-> tipus que les puguen satisfer.
-> RA 2. Dissenyar projectes relacionats amb les competències expressades en el títol,
-> incloent i desenrotllant les fases que el componen.
-> Per tal de desenvolupar aquestos RA es proposen les següents tasques:
+Pau i Maria estan pensant a estudiar el cicle formatiu de grau superior Desenrotllament d'Aplicacions Multiplataforma però els agradaria saber les opcions de futur que tindran una vegada finalitzen els seus estudis. Estan plantejant-se la possibilitat de, una vegada finalitzat el cicle, emprendre en el sector o buscar treball per compte d'altri i és el moment d'ajudar-los a prendre la decisió analitzant totes les possibilitats.
+>
+> Durant el primer curs, abordarem els següents Resultats d'Aprenentatge i d'esta manera els ajudarem en la recerca del seu futur laboral:
+> RA 1. Identificar les necessitats del sector productiu, relacionant-les amb projectes tipus que les puguen satisfer.
+> RA 2. Dissenyar projectes relacionats amb les competències expressades en el títol, incloent i desenrotllant les fases que el componen.
+
 
 # RA1
 ## TASCA A: Fes una recerca y classifica les empreses del sector per les seues característiques organitzatives i el tipus de producte o servici que oferixen.
@@ -91,10 +85,59 @@ Fecha de entrega: `$= dv.date("today")`
 > [!note]
 > Tin en compte que els requeriments del projecte són les funcionalitats o característiques específiques que ha de solucionar el sistema o programa que s'ha de crear.
 
+| Tipo de proyecto       | Características                                     | Tecnologías típicas                 |
+| ---------------------- | --------------------------------------------------- | ----------------------------------- |
+| **Aplicación MVP**     | Funcionalidad mínima viable, rápido lanzamiento.    | Flutter o React Native + Firebase.  |
+| **Enterprise Mobile**  | Escalabilidad, integración con ERP, alta seguridad. | Kotlin Multiplatform + Spring Boot. |
+| **App de e‑commerce**  | Carrito, pagos, notificaciones push.                | React Native + Stripe, GraphQL.     |
+| **IoT control app**    | Comunicación Bluetooth/Wi‑Fi, dashboards.           | Flutter + MQTT.                     |
+| **Gamificación móvil** | Puntos, leaderboards, AR.                           | Unity + ARKit/ARCore.               |
 
 ## TASCA G: Determina quines són les obligacions fiscals, laborals i de prevenció de riscos laborals quan es desenvolupen projectes relacionats amb les TIC's.
+| Ámbito | Requisitos clave |
+|--------|-----------------|
+| **Fiscal** | Registro en Hacienda, IVA (15% para desarrollo de software), retenciones de IRPF a empleados. |
+| **Laboral** | Contratos (indefinidos, temporales, freelance), jornada laboral, descansos, teletrabajo, cumplimiento del Estatuto de los Trabajadores. |
+| **Prevención de Riesgos** | Plan de prevención, evaluación de riesgos, formación en ergonomía, uso de equipos ergonómicos, seguros de responsabilidad civil. |
 
 ## TASCA H: Identifica possibles ajudes o subvencions per a la incorporació de les noves tecnologies de producció o de servici proposades.
-
+1. **Programa de Apoyo a la Innovación (AIU)** – financiación para proyectos de I+D.  
+2. **Ayudas de la UE – Horizonte Europa** – proyectos de IA, AR, IoT.  
+3. **Plan de Digitalización del Gobierno** – subvenciones para adopción de nube y soluciones cloud.  
+4. **Subvenciones de la Comunidad Autónoma** (p. ej., Catalunya: “Innova 2.0”, “Digitalització i Innovació”).  
+5. **Fondo Europeo de Desarrollo Regional (FEDER)** – apoyo a la transformación digital de pymes.  
 
 ## TASCA I: Determina el guió de treball que es seguirà per a l'elaboració del projecte. A hores d'ara de segur que ja saps quines són les fases típiques en l'elaboració de projectes de software. Basat en aquestes i ves concretant i identificant les tasques que creus que caldrà portar a terme.
+1. **Análisis de Requerimientos**  
+   - Reunión con cliente -> levantamiento de requisitos.  
+   - Documentación funcional (specs).  
+2. **Diseño Arquitectónico**  
+   - Selección de stack, arquitectura (MVC, MVVM, Clean Architecture).  
+   - Prototipado de UI/UX.  
+3. **Planificación y Estimación**  
+   - Scrum board, historias de usuario, sprint backlog.  
+   - Estimaciones en story points.  
+4. **Desarrollo**  
+   - Codificación, revisiones de código (pull requests).  
+   - Integración continua.  
+5. **Pruebas**  
+   - Unitarias, integrales, de UI, automatizadas.  
+   - Pruebas beta con usuarios.  
+6. **Despliegue**  
+   - CI/CD a tiendas (App Store, Play Store), servidores (AWS, Azure).  
+   - Configuración de producción, backups.  
+7. **Mantenimiento y Soporte**  
+   - Corrección de bugs, actualizaciones de dependencias.  
+   - Monitorización (Sentry, New Relic).  
+
+# RA 2
+
+> [!tip] Recomendacion
+> Recomanació personal: Buscar un projecte d'una aplicació informàtica concreta, que solucione un problema determinat i acomplir totes les tasques corresponents a aquest RA tenint en compte aquest projecte d'aplicació.
+
+## TASCA ARecopila informació relativa als aspectes que seran tractats en el projecte. Crea una graella com aquesta:
+
+
+| Aspecte concret | Breu explicació de la informació trobada i enllaç. |
+| --------------- | -------------------------------------------------- |
+|                 |                                                    |
