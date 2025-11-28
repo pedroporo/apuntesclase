@@ -135,9 +135,25 @@ Pau i Maria estan pensant a estudiar el cicle formatiu de grau superior Desenrot
 > [!tip] Recomendacion
 > Recomanació personal: Buscar un projecte d'una aplicació informàtica concreta, que solucione un problema determinat i acomplir totes les tasques corresponents a aquest RA tenint en compte aquest projecte d'aplicació.
 
-## TASCA ARecopila informació relativa als aspectes que seran tractats en el projecte. Crea una graella com aquesta:
-
+## TASCA A: Recopila informació relativa als aspectes que seran tractats en el projecte. Crea una graella com aquesta:
 
 | Aspecte concret | Breu explicació de la informació trobada i enllaç. |
 | --------------- | -------------------------------------------------- |
 |                 |                                                    |
+Anota els diferents aspectes identificats i descriu la informació que has trobat d'aquests. Tanmateix, aporta l’enllaç per a futures consultes.
+
+## TASCA B: Realitza un estudi de viabilitat tècnica del projecte. En el context dels projectes TIC, un estudi de viabilitat pot tractar els següents aspectes, investiga’ls:
+- Viabilitat tècnica - Disponibilitat de la tecnologia, compatibilitat de sistemes existents, capacitat del personal tècnic, escalabilitat i mantenibilitat de la solució proposada...
+- Viabilitat econòmica - Costos d’implementació (maquinari, programari, formació, etc.), costos operatius i de manteniment, monetització, fons de finançament disponibles...
+- Viabilitat temporal - Disponibilitat de temps per a dur a terme el projecte, planificació de fases i terminis, possibles riscos associats o retards...
+- Viabilitat legal i normativa – Compliment de la legislació, normes, etc.
+## TASCA C: Identifica les fases del projecte especificant el seu contingut i els termes d’execució.
+
+## TASCA D: Estableix els objectius que es pretenen aconseguir amb el projecte elegit.
+Com a guia, pots enumerar totes les funcionalitats que vols que el teu producte tinga. Pots basarte en com els usuaris interactuen amb el sistema (perquè el fan servir, quines accions porten a terme, que obtenen, etc).
+
+## TASCA E: Determinar les activitats necessàries per a desenrotllar el projecte.
+Donat que ja tenim al cap un projecte concret, doncs aquest apartat es pot enfocar des del punt de vista del disseny descendent: identifiquem tasques i a dintre d’aquestes, podem identificar subtasques i així successivament.
+
+Fes servir un diagrama de Gantt: assigna a cada tasca un temps i seqüència les tasques
+identificant quines s’han d’abordar primer i quines després.
