@@ -159,3 +159,5 @@ Elimine el logo
 ![[Pasted image 20251128225359.png]]
 
 
+Vista 1:
+![[Pasted image 20251128225726.png]]
