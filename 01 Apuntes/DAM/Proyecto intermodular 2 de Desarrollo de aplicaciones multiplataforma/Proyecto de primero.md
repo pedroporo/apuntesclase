@@ -139,30 +139,104 @@ Pau i Maria estan pensant a estudiar el cicle formatiu de grau superior Desenrot
 *Problema a resoldre:* Els estudiants sovint no tenen una visió clara del seu flux de caixa, sovint depenen d’credits, esdevenen de deutes o no poden planificar com finançar els estudis. Aquesta app permetrà controlar ingressos, despeses, estalviar i planificar objectius financers amb informació en temps real i recomanacions personalitzades.
 
 ## TASCA A: Recopila informació relativa als aspectes que seran tractats en el projecte..
-
-| Aspecte concret | Breu explicació de la informació trobada i enllaç. |
-| --------------- | -------------------------------------------------- |
-|                 |                                                    |
-Anota els diferents aspectes identificats i descriu la informació que has trobat d'aquests. Tanmateix, aporta l’enllaç per a futures consultes.
+| Aspecte concret                   | Breu explicació i enllaç                                                                                                                                                        |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mercat objectiu**               | Estudiants universitats (18‑25 anys) amb smartphone i accés a bancs digitals. En els EUA i UE el rendiment de les apps de finances és alt (subscriptions & micro‑transactions). |
+| **Plataforma**                    | Mobile natiu i multiplataforma (Flutter/Kotlin + React Native) per a iOS i Android.                                                                                             |
+| **Reglamentació**                 | GDPR (UE), COPPA (estudiants < 18 anys) i regulació bancària de cada país.                                                                                                      |
+| **Costos de desenvolupament**     | Tasques horàries per a desenvolupadors seniors: US $100‑170/h; Índia $20‑70/h.                                                                                                  |
+| **Model de monetització**         | Freemium: funcionalitat base gratuïta, premium (gestió avançada, consultoria, sense publicitat).                                                                                |
+| **Tendències de desenvolupament** | Mobile gaming i micro‑transactions, iOS amb major ROI.                                                                                                                          |
+| **Serveis cloud**                 | AWS / Azure per a API, base de dades i autenticació.                                                                                                                            |
+| **Exemple de backend bancari**    | Open Banking APIs (UK Open Banking, PSD2).                                                                                                                                      |
 
 ## TASCA B: Realitza un estudi de viabilitat tècnica del projecte. En el context dels projectes TIC, un estudi de viabilitat pot tractar els següents aspectes, investiga’ls:
-- Viabilitat tècnica - Disponibilitat de la tecnologia, compatibilitat de sistemes existents, capacitat del personal tècnic, escalabilitat i mantenibilitat de la solució proposada...
-- Viabilitat econòmica - Costos d’implementació (maquinari, programari, formació, etc.), costos operatius i de manteniment, monetització, fons de finançament disponibles...
-- Viabilitat temporal - Disponibilitat de temps per a dur a terme el projecte, planificació de fases i terminis, possibles riscos associats o retards...
-- Viabilitat legal i normativa – Compliment de la legislació, normes, etc.
-## TASCA C: Identifica les fases del projecte especificant el seu contingut i els termes d’execució.
+### 1. Viabilitat tècnica  
+| Aspecte | Observació |
+|---------|------------|
+| **Tecnologia disponible** | Flutter i Kotlin Multiplatform permeten una única base de codi per a Android i iOS; API REST/GraphQL backend en Node.js o Go. |
+| **Compatibilitat** | Integració amb Open Banking APIs i serveis de pagament (Stripe, Plaid). |
+| **Capacitat del personal** | Equip mínim: 2 desenvolupadors full‑time (front + back), 1 UI/UX designer, 1 QA. |
+| **Escalabilitat** | Arquitectura serverless (AWS Lambda, DynamoDB) permetes escalar automàticament segons demanda. |
+| **Mantenibilitat** | Codex modular, CI/CD (GitHub Actions) i tests automàtics. |
 
+### 2. Viabilitat econòmica  
+| Cost | Estimació (USD) | Font |
+|------|-----------------|------|
+| Desenvolupament (6 mes) | 6 mes × (2 dev × $120/h × 160 h) = $230 000 | [1] |
+| Servidors cloud (AWS) | $500/m | [1] |
+| Licències de programari (IDE, fonts, plugins) | $200 | — |
+| Test i QA | $50 000 | — |
+| Marketing & llançament | $30 000 | — |
+| Formació i consultoria legal | $10 000 | — |
+| **Total aprox.** | **$420 000** | — |
+
+### 3. Viabilitat temporal  
+| Fase | Durada | Dependències | Risc |
+|------|--------|--------------|------|
+| Ideació i requisits | 4 setmanes | – | baixa |
+| Disseny UI/UX | 6 setmanes | Ideació | moderat |
+| Desenvolupament backend | 10 setmanes | Disseny | alt (dependència de APIs bancàries) |
+| Desenvolupament front‑end | 8 setmanes | Backend | moderat |
+| Integració & QA | 4 setmanes | Backend + Front | moderat |
+| Llençament beta | 2 setmanes | QA | moderat |
+| Llançament oficial | 1 setmana | Beta | baix |
+| **Total** | ~ 35 setmanes | — | — |
+
+### 4. Viabilitat legal i normativa  
+| Requisit | Observació |
+|----------|------------|
+| GDPR, CCPA, COPPA | Implementació de polítiques de privacitat, opt‑in, right‑to‑be‑forgotten. |
+| Open Banking PSD2 | Autenticació OAuth2, tokenització, control de pagaments. |
+| Licències bancàries (si s’ofereix financament) | Necessària per a operar com a entitat financera. |
+
+## TASCA C: Identifica les fases del projecte especificant el seu contingut i els termes d’execució.
+| Fase                          | Contingut                                                             | Termes d’execució |
+| ----------------------------- | --------------------------------------------------------------------- | ----------------- |
+| 1. Ideació                    | Anàlisi de competència, definició de UX, prototips de baixa fidelitat | 1 mes             |
+| 2. Disseny UI/UX              | Alt‑fidelitat, tests d’usabilitat                                     | 1 més i mitja     |
+| 3. Desenvolupament backend    | API, base de dades, autenticació                                      | 3 mes             |
+| 4. Desenvolupament front‑end  | Mobile apps, integració amb API, gestió d’estat                       | 2 mes             |
+| 5. Integració bancària        | Plaid/Stripe, comprovació de comptes, OAuth                           | 1 mes             |
+| 6. QA i Beta                  | Tests unitari, end‑to‑end, beta de 1000 usuaris                       | 1 mes             |
+| 7. Llançament                 | Publicació a App Store/Play Store, campanyes de marketing             | 2 setmanes        |
+| 8. Manteniment post‑lançament | Actualitzacions, suport, monitorització                               | Continu           |
 ## TASCA D: Estableix els objectius que es pretenen aconseguir amb el projecte elegit.
-Com a guia, pots enumerar totes les funcionalitats que vols que el teu producte tinga. Pots basarte en com els usuaris interactuen amb el sistema (perquè el fan servir, quines accions porten a terme, que obtenen, etc).
+
+1. **MVP funcional**: importació de transaccions bancàries, categorizació automàtica, visualització de flux de caixa i pressupost.
+2. **Experiència d’usuari**: interface neta, gestió d’objectius, notificacions push per a despeses i estalvi.
+3. **Seguretat**: encriptació de dades a repositori i en trànsit, autenticació multifactor.
+4. **Escalabilitat**: capacitat de suportar 100 k usuaris en primer any.
+5. **Comercialització**: 5 % de conversió a premium en 12 meses, 10 % de retenció.
 
 ## TASCA E: Determinar les activitats necessàries per a desenrotllar el projecte.
-Donat que ja tenim al cap un projecte concret, doncs aquest apartat es pot enfocar des del punt de vista del disseny descendent: identifiquem tasques i a dintre d’aquestes, podem identificar subtasques i així successivament.
-
-Fes servir un diagrama de Gantt: assigna a cada tasca un temps i seqüència les tasques identificant quines s’han d’abordar primer i quines després.
+| Activitat | Duració | Inici | Final |
+|-----------|---------|-------|-------|
+| Requeriments | 4 w | 01‑Feb | 28‑Feb |
+| UI/UX prototips | 4 w | 01‑Mar | 31‑Mar |
+| Backend dev | 10 w | 01‑Apr | 12‑Jun |
+| Front‑end dev | 8 w | 01‑May | 15‑Jun |
+| Integració bancària | 4 w | 01‑Jun | 30‑Jun |
+| QA & beta | 4 w | 01‑Jul | 30‑Jul |
+| Llançament | 2 w | 01‑Aug | 14‑Aug |
+| Manteniment | Continu | 15‑Aug | — |
 
 ## TASCA F: Realitza una previsió dels recursos materials i personals per a dur a terme el projecte.
 > [!info] Ayuda
 > Com que tens un conjunt de tasques identificat, doncs pot assignar a cada tasca un cost en termes d’hores. D’aquesta forma t’ajudarà a quantificar els recursos necessaris.
+
+| Recurso | Quantitat | Cost (USD) | Comentari |
+|---------|-----------|------------|-----------|
+| Laptops / testers | 3 | $3 000 | Desenvolupadors + QA |
+| Servidor cloud (AWS) | 1x | $500/m | Escalabilitat |
+| Llicències (IDE, fonts) | 1x | $200 | — |
+| Eines de project management (Jira) | 1x | $300/a | — |
+| **Personal** | | | |
+| Desenvolupador senior (x2) | 6 mes | $230 000 | $120/h |
+| Designer | 3 mes | $45 000 | $90/h |
+| QA | 2 mes | $30 000 | $75/h |
+| Project Manager | 6 mes | $60 000 | $125/h |
+| **Total** | | **$435 000** | – |
 
 ## TASCA G: Identificar les necessitats de finançament de la posada en marxa del projecte.
 
@@ -174,6 +248,32 @@ Fes servir un diagrama de Gantt: assigna a cada tasca un temps i seqüència les
 
 Per altra banda, tot projecte d'emprenedoria té un cost per a la persona que l'afronta. Es tracta d'un cost d'oportunitat. És a dir, que mentre estàs desenvolupant el projecte no pots fer altres coses i això és un cost.
 
+| Component | Cost (USD) | Font de finançament |
+|-----------|------------|---------------------|
+| Desenvolupament | $230 000 | Propis / inversor angel |
+| Cloud & infra | $3 000 | Subsidi ENISA (EU) |
+| Marketing inicial | $30 000 | Campanyes digital + influencer |
+| Legal & compliance | $10 000 | Consultor legal |
+| Formació | $5 000 | Cursos de Open Banking |
+| Cost d’oportunitat | $40 000 | Temps dedicat a la app (per a Pau & Maria) |
+| **Total** | **$318 000** | — |
+
+*Estratègies de captació*:  
+1. **Self‑funding**.  
+2. **Angel investors** amb focus en fintech.  
+3. **Subvencions europees**.  
+4. **Crowdfunding**  amb recompensa de subscripcions premium.
+
 ## TASCA I: Identificar els aspectes que s'han de controlar per tal de garantir la qualitat del projecte.
 > [!note] Ayuda
 > Es tracta de pensar en el que ha de fer l'aplicació o el sistema i, per tant, es pot elaborar un llistat de punts que hem de verificar per garantir la qualitat esperada.
+
+| Aspecte | Àrea de control | Metodologia |
+|---------|----------------|-------------|
+| **Funcional** | Tests unitari (Jest / Dart), test d’API (Postman), test de flux d’usuari (Cypress). |
+| **Performance** | Benchmark de càrrega (Locust), profiling de memòria (Android Profiler). |
+| **Seguretat** | Penetration test (OWASP ZAP), audit de codi estàtic (SonarQube). |
+| **Privacitat** | Revisión de GDPR, opt‑in, registre d’activitats de dades (Data Mapping). |
+| **Compatibilitat** | Test en 5+ versions d’Android i iOS, diversos dispositius (Samsung, iPhone). |
+| **Acceptació** | Test amb 50 estudiants (beta) i recopilació de feedback. |
+| **Documentació** | Manual d’usuari, guide de desenvolupador, registre de canvis (changelog). |
