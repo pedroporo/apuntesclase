@@ -156,7 +156,7 @@ Elimine el logo
 
 ![[Pasted image 20251128225238.png]]
 
-![[Pasted image 20251128225359.png]]
+![[Pasted image 20251128231841.png]]
 
 
 Vista 1:
@@ -171,3 +171,9 @@ Accion:
 
 Elemento menu
 ![[Pasted image 20251128230810.png]]
+
+![[Pasted image 20251128231913.png]]
+
+![[Pasted image 20251128231933.png]]
+
+![[Pasted image 20251128231948.png]]
