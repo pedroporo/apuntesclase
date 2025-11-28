@@ -91,11 +91,65 @@ El elemento es importantes
 ## 6. Modifícala la factura de la empresa añadiendo información sobre vuestra empresa. (Que no sean las redes sociales).
 
 ```
-<li t-if="company.currency_id" class="list-inline-item d-inline"><span t-field="company.currency_id"></span></li>
+<li t-if="company.vat" class="list-inline-item d-inline"><span t-field="company.vat"></span></li>
 ```
+![[Pasted image 20251128224422.png]]
 ## 7. Elimina información de la factura de la empresa, que no sea ni lo del punto 6, ni el comercial.
 > Procedo a eliminar el body
 
+Elimine el logo
+```
+<?xml version="1.0"?>
+<t t-name="web.external_layout_standard">
+        <div t-attf-class="header o_company_#{company.id}_layout" t-att-style="report_header_style">
+            <div class="row">
+                <div class="col-9 text-right" style="margin-top:22px;" t-field="company.report_header" name="moto"/>
+            </div>
+            <div t-if="company.logo or company.report_header" class="row zero_min_height">
+                <div class="col-12">
+                    <div style="border-bottom: 1px solid black;"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6" name="company_address">
+                    <ul class="list-unstyled" t-if="company.company_details or forced_vat">
+                        <li t-if="company.company_details"> <t t-esc="company.company_details"/></li>
+                        <li t-if="forced_vat">
+                            <t t-esc="company.country_id.vat_label or 'Tax ID'"/>:
+                            <span t-esc="forced_vat"/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div t-attf-class="article o_report_layout_standard o_company_#{company.id}_layout {{  'o_layout_background' if company.layout_background in ['Geometric', 'Custom']  else  '' }}" t-attf-style="background-image: url({{ 'data:image/png;base64,%s' % company.layout_background_image.decode('utf-8') if company.layout_background_image and company.layout_background == 'Custom' else '/base/static/img/bg_background_template.jpg' if company.layout_background == 'Geometric' else ''}});" t-att-data-oe-model="o and o._name" t-att-data-oe-id="o and o.id" t-att-data-oe-lang="o and o.env.context.get('lang')">
+            <div class="pt-5">
+                <!-- This div ensures that the address is not cropped by the header. -->
+                <t t-call="web.address_layout"/>
+            </div>
+            <t t-out="0"/>
+        </div>
+
+        <div t-attf-class="footer o_standard_footer o_company_#{company.id}_layout">
+            <div class="text-center" style="border-top: 1px solid black;">
+                <ul class="list-inline mb4">
+                  <li t-if="company.vat" class="list-inline-item d-inline"><span t-field="company.vat"></span></li>
+                    <div t-field="company.report_footer"/>
+                </ul>
+
+                <div t-if="report_type == 'pdf'" class="text-muted">
+                    Page: <span class="page"/> / <span class="topage"/>
+                </div>
+                <div t-if="report_type == 'pdf' and display_name_in_footer" class="text-muted">
+                    <span t-field="o.name"/>
+                </div>
+            </div>
+        </div>
+    </t>
+
+    
+```
 ## 8. Genera un nuevo modelo con un mínimo de 3 campos, además genera los permisos que debería tener el módulo. Con 2 vistas mínimos, a elección vuestra. Junto a la acción o acciones de ventana pertinentes y los elementos de menú. Para finalizar mostrad que funciona y generad el producto al que haga referencia. (“No podéis realizar el de videojuegos”).
  > `>:(`
 
