@@ -135,7 +135,10 @@ Pau i Maria estan pensant a estudiar el cicle formatiu de grau superior Desenrot
 > [!tip] Recomendacion
 > Recomanació personal: Buscar un projecte d'una aplicació informàtica concreta, que solucione un problema determinat i acomplir totes les tasques corresponents a aquest RA tenint en compte aquest projecte d'aplicació.
 
-## TASCA A: Recopila informació relativa als aspectes que seran tractats en el projecte. Crea una graella com aquesta:
+**Projecte proposat:** *“MoniMòni – App de gestió financera personal per a estudiants universitats”*  
+*Problema a resoldre:* Els estudiants sovint no tenen una visió clara del seu flux de caixa, sovint depenen d’credits, esdevenen de deutes o no poden planificar com finançar els estudis. Aquesta app permetrà controlar ingressos, despeses, estalviar i planificar objectius financers amb informació en temps real i recomanacions personalitzades.
+
+## TASCA A: Recopila informació relativa als aspectes que seran tractats en el projecte..
 
 | Aspecte concret | Breu explicació de la informació trobada i enllaç. |
 | --------------- | -------------------------------------------------- |
