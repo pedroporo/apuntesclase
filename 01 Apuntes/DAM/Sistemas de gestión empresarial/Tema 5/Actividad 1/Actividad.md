@@ -19,7 +19,7 @@ Fecha de entrega: `$= dv.date("today")`
 > **Para poder realizar la actividad hay que mostrar tanto el código que habéis tocado y la vista gráfica con lo que habéis generado.**
 
 Para la actividad debéis generar una nueva base de datos, con la opción de “demo data” activa, y además para trabajar debéis instalar el módulo de inventario. Además de la opción de “**Desarrollador**” activa.
-57gg-kgyy-q
+57gg-kgyy-q3nn
 ![[Pasted image 20251127201618.png]]
 ## 1. Debes generar 2 grupos nuevos para el módulo de inventario, con los siguientes nombres y permisos.
 - Jefe de departamento, con todos los permisos de los apartados de "Información general”, “Operaciones”, “Productos”, “Informes”. 
