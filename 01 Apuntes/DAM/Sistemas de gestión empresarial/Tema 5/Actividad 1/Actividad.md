@@ -165,3 +165,9 @@ Vista 1:
 Vista 2:
 
 ![[Pasted image 20251128230423.png]]
+
+Accion:
+![[Pasted image 20251128230628.png]]
+
+Elemento menu
+![[Pasted image 20251128230810.png]]
