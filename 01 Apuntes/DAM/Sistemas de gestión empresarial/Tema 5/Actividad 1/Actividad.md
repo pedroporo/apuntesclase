@@ -33,9 +33,57 @@ Para la actividad debéis generar una nueva base de datos, con la opción de “
 ![[Pasted image 20251128202459.png]]
 
 ## 3. Genera un nuevo apartado (Ventana dentro de la transacción) donde muestres los días previstos de envío en lugar de en la parte superior. (Podéis utilizar xpath o html).
-
+![[Pasted image 20251128202742.png]]
 ## 4. Busca una vista Kanban y modifica algo de ella (Que no sea hacer invisible la imagen).
 > Voy a agregar la misma imagen otra vez :)
+
+Codigo:
+```
+<?xml version="1.0"?>
+<kanban sample="1">
+                <field name="id"/>
+                <field name="product_variant_count"/>
+                <field name="currency_id"/>
+                <field name="activity_state"/>
+                <progressbar field="activity_state" colors="{&quot;planned&quot;: &quot;success&quot;, &quot;today&quot;: &quot;warning&quot;, &quot;overdue&quot;: &quot;danger&quot;}"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_card oe_kanban_global_click">
+                            <div class="o_kanban_image mr-1">
+                                <img t-att-src="kanban_image('product.template', 'image_128', record.id.raw_value)" alt="Product" class="o_image_64_contain"/>
+                            </div>
+                            <div class="o_kanban_image mr-1">
+                                <img t-att-src="kanban_image('product.template', 'image_128', record.id.raw_value)" alt="Product" class="o_image_64_contain"/>
+                            </div>
+                            <div class="oe_kanban_details">
+                                <div class="o_kanban_record_top mb-0">
+                                    <div class="o_kanban_record_headings">
+                                        <strong class="o_kanban_record_title">
+                                            <field name="name"/>
+                                        </strong>
+                                    </div>
+                                    <field name="priority" widget="priority"/>
+                                </div>
+                                <t t-if="record.default_code.value">[<field name="default_code"/>]</t>
+                                <div t-if="record.product_variant_count.value &gt; 1" groups="product.group_product_variant">
+                                    <strong>
+                                        <t t-esc="record.product_variant_count.value"/> Variants
+                                    </strong>
+                                </div>
+                                <div name="product_lst_price" class="mt-1">
+                                    Price: <field name="list_price" widget="monetary" options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+                                </div>
+                                <div name="aaaa" class="mt-1">
+                                    aaaaaaaaaaaaaaaaa
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        
+```
+
 
 ## 5. Genera un elemento de menú dentro de Inventario con las transferencias que sean importantes. Añade o modifica varias transferencias activándole la opción para comprobar que se muestran.
 
