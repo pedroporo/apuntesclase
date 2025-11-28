@@ -155,5 +155,22 @@ Com a guia, pots enumerar totes les funcionalitats que vols que el teu producte 
 ## TASCA E: Determinar les activitats necessàries per a desenrotllar el projecte.
 Donat que ja tenim al cap un projecte concret, doncs aquest apartat es pot enfocar des del punt de vista del disseny descendent: identifiquem tasques i a dintre d’aquestes, podem identificar subtasques i així successivament.
 
-Fes servir un diagrama de Gantt: assigna a cada tasca un temps i seqüència les tasques
-identificant quines s’han d’abordar primer i quines després.
+Fes servir un diagrama de Gantt: assigna a cada tasca un temps i seqüència les tasques identificant quines s’han d’abordar primer i quines després.
+
+## TASCA F: Realitza una previsió dels recursos materials i personals per a dur a terme el projecte.
+> [!info] Ayuda
+> Com que tens un conjunt de tasques identificat, doncs pot assignar a cada tasca un cost en termes d’hores. D’aquesta forma t’ajudarà a quantificar els recursos necessaris.
+
+## TASCA G: Identificar les necessitats de finançament de la posada en marxa del projecte.
+
+> [!tip] Ayuda
+> Cal tenir en compte que ací no sols s’ha de contar el cost dels equips necessaris, sinó que hi ha molts altres costos, com puguen ser:
+> - Cost dels serveis en el núvol (si cal).
+> - Costos de formació (si es necessita algun curs...).
+> - Cost de les hores de treball dels desenvolupadors ( vosaltres mateix ).
+
+Per altra banda, tot projecte d'emprenedoria té un cost per a la persona que l'afronta. Es tracta d'un cost d'oportunitat. És a dir, que mentre estàs desenvolupant el projecte no pots fer altres coses i això és un cost.
+
+## TASCA I: Identificar els aspectes que s'han de controlar per tal de garantir la qualitat del projecte.
+> [!note] Ayuda
+> Es tracta de pensar en el que ha de fer l'aplicació o el sistema i, per tant, es pot elaborar un llistat de punts que hem de verificar per garantir la qualitat esperada.
