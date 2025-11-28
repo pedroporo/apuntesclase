@@ -89,6 +89,10 @@ Codigo:
 ![[Pasted image 20251128222850.png]]
 El elemento es importantes
 ## 6. Modifícala la factura de la empresa añadiendo información sobre vuestra empresa. (Que no sean las redes sociales).
+
+```
+<li t-if="company.currency_id" class="list-inline-item d-inline"><span t-field="company.currency_id"></span></li>
+```
 ## 7. Elimina información de la factura de la empresa, que no sea ni lo del punto 6, ni el comercial.
 > Procedo a eliminar el body
 
