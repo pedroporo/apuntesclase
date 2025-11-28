@@ -86,7 +86,8 @@ Codigo:
 
 ![[Pasted image 20251128203045.png]]
 ## 5. Genera un elemento de menú dentro de Inventario con las transferencias que sean importantes. Añade o modifica varias transferencias activándole la opción para comprobar que se muestran.
-
+![[Pasted image 20251128222850.png]]
+El elemento es importantes
 ## 6. Modifícala la factura de la empresa añadiendo información sobre vuestra empresa. (Que no sean las redes sociales).
 ## 7. Elimina información de la factura de la empresa, que no sea ni lo del punto 6, ni el comercial.
 > Procedo a eliminar el body
