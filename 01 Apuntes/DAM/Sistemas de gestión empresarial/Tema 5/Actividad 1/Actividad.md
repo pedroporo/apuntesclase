@@ -160,4 +160,8 @@ Elimine el logo
 
 
 Vista 1:
-![[Pasted image 20251128225726.png]]
+![[Pasted image 20251128230226.png]]
+
+Vista 2:
+
+![[Pasted image 20251128230423.png]]
