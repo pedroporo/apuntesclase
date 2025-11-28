@@ -154,3 +154,8 @@ Elimine el logo
 ## 8. Genera un nuevo modelo con un mínimo de 3 campos, además genera los permisos que debería tener el módulo. Con 2 vistas mínimos, a elección vuestra. Junto a la acción o acciones de ventana pertinentes y los elementos de menú. Para finalizar mostrad que funciona y generad el producto al que haga referencia. (“No podéis realizar el de videojuegos”).
  > `>:(`
 
+![[Pasted image 20251128225238.png]]
+
+![[Pasted image 20251128225359.png]]
+
+
