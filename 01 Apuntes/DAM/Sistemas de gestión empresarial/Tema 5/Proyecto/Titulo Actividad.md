@@ -24,33 +24,33 @@ Pasos:
 	2. Visión: Proyectad a futuro, describan cómo visualizan el éxito de la empresa.
 	2.3. Valores: Identificad los principios éticos que guiarán todas las decisiones empresariales.
 3. Estructura Organizativa:
-3.1. Organigrama: Cread un organigrama que represente la jerarquía y relaciones entre diferentes roles. (Añadiendo Nombres 
-completos a cada Rol)
-3.2. Descripción de cada puesto: Detallad las responsabilidades 
-y funciones de cada posición en la empresa.
+	1. Organigrama: Cread un organigrama que represente la jerarquía y relaciones entre diferentes roles. (Añadiendo Nombres completos a cada Rol)
+	2. Descripción de cada puesto: Detallad las responsabilidades y funciones de cada posición en la empresa.
 4. Descripción del Producto/Servicio:
-4.1. Descripción detallada: Explicad en detalle qué ofrece la 
-empresa, cómo lo hace y por qué es único.
-4.2. Diferenciación: Destacad las características que diferencian 
-el producto/servicio de la competencia.
+	1. Descripción detallada: Explicad en detalle qué ofrece la empresa, cómo lo hace y por qué es único.
+	2. Diferenciación: Destacad las características que diferencian el producto/servicio de la competencia.
 5. Estudio de Mercado:
-5.1. Análisis de demanda: Investigad y analizad la demanda 
-potencial del producto/servicio.
-5.2. Identificación de competidores: Enumerad y analizad a los 
-competidores en el mercado.
-5.3. Público objetivo: Definid claramente quién sería el cliente 
-ideal para la empresa.
+	1. Análisis de demanda: Investigad y analizad la demanda potencial del producto/servicio.
+	2. Identificación de competidores: Enumerad y analizad a los competidores en el mercado.
+	3. Público objetivo: Definid claramente quién sería el cliente ideal para la empresa.
 6. Estrategias de Marketing:
-6.1. Plan de marketing: Detallad cómo planeáis promocionar y 
-vender su producto/servicio.
-6.2. Estrategias de promoción: Incluid campañas publicitarias, 
-descuentos, etc.
-6.3. Canales de distribución: Especificad cómo llevareis el
-producto/servicio al mercado.
+	1. Plan de marketing: Detallad cómo planeáis promocionar y vender su producto/servicio.
+	2. Estrategias de promoción: Incluid campañas publicitarias, descuentos, etc.
+	3. Canales de distribución: Especificad cómo llevareis elproducto/servicio al mercado.
 7. Plan Financiero:
-7.1. Presupuesto inicial: Estableced los costos iniciales 
-necesarios para lanzar la empresa.
-7.2. Proyecciones de ingresos y gastos: Predecid los ingresos y 
-gastos esperados en los primeros meses/años.
-7.3. Estrategias de financiamiento: Indicad cómo planeáis
-financiar la empresa inicialmente.
+	1. Presupuesto inicial: Estableced los costos iniciales necesarios para lanzar la empresa.
+	2. Proyecciones de ingresos y gastos: Predecid los ingresos y gastos esperados en los primeros meses/años.
+	3. Estrategias de financiamiento: Indicad cómo planeáis financiar la empresa inicialmente.
+
+
+**Entrega:**
+Entrega de la documentación en formato PDF, con los apartados de Portada, Índice, Desarrollo, Webgrafía.
+Deben estar todos los apartados desarrollados de forma correcta, pudiendo utilizar imágenes y gráficos dependiendo de lo que sea necesario en cada apartado
+
+
+**Evaluación:**
+La evaluación se realizará considerando la profundidad de análisis, la coherencia, la cohesión y la creatividad. Además de que estén todos los apartados.
+
+| **Criterio** | Desempeño excepcional (4) | Buen desempeño (3) |     |     |     |
+| ------------ | ------------------------- | ------------------ | --- | --- | --- |
+|              |                           |                    |     |     |     |
