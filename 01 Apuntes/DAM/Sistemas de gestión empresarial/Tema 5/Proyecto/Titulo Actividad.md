@@ -51,6 +51,12 @@ Deben estar todos los apartados desarrollados de forma correcta, pudiendo utiliz
 **Evaluación:**
 La evaluación se realizará considerando la profundidad de análisis, la coherencia, la cohesión y la creatividad. Además de que estén todos los apartados.
 
-| **Criterio** | Desempeño excepcional (4) | Buen desempeño (3) |     |     |     |
-| ------------ | ------------------------- | ------------------ | --- | --- | --- |
-|              |                           |                    |     |     |     |
+| **Criterio**                            | Desempeño excepcional (4) | Buen desempeño (3) | Desempeño Aceptable (2) | Desempeño Basico (1) | Desempeño insuficiente (0) |
+| --------------------------------------- | ------------------------- | ------------------ | ----------------------- | -------------------- | -------------------------- |
+| **Nombre y logo de la empresa**         |                           |                    |                         |                      |                            |
+| **Mision, Vision y Valores**            |                           |                    |                         |                      |                            |
+| **Estructura organizativa**             |                           |                    |                         |                      |                            |
+| **Descripcion del producto / servicio** |                           |                    |                         |                      |                            |
+| **Estudio del mercado**                 |                           |                    |                         |                      |                            |
+| **Estrategias de marketing**            |                           |                    |                         |                      |                            |
+| **Plan financiero**                     |                           |                    |                         |                      |                            |
