@@ -78,44 +78,51 @@ Fase 2: Estructura Organizativa y Productos/Servicios
 	1. Crear Departamentos y Equipos en Odoo: Establecer la estructura organizativa.
 	2. Organigrama en Odoo: Utilizar la herramienta de organigrama para visualizar jerarquías.
 3. Gestión de Productos y Servicios:
-3.1. Crear Productos/Servicios en Odoo: Introducir detalles, precios y categorías (Creadas previamente las categorías).
-3.2. Gestión de Inventario en Odoo: Utilizar funciones de Odoo para el seguimiento de existencias
+	1. Crear Productos/Servicios en Odoo: Introducir detalles, precios y categorías (Creadas previamente las categorías).
+	2. Gestión de Inventario en Odoo: Utilizar funciones de Odoo para el seguimiento de existencias
 
 Fase 3: Gestión Financiera y Recursos Humanos
 
 4. Configuración Financiera en Odoo:
-4.1. Establecer Cuentas Contables y Bancarias en Odoo: Definir la estructura financiera.
-4.2. Registros Contables en Odoo: Registrar transacciones y generar informes financieros básicos.
+	1. Establecer Cuentas Contables y Bancarias en Odoo: Definir la estructura financiera.
+	2. Registros Contables en Odoo: Registrar transacciones y generar informes financieros básicos.
 5. Recursos Humanos en Odoo:
-5.1. Crear Empleados en Odoo: Introducir detalles de empleados ficticios.
-5.2. Simular Gestión de Nóminas en Odoo: Proceso de nóminas y beneficios.
+	1. Crear Empleados en Odoo: Introducir detalles de empleados ficticios.
+	2. Simular Gestión de Nóminas en Odoo: Proceso de nóminas y beneficios.
 
 Fase 4: Ciclo de Ventas y Compras
 6. Gestión de Clientes y Proveedores:
-6.1. Registrar Clientes en Odoo: Ingresar información de clientes ficticios.
-6.2. Registrar Proveedores en Odoo: Ingresar información de 
-proveedores ficticios.
+	1. Registrar Clientes en Odoo: Ingresar información de clientes ficticios.
+	2. Registrar Proveedores en Odoo: Ingresar información de proveedores ficticios.
 7. Proceso de Ventas y Compras en Odoo:
-7.1. Simular un Ciclo de Ventas Completo: Desde la cotización 
-hasta la facturación.
-7.2. Simular un Ciclo de Compras Completo: Desde la orden de 
-compra hasta el pago.
+	1. Simular un Ciclo de Ventas Completo: Desde la cotización hasta la facturación.
+	2. Simular un Ciclo de Compras Completo: Desde la orden de compra hasta el pago.
+
 Fase 5: Comercio Electrónico y Punto de Venta
 8. Comercio Electrónico en Odoo:
-8.1. Configurar Tienda Online (Las páginas puntuarán más 
-cuanto mejor desarrolladas estén, si se dejan en lo básico no 
-puntuarán):
-8.1.1. Página 1: Presentación de la empresa para captar 
-clientes.
-8.1.2. Página 2: Misión, Visión y Valores.
-8.1.3. Página 3: Presentación de los productos más 
-importantes.
-8.1.4. Página 4: Contacto.
-8.1.5. Página 5: Añade los productos para la venta en línea.
-8.2. Simular Proceso de Compra Online: Desde la selección de 
-productos hasta la confirmación de pago.
+	1. Configurar Tienda Online (Las páginas puntuarán más cuanto mejor desarrolladas estén, si se dejan en lo básico no puntuarán):
+		1. Página 1: Presentación de la empresa para captar clientes.
+		2. Página 2: Misión, Visión y Valores.
+		3. Página 3: Presentación de los productos más importantes.
+		4. Página 4: Contacto.
+		5. Página 5: Añade los productos para la venta en línea.
+	2. Simular Proceso de Compra Online: Desde la selección de productos hasta la confirmación de pago.
 9. Punto de Venta en Odoo:
-9.1. Configurar Terminal Punto de Venta (TPV): Definir productos 
-y métodos de pago, además de las categorías.
-9.2. Simular Transacciones en el TPV: Realizar ventas y gestionar 
-inventario desde el punto de venta.
+	1. Configurar Terminal Punto de Venta (TPV): Definir productos y métodos de pago, además de las categorías.
+	2. Simular Transacciones en el TPV: Realizar ventas y gestionar inventario desde el punto de venta.
+
+Fase 6: Integración y Presentación Final
+10. Integración de Módulos en Odoo:
+	1. Vincular Módulos de Odoo: Conectar ventas y compras con contabilidad.
+	2. Simular Flujos de Trabajo Integrados: Escenario de colaboración entre departamentos.
+
+
+<u><b>Entrega:</b></u>
+Entrega de la documentación en formato PDF, con los apartados de Portada, Índice, Desarrollo, Webgrafía.
+Deben estar todos los apartados desarrollados de forma correcta, debiendo utilizar imágenes en cada apartado.
+
+<u><b>Evaluación:</b></u>
+
+La evaluación se centrará en la configuración correcta en Odoo, la simulación precisa de procesos empresariales, la integración efectiva de módulos (incluyendo Comercio Electrónico y Punto de Venta), y la calidad de la presentación final. 
+Cada alumno será evaluado en función de la profundidad de su comprensión y aplicación de Odoo en un contexto empresarial simulado.
+
