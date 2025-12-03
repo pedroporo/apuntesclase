@@ -212,5 +212,13 @@ Ambos archivos deberán ser enviados electrónicamente a la profesora responsabl
 
 <u><b>Evaluación:</b></u>
 
-| **Criterio** | Excelente  (4) | Bueno (3) | Aceptable (2) | Insuficiente (1) | Pobre (0) |
-| ------------ | -------------- | --------- | ------------- | ---------------- | --------- |
+| **Criterio**                                   | Excelente  (4) | Bueno (3) | Aceptable (2) | Insuficiente (1) | Pobre (0) |
+| ---------------------------------------------- | -------------- | --------- | ------------- | ---------------- | --------- |
+| **Claridad y Fluidez de la Presentación Oral** |                |           |               |                  |           |
+| **Conexión con la Audiencia**                  |                |           |               |                  |           |
+| **Manejo del Tiempo**                          |                |           |               |                  |           |
+| **Entusiasmo y Empatía**                       |                |           |               |                  |           |
+| **Dominio del Contenido**                      |                |           |               |                  |           |
+| Contenido de las Diapositivas -                |                |           |               |                  |           |
+|                                                |                |           |               |                  |           |
+|                                                |                |           |               |                  |           |
