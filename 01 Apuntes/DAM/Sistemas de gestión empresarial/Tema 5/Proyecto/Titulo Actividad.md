@@ -142,10 +142,44 @@ El tiempo de cada exposición será de mínimo 20 minutos y máximo de 30 minuto
 Diapositiva 1: Introducción
 - Título: "Nombre de la empresa - Una Fusión de Creatividad y Tecnología Empresarial."
 - Breve descripción del proyecto y su importancia.
+
 Diapositiva 2: Índice
 - Toda la información de las diapositivas que hay en el proyecto.
+
 Diapositiva 3: Actividad 1 - Creación de una Empresa Ficticia
 - Título: "Creación de “Nombre de la Empresa” - Desde la Idea a la Realidad."
 - Destacar el nombre, logo y eslogan de la empresa.
 - Mención de la misión, visión y valores que definen a “Nombre de la Empresa”.
 - Visión general de la estructura organizativa y roles clave.
+
+Diapositiva 4: Actividad 1 - Descripción del Producto/Servicio y Estudio de Mercado
+- Título: " “Nombre de la Empresa” en Detalle."
+- Detalles del producto/servicio ofrecido por “Nombre de la Empresa”.
+- Resumen del análisis de demanda, competidores y público objetivo.
+
+Diapositiva 5: Actividad 1 - Estrategias de Marketing y Plan Financiero
+- Título: "Promoción y Finanzas: Claves del Éxito."
+- Destacar estrategias de marketing, canales de distribución y campañas publicitarias.
+- Resumen del plan financiero, presupuesto inicial y estrategias de financiamiento.
+
+Diapositiva 6: Actividad 1 - Recursos Humanos y Contrato Social
+- Título: "El Motor Humano y Legal de “Nombre de la Empresa.”"
+- Políticas de contratación, programas de capacitación y estrategias de motivación.
+- Detalles del contrato social, aportaciones de socios y decisiones estratégicas.
+
+Diapositiva 7: Actividad 2 - Creación y Gestión de una Empresa en Odoo
+- Título: "Odoo en Acción - “Nombre de la Empresa” se Gestiona con Eficiencia."
+- Registro y configuración inicial en Odoo.
+- Estructura organizativa y gestión de productos/servicios en la plataforma.
+
+Diapositiva 8: Actividad 2 - Gestión Financiera y Recursos Humanos en Odoo
+- Título: "Control Financiero y Gestión Humana con Odoo."
+- Configuración de cuentas contables y bancarias en Odoo.
+- Creación de empleados y simulación de gestión de nóminas.
+
+Diapositiva 9: Actividad 2 - Ciclo de Ventas y Compras en Odoo
+- Título: "Optimizando Flujos de Ventas y Compras con Odoo."
+- Gestión de clientes, proveedores y simulación de ciclos de ventas y compras.
+
+Diapositiva 10: Actividad 2 - Comercio Electrónico y Punto de Venta en Odoo
+
