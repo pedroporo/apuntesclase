@@ -182,4 +182,35 @@ Diapositiva 9: Actividad 2 - Ciclo de Ventas y Compras en Odoo
 - Gestión de clientes, proveedores y simulación de ciclos de ventas y compras.
 
 Diapositiva 10: Actividad 2 - Comercio Electrónico y Punto de Venta en Odoo
+- Título: "Conectando con Clientes: Comercio Electrónico y Punto de Venta."
+- Configuración de la tienda online y simulación de proceso de compra online.
+- Configuración del Punto de Venta y transacciones.
 
+Diapositiva 11: Integración
+- Título: "Uniendo Todo - Integración de Módulos y Lecciones Aprendidas."
+- Vinculación de módulos en Odoo y flujos de trabajo integrados.
+
+Diapositiva 12: Lecciones Aprendidas
+- Breve resumen de las lecciones aprendidas durante el proyecto.
+
+Diapositiva 13: Conclusiones y Agradecimientos
+- Título: "Cerrando el Ciclo - Reflexiones "
+- Conclusiones.
+
+Diapositiva 14: Preguntas y Respuestas
+- Título: "¿Alguna Pregunta?"
+- Espacio para preguntas de la profesora y compañeros.
+
+Diapositiva 15: Fin
+- Finalizar la presentación.
+
+
+<u><b>Entrega:</b></u>
+La entrega del proyecto se realizará en formato de presentación de diapositivas (por ejemplo, PowerPoint o Google Slides) junto con un documento en formato PDF que contenga los detalles adicionales o notas que el presentador pueda querer compartir durante la presentación oral. 
+Ambos archivos deberán ser enviados electrónicamente a la profesora responsable.
+
+
+<u><b>Evaluación:</b></u>
+
+| **Criterio** | Excelente  (4) | Bueno (3) | Aceptable (2) | Insuficiente (1) | Pobre (0) |
+| ------------ | -------------- | --------- | ------------- | ---------------- | --------- |
