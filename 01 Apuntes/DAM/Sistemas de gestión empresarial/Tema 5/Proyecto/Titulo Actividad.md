@@ -63,6 +63,59 @@ La evaluación se realizará considerando la profundidad de análisis, la cohere
 
 <center><u><h2>Actividad Integral: Creación y Gestión de una Empresa en Odoo 
 con Comercio Electrónico y Punto de Venta (3 Puntos)</h2></u></center>
-**Objetivo:**
+<u><b>Objetivo:</b></u>
 Capacitar a los alumnos en la implementación práctica de un sistema ERP utilizando Odoo para gestionar diversos aspectos de una empresa ficticia, incluyendo módulos de Comercio Electrónico y Punto de Venta.
 Los módulos se deben instalar al inicio de la actividad para un correcto uso de cada uno.
+
+<u><b>Desarrollo:</b></u>
+Fase 1: Registro y Configuración Inicial
+1. Registro y Configuración de Empresa en Odoo:
+	1. Crear una cuenta en el entorno de demostración de Odoo o instalar localmente con el nombre de la empresa generada en la Actividad 1.
+	2. Configurar Datos de la Empresa: Ingresar información básica como nombre, dirección, contacto.
+	
+Fase 2: Estructura Organizativa y Productos/Servicios
+2. Estructura Organizativa:
+	1. Crear Departamentos y Equipos en Odoo: Establecer la estructura organizativa.
+	2. Organigrama en Odoo: Utilizar la herramienta de organigrama para visualizar jerarquías.
+3. Gestión de Productos y Servicios:
+3.1. Crear Productos/Servicios en Odoo: Introducir detalles, precios y categorías (Creadas previamente las categorías).
+3.2. Gestión de Inventario en Odoo: Utilizar funciones de Odoo para el seguimiento de existencias
+
+Fase 3: Gestión Financiera y Recursos Humanos
+
+4. Configuración Financiera en Odoo:
+4.1. Establecer Cuentas Contables y Bancarias en Odoo: Definir la estructura financiera.
+4.2. Registros Contables en Odoo: Registrar transacciones y generar informes financieros básicos.
+5. Recursos Humanos en Odoo:
+5.1. Crear Empleados en Odoo: Introducir detalles de empleados ficticios.
+5.2. Simular Gestión de Nóminas en Odoo: Proceso de nóminas y beneficios.
+
+Fase 4: Ciclo de Ventas y Compras
+6. Gestión de Clientes y Proveedores:
+6.1. Registrar Clientes en Odoo: Ingresar información de clientes ficticios.
+6.2. Registrar Proveedores en Odoo: Ingresar información de 
+proveedores ficticios.
+7. Proceso de Ventas y Compras en Odoo:
+7.1. Simular un Ciclo de Ventas Completo: Desde la cotización 
+hasta la facturación.
+7.2. Simular un Ciclo de Compras Completo: Desde la orden de 
+compra hasta el pago.
+Fase 5: Comercio Electrónico y Punto de Venta
+8. Comercio Electrónico en Odoo:
+8.1. Configurar Tienda Online (Las páginas puntuarán más 
+cuanto mejor desarrolladas estén, si se dejan en lo básico no 
+puntuarán):
+8.1.1. Página 1: Presentación de la empresa para captar 
+clientes.
+8.1.2. Página 2: Misión, Visión y Valores.
+8.1.3. Página 3: Presentación de los productos más 
+importantes.
+8.1.4. Página 4: Contacto.
+8.1.5. Página 5: Añade los productos para la venta en línea.
+8.2. Simular Proceso de Compra Online: Desde la selección de 
+productos hasta la confirmación de pago.
+9. Punto de Venta en Odoo:
+9.1. Configurar Terminal Punto de Venta (TPV): Definir productos 
+y métodos de pago, además de las categorías.
+9.2. Simular Transacciones en el TPV: Realizar ventas y gestionar 
+inventario desde el punto de venta.
