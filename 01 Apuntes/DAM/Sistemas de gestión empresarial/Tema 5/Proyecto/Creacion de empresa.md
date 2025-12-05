@@ -1,11 +1,11 @@
 ---
 dg-publish: true
 ---
-### Informacion de la empresa:
+### Información de la empresa:
 - **Nombre:** La Orden del Tubérculo
-- **Slogan:** patatin patatan patatun
+- **Eslogan:** patatin patatan patatun
 - **Logo:** 
-### Mision:
+### Misión:
 Esparcir conocimiento sobre las maravillas de las patatas, y dar a conocer todos los tipos de patatas que hay en este maravilloso mundo.
-### Vision:
-
+### Visión:
+Ser una empresa competitiva en el sector agrícola de las patatas 
