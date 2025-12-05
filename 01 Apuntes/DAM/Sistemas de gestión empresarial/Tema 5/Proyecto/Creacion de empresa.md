@@ -226,11 +226,7 @@ state "Fry" as cazaevil
 
 **Responsabilidades:**
 
-* Organiza.
-* Desarrollar políticas laborales y clima organizacional.
-* Resolver conflictos internos.
-* Supervisar planes de bienestar y motivación.
-* Realizar evaluaciones de desempeño.
+* Organizar la vigilanzia para impedir el escape de peligrosas patatas malignas.
 
 ##### **Equipo de cazapatatas malignas**
 
@@ -238,8 +234,4 @@ state "Fry" as cazaevil
 
 **Funciones principales:**
 
-* Organizar formaciones (como “manejo de tubérculos sensibles” o “freído zen”).
-* Gestionar documentación de empleados.
-* Apoyar en procesos de selección, entrevistas y onboarding.
-* Planificar actividades de convivencia entre departamentos.
-* Atender solicitudes y necesidades del personal.
+
