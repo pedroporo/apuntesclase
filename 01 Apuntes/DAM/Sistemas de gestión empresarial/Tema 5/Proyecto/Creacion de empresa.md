@@ -16,34 +16,49 @@ Nuestros valores serán escuchar a los trabajadores y a los clientes, aportar bu
 ## Estructura Organizativa
 
 ### Organigrama:
+> No se ve bien :(
 ```mermaid
 stateDiagram-v2
-    state "CEO" as ceo
-    state "T. H. Eboss" as ceo
-    ceo --> devmngr
-    ceo --> admmngr
-    ceo --> law
+    state "Gran Tubérculo Supremo (CEO)" as ceo
+    state "Don Patatón" as ceo
+    ceo --> cosechamngr
+    ceo --> freidoramngr
+    ceo --> logimngr
+    ceo --> rrhhmngr
 
-    state "Dev. Manager" as devmngr
-    state "Alice" as devmngr
-    devmngr --> dev
+    state "Jefe de Cosecha" as cosechamngr
+    state "Papañero Mayor" as cosechamngr
+    cosechamngr --> cosecha
 
-    state "Development Team" as dev
-    state "Bob" as dev
-    state "Charles" as dev
-    state "David" as dev
-    state "Eveline" as dev
+    state "Equipo de Cosecha" as cosecha
+    state "Tubérculo Tomás" as cosecha
+    state "Raíz Ramona" as cosecha
+    state "Brotes Bruno" as cosecha
 
-    state "Adm. Manager" as admmngr
-    state "Florence" as admmngr
-    admmngr --> adm
+    state "Maestro de la Freidora" as freidoramngr
+    state "Crispín Doradillo" as freidoramngr
+    freidoramngr --> freidora
 
-    state "Administration Team" as adm
-    state "Grace" as adm
-    state "Holt" as adm
-    state "Ivan" as adm
+    state "Equipo de Freidora" as freidora
+    state "Crujiente Clara" as freidora
+    state "Aceitín Álvaro" as freidora
+    state "Salsón Sergio" as freidora
 
-    state "Lawyer" as law
-    state "John" as law
+    state "Jefe de Logística" as logimngr
+    state "Trans-Portato" as logimngr
+    logimngr --> logistica
+
+    state "Equipo de Logística" as logistica
+    state "Ruedín Rita" as logistica
+    state "Carretillo Carl" as logistica
+    state "Embolsada Emma" as logistica
+
+    state "Jefe de RRHH" as rrhhmngr
+    state "Patatalia Humana" as rrhhmngr
+    rrhhmngr --> rrhh
+
+    state "Equipo de RRHH" as rrhh
+    state "Capacita-Coto" as rrhh
+    state "Bienestar Blanca" as rrhh
 
 ```
