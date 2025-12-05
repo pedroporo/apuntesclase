@@ -11,4 +11,6 @@ Esparcir conocimiento sobre las maravillas de las patatas, y dar a conocer todos
 ### Visión:
 Ser una empresa competitiva en el sector agrícola de las patatas, con la capacidad de elegir correctamente las mejores patatas para nuestros clientes.
 ### Valores:
-Nuestros valores seran escuchar a los trabajadores y a los clientes, 
+Nuestros valores serán escuchar a los trabajadores y a los clientes, aportar buenos productos, formación para los empleados y información a todo el que la necesite.
+
+
