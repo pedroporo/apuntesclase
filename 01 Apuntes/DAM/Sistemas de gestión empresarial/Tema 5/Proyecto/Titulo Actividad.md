@@ -22,7 +22,7 @@ Pasos:
 2. Misión, Visión y Valores:
 	1. Misión: Definid el propósito fundamental de la empresa, su razón de existir.
 	2. Visión: Proyectad a futuro, describan cómo visualizan el éxito de la empresa.
-	2.3. Valores: Identificad los principios éticos que guiarán todas las decisiones empresariales.
+	3. Valores: Identificad los principios éticos que guiarán todas las decisiones empresariales.
 3. Estructura Organizativa:
 	1. Organigrama: Cread un organigrama que represente la jerarquía y relaciones entre diferentes roles. (Añadiendo Nombres completos a cada Rol)
 	2. Descripción de cada puesto: Detallad las responsabilidades y funciones de cada posición en la empresa.
