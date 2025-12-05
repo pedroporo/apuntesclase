@@ -6,4 +6,4 @@ dg-publish: true
 - **Slogan:** patatin patatan patatun
 - **Logo:** 
 ### Mision:
-Esparcir las maravillas de las patatas y hacer saber todos los tipos de patatas que existen
+Esparcir conocimiento sobre las maravillas de las patatas, y 
