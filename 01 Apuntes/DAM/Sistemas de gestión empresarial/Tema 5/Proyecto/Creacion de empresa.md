@@ -376,7 +376,19 @@ state "Fry" as cazaevil
 ![[gatoPatata1.jpeg|200]]
 ### Producto nº22
 - Nombre: PatataMovil
-- Descripción: Un auto
+- Descripción: Un automóvil de patatas, que usa la energía de la batería patata para funcionar.
 - Precio: 3000€
 - Imagen:
 ![[cochePatata.jpeg|300]]
+### Producto nº23
+- Nombre: Bombilla patata
+- Descripción: Una bombilla de patatas que iluminara tu vida de una forma que no te esperas
+- Precio: 6€
+- Imagen:
+![[bombillaPatata.jpeg|300]]
+### Producto nº24
+- Nombre: BombaPatata
+- Descripción:
+- Precio:
+- Imagen:
+![[Bombapatata.jpeg|600]]
