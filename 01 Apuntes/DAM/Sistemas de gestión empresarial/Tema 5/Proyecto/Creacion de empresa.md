@@ -264,3 +264,20 @@ state "Fry" as cazaevil
 - Precio: 30€
 - Imagen:
 ![[sujetapatatasSwitch.jpeg|300]]
+### Producto nº4
+- Nombre: Suéter Patata
+- Descripción: Un suéter perfecto para cada ocasión, esta pieza de moda es perfecta para cuando salgas con tus amigos y tengas hambre, ya que la puedes comer en cualquier momento.
+- Precio: 46.74€
+- Imagen:
+![[SueterPatata.jpeg|200]]
+### Producto nº5
+- Nombre: Perro Patata
+- Descripción: Un fiel amigo para tus aventuras, este pequeño ser puede protejer todos tus cultivos de patatas, incrementar la velocidad en la que crecen un 200% y puede defenderte a ti.
+- Precio:453.99€
+- Imagen:
+![[perroPatata.jpeg|300]]
+### Producto nº6
+- Nombre:
+- Descripción:
+- Precio:
+- Imagen:
