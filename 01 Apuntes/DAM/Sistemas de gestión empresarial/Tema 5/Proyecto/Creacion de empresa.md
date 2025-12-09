@@ -226,12 +226,16 @@ state "Fry" as cazaevil
 
 **Responsabilidades:**
 
-* Organizar la vigilanzia para impedir el escape de peligrosas patatas malignas.
+* Organizar la vigilancia para impedir el escape de peligrosas patatas malignas.
 
 ##### **Equipo de cazapatatas malignas**
 
 **Potatus Chip, Doña Frita, Fry**
 
 **Funciones principales:**
+- Incursionar en peleas de vida a muerte contra patatas venenosas.
+- Asegurar la seguridad de todos los empleados de la empresa.
+
+## Descripccion de 
 
 
