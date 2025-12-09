@@ -340,6 +340,30 @@ state "Fry" as cazaevil
 ### Producto nº16
 - Nombre: Mantata
 - Descripción: Una manzana hibrida con patata, es un milagro de la ciencia
+- Precio: 14€
+- Imagen:
+![[mantata.jpeg|200]]
+### Producto nº17
+- Nombre: Lego patata
+- Descripción: Patatas con forma de lego para construir la comida mas deliciosa que probaras. 
+- Precio: 21€
+- Imagen:
+![[legopatata.jpeg|400]]
+### Producto nº18
+- Nombre: La Trinidad PelaPatatas
+- Descripción: Una herramienta muy útil con sus 3 lados que sirven para pelar las patatas de forma muy rápida y eficaz.
+- Precio: 23€
+- Imagen:
+![[laTrinidadPelapatatas.jpeg|300]]
+### Producto nº19
+- Nombre: Gatopatata Fuego
+- Descripción: El gatopatata que todos conocemos, pero esta es la edicion limitada de fuego, esta edicion te brindara calor cuando lo necesites.
+- Precio: 500€
+- Imagen:
+![[gatoPatataFuego.jpeg]]
+### Producto nº20
+- Nombre: Gatopatata
+- Descripción: El mejor animal de compañia
 - Precio:
 - Imagen:
-![[|100]]
+![[gatato.jpeg|300]]
