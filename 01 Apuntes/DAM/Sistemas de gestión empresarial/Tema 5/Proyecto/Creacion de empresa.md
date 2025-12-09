@@ -321,7 +321,25 @@ state "Fry" as cazaevil
 ![[patataHamburgesa.jpeg|400]]
 ### Producto nº13
 - Nombre: Patata de oro
-- Descripción: 
-- Precio:
+- Descripción: Una patata hecha del oro mas fino, incluso es comestible.
+- Precio: 16100€
 - Imagen:
 ![[patatadorada.jpeg|200]]
+### Producto nº14
+- Nombre: Patata Colorida
+- Descripción: Una Bolsa de patatas de diferentes colores, perfecta para las fiestas de los mas pequeños del hogar
+- Precio: 13€
+- Imagen:
+![[patataDeColores.jpeg|300]]
+### Producto nº15
+- Nombre: Patata Bateria
+- Descripción: Una bateria de 10000mAh
+- Precio: 456€
+- Imagen:
+![[PatataBateria.jpeg|400]]
+### Producto nº16
+- Nombre: Mantata
+- Descripción: Una manzana hibrida con patata, es un milagro de la ciencia
+- Precio:
+- Imagen:
+![[|100]]
