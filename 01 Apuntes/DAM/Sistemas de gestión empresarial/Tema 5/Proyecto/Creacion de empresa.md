@@ -249,5 +249,11 @@ state "Fry" as cazaevil
 ### Producto nº1
 - Nombre: Yogurt de patata
 - Descripción: Este es un yogurt muy nutritivo hecho con las mejores patatas del mercado.
+- Precio: 2.50€
+- Imagen: 
+![[yogurtpatata.jpeg|100]]
+### Producto nº2
+- Nombre: Tenedor de patata.
+- Descripción: Este utensilio de cocina no tiene mucha utilidad
 - Precio:
 - Imagen:
