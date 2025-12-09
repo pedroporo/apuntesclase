@@ -254,6 +254,13 @@ state "Fry" as cazaevil
 ![[yogurtpatata.jpeg|100]]
 ### Producto nº2
 - Nombre: Tenedor de patata.
-- Descripción: Este utensilio de cocina no tiene mucha utilidad
-- Precio:
+- Descripción: Este utensilio de cocina no tiene mucha utilidad pero es comestible
+- Precio:1.99€
 - Imagen:
+![[tenedorPatata.jpeg|100]]
+### Producto nº3
+- Nombre: Sujetapatatas para la Nintendo Switch
+- Descripción: Este es un sujetapatatas pata la popular consola nintendo switch, su funcion es sujetar tus patatas fritas para que puedas disfrutar de ellas mientras juegas tus partidas
+- Precio: 30€
+- Imagen:
+![[sujetapatatasSwitch.jpeg|300]]
