@@ -297,7 +297,25 @@ state "Fry" as cazaevil
 ![[patataRobot.jpeg|300]]
 ### Producto nº9
 - Nombre: PatataPikmin
-- Descripción: Un ser extraño que aparecio en nuestros huertos de patatas, no sabemos qu
+- Descripción: Un ser extraño que apareció en nuestros huertos de patatas, no sabemos que hace, pero parece ser amigable en cierto sentido, esta criatura se suele cooperar bien con el PatataRobot
+- Precio: 4€
+- Imagen:
+![[patataPicmin.jpeg|200]]
+### Producto nº10
+- Nombre: PatataPC
+- Descripción: Un Ordenador hecho de patatas, cuando te digan malo en cualquier juego podrás decir que tu Pc es una patata, y sera justificado
+- Precio: 350€
+- Imagen:
+![[patatapc.jpeg|400]]
+### Producto nº11
+- Nombre: Patata Jabón
+- Descripción: Un jabón de la mejor calidad, hecho de patatas.
+- Precio: 10€
+- Imagen:
+![[patataJabon.jpeg|300]]
+### Producto nº12
+- Nombre: Patata 
+- Descripción:
 - Precio:
 - Imagen:
 ![[|100]]
