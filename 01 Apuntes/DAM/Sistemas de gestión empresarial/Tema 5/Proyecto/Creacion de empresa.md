@@ -314,8 +314,14 @@ state "Fry" as cazaevil
 - Imagen:
 ![[patataJabon.jpeg|300]]
 ### Producto nº12
-- Nombre: Patata 
-- Descripción:
+- Nombre: Patata Hamburguesa
+- Descripción: Es una hamburguesa preparada por los mejores chefs, solo que en vez de usar pan se usa patatas, incluso los celiacos podrán comer esta hamburguesa.
+- Precio: 7.50€
+- Imagen:
+![[patataHamburgesa.jpeg|400]]
+### Producto nº13
+- Nombre: Patata de oro
+- Descripción: 
 - Precio:
 - Imagen:
-![[|100]]
+![[patatadorada.jpeg|200]]
