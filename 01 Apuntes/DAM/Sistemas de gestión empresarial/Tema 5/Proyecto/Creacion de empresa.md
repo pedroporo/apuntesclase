@@ -236,6 +236,18 @@ state "Fry" as cazaevil
 - Incursionar en peleas de vida a muerte contra patatas venenosas.
 - Asegurar la seguridad de todos los empleados de la empresa.
 
-## Descripccion de 
+## Descripción de los productos
 
+```
+### Producto nº
+- Nombre:
+- Descripción:
+- Precio:
+- Imagen:
+```
 
+### Producto nº1
+- Nombre: Yogurt de patata
+- Descripción: Este es un yogurt muy nutritivo hecho con las mejores patatas del mercado.
+- Precio:
+- Imagen:
