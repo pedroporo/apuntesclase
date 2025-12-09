@@ -244,6 +244,7 @@ state "Fry" as cazaevil
 - Descripción:
 - Precio:
 - Imagen:
+![[|100]]
 ```
 
 ### Producto nº1
@@ -277,7 +278,26 @@ state "Fry" as cazaevil
 - Imagen:
 ![[perroPatata.jpeg|300]]
 ### Producto nº6
-- Nombre:
-- Descripción:
+- Nombre: PatataVela
+- Descripción: Una vela muy duradera hecha solo con patatas, su luz te puede durar meses.
+- Precio: 2€
+- Imagen:
+![[PatataVela.jpeg|300]]
+### Producto nº7
+- Nombre: PatataSaurio
+- Descripción: Un ser prehistórico que existe desde los años 1000000 ac, este ser es muy útil para el transporte de alimentos
+- Precio: 6847€
+- Imagen:
+![[patatasaurio.jpeg|200]]
+### Producto nº8
+- Nombre: Patata Robot
+- Descripción: Un robot con los últimos modelos de Inteligencia Artificial experto en recoger tus patatas.
+- Precio: 1000€
+- Imagen:
+![[patataRobot.jpeg|300]]
+### Producto nº9
+- Nombre: PatataPikmin
+- Descripción: Un ser extraño que aparecio en nuestros huertos de patatas, no sabemos qu
 - Precio:
 - Imagen:
+![[|100]]
