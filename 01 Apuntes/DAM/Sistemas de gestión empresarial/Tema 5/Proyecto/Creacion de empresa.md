@@ -388,7 +388,14 @@ state "Fry" as cazaevil
 ![[bombillaPatata.jpeg|300]]
 ### Producto nº24
 - Nombre: BombaPatata
-- Descripción:
-- Precio:
+- Descripción: Una deliquised de patata con queso y kepchup por encima
+- Precio: 26.99€
 - Imagen:
 ![[Bombapatata.jpeg|600]]
+### Producto nº25
+- Nombre: Bocadillo Patata
+- Descripción: Un bocadillo normal pero se intercambian los panes por patatas hervidas
+- Precio: 20€
+- Imagen:
+![[BocadilloDePatata.jpeg|400]]
+
