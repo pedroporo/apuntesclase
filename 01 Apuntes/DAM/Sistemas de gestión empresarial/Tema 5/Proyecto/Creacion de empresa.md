@@ -5,7 +5,7 @@ dg-publish: true
 - **Nombre:** La Orden del Tubérculo
 - **Eslogan:** patatin patatan patatun
 - **Logo:** 
-
+![[logo.png|200]]
 ### Misión:
 Esparcir conocimiento sobre las maravillas de las patatas, y dar a conocer todos los tipos de patatas que hay en este maravilloso mundo.
 ### Visión:
@@ -363,7 +363,20 @@ state "Fry" as cazaevil
 ![[gatoPatataFuego.jpeg]]
 ### Producto nº20
 - Nombre: Gatopatata
-- Descripción: El mejor animal de compañia
-- Precio:
+- Descripción: El mejor animal de compañia que caza a patatas malignas y te querra
+- Precio: 430€
 - Imagen:
 ![[gatato.jpeg|300]]
+
+### Producto nº21
+- Nombre: Gatopatata 1
+- Descripción: El mejor animal de compañia que caza a patatas malignas y te querra
+- Precio: 430€
+- Imagen:
+![[gatoPatata1.jpeg|200]]
+### Producto nº22
+- Nombre: PatataMovil
+- Descripción: Un auto
+- Precio: 3000€
+- Imagen:
+![[cochePatata.jpeg|300]]
