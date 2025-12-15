@@ -53,6 +53,6 @@ With ‘translate’ and pressing the ‘V’ key we can select a vertex and mak
 
 In general, and even more when creating levels, the Snapping and Vertex Snapping tools are very useful.
 
-[PreviousScene view - Additional elements](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/scene-view-additional-elements)[NextScene view - Toolbar Options and Gizmos](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/scene-view-toolbar-options-and-gizmos)
+Previous: [[scene-view-additional-elements]]
+Next: [[scene-view-toolbar-options-and-gizmos]]
 
-Last updated 1 year ago

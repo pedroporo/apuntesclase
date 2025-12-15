@@ -15,19 +15,23 @@ Put it all in **practice**:
 
 1. **Creating a Wall**: The video demonstrates how to create a wall by adding cubes (representing bricks) to the scene (**to** **duplicate**: **Ctrl+D/Cmd+D**). You can move the cubes using the translation tool and place them next to each other. To **avoid gaps** or **overlaps** between the bricks, use **Grid Snapping** and **Vertex Snapping.**
 2. **Transform Component**: Change numerically (manually) the **position**, **rotation**, and **scale** of an object in the transform component, in the inspector. This can be more accurate than making changes visually, by eye.
+![](https://www.youtube.com/watch?v=uNyr4a5-2g8)
 
-**ATENTION: Snapping is no longer in the Edit menu.**
+> [!warning]
+> **ATENTION: Snapping is no longer in the Edit menu.**
+> 
+> Grid Snapping is now available as a handle the **SceneView Toolbar.** Snapping applies when *Tool Handle Rotation* is set to **Global:**
+> 
+> ![[toolvarSnap-old.avif]]
+> 
+> *-> Efect when translating object: it will move exactly 1 meter in each axes.*
+> 
+> **Increment Snapping:** Press **Ctrl/Cmd** while moving object for more precise snaps.
+> 
+> ![[toolvarSnap-new.avif]]
 
-Grid Snapping is now available as a handle the **SceneView Toolbar.** Snapping applies when *Tool Handle Rotation* is set to **Global:**
+Previous: [[scene-view-basic-elements]]
 
-![](https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/~gitbook/image?url=https%3A%2F%2F1783396225-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FdRlCVp8VBZ34m99uWkGs%252Fuploads%252FBRuBIuq4idjJADxnddeS%252Fimage.png%3Falt%3Dmedia%26token%3Db771fb87-9ecf-4e82-9ab1-a22c20ef88bf&width=300&dpr=4&quality=100&sign=b2f31d21&sv=2)
+Next: [[scene-view-summary]]
 
-*-> Efect when translating object: it will move exactly 1 meter in each axes.*
 
-**Increment Snapping:** Press **Ctrl/Cmd** while moving object for more precise snaps.
-
-![](https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/~gitbook/image?url=https%3A%2F%2F1783396225-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FdRlCVp8VBZ34m99uWkGs%252Fuploads%252FV5NNcqxgaiebKTJKuHZ4%252Fimage.png%3Falt%3Dmedia%26token%3Da47e41ed-d99b-421b-bea2-338396c989c0&width=300&dpr=4&quality=100&sign=a38f870f&sv=2)
-
-[PreviousScene view - Basic elements](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/scene-view-basic-elements)[NextScene view - Summary](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/scene-view-summary)
-
-Last updated 1 year ago

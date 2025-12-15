@@ -18,6 +18,4 @@ Let's see in the next video how to do use the **essential** **tools** of the Sce
 
 Previous: [[modeling-tools-in-unity]]
 
-[PreviousModeling tools in Unity](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/modeling-tools-in-unity)[NextScene view - Additional elements](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/scene-view-additional-elements)
-
-Last updated 1 year ago
+Next: [[scene-view-additional-elements]]
