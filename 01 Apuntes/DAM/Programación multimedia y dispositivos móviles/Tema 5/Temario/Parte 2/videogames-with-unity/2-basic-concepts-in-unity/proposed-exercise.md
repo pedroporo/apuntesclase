@@ -11,7 +11,9 @@ Source: https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/2.-basic-concept
 1. **Texture Search**: Explore the internet for textures you’d like to use. These could be images of wood, metal, fabric, or any other material you want to apply to your objects.
 2. **Import Textures**: Import these textures into Unity. You can do this by dragging them from a folder directly into the Unity editor, specifically in the “Project” view.
 
-To keep things **organized**, create a dedicated folder within your project to store these textures.
+> [!info]
+> To keep things **organized**, create a dedicated folder within your project to store these textures.
+
 
 1. **Material Adjustment**:
 
@@ -27,8 +29,11 @@ To keep things **organized**, create a dedicated folder within your project to s
 
 **Remember** to **experiment** with **different** **textures** and see how they beautify your scene! 🌟🎨
 
-For more detailed information, you can refer to Unity’s documentation on [Albedo Color and Transparency](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterAlbedoColor.html).
+> [!info]
+> For more detailed information, you can refer to Unity’s documentation on [Albedo Color and Transparency](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterAlbedoColor.html).
 
+Previous: [[rendering-from-scene-3d-to-screen-2d]]
+Next: 
 [PreviousRendering: From Scene (3D) to Screen (2D)](/videogames-with-unity/2.-basic-concepts-in-unity/rendering-from-scene-3d-to-screen-2d)[Next3. The Unity Physics Engine](/videogames-with-unity/3.-the-unity-physics-engine)
 
 Last updated 1 year ago

@@ -11,14 +11,18 @@ Unity uses a process called "**rendering**" to **transform** the **3D** **scene*
 
 This is how Unity transforms the 3D scene into a 2D image that can be displayed on the screen. It's a complex process, but Unity handles most of the details for you, allowing you to focus on creating your game or application.
 
-**Camera View Matrix:** It is a transformation matrix that [changes the perspective of viewing objects from the global viewpoint of the game world to the specific perspective of the camera.](https://docs.unity3d.com/ScriptReference/Camera-worldToCameraMatrix.html)
+> [!info]
+> **Camera View Matrix:** It is a transformation matrix that [changes the perspective of viewing objects from the global viewpoint of the game world to the specific perspective of the camera.](https://docs.unity3d.com/ScriptReference/Camera-worldToCameraMatrix.html)
+> 
+> When an object is rendered on the screen, its **position** in the **world** **space** is **multiplied** by the camera view **matrix** to **obtain** its **position** in the **camera** **space**.
 
-When an object is rendered on the screen, its **position** in the **world** **space** is **multiplied** by the camera view **matrix** to **obtain** its **position** in the **camera** **space**.
 
-**Camera projection Matrix:** It is a transformation matrix that that takes points in the 3D space as seen from the camera’s perspective and transforms them into a form that can be further processed for rendering on a 2D screen. [This matrix is responsible for creating the perspective distortion in the 3D scene](https://docs.unity3d.com/ScriptReference/Matrix4x4.Perspective.html).
+> [!info]
+> **Camera projection Matrix:** It is a transformation matrix that that takes points in the 3D space as seen from the camera’s perspective and transforms them into a form that can be further processed for rendering on a 2D screen. [This matrix is responsible for creating the perspective distortion in the 3D scene](https://docs.unity3d.com/ScriptReference/Matrix4x4.Perspective.html).
+> 
+> The perspective matrix is **defined** **by** the camera’s field of view (**FOV**), **aspect** **ratio**, and the **distances** to the **near** and **far** **clipping** **planes** (closest and furthest distance to render objects).
+> 
 
-The perspective matrix is **defined** **by** the camera’s field of view (**FOV**), **aspect** **ratio**, and the **distances** to the **near** and **far** **clipping** **planes** (closest and furthest distance to render objects).
+Previous: [[first-example-creating-the-script]]
 
-[PreviousFirst example - Creating the Script](/videogames-with-unity/2.-basic-concepts-in-unity/first-example-creating-the-script)[NextProposed Exercise](/videogames-with-unity/2.-basic-concepts-in-unity/proposed-exercise)
-
-Last updated 1 year ago
+Next: [[01 Apuntes/DAM/Programación multimedia y dispositivos móviles/Tema 5/Temario/Parte 2/videogames-with-unity/2-basic-concepts-in-unity/proposed-exercise|proposed-exercise]]

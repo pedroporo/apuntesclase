@@ -20,6 +20,11 @@ Here are the **essential** **points** covered:
 
 ## Time.deltaTime
 
-[PreviousFirst example - The structure of a project](/videogames-with-unity/2.-basic-concepts-in-unity/first-example-the-structure-of-a-project)[NextRendering: From Scene (3D) to Screen (2D)](/videogames-with-unity/2.-basic-concepts-in-unity/rendering-from-scene-3d-to-screen-2d)
+![https://youtu.be/mFWyFln9GJM](https://youtu.be/mFWyFln9GJM)
+![https://youtu.be/bYFLKtx0Xlk](https://youtu.be/bYFLKtx0Xlk)
+![https://youtu.be/jOVNQm_0n4U](https://youtu.be/jOVNQm_0n4U)
 
-Last updated 1 year ago
+Previous: [[first-example-the-structure-of-a-project]]
+
+Next: [[rendering-from-scene-3d-to-screen-2d]]
+
