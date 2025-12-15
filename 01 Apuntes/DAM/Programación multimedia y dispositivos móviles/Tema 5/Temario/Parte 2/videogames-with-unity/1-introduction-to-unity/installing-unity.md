@@ -29,8 +29,4 @@ To get started with **Unity**, you need to **register** at [Unity's official web
 
 For **detailed** **instructions** on **installing** and **configuring** **Unity**, refer to the following gitbook **guide**:
 
-[![Logo](https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/~gitbook/image?url=https%3A%2F%2Fecm-pmdm-unity.gitbook.io%2Finstall-and-configuration%2F%7Egitbook%2Ficon%3Fsize%3Dsmall%26theme%3Dlight&width=20&dpr=4&quality=100&sign=d41a6f6d&sv=2)Introducción | Install Unity and Configurationecm-pmdm-unity.gitbook.io](https://ecm-pmdm-unity.gitbook.io/install-and-configuration/)
-
-[PreviousGame Development Process](/videogames-with-unity/1.-introduction-to-unity/game-development-process)[NextExploring Unity Editor](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor)
-
-Last updated 1 year ago
+Future link to the page

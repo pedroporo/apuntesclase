@@ -13,8 +13,10 @@ The next **video** introduces the following **key** **points** about **Unity**:
 5. **Layouts**: Unity provides several **layout** options for the distribution **of views**. You can **save** your specific **distribution** of views **under** a **name** for easy access later.
 6. **Other Topics**: In the future, how to create **C#** **scripts**.
 
-##
+![](https://www.youtube.com/watch?v=uNyr4a5-2g8)
 
-[PreviousInstalling Unity](/videogames-with-unity/1.-introduction-to-unity/installing-unity)[NextThe most important views](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/the-most-important-views)
+---
 
-Last updated 1 year ago
+Previous: [[installing-unity]]
+
+Next: [[the-most-important-views]] 

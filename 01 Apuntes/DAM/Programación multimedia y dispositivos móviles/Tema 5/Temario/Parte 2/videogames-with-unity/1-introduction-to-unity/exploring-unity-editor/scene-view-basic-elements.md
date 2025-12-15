@@ -14,6 +14,9 @@ Let's see in the next video how to do use the **essential** **tools** of the Sce
 6. **Moving, Rotating, and Scaling Objects**: You can move an object along a specific axis or in a plane. You can rotate an object around its center. You can scale an object along a specific axis or proportionally in all three axes. You can undo any action by pressing Control + Z or Command + Z.
 7. **Scaling Tool**: This tool is generally used for 2D objects and GUI elements. It allows you to scale an object along a specific axis or proportionally in all three axes.
 8. **Global axes gizmo:** On the top-right of the scene view, allows to change scene perspective (isometric or parallel) and also watch scene from specific axes.
+![](https://www.youtube.com/watch?v=uNyr4a5-2g8)
+
+Previous: [[modeling-tools-in-unity]]
 
 [PreviousModeling tools in Unity](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/modeling-tools-in-unity)[NextScene view - Additional elements](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/scene-view-additional-elements)
 

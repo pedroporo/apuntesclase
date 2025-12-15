@@ -25,6 +25,6 @@ While **Unity** supports various formats, **.fbx** is the **recommended** format
 
 **Export** to **.fbx** format from **3D** **modeling** **tools** whenever it's possible.
 
-[PreviousThe most important views](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/the-most-important-views)[NextScene view - Basic elements](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/scene-view-basic-elements)
+Previous: [[the-most-important-views]]
 
-Last updated 1 year ago
+Next: [[scene-view-basic-elements]]

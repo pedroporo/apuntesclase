@@ -10,7 +10,9 @@ In the following video, you will learn the **main points** of the **most** **imp
 * **Inspector View**: When you select an object, this view provides information about its **properties**. The properties of the object are grouped into **components**.
 * **Game View**: This view allows you to **run** your **game** **inside** the **editor**. It’s useful for testing your interactive application or game without deploying to the physical device.
 * **Console View**: This view displays warnings, errors, and your own messages, which is helpful for debugging your application or game.
+![](https://www.youtube.com/watch?v=uNyr4a5-2g8)
 
-[PreviousExploring Unity Editor](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor)[NextModeling tools in Unity](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/modeling-tools-in-unity)
+Previous: [[exploring-unity-editor]]
+Next: [[modeling-tools-in-unity]]
 
-Last updated 1 year ago
+
