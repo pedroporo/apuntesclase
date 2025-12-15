@@ -10,6 +10,4 @@ Source: https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/1.-introduction-
 * Learn how to **import** and **manage game** **assets** (3D models, textures, sounds,...) within Unity.
 * Apply the concepts learned to **develop** a **simple** **game** from scratch.
 
-[Previous1. Introduction to Unity](/videogames-with-unity)[NextGame Engines](/videogames-with-unity/1.-introduction-to-unity/game-engines)
-
-Last updated 1 year ago
+[[1-introduction-to-unity]] [[game-engines]]
