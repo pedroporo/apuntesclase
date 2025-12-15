@@ -13,6 +13,4 @@ Let’s explore its **advantages**:
 3. **Robust Tools**: Unity provides powerful tools for developing various types of games, interactive applications, and even virtual reality (VR) and augmented reality (AR) experiences.
 4. **Vibrant Ecosystem**: With hundreds of third-party add-ons.
 
-[NextObjectives](ob)
-
-Last updated 1 year ago
+[Next Objectives](./videogames-with-unity/1.-introduction-to-unity/objectives.md)
