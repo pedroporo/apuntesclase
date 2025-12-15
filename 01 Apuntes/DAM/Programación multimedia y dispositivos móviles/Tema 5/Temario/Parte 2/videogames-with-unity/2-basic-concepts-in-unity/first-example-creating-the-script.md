@@ -14,6 +14,9 @@ Here are the **essential** **points** covered:
 * **Define** **a** ***speed*** **variable:**  To **move** **sphere** at certain **speed** in **meters**/**second**, independently of the device frame/rate, thanks to **Time.deltaTime** value (time in seconds to complete last frame).
 * Make the **camera** **follow** the **sphere:** Making it **child** of sphere.
 * **Add** the new **script** **as** a **component** to the **sphere**.
+![](https://youtu.be/M4wrZ-83TlM)
+![](https://youtu.be/7OvPq77bGm4)
+![](https://youtu.be/04S4smELLBk)
 
 ## Time.deltaTime
 

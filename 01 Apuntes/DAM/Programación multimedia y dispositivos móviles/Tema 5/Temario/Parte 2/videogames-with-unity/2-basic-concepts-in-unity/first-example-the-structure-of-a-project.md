@@ -11,11 +11,11 @@ In the upcoming videos, we will create a **new 3D project** then, explore fundam
 * **Creating Materials:** Learn how to craft materials that enhance the visual appearance of your gameobjects, giving them a lifelike surface texture.
 
 ## Creating First Example
-
+![](https://youtu.be/aXX8_e30eIw)
 ## Adding objects
-
+![](https://youtu.be/Y-YERvGB2hw)
 ## Creating materials
+![](https://youtu.be/nEclbBFtuCk)
 
-[Previous2. Basic concepts in Unity](/videogames-with-unity/2.-basic-concepts-in-unity)[NextFirst example - Creating the Script](/videogames-with-unity/2.-basic-concepts-in-unity/first-example-creating-the-script)
-
-Last updated 1 year ago
+Previous: [[2-basic-concepts-in-unity]]
+Next: [[first-example-creating-the-script]]
