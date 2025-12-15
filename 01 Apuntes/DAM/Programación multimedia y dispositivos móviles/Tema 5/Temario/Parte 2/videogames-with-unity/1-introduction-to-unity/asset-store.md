@@ -21,10 +21,12 @@ You get access to the Unity's Asset Store at: <https://assetstore.unity.com/>
 3. Select **My** **Assets** from the dropdown on the top left corner.
 4. **Select** the **asset** you want from the list and **click** **download**. If it’s already downloaded, then you will see an import option.
 
-**Package Manager Error:** If you get an error while loading "My Assets", close the Unity Editor and Unity Hub. Then, reopen Unity Hub and your project. "My Assets" should now load correctly.
+> [!failure]
+> **Package Manager Error:** If you get an error while loading "My Assets", close the Unity Editor and Unity Hub. Then, reopen Unity Hub and your project. "My Assets" should now load correctly.
+
 
 ## Vídeo mini guide: How to import a free asset from Asset Store into project.
+![](https://youtu.be/AzItMI583kY)
 
-[PreviousSearch for GameObjects](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/search-for-gameobjects)[NextProposed Exercises](/videogames-with-unity/1.-introduction-to-unity/proposed-exercises)
-
-Last updated 1 year ago
+Previous: [[search-for-gameobjects]]
+Next: [[01 Apuntes/DAM/Programación multimedia y dispositivos móviles/Tema 5/Temario/Parte 2/videogames-with-unity/1-introduction-to-unity/proposed-exercises|proposed-exercises]]

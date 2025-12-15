@@ -4,6 +4,7 @@ Source: https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/2.-basic-concept
 
 This video introduces three fundamental concepts in Unity: **scenes**, **game** **objects**, and **components,** emphasizing the importance of understanding these three concepts when starting to work with Unity.
 
+![](https://www.youtube.com/watch?v=eqTNrJg3ZSU)
 ## **Presentation Pdf**
 
 470KB

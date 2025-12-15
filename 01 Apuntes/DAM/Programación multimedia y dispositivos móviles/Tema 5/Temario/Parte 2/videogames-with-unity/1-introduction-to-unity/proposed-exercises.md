@@ -19,6 +19,6 @@ Unity Asset Store is plenty of assets (many free of charge) that can significant
 * Consider **adding** **lighting**, **terrain**, and other environmental elements to enhance your city scene.
 * **Experiment** with different asset combinations to achieve a diverse and realistic cityscape.
 
-[PreviousAsset Store](/videogames-with-unity/1.-introduction-to-unity/asset-store)[Next2. Basic concepts in Unity](/videogames-with-unity/2.-basic-concepts-in-unity)
-
-Last updated 1 year ago
+Previous: [[asset-store]]
+Next: [[2-basic-concepts-in-unity]]
+[
