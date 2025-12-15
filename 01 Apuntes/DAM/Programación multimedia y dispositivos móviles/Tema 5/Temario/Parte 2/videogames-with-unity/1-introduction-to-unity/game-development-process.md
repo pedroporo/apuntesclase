@@ -24,6 +24,7 @@ Rigorous testing is crucial to **ensure** the **game's** **stability** and **pla
 
 Once the game meets all quality standards, it is **ready** **for** **launch**. Post-launch involves **expanding** the **game**, adding new content, and continually enhancing the player experience.
 
-[PreviousGame Engines](/videogames-with-unity/1.-introduction-to-unity/game-engines)[NextInstalling Unity](/videogames-with-unity/1.-introduction-to-unity/installing-unity)
+Previous: [[game-engines]]
 
-Last updated 1 year ago
+Next: [[installing-unity]]
+
