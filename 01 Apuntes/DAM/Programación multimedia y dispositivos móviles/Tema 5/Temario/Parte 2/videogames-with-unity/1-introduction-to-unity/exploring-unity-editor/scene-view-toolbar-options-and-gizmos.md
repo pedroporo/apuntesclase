@@ -6,7 +6,7 @@ Source: https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/1.-introduction-
 
 The scene view allows other advanced options. These options are visible as **buttons** on the top of the view.
 
-![](https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/~gitbook/image?url=https%3A%2F%2F1783396225-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FdRlCVp8VBZ34m99uWkGs%252Fuploads%252Fs5J456uWRAvy90NHA3cQ%252Fimage.png%3Falt%3Dmedia%26token%3D7563117c-3581-4c92-8dd9-edc67833568f&width=768&dpr=4&quality=100&sign=31ce027c&sv=2)
+![[buttonOptionsSceneView.png]]
 
 They are not required at the beginning when learning **Unity**, but we briefly describe the most important ones:
 
@@ -21,6 +21,5 @@ They are not required at the beginning when learning **Unity**, but we briefly d
 * **Camera settings menu** : contains options for configuring the Scene view camera.
 * **Gizmos:** contains options for how objects, icons, and gizmos are displayed. This menu is available in both the Scene view and the Game view.
 
-[PreviousScene view - Summary](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/scene-view-summary)[NextHierarchy view](/videogames-with-unity/1.-introduction-to-unity/exploring-unity-editor/hierarchy-view)
-
-Last updated 1 year ago
+Previous: [[scene-view-summary]]
+Next: [[hierarchy-view]]
