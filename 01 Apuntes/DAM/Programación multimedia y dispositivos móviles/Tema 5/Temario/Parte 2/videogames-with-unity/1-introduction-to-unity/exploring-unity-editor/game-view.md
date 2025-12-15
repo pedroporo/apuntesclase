@@ -5,7 +5,7 @@ Source: https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/1.-introduction-
 * This view shows how your game will look like when playing (using the scene camera/s)
 * At least, there must be **one** **camera** in the scene.
 
-![](https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/~gitbook/image?url=https%3A%2F%2Fcourses.edx.org%2Fassets%2Fcourseware%2Fv1%2F1445fd88a0179ac90c1aa20d762b4e1b%2Fasset-v1%3AUPValenciaX%2BUNYEN201X%2B1T2022%2Btype%40asset%2Bblock%2Fbotons_vista_game.png&width=768&dpr=4&quality=100&sign=ff2ec69&sv=2)
+![[]]
 
 * With these buttons we can run, pause or execute our game step by step.
 * In the game view we can change the aspect ratio and resolution of the final game, maximize the game view when running and show some statistics about the game when running
