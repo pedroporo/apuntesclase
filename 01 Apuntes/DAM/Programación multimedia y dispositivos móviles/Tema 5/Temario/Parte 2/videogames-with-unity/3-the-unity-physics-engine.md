@@ -2,8 +2,10 @@
 
 Source: https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/3.-the-unity-physics-engine
 
-[Introduction to physics](/videogames-with-unity/3.-the-unity-physics-engine/introduction-to-physics)[First Example with Physics](/videogames-with-unity/3.-the-unity-physics-engine/first-example-with-physics)[Proposed Exercises](/videogames-with-unity/3.-the-unity-physics-engine/proposed-exercises)
+[[introduction-to-physics]]
+[[first-example-with-physics]]
+[[01 Apuntes/DAM/Programación multimedia y dispositivos móviles/Tema 5/Temario/Parte 2/videogames-with-unity/3-the-unity-physics-engine/proposed-exercises|proposed-exercises]]
 
-[PreviousProposed Exercise](/videogames-with-unity/2.-basic-concepts-in-unity/proposed-exercise)[NextIntroduction to physics](/videogames-with-unity/3.-the-unity-physics-engine/introduction-to-physics)
 
-Last updated 1 year ago
+Previous: [[01 Apuntes/DAM/Programación multimedia y dispositivos móviles/Tema 5/Temario/Parte 2/videogames-with-unity/2-basic-concepts-in-unity/proposed-exercise|proposed-exercise]]
+Next: [[introduction-to-physics]]

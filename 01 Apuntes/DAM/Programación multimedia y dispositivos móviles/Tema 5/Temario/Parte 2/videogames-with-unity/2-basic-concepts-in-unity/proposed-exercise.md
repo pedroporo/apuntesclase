@@ -33,7 +33,4 @@ Source: https://ecm-pmdm-unity.gitbook.io/videogames-with-unity/2.-basic-concept
 > For more detailed information, you can refer to Unity’s documentation on [Albedo Color and Transparency](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterAlbedoColor.html).
 
 Previous: [[rendering-from-scene-3d-to-screen-2d]]
-Next: 
-[PreviousRendering: From Scene (3D) to Screen (2D)](/videogames-with-unity/2.-basic-concepts-in-unity/rendering-from-scene-3d-to-screen-2d)[Next3. The Unity Physics Engine](/videogames-with-unity/3.-the-unity-physics-engine)
-
-Last updated 1 year ago
+Next: [[3-the-unity-physics-engine]]
