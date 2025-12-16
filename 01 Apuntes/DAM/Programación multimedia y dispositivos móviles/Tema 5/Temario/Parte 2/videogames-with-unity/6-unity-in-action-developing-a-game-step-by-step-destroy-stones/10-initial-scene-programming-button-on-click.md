@@ -26,8 +26,6 @@ These are the **steps**:
 
 **InterfaceAwake.cs**
 
-Copy
-
 ```
 using System.Collections;
 using System.Collections.Generic;
