@@ -16,3 +16,11 @@ Fecha de entrega: `$= dv.date("today")`
 <center><img src="https://picsum.photos/500/700" alt="Portada" /></center>
 
 # Actividad 1 Crear Bucket S3
+
+Crear Bucket:
+![[Pasted image 20251218170650.png]]
+
+Propiedad de objetos:
+![[Pasted image 20251218170739.png]]
+Configuración de bloqueo de acceso público para este bucket:
+![[Pasted image 20251218170831.png]]
