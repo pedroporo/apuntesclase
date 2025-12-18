@@ -24,3 +24,10 @@ Propiedad de objetos:
 ![[Pasted image 20251218170739.png]]
 Configuración de bloqueo de acceso público para este bucket:
 ![[Pasted image 20251218170831.png]]
+
+## Configuracion del web estatico
+![[Pasted image 20251218171140.png]]
+
+![[Pasted image 20251218171241.png]]
+
+# Actividad 2: Cargar informacion el bucket
