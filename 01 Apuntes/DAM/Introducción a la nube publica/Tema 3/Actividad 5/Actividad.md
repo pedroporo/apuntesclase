@@ -108,3 +108,18 @@ done
 ## Enlaze al video
 
 [Enlaze](https://drive.google.com/file/d/1D6nIrYxLQ__rCIC1WOjostKHBRCrXDBu/view?usp=sharing)
+
+```
+@echo off
+:inicio
+cls
+echo ===== nslookup www.cipfpbatoi.es =====
+nslookup www.cipfpbatoi.es
+
+echo.
+echo ===== curl http://www.cipfpbatoi.es =====
+curl http://www.cipfpbatoi.es
+
+timeout /t 5 /nobreak >nul
+goto inicio
+```
