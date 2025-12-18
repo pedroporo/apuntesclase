@@ -31,3 +31,14 @@ Configuración de bloqueo de acceso público para este bucket:
 ![[Pasted image 20251218171241.png]]
 
 # Actividad 2: Cargar informacion el bucket
+Cargar html en el bucket
+![[Pasted image 20251218171615.png]]
+![[Pasted image 20251218171701.png]]
+
+# Actividad 3: Habilitar el acceso a los objetos
+![[Pasted image 20251218171907.png]]
+
+Hacer publico mediante ACL:
+![[Pasted image 20251218171957.png]]
+
+Actualizar Pagina
