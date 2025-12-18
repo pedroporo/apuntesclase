@@ -121,6 +121,7 @@ state "Potatus Chip" as cazaevil
 state "Doña Frita" as cazaevil
 
 state "Fry" as cazaevil
+
 ```
 
 ### Descripción de los puestos:
@@ -399,3 +400,5 @@ state "Fry" as cazaevil
 - Imagen:
 ![[BocadilloDePatata.jpeg|400]]
 
+
+## Estudio mercado
