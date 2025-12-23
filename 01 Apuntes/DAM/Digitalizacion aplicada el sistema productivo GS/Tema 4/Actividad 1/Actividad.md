@@ -319,3 +319,11 @@ Hazme un html que muestre estos datos {{ $json.data }}, los campos que tienen ca
 ```
 he tenido que poner varias cosas para que me hiciera caso, y aun así hay aveces que me ignora por completo.
 ![[Pasted image 20251223122155.png]]
+
+Y para acabar estara el enviar el html generado por email, lo cal le pasaremos el contenido del json generado por la ia, aqui hay que iniciar sesion en la cuenta que quieres enviarlo antes de hacerlo
+
+![[Pasted image 20251223122825.png]]
+Y se quiere se podria usar un servidor smpt personalizado, solo deveriamos cambiar la parte de gmail con el senda email
+![[Pasted image 20251223123131.png]]
+
+![[Pasted image 20251223123100.png]]
