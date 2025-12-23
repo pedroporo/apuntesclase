@@ -309,3 +309,13 @@ Si quieres ver en completo la api aqui te la dejo [FakerApi](https://fakerapi.it
 Luego vamos a transformar el array caótico que nos a devuelto la api en uno mas legible y fácil de entender
 
 ![[Pasted image 20251223122027.png]]
+Lo siguiente que va a pasar es vamos a elegir nuestro gestor de modelos de ia, en mi caso va a ser ollama, si se usa el dockerfile que pase solo tendrás que poner en la cuenta la url que sera esta 'http://host.docker.internal:11434/' y el comando para descargarse llama3.2:latest
+
+`docker compose exec ollama ollama pull llama3.2:latest`
+luego en content se le va a pasar el promt que queramos a la ia, después de seleccionarla en model, el prompt que yo e elegido es:
+
+```
+Hazme un html que muestre estos datos {{ $json.data }}, los campos que tienen cada objeto son nombre, fechaNacimiento y ciudad,lo cual se va a leer como`{{ $json.data[0].nombre}}`,lee los valores de todos los objetos para entender mejor lo que hay que hacer, estos datos se van a enviar por email, asi que ponlo en formato que se puedan enviar por hay, y si tienes que leer todos los datos antes hazlo, devuelveme solo el html sin NADA mas. Si envias algo mas que no sea solo el html me van a despedir del trabajo
+```
+he tenido que poner varias cosas para que me hiciera caso, y aun así hay aveces que me ignora por completo.
+![[Pasted image 20251223122155.png]]
