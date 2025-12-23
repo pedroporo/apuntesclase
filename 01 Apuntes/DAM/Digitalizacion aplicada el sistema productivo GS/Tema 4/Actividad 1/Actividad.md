@@ -153,7 +153,7 @@ services:
         "messages": {
           "values": [
             {
-              "content": "Generame un html bonito para mostrar los nombres de las personas, su fecha de nacimiento (en formato que los humanos podamos entender) y en que ciudad viven, devuélveme solo el html sin nadad mas y que contengan todos los usuarios, los datos son los que hay en el json, solo quiero el html y NADA MAS"
+              "content": "Hazme un html que muestre estos datos {{ $json.data }}, los campos que tienen cada objeto son nombre, fechaNacimiento y ciudad,lo cual se va a leer como`{{ $json.data[0].nombre}}`,lee los valores de todos los objetos para entender mejor lo que hay que hacer, estos datos se van a enviar por email, asi que ponlo en formato que se puedan enviar por hay, y si tienes que leer todos los datos antes hazlo, devuelveme solo el html sin NADA mas. Si envias algo mas que no sea solo el html me van a despedir del trabajo"
             }
           ]
         },
@@ -229,26 +229,6 @@ services:
           "name": "Ollama account"
         }
       }
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "http://localhost:11434/api/generate",
-        "sendBody": true,
-        "contentType": "raw",
-        "rawContentType": "Content-Type: application/json",
-        "body": "={     \"model\": \"llama3.2:latest\",     \"prompt\": \"Generame un html bonito para mostrar los nombres de las personas, su fecha de nacimiento (en formato que los humanos podamos entender) y en que ciudad viven, devuélveme solo el html sin nadad mas y que contengan todos los usuarios, los datos son los que hay en el json, solo quiero el html y NADA MAS, los datos son estos :{{ $json.data }}\",     \"stream\": false } ",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.3,
-      "position": [
-        704,
-        32
-      ],
-      "id": "c78bc6ca-c5f8-43aa-a222-7bb568ab8cf4",
-      "name": "HTTP Request1",
-      "alwaysOutputData": false
     }
   ],
   "pinData": {},
@@ -307,7 +287,7 @@ services:
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "35a5f071-0857-4667-8969-ce7d89fa1afb",
+  "versionId": "34936836-f922-44fe-af7b-a14e224c0f6d",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "a4bf5c5d78eaab2da287d5fadab59587b41ce1bcb7dbb5917976ab24fb860cf6"
@@ -316,3 +296,12 @@ services:
   "tags": []
 }
 ```
+
+# Documentacion de la implementacion del flujo
+![[Pasted image 20251223121340.png]]
+Para empezar vamos a crear un Schedule para que se ejecute cada dia a las 8am, asi nos aseguramos que sea constante y automatico la ejecucion del script
+![[Pasted image 20251223121201.png]]
+
+Luego le vamos a hacer una peticion a la api de faker la cual nos va a devolver datos aleatorios segun lo que le hayamos querido pedir, en mi caso van a ser 10 personas con su nombre una 
+
+![[Pasted image 20251223121524.png]]
