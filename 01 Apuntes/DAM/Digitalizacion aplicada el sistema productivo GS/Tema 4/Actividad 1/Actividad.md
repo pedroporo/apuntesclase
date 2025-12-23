@@ -302,6 +302,10 @@ services:
 Para empezar vamos a crear un Schedule para que se ejecute cada dia a las 8am, asi nos aseguramos que sea constante y automatico la ejecucion del script
 ![[Pasted image 20251223121201.png]]
 
-Luego le vamos a hacer una peticion a la api de faker la cual nos va a devolver datos aleatorios segun lo que le hayamos querido pedir, en mi caso van a ser 10 personas con su nombre una 
+Luego le vamos a hacer una peticion a la api de faker la cual nos va a devolver datos aleatorios segun lo que le hayamos querido pedir, en mi caso van a ser 10 personas con su nombre una fecha aleatoria y una ciudad, esto se sabe porque en los parametros los valores de `_quantity` es 10 el valor de `nombre` es name el valor `fechaNacimiento` es dateTime y el valor `ciudad` es city
 
+Si quieres ver en completo la api aqui te la dejo [FakerApi](https://fakerapi.it)
 ![[Pasted image 20251223121524.png]]
+Luego vamos a transformar el array caótico que nos a devuelto la api en uno mas legible y fácil de entender
+
+![[Pasted image 20251223122027.png]]
