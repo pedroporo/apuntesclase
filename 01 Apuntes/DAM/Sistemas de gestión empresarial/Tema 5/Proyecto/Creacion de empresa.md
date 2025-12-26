@@ -408,4 +408,30 @@ state "Fry" as cazaevil
 - El gasto en patatas fritas y snacks de patata ha aumentado un 43% en cinco años en España, consolidando este tipo de productos como parte habitual del aperitivo y el ocio.[gasto patatas](https://www.freshplaza.es/article/9757841/el-gasto-en-patatas-fritas-crece-un-43-en-cinco-anos-en-espana/)
 - Nuestros productos (Yogurt de patata, Patata Hamburguesa, Patata Colorida, BombaPatata, Bocadillo Patata, etc.) se posicionan como propuestas innovadoras y “divertidas” que mezclan alimentación, ocio y coleccionismo (Perro Patata, Gatopatata, PatataSaurio, Patata Robot, PatataPC, etc.), aprovechando la tendencia hacia productos experienciales y diferenciados.
 **Conclusion**
-Existe una demanda considerable de patatas en españa lo que favorecera al mi imperio de la orden
+Existe una demanda considerable de patatas en españa lo que favorecerá al mi imperio de la orden del tuberculo
+
+### Cuales son mis competidores
+
+- En el mercado español de la patata destacan grandes empresas como Patatas Meléndez, Hijolusa, Ibérica de Patatas Selectas o Patatas Beltrán, con facturaciones multimillonarias y un fuerte foco en patata fresca y procesada estándar.
+- Estas compañías compiten principalmente en volumen, eficiencia, precio y calidad estándar, no en productos “fantasía” o altamente tematizados como los de La Orden del Tubérculo.
+- También existen competidores indirectos en el mundo de snacks, fast food, productos gourmet y regalos frikis (e-commerce, tiendas gourmet, plataformas tipo marketplaces, osea odoo), que captan parte del gasto de ocio gastronómico.
+
+**Posicionamiento competitivo:**
+La Orden del Tubérculo no pretende competir en volumen ni en patata básica, sino en un nicho de productos creativos, coleccionables y experienciales relacionados con la patata :), donde la diferenciación y la narrativa de marca son la principal ventaja.
+
+###  Mi público objetivo
+
+Cliente ideal:
+
+- **Familias**:
+    - Buscan productos divertidos, diferentes y llamativos para celebraciones, cumpleaños infantiles o momentos especiales (Patata Colorida, Lego Patata, BombaPatata, Bocadillo Patata, Patata Hamburguesa, Patata Jabón).
+- **Chefs y restauración creativa (Horeca gourmet/temático)**:
+    - Restaurantes temáticos, food trucks o locales de cocina creativa interesados en productos singulares (Yogurt de patata, Mantata, BombaPatata, Patata Hamburguesa, La Trinidad PelaPatatas como gadget distintivo).
+- **Minoristas y tiendas especializadas**:
+    - Tiendas gourmet, de productos frikis o regalos originales, que buscan artículos con historia y alta diferenciación (Patata de oro, Gatopatata, Gatopatata Fuego, Patata Robot, PatataPC, PatataMovil como producto de exhibición, PatataVela, Bombilla Patata, Patata Batería).
+
+Características generales del público objetivo:
+
+- Valoran la **innovación**, la originalidad y la narrativa divertida.
+- Están dispuestos a pagar más por productos únicos, ediciones limitadas o artículos de coleccionista (Patata de oro, Gatopatata Fuego, PatataSaurio).
+- Son activos en redes sociales y sensibles al contenido visual atractivo (memes, vídeos cortos, fotos creativas de productos).[^2]
