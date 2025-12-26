@@ -402,3 +402,10 @@ state "Fry" as cazaevil
 
 
 ## Estudio mercado
+### Demanda
+- En España se consumen en torno a 813.900 toneladas de patata al año, con un consumo per cápita de unos 25–26 kg, lo que demuestra que la patata sigue siendo un alimento básico.[consumo patata](https://www.potatopro.com/es/news/2025/espa%C3%B1a-cae-el-consumo-de-patata-fresca)
+- Mientras la patata fresca baja ligeramente, la patata procesada y congelada crecen, lo que indica una oportunidad para productos derivados y de valor añadido como snacks, preparados o productos temáticos.
+- El gasto en patatas fritas y snacks de patata ha aumentado un 43% en cinco años en España, consolidando este tipo de productos como parte habitual del aperitivo y el ocio.[gasto patatas](https://www.freshplaza.es/article/9757841/el-gasto-en-patatas-fritas-crece-un-43-en-cinco-anos-en-espana/)
+- Nuestros productos (Yogurt de patata, Patata Hamburguesa, Patata Colorida, BombaPatata, Bocadillo Patata, etc.) se posicionan como propuestas innovadoras y “divertidas” que mezclan alimentación, ocio y coleccionismo (Perro Patata, Gatopatata, PatataSaurio, Patata Robot, PatataPC, etc.), aprovechando la tendencia hacia productos experienciales y diferenciados.
+**Conclusion**
+Existe una demanda considerable de patatas en españa lo que favorecera al mi imperio de la orden
