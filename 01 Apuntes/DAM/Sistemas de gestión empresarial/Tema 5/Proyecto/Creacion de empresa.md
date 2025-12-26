@@ -425,13 +425,63 @@ Cliente ideal:
 
 - **Familias**:
     - Buscan productos divertidos, diferentes y llamativos para celebraciones, cumpleaños infantiles o momentos especiales (Patata Colorida, Lego Patata, BombaPatata, Bocadillo Patata, Patata Hamburguesa, Patata Jabón).
-- **Chefs y restauración creativa (Horeca gourmet/temático)**:
+- **Chefs y restauración creativa:
     - Restaurantes temáticos, food trucks o locales de cocina creativa interesados en productos singulares (Yogurt de patata, Mantata, BombaPatata, Patata Hamburguesa, La Trinidad PelaPatatas como gadget distintivo).
 - **Minoristas y tiendas especializadas**:
     - Tiendas gourmet, de productos frikis o regalos originales, que buscan artículos con historia y alta diferenciación (Patata de oro, Gatopatata, Gatopatata Fuego, Patata Robot, PatataPC, PatataMovil como producto de exhibición, PatataVela, Bombilla Patata, Patata Batería).
 
 Características generales del público objetivo:
 
-- Valoran la **innovación**, la originalidad y la narrativa divertida.
+- Valoran la **innovación**, la originalidad y la narrativa divertida (Como yo).
 - Están dispuestos a pagar más por productos únicos, ediciones limitadas o artículos de coleccionista (Patata de oro, Gatopatata Fuego, PatataSaurio).
-- Son activos en redes sociales y sensibles al contenido visual atractivo (memes, vídeos cortos, fotos creativas de productos).[^2]
+- Son activos en redes sociales y sensibles al contenido visual atractivo (memes, vídeos cortos, fotos creativas de productos).
+## Estrategia de Marketing
+
+### Plan de marketing
+
+**Objetivo general:**
+Posicionar a La Orden del Tubérculo como la marca más divertida, creativa y “épica” relacionada con las patatas en España.
+
+**Elementos clave del plan:**
+
+- Tono de marca **divertido y fresco**, alineado con nombres como Gran Tubérculo Supremo, Perro Patata, Gatopatata, PatataSaurio, etc.
+- Foco en contenido visual y storytelling: presentar los productos como personajes de un universo propio (la “Orden”), con historias, habilidades y roles dentro de la “batalla” por las patatas. :)
+- Uso intensivo de redes sociales y web propia, apoyado por SEO/SEM para captar tráfico de personas que buscan productos originales, regalos frikis y snacks especiales (como el patatapc el patatamovil ...).
+
+Distribución del presupuesto de marketing (534.216 €):
+
+- 40% publicidad digital (anuncios en redes, campañas SEM).
+- 30% creación de contenido (vídeo, fotos profesionales, ilustraciones, mini-historias, web).
+- 20% acciones con influencers, streamers y creadores de contenido gastronómico/gaming.
+- 10% promociones especiales y sorteos (packs de Gatopatata, PatataRobot + PatataPikmin, etc.).
+
+
+### 6.2 Estrategias de promoción
+
+- Campañas en redes sociales (Instagram, TikTok, YouTube, Twitch):
+    - Vídeos cortos mostrando usos locos de los productos (comerte el Suéter Patata, jugar a la Nintendo Switch con el Sujetapatatas, cocinar con La Trinidad PelaPatatas, hacer un “setup” con PatataPC y Patata Batería, encender la Bombilla Patata con PatataVela).
+    - Retos virales (“Reto Bocadillo Patata”, “Semana del Gatopatata”, “Montar un PatataSaurio de carga”).
+- Colaboraciones con chefs y streamers:
+    - Chefs que creen menús especiales usando Yogurt de patata, Patata Hamburguesa, BombaPatata, Bocadillo Patata.
+    - Streamers/gamers usando Sujetapatatas para la Nintendo Switch y PatataPC en directo.
+- Promociones y descuentos:
+    - Packs temáticos:
+        - Pack “Defensa del Patatal”: Gatopatata + Perro Patata + Gatopatata Fuego.
+        - Pack “Tecnología Tuberculada”: Patata Batería + PatataMovil + PatataPC + Bombilla Patata.
+        - Pack “Fiesta infantil patata”: Patata Colorida + Lego Patata + BombaPatata + Bocadillo Patata.
+    - Descuentos por lanzamiento y por compartir contenido en redes.
+
+> A la proxima lo hago para que los nombres de los packs sean mas facile
+### 6.3 Canales de distribución
+
+- **Venta directa**:
+    - Tienda física temática (si se plantea) o participación en ferias, eventos frikis, ferias gastronómicas y mercados locales.[^9]
+- **Venta online**:
+    - Web propia con e-commerce, integrando la narrativa de la Orden del Tubérculo.
+    - Posible entrada futura en marketplaces nacionales para aumentar alcance.
+- **Distribuidores**:
+    - Acuerdos con tiendas gourmet, tiendas de regalos originales, tiendas frikis, pequeñas cadenas de alimentación y locales de restauración temática para colocar productos seleccionados (Patata Hamburguesa, Patata Jabón, PatataVela, Bombilla Patata, Lego Patata, La Trinidad PelaPatatas).
+
+Ámbito de venta inicial:
+
+- Mercado nacional (España), con foco en grandes áreas urbanas y zonas con cultura de ocio/gastronomía fuerte.[^5][^9]
