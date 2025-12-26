@@ -527,5 +527,9 @@ Para el trabajo académico se puede presentar así:
 
 - Fuente principal: **aportaciones de los founders (Oea YO :/ ¿es mu caro la inversion no? )**.
     - Esto da control total sobre la marca, las decisiones creativas y el posicionamiento, sin presiones externas en la fase inicial.
-- A medio plazo (opcional si lo quieres añadir en clase):
+- A medio plazo:
     - Posibilidad de buscar subvenciones o ayudas para proyectos de innovación agroalimentaria, sostenibilidad o emprendimiento creativo, ya que el sector patata y los proyectos innovadores suelen disponer de líneas de apoyo específicas.
+
+---
+
+Y asi se termina 
