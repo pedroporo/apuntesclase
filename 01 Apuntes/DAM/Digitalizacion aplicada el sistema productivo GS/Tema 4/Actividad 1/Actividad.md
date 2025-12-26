@@ -323,7 +323,13 @@ he tenido que poner varias cosas para que me hiciera caso, y aun así hay aveces
 Y para acabar estara el enviar el html generado por email, lo cal le pasaremos el contenido del json generado por la ia, aqui hay que iniciar sesion en la cuenta que quieres enviarlo antes de hacerlo
 
 ![[Pasted image 20251223122825.png]]
-Y se quiere se podria usar un servidor smpt personalizado, solo deveriamos cambiar la parte de gmail con el senda email
+Y se quiere se podria usar un servidor smtp personalizado, solo deveriamos cambiar la parte de gmail con el senda email
 ![[Pasted image 20251223123131.png]]
+y configurar lo con el smtp
 
 ![[Pasted image 20251223123100.png]]
+y poner los otros datos:
+![[Pasted image 20251223123229.png]]
+
+--- 
+Este ejercicio a sido divertido de hacer, ya que me gusta estar investigando cosas nuevas y eso
