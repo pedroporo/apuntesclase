@@ -531,5 +531,3 @@ Para el trabajo académico se puede presentar así:
     - Posibilidad de buscar subvenciones o ayudas para proyectos de innovación agroalimentaria, sostenibilidad o emprendimiento creativo, ya que el sector patata y los proyectos innovadores suelen disponer de líneas de apoyo específicas.
 
 ---
-
-Y asi se termina 
