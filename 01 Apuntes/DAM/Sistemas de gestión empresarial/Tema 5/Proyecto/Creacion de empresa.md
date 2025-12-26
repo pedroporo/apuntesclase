@@ -471,11 +471,11 @@ Distribución del presupuesto de marketing (534.216 €):
         - Pack “Fiesta infantil patata”: Patata Colorida + Lego Patata + BombaPatata + Bocadillo Patata.
     - Descuentos por lanzamiento y por compartir contenido en redes.
 
-> A la proxima lo hago para que los nombres de los packs sean mas facile
-### 6.3 Canales de distribución
+> A la proxima lo hago para que los nombres de los packs sean mas fáciles de pensar
+### Canales de distribución
 
 - **Venta directa**:
-    - Tienda física temática (si se plantea) o participación en ferias, eventos frikis, ferias gastronómicas y mercados locales.[^9]
+    - Tienda física temática (si se plantea) o participación en ferias, eventos frikis, ferias gastronómicas y mercados locales.
 - **Venta online**:
     - Web propia con e-commerce, integrando la narrativa de la Orden del Tubérculo.
     - Posible entrada futura en marketplaces nacionales para aumentar alcance.
@@ -484,4 +484,48 @@ Distribución del presupuesto de marketing (534.216 €):
 
 Ámbito de venta inicial:
 
-- Mercado nacional (España), con foco en grandes áreas urbanas y zonas con cultura de ocio/gastronomía fuerte.[^5][^9]
+- Mercado nacional (España), con foco en grandes áreas urbanas y zonas con cultura de ocio/gastronomía fuerte.
+
+## Plan Financiero
+
+> Las cifras las pille de las preguntas de google:
+> ¿Cuál es el presupuesto general para 2026?
+> Para el año 2026 contará con un Presupuesto de **534 millones de euros**, lo que supone un crecimiento del 7,9% (sin tener en cuenta MRR).
+> Pero en vez de poner millones lo puse a mil y le puse un 216 al final para que no quede vacio
+
+### Presupuesto inicial
+
+Presupuesto inicial estimado total: **534.216 €**.
+
+Propuesta de reparto:
+
+- 30% Producción inicial y materias primas (patatas, ingredientes, materiales especiales: oro para Patata de oro, componentes electrónicos para Patata Batería, PatataMovil, Patata Robot, etc.).
+- 20% Desarrollo de producto y prototipos (diseño, pruebas de seguridad/consumo, empaquetado de Yogurt de patata, Patata Hamburguesa, productos comestibles y gadgets).
+- 25% Marketing y marca (tal como se definió en el punto 6: contenidos, campañas, web, branding, colaboraciones).
+- 12% Infraestructura y logística (almacén, transporte, sistemas para venta online, embalaje de productos frágiles o de alto valor como Patata de oro).
+- 13% Fondo de maniobra para los primeros meses (salarios iniciales, gastos recurrentes, imprevistos).
+
+
+### Proyecciones de ingresos y gastos
+
+Proyección global (primeros 12–24 meses):
+
+- Ingresos esperados: **216.534 €** (suma total estimada de ventas de todos los productos en su fase inicial).
+- Gastos operativos (aprovisionamiento, producción, logística, personal, marketing recurrente, mantenimiento web, etc.) se situarán previsiblemente por debajo del presupuesto inicial y se irán cubriendo con parte de ese capital más los ingresos generados.
+
+Para el trabajo académico se puede presentar así:
+
+- Escenario base:
+    - Ventas moderadas con crecimiento progresivo a medida que la marca gana notoriedad (impulsado por redes sociales y boca a boca).
+- Escenario optimista:
+    - Mayor viralidad de productos icónicos (Gatopatata, Patata Hamburguesa, La Trinidad PelaPatatas, BombaPatata), generando más ingresos y permitiendo reinvertir en expansión y nuevas líneas.
+- Escenario conservador:
+    - Ventas más lentas al inicio, donde el presupuesto inicial soporta más tiempo la estructura hasta consolidar el producto en el mercado.
+
+
+### Estrategias de financiamiento
+
+- Fuente principal: **aportaciones de los founders (Oea YO :/ ¿es mu caro la inversion no? )**.
+    - Esto da control total sobre la marca, las decisiones creativas y el posicionamiento, sin presiones externas en la fase inicial.
+- A medio plazo (opcional si lo quieres añadir en clase):
+    - Posibilidad de buscar subvenciones o ayudas para proyectos de innovación agroalimentaria, sostenibilidad o emprendimiento creativo, ya que el sector patata y los proyectos innovadores suelen disponer de líneas de apoyo específicas.
