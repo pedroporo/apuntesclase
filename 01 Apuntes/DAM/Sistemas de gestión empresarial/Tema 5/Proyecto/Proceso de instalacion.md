@@ -17,3 +17,5 @@ Fecha de entrega: `$= dv.date("today")`
 > Contraseña maestra: 57gg-kgyy-q3nn
 > Email maestro: el mio personal
 > Contraseña del email maestro: 57gg-kgyy-q3nn
+
+# 1. Configurar los datos de la empresa
