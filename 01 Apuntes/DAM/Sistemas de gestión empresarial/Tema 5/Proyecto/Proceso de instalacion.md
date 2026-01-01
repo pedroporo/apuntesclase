@@ -22,3 +22,4 @@ Fecha de entrega: `$= dv.date("today")`
 Cambio de la informacion de la emppresa:
 ![[Pasted image 20260101115328.png]]
 # 2. Crear Estructura Organizativa
+## Grupos de la organizacion
