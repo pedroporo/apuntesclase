@@ -19,3 +19,5 @@ Fecha de entrega: `$= dv.date("today")`
 > Contraseña del email maestro: 57gg-kgyy-q3nn
 
 # 1. Configurar los datos de la empresa
+Cambio de la informacion de la emppresa:
+![[Pasted image 20260101115328.png]]
