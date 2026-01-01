@@ -23,3 +23,113 @@ Cambio de la informacion de la emppresa:
 ![[Pasted image 20260101115328.png]]
 # 2. Crear Estructura Organizativa
 ## Grupos de la organizacion
+
+Los grupos serán los siguientes y cada grupo por encima de otro heredara los permisos de ese grupo, osea que el ceo podra ver todo lo que hagan los demas
+
+```mermaid
+stateDiagram-v2
+
+state "Gran Tubérculo Supremo (CEO)" as ceo
+
+state "Don Patatón" as ceo
+
+ceo --> cosechamngr
+
+ceo --> freidoramngr
+
+ceo --> logimngr
+
+ceo --> rrhhmngr
+
+ceo --> cazaevilmngr
+
+  
+
+state "Jefe de Cosecha" as cosechamngr
+
+state "Papañero Mayor" as cosechamngr
+
+cosechamngr --> cosecha
+
+  
+
+state "Equipo de Cosecha" as cosecha
+
+state "Tubérculo Tomás" as cosecha
+
+state "Raíz Ramona" as cosecha
+
+state "Brotes Bruno" as cosecha
+
+  
+
+state "Maestro de la Freidora" as freidoramngr
+
+state "Crispín Doradillo" as freidoramngr
+
+freidoramngr --> freidora
+
+  
+
+state "Equipo de Freidora" as freidora
+
+state "Crujiente Clara" as freidora
+
+state "Aceitín Álvaro" as freidora
+
+state "Salsón Sergio" as freidora
+
+  
+
+state "Jefe de Logística" as logimngr
+
+state "Trans-Portato" as logimngr
+
+logimngr --> logistica
+
+  
+
+state "Equipo de Logística" as logistica
+
+state "Ruedín Rita" as logistica
+
+state "Carretillo Carl" as logistica
+
+state "Embolsada Emma" as logistica
+
+  
+
+state "Jefe de RRHH" as rrhhmngr
+
+state "Patatalia Humana" as rrhhmngr
+
+rrhhmngr --> rrhh
+
+  
+
+state "Equipo de RRHH" as rrhh
+
+state "Capacita-Coto" as rrhh
+
+state "Bienestar Blanca" as rrhh
+
+  
+
+state "Jefe de cazapatatas malignas" as cazaevilmngr
+
+state "Sr. Potatoe" as cazaevilmngr
+
+cazaevilmngr --> cazaevil
+
+  
+
+state "Equipo cazapatatas malignas" as cazaevil
+
+state "Potatus Chip" as cazaevil
+
+state "Doña Frita" as cazaevil
+
+state "Fry" as cazaevil
+
+```
+
