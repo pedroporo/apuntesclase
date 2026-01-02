@@ -133,3 +133,7 @@ state "Fry" as cazaevil
 
 ```
 
+Y aqui esta la captura de odoo con los equipos creados:
+![[Pasted image 20260102114108.png]]
+
+## Usuarios
