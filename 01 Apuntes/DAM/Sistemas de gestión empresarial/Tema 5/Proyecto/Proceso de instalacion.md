@@ -137,4 +137,4 @@ Y aqui esta la captura de odoo con los equipos creados:
 ![[Pasted image 20260102114108.png]]
 
 ## Usuarios
-Aqui se introduciran los usuarios que estan debajo de cada puesto en el apartado anteror, aunque para el proyecto solo los equipos de Freidora(ventas encuvierta, ya que son los responsables del putno de venta especifico) y Logistica tendran relevancia, aun asi crearemos todos los usuarios
+Aqui se introduciran los usuarios que estan debajo de cada puesto en el apartado anteror:
