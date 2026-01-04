@@ -191,4 +191,6 @@ Con animación cuando cambia
 ## Simular Proceso de Compra Online: Desde la selección de productos hasta la confirmación de pago.
 # Punto de Venta en Odoo:
 1. Configurar Terminal Punto de Venta (TPV): Definir productos y métodos de pago, además de las categorías.
+ ![[Pasted image 20260104175654.png]]
+ ![[Pasted image 20260104175734.png]]
 2. Simular Transacciones en el TPV: Realizar ventas y gestionar inventario desde el punto de venta.
