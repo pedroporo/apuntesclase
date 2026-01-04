@@ -177,7 +177,10 @@ Registrar Proveedores en Odoo: Ingresar información de proveedores ficticios.
 1. Página 1: Presentación de la empresa para captar clientes.
 ![[Pasted image 20260104174031.png]]
 2. Página 2: Misión, Visión y Valores.
+![[Pasted image 20260104174314.png]]
 3. Página 3: Presentación de los productos más importantes.
+![[Pasted image 20260104174748.png]]
+
 4. Página 4: Contacto.
 5. ![[Pasted image 20260104173541.png]]
 6. Página 5: Añade los productos para la venta en línea.
