@@ -148,3 +148,8 @@ Aqui se muestra el organigrama
 ## Productos
 ![[Pasted image 20260104153328.png]]
 
+# Factura
+![[Pasted image 20260104161946.png]]
+Registro de pago
+
+![[Pasted image 20260104162140.png]]
