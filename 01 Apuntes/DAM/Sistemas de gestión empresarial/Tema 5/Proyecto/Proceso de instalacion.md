@@ -159,3 +159,12 @@ Proveedores de pago
 ## Contrato
 Se instalan modulos adicionales
 ![[Pasted image 20260104163152.png]]
+No e encontrado la forma de hacer que se muestre en otros lados
+# Ciclo de Ventas y Compras
+## Gestión de Clientes y Proveedores
+Registrar Clientes en Odoo: Ingresar información de clientes ficticios.
+
+Registrar Proveedores en Odoo: Ingresar información de proveedores ficticios.
+7. Proceso de Ventas y Compras en Odoo:
+	1. Simular un Ciclo de Ventas Completo: Desde la cotización hasta la facturación.
+	2. Simular un Ciclo de Compras Completo: Desde la orden de compra hasta el pago.
