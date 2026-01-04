@@ -146,3 +146,5 @@ Aqui se muestra el organigrama
 
 ![[Pasted image 20260104152530.png]]
 ## Productos
+![[Pasted image 20260104153328.png]]
+
