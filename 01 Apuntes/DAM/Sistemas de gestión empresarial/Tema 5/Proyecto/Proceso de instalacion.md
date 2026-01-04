@@ -194,3 +194,6 @@ Con animación cuando cambia
  ![[Pasted image 20260104175654.png]]
  ![[Pasted image 20260104175734.png]]
 2. Simular Transacciones en el TPV: Realizar ventas y gestionar inventario desde el punto de venta.
+![[Pasted image 20260104175852.png]]
+
+![[Pasted image 20260104175906.png]]![[Pasted image 20260104175947.png]]
