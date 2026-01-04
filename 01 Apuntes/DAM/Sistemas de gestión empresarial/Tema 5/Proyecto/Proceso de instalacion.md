@@ -139,3 +139,4 @@ Y aqui esta la captura de odoo con los equipos creados:
 ## Usuarios
 Aqui se introduciran los usuarios que estan debajo de cada puesto en el apartado anteror:
 ![[Pasted image 20260103203906.png]]
+
