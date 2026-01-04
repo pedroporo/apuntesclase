@@ -178,8 +178,9 @@ Registrar Proveedores en Odoo: Ingresar información de proveedores ficticios.
 2. Página 2: Misión, Visión y Valores.
 3. Página 3: Presentación de los productos más importantes.
 4. Página 4: Contacto.
-5. Página 5: Añade los productos para la venta en línea.
-
+5. ![[Pasted image 20260104173541.png]]
+6. Página 5: Añade los productos para la venta en línea.
+![[Pasted image 20260104173409.png]]
 ## Simular Proceso de Compra Online: Desde la selección de productos hasta la confirmación de pago.
 # Punto de Venta en Odoo:
 1. Configurar Terminal Punto de Venta (TPV): Definir productos y métodos de pago, además de las categorías.
