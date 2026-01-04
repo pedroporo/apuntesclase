@@ -153,3 +153,6 @@ Aqui se muestra el organigrama
 Registro de pago
 
 ![[Pasted image 20260104162140.png]]
+
+## Contratto
+![[Pasted image 20260104163152.png]]
