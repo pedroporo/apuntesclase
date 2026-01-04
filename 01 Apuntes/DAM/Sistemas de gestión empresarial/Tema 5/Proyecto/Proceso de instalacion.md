@@ -175,6 +175,7 @@ Registrar Proveedores en Odoo: Ingresar información de proveedores ficticios.
 # Comercio Electrónico en Odoo:
 ## Configurar Tienda Online:
 1. Página 1: Presentación de la empresa para captar clientes.
+![[Pasted image 20260104174031.png]]
 2. Página 2: Misión, Visión y Valores.
 3. Página 3: Presentación de los productos más importantes.
 4. Página 4: Contacto.
