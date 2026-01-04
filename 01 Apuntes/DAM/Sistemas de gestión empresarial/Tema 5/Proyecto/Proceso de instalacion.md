@@ -153,6 +153,9 @@ Aqui se muestra el organigrama
 Registro de pago
 
 ![[Pasted image 20260104162140.png]]
+Proveedores de pago
+![[Pasted image 20260104163614.png]]
 
-## Contratto
+## Contrato
+Se instalan modulos adicionales
 ![[Pasted image 20260104163152.png]]
