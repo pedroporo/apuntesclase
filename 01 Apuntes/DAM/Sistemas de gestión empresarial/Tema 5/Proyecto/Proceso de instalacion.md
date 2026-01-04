@@ -143,3 +143,6 @@ Aqui se introduciran los usuarios que estan debajo de cada puesto en el apartado
 ![[Pasted image 20260104102657.png]]
 Aqui se muestra el organigrama
 ![[Pasted image 20260104121952.png]]
+
+![[Pasted image 20260104152530.png]]
+## Productos
