@@ -171,3 +171,16 @@ Registrar Proveedores en Odoo: Ingresar información de proveedores ficticios.
  ![[Pasted image 20260104165554.png]]
  Simular un Ciclo de Compras Completo: Desde la orden de compra hasta el pago.
  ![[Pasted image 20260104165527.png]]
+ 
+# Comercio Electrónico en Odoo:
+## Configurar Tienda Online:
+1. Página 1: Presentación de la empresa para captar clientes.
+2. Página 2: Misión, Visión y Valores.
+3. Página 3: Presentación de los productos más importantes.
+4. Página 4: Contacto.
+5. Página 5: Añade los productos para la venta en línea.
+
+## Simular Proceso de Compra Online: Desde la selección de productos hasta la confirmación de pago.
+# Punto de Venta en Odoo:
+1. Configurar Terminal Punto de Venta (TPV): Definir productos y métodos de pago, además de las categorías.
+2. Simular Transacciones en el TPV: Realizar ventas y gestionar inventario desde el punto de venta.
