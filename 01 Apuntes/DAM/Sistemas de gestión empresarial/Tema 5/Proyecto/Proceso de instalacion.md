@@ -197,3 +197,5 @@ Con animación cuando cambia
 ![[Pasted image 20260104175852.png]]
 
 ![[Pasted image 20260104175906.png]]![[Pasted image 20260104175947.png]]
+
+![[Pasted image 20260104180307.png]]
