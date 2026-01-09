@@ -16,8 +16,6 @@ Pagina web del portatil modular: https://frame.work/es/en/laptop16
 
 ## 2. Principios de economía circular aplicados
 
-Selecciona los principios básicos y explícitamente conéctalos al portátil:
-
 - **Ecodiseño**: diseñar el producto considerando impactos ambientales en todo su ciclo de vida, priorizando facilidad de reparación, actualización y reciclaje de componentes.
 - Mantener productos y materiales en uso el mayor tiempo posible: alargar vida útil mediante reparaciones, actualizaciones modulares y reutilización de componentes.
 - Reducción de recursos y residuos: usar menos materiales para la misma funcionalidad, priorizar componentes de menor impacto y facilitar la recuperación de materiales al final de vida.
@@ -27,8 +25,6 @@ En el trabajo, deja claro que vuestra propuesta “Framework Laptop 16 Circular�
 ***
 
 ## 3. Idea de producto innovador
-
-Describe el producto como una evolución del Framework Laptop 16:
 
 - Nombre tentativo: **Framework Laptop 16 Circular Edition**.
 - Concepto: portátil modular de 16", de alto rendimiento, diseñado para durar más de 10 años gracias a:
