@@ -31,8 +31,9 @@ Para solucionar este problema se creara un [portatil modular](https://frame.work
 # 4. Ficha Tecnica
 
 
-|                  |                                                              |                                                                  |
-| ---------------- | ------------------------------------------------------------ | ---------------------------------------------------------------- |
-| **Procesadores** | **Ryzen™ AI 7 350**<br>Hasta 5.0GHz<br>8 nucleos<br>16 Hilos | **Ryzen™ AI 9 HX 370**<br>Up to 5.1GHz<br>12 cores<br>24 threads |
+|                                                       |                                                              |                                                                  |
+| ----------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------- |
+| **Procesadores**                                      | **Ryzen™ AI 7 350**<br>Hasta 5.0GHz<br>8 nucleos<br>16 Hilos | **Ryzen™ AI 9 HX 370**<br>Hasta 5.1GHz<br>12 nucleos<br>24 hilos |
+| **NPU <sub>(Nucleo de procesamiento neuronal)</sub>** | Hasta 50 TOPS                                                |                                                                  |
 
 ***
