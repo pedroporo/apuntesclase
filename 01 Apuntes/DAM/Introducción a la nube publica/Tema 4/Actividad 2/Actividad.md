@@ -132,3 +132,6 @@ Parte de acceso a la red:
 VPC Creada:
 ![[Pasted image 20260111163923.png]]
 
+Comando ejecutado:
+
+![[Pasted image 20260111165235.png]]
