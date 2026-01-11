@@ -141,3 +141,5 @@ Comando ejecutado:
 Cambio de permisos:
 
 ![[Pasted image 20260111165453.png]]
+
+![[Pasted image 20260111170204.png]]
