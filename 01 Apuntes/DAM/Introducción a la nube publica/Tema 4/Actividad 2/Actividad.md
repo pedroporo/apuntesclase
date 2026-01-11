@@ -118,5 +118,5 @@ Fecha de entrega: `$= dv.date("today")`
 
 # Grupo de seguridad
 
-Gurpo de seguridad ssh id: `sg-0a763b2f875f85082`
+Gurpo de seguridad ssh id: `sg-0e8d7c003a918d1e6`
 
