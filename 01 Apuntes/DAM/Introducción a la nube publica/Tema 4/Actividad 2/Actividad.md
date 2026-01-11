@@ -143,3 +143,8 @@ Cambio de permisos:
 ![[Pasted image 20260111165453.png]]
 
 ![[Pasted image 20260111170204.png]]
+
+![[Pasted image 20260111170405.png]]
+
+Añadir a fstab
+![[Pasted image 20260111170640.png]]
