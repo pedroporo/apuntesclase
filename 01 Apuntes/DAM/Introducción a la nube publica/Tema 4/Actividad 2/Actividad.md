@@ -15,7 +15,7 @@ Fecha de entrega: `$= dv.date("today")`
 
 <center><img src="https://picsum.photos/500/700" alt="Portada" /></center>
 
-> [!info]- Script de creacion del entorno
+> [!info] Script de creacion del entorno
 > ```bash
 > #!/bin/bash
 > 
