@@ -135,3 +135,9 @@ VPC Creada:
 Comando ejecutado:
 
 ![[Pasted image 20260111165235.png]]
+
+![[Pasted image 20260111165328.png]]
+
+Cambio de permisos:
+
+![[Pasted image 20260111165453.png]]
