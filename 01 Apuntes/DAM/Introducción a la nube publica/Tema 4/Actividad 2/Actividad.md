@@ -124,3 +124,11 @@ Gurpo de seguridad ssh id: `sg-0e8d7c003a918d1e6`
 
 Empezar creacion:
 ![[Pasted image 20260111163752.png]]
+
+Parte de acceso a la red:
+
+![[Pasted image 20260111163846.png]]
+
+VPC Creada:
+![[Pasted image 20260111163923.png]]
+
