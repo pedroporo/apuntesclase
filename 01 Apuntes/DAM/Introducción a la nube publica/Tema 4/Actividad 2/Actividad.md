@@ -120,3 +120,7 @@ Fecha de entrega: `$= dv.date("today")`
 
 Gurpo de seguridad ssh id: `sg-0e8d7c003a918d1e6`
 
+![[Pasted image 20260111163425.png]]
+
+Empezar creacion:
+![[Pasted image 20260111163752.png]]
