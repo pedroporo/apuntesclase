@@ -15,3 +15,11 @@ Fecha de entrega: `$= dv.date("today")`
 
 <center><img src="https://picsum.photos/500/700" alt="Portada" /></center>
 
+# Parte 1
+```
+ sudo apt update
+ sudo apt install mariadb-server -y
+ sudo systemctl start mariadb
+ sudo systemctl enable mariadb
+ 
+```
