@@ -23,3 +23,21 @@ Fecha de entrega: `$= dv.date("today")`
  sudo systemctl enable mariadb
  
 ```
+
+Descargar zip:
+```
+
+ubuntu@ip-172-16-12-82:~$ wget https://downloads.mysql.com/docs/world-db.zip
+--2026-01-15 20:55:39--  https://downloads.mysql.com/docs/world-db.zip
+Resolving downloads.mysql.com (downloads.mysql.com)... 23.207.138.29, 2600:1408:c400:1881::2e31, 2600:1408:c400:188c::2e31
+Connecting to downloads.mysql.com (downloads.mysql.com)|23.207.138.29|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 93035 (91K) [application/octet-stream]
+Saving to: ‘world-db.zip’
+
+world-db.zip        100%[===================>]  90.85K  --.-KB/s    in 0.03s   
+
+2026-01-15 20:55:40 (3.20 MB/s) - ‘world-db.zip’ saved [93035/93035]
+
+
+```
