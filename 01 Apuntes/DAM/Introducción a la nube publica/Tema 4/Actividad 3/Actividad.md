@@ -64,3 +64,10 @@ Contraseña: PedroGuillFerri
 
 ![[Pasted image 20260115221010.png]]
 
+![[Pasted image 20260115221251.png]]
+
+
+![[Pasted image 20260115221439.png]]
+
+Y ya estaria la base de datos creada:
+![[Pasted image 20260115221511.png]]
