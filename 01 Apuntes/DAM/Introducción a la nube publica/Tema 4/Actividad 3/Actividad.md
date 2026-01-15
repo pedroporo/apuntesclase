@@ -59,3 +59,8 @@ Conf ini:
 
 ![[Pasted image 20260115220615.png]]
 
+Contraseña: PedroGuillFerri
+![[Pasted image 20260115220840.png]]
+
+![[Pasted image 20260115221010.png]]
+
