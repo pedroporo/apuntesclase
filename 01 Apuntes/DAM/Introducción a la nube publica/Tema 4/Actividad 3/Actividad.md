@@ -41,3 +41,11 @@ world-db.zip        100%[===================>]  90.85K  --.-KB/s    in 0.03s
 
 
 ```
+![[Pasted image 20260115215825.png]]
+
+
+## Cambiar archivo de configuracion
+
+Conf ini:
+
+![[Pasted image 20260115220005.png]]
