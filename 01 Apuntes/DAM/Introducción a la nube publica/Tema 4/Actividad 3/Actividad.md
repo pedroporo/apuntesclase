@@ -49,3 +49,13 @@ world-db.zip        100%[===================>]  90.85K  --.-KB/s    in 0.03s
 Conf ini:
 
 ![[Pasted image 20260115220005.png]]
+
+`sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf`
+![[Pasted image 20260115220352.png]]
+
+![[Pasted image 20260115220427.png]]
+
+# Tarea 2
+
+![[Pasted image 20260115220615.png]]
+
