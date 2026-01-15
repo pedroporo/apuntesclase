@@ -76,3 +76,15 @@ Y ya estaria la base de datos creada:
 ![[Pasted image 20260115222045.png]]
 
 ![[Pasted image 20260115222224.png]]
+
+## Opcional 1
+### Crear el grupo
+
+![[Pasted image 20260115222504.png]]
+
+![[Pasted image 20260115222705.png]]
+
+No se puede comparar debido a que no puedo seleccionar el default y mi grupo al mismo tiempo
+
+
+## Opcional 2
