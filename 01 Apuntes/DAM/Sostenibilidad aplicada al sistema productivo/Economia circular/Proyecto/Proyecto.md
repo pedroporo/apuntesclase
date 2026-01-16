@@ -31,10 +31,13 @@ Para solucionar este problema se creara un [portatil modular](https://frame.work
 # 4. Ficha Tecnica
 
 
-|                                                       |                                                              |                                                                  |     |
-| ----------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------- | --- |
-| **Procesadores**                                      | **Ryzen™ AI 7 350**<br>Hasta 5.0GHz<br>8 nucleos<br>16 Hilos | **Ryzen™ AI 9 HX 370**<br>Hasta 5.1GHz<br>12 nucleos<br>24 hilos |     |
-| **NPU <sub>(Nucleo de procesamiento neuronal)</sub>** | Hasta 50 TOPS                                                |                                                                  |     |
-| **Consumo de procesador**                             | Preformance - 45W normal, 54W consumo                        | Balance - 40W normal, 48W consumo                                |     |
+|                                                       |                                                              |                                                                  |                                      |
+| ----------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------ |
+| **Procesadores**                                      | **Ryzen™ AI 7 350**<br>Hasta 5.0GHz<br>8 nucleos<br>16 Hilos | **Ryzen™ AI 9 HX 370**<br>Hasta 5.1GHz<br>12 nucleos<br>24 hilos |                                      |
+| **NPU <sub>(Nucleo de procesamiento neuronal)</sub>** | Hasta 50 TOPS                                                |                                                                  |                                      |
+| **Consumo de procesador**                             | Preformance - 45W normal, 54W consumo                        | Balance - 40W normal, 48W consumo                                | Eficiencia - 30W normal, 36W consumo |
+|                                                       |                                                              |                                                                  |                                      |
 
 ***
+
+Poner que no es necesario cambiar de portatil todo el rato y que durara mas contigo, es necesario justificar
