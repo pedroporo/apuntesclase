@@ -6,7 +6,7 @@ Ultima Modificacion: `$= dv.current().file.mtime`
 
 Curso: Desarollo de aplicaciones multiplataforma segundo
 
-Titulo de la actividad: **# AP-Q.4.3. (BD1) BBDD en RDS**
+Titulo de la actividad: **AP-Q.4.3. (BD1) BBDD en RDS**
 
 Alumno: Pedro Guill Ferri
 
@@ -88,3 +88,6 @@ No se puede comparar debido a que no puedo seleccionar el default y mi grupo al 
 
 
 ## Opcional 2
+![[Pasted image 20260115222828.png]]
+
+![[Pasted image 20260115222852.png]]
