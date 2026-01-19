@@ -12,8 +12,6 @@ Resources:
     Type: AWS::EC2::VPC
     Properties:
       CidrBlock: 172.17.0.0/16
-      EnableDnsSupport: true
-      EnableDnsHostnames: true
       Tags:
         - Key: Name
           Value: CF-VPC-PedroGuill
@@ -138,6 +136,30 @@ Resources:
 
   PrivateEC2:
     Type: AWS::EC2::Instance
+    Metadata:
+      AWS::CloudFormation::Init:
+        config:
+          packages:
+            yum:
+              httpd: []
+          files:
+            /var/www/html/index.html:
+              content: |
+                <html>
+                  <head><title>Servidor Web de Pedro Guill Ferri</title></head>
+                  <body>
+                    <h1>Soy el servidor web de Pedro Guill Ferri</h1>
+                  </body>
+                </html>
+              mode: '000644'
+              owner: apache
+              group: apache
+          services:
+            sysvinit:
+              httpd:
+                enabled: true
+                ensureRunning: true
+
     Properties:
       ImageId: ami-0c02fb55956c7d316
       InstanceType: t2.micro
@@ -150,16 +172,7 @@ Resources:
             - !Ref PrivateSecurityGroup
       Tags:
         - Key: Name
-          Value: WebServer-NomAlumne
-          
-      UserData:
-        Fn::Base64: !Sub |
-          #!/bin/bash
-          yum update -y
-          yum install -y httpd
-          systemctl enable httpd
-          systemctl start httpd
-          echo "Soy el servidor web de Pedro Guill Ferri" > /var/www/html/index.html
+          Value: WebServer-PedroGuill
 
 Outputs:
   SSHCommandToPublicEC2:
