@@ -8,7 +8,7 @@ Parameters:
     Default: awsKeys
 
 Resources:
-  VPC:
+  MiVPC:
     Type: AWS::EC2::VPC
     Properties:
       CidrBlock: 172.17.0.0/16
@@ -26,13 +26,13 @@ Resources:
   VPCGatewayAttachment:
     Type: AWS::EC2::VPCGatewayAttachment
     Properties:
-      VpcId: !Ref VPC
+      VpcId: !Ref MiVPC
       InternetGatewayId: !Ref InternetGateway
 
   PublicSubnet:
     Type: AWS::EC2::Subnet
     Properties:
-      VpcId: !Ref VPC
+      VpcId: !Ref MiVPC
       CidrBlock: 172.17.112.0/24
       MapPublicIpOnLaunch: true
       AvailabilityZone: !Select [0, !GetAZs ""]
@@ -43,7 +43,7 @@ Resources:
   PrivateSubnet:
     Type: AWS::EC2::Subnet
     Properties:
-      VpcId: !Ref VPC
+      VpcId: !Ref MiVPC
       CidrBlock: 172.17.212.0/24
       MapPublicIpOnLaunch: false
       AvailabilityZone: !Select [0, !GetAZs ""]
@@ -54,7 +54,7 @@ Resources:
   PublicRouteTable:
     Type: AWS::EC2::RouteTable
     Properties:
-      VpcId: !Ref VPC
+      VpcId: !Ref MiVPC
       Tags:
         - Key: Name
           Value: CF-Public-RT-PedroGuill
@@ -75,7 +75,7 @@ Resources:
   PrivateRouteTable:
     Type: AWS::EC2::RouteTable
     Properties:
-      VpcId: !Ref VPC
+      VpcId: !Ref MiVPC
       Tags:
         - Key: Name
           Value: CF-Private-RT-PedroGuill
@@ -90,7 +90,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: SG per a públic SSH
-      VpcId: !Ref VPC
+      VpcId: !Ref MiVPC
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 22
@@ -104,7 +104,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: SG para acceso de ssh y http desde la SG pública
-      VpcId: !Ref VPC
+      VpcId: !Ref MiVPC
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 22
@@ -182,7 +182,7 @@ Resources:
 
 Outputs:
   VPCId:
-    Value: !Ref VPC
+    Value: !Ref MiVPC
     Export:
       Name: VPC-ID
 
