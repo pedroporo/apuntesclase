@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'VPC amb subnet publica/privada i 2 EC2; web a la privada i accés via bastion'
+Description: 'VPC del ejercicio'
 
 Parameters:
   KeyName:
@@ -16,14 +16,14 @@ Resources:
       EnableDnsHostnames: true
       Tags:
         - Key: Name
-          Value: CF-VPC-NomAlumne
+          Value: CF-VPC-PedroGuill
 
   InternetGateway:
     Type: AWS::EC2::InternetGateway
     Properties:
       Tags:
         - Key: Name
-          Value: CF-IGW-NomAlumne
+          Value: CF-IGW-PedroGuill
 
   VPCGatewayAttachment:
     Type: AWS::EC2::VPCGatewayAttachment
@@ -40,7 +40,7 @@ Resources:
       AvailabilityZone: !Select [0, !GetAZs '']
       Tags:
         - Key: Name
-          Value: CF-Public-Subnet-NomAlumne
+          Value: CF-Public-Subnet-PedroGuill
 
   PrivateSubnet:
     Type: AWS::EC2::Subnet
@@ -51,7 +51,7 @@ Resources:
       AvailabilityZone: !Select [0, !GetAZs '']
       Tags:
         - Key: Name
-          Value: CF-Private-Subnet-NomAlumne
+          Value: CF-Private-Subnet-PedroGuill
 
   PublicRouteTable:
     Type: AWS::EC2::RouteTable
@@ -59,7 +59,7 @@ Resources:
       VpcId: !Ref VPC
       Tags:
         - Key: Name
-          Value: CF-Public-RT-NomAlumne
+          Value: CF-Public-RT-PedroGuill
 
   PublicRoute:
     Type: AWS::EC2::Route
@@ -80,7 +80,7 @@ Resources:
       VpcId: !Ref VPC
       Tags:
         - Key: Name
-          Value: CF-Private-RT-NomAlumne
+          Value: CF-Private-RT-PedroGuill
 
   PrivateSubnetRouteTableAssociation:
     Type: AWS::EC2::SubnetRouteTableAssociation
@@ -91,7 +91,7 @@ Resources:
   PublicSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: SG per a bastion públic SSH
+      GroupDescription: SG per a públic SSH
       VpcId: !Ref VPC
       SecurityGroupIngress:
         - IpProtocol: tcp
@@ -100,12 +100,12 @@ Resources:
           CidrIp: 0.0.0.0/0
       Tags:
         - Key: Name
-          Value: CF-Public-SG-NomAlumne
+          Value: CF-Public-SG-PedroGuill
 
   PrivateSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: SG per a web privat, accessible només des de bastion
+      GroupDescription: SG para acceso de ssh y http
       VpcId: !Ref VPC
       SecurityGroupIngress:
         - IpProtocol: tcp
@@ -118,12 +118,12 @@ Resources:
           SourceSecurityGroupId: !Ref PublicSecurityGroup
       Tags:
         - Key: Name
-          Value: CF-Private-SG-NomAlumne
+          Value: CF-Private-SG-PedroGuill
 
   PublicEC2:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0c02fb55956c7d316  # Amazon Linux 2 a moltes regions, canvia si cal
+      ImageId: ami-0c02fb55956c7d316 
       InstanceType: t2.micro
       KeyName: !Ref KeyName
       NetworkInterfaces:
@@ -134,12 +134,12 @@ Resources:
             - !Ref PublicSecurityGroup
       Tags:
         - Key: Name
-          Value: Bastion-NomAlumne
+          Value: InstanciaPublica-PedroGuill
 
   PrivateEC2:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0c02fb55956c7d316  # Amazon Linux 2
+      ImageId: ami-0c02fb55956c7d316
       InstanceType: t2.micro
       KeyName: !Ref KeyName
       NetworkInterfaces:
@@ -158,18 +158,18 @@ Resources:
           yum install -y httpd
           systemctl enable httpd
           systemctl start httpd
-          echo "Soc el WebServer de NomAlumne" > /var/www/html/index.html
+          echo "Soy el servidor web de Pedro Guill Ferri" > /var/www/html/index.html
 
 Outputs:
   SSHCommandToPublicEC2:
-    Description: Comandament ssh literal per connectar a la EC2 pública
+    Description: Comando ssh para conectar a la EC2 pública
     Value: !Sub "ssh -i /path/al/teu/privat.pem ec2-user@${PublicEC2.PublicIp}"
 
   PublicEC2PrivateIP:
-    Description: IP LOCAL (privada) de la EC2 de la sub-xarxa pública
+    Description: IP LOCAL (privada) de la EC2 de la subred pública
     Value: !GetAtt PublicEC2.PrivateIp
 
   PrivateEC2PrivateIP:
-    Description: IP LOCAL (privada) de la EC2 de la sub-xarxa privada
+    Description: IP LOCAL (privada) de la EC2 de la subred privada
     Value: !GetAtt PrivateEC2.PrivateIp
 
