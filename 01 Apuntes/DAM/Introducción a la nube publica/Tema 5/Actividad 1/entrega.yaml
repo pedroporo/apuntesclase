@@ -105,7 +105,7 @@ Resources:
   PrivateSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: SG para acceso de ssh y http
+      GroupDescription: SG para acceso de ssh y http desde la SG pública
       VpcId: !Ref VPC
       SecurityGroupIngress:
         - IpProtocol: tcp
