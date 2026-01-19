@@ -5,7 +5,7 @@ Parameters:
   KeyName:
     Type: AWS::EC2::KeyPair::KeyName
     Description: Nom del KeyPair per a SSH
-    Default: MiKeyPair
+    Default: awsKeys
 
 Resources:
   VPC:
