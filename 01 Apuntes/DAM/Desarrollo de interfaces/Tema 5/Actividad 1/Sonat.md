@@ -57,3 +57,7 @@ Las copias de seguridad se harán a través del phpmyadmin.
 ## 9. Contacto y soporte
 1. **Soporte técnico**: se nos pueden contactar a través de email, telefono y chat.
 2. **Politica**: Lunes a viernes de 8:00 a 17:00
+
+## 11. Licencia
+
+<a href="https://example.com">RedData</a> by <a href="https://example.com">Pedro</a> is marked <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
