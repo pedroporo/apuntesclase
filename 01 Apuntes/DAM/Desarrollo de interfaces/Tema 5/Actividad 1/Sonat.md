@@ -33,3 +33,12 @@ Resuelve la gestion de clientes, recopilacion de info de productos y la informac
 ![[Pasted image 20260121181823.png]]
 
 ### Descripción del menú
+Menu de clientes<sub>El unico menu funcional</sub>: 
+![[Pasted image 20260121182400.png]]
+En este menu Hay 3 opciones,
+Listar Clientes: esta opcion lo que hace es listar los clientes de la base de datos
+Clientes API: Este genera clientes de prueba a trabes de una api
+
+### Guia paso a paso
+No hay nada mas que hacer en esta app, solo ver clientes.
+
