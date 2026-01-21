@@ -50,3 +50,10 @@ Las copias de seguridad se harán a través del phpmyadmin.
  ![[Pasted image 20260121183102.png]]
 3. Se seleccionan las opciones de rapido y el formato sql
 4. Y listo, ya tendrias una copia de seguridad de la base de datos.
+## 6. Errores comunes
+
+1. Seleccionar clientes api antes de poner la lista de cliente
+
+## 9. Contacto y soporte
+1. **Soporte técnico**: se nos pueden contactar a través de email, telefono y chat.
+2. **Politica**: Lunes a viernes de 8:00 a 17:00
