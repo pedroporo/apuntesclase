@@ -4,7 +4,7 @@ Description: "VPC del ejercicio"
 Parameters:
   KeyName:
     Type: AWS::EC2::KeyPair::KeyName
-    Description: Nom del KeyPair per a SSH
+    Description: "Nombre del KeyPair para SSH"
     Default: awsKeys
 
 Resources:
@@ -98,7 +98,7 @@ Resources:
   PublicSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: SG per a públic SSH
+      GroupDescription: "SG for public SSH access"
       VpcId: !Ref MiVPC
       SecurityGroupIngress:
         - IpProtocol: tcp
@@ -113,7 +113,7 @@ Resources:
   PrivateSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: SG para acceso de ssh y http desde la SG pública
+      GroupDescription: "SG for SSH and HTTP access from public SG"
       VpcId: !Ref MiVPC
       SecurityGroupIngress:
         - IpProtocol: tcp
@@ -170,7 +170,6 @@ Resources:
               httpd:
                 enabled: true
                 ensureRunning: true
-
     Properties:
       ImageId: ami-0c02fb55956c7d316
       InstanceType: t2.micro
@@ -193,19 +192,20 @@ Resources:
 
 Outputs:
   VPCId:
-    Description: Testeo para ver si el output va
+    Description: "ID de la VPC creada"
     Value: !Ref MiVPC
     Export:
       Name: VPC-ID
 
   SSHCommandToPublicEC2:
-    Description: Comando ssh para conectar a la EC2 pública
-    Value: !Sub "ssh -i /path/al/teu/privat.pem ec2-user@${PublicEC2.PublicIp}"
+    Description: "Comando SSH para conectar a la EC2 pública"
+    Value: !Sub "ssh -i /path/to/your/private.pem ec2-user@${PublicEC2.PublicIp}"
 
   PublicEC2PrivateIP:
-    Description: IP LOCAL (privada) de la EC2 de la subred pública
+    Description: "IP privada de la EC2 pública"
     Value: !GetAtt PublicEC2.PrivateIp
 
   PrivateEC2PrivateIP:
-    Description: IP LOCAL (privada) de la EC2 de la subred privada
+    Description: "IP privada de la EC2 privada"
     Value: !GetAtt PrivateEC2.PrivateIp
+
