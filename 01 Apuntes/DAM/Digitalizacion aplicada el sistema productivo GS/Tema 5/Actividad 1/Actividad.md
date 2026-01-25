@@ -21,4 +21,14 @@ Medida_Venta_Mes = SUMX(VALUES(Ventas[Fecha].[Mes]),CALCULATE(SUM(Ventas[Importe
 
 ```
 
-# 1. Analisis e interpretación de resultados
+# 1. Análisis e interpretación de resultados
+
+1. ¿Qué categoría de productos genera más ingresos?
+La categoría que genera mas ingresos es los monitores
+![[Pasted image 20260125130609.png]]
+2. ¿Existen meses con mayor volumen de ventas? Indica los tres mejores.
+Si. esos tres meses son Julio, noviembre y diciembre
+![[Pasted image 20260125130708.png]]
+3. ¿Qué tipo de cliente resulta más rentable?
+El tipo de cliente que resulta mas rental
+4. ¿Qué tipo de producto resulta más rentable?
