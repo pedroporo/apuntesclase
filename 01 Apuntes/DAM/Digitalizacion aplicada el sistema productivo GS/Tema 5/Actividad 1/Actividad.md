@@ -16,7 +16,7 @@ Medida_Venta_Media_Cliente = divide([Medida_Total_Ventas],[Medida_Número_Client
 ---
 
 Medida_Venta_Categoria = SUMX(VALUES(Productos[Categoría]),CALCULATE(SUM(Ventas[Importe])))
-Medida_Venta_Mes = SUMX(SUMMARIZE(Ventas,Ventas[Fecha].[Mes],Ventas[Fecha].[Año]),[Medida_Total_Ventas])
+Medida_Venta_Mes = SUMX(VALUES(MONTH(Ventas[Fecha])),CALCULATE(SUM(Ventas[Importe])))
 
 
 ```
