@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  mobile-security-framework-mobsf:
+    stdin_open: true
+    tty: true
+    container_name: mobsf
+    ports:
+      - 1000:8000
+    volumes:
+      - ./apks:/home/mobsf/.MobSF
+    image: opensecurity/mobile-security-framework-mobsf:latest
+    restart: unless-stopped
