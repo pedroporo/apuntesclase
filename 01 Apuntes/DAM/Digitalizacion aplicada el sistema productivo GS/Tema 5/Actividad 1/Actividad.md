@@ -30,5 +30,8 @@ La categoría que genera mas ingresos es los monitores
 Si. esos tres meses son Julio, noviembre y diciembre
 ![[Pasted image 20260125130708.png]]
 3. ¿Qué tipo de cliente resulta más rentable?
-El tipo de cliente que resulta mas rental
+El tipo de cliente que resulta mas rentable es el Particular
+![[Pasted image 20260125130949.png]]
 4. ¿Qué tipo de producto resulta más rentable?
+El producto mas tentable es el monitor 32" 4k Neo
+![[Pasted image 20260125131012.png]]
