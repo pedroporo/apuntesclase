@@ -15,3 +15,21 @@ Fecha de entrega: `$= dv.date("today")`
 <center><img src="https://picsum.photos/500/700" alt="Portada" /></center>
 
 
+
+
+# Parte 2: Análisis
+
+## APK 1
+- Nombre:
+- URL: 
+- Analisis:
+
+## APK 2
+- Nombre:
+- URL: 
+- Analisis:
+
+## APK 3: Eleccion
+- Nombre:
+- URL: 
+- Analisis:
