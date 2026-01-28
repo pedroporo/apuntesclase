@@ -23,8 +23,18 @@ Fecha de entrega: `$= dv.date("today")`
 - URL: https://play.google.com/store/apps/details?id=goldenshorestechnologies.brightestflashlight.free&hl=es&gl=US
 - Analisis:
 	- Tiene permisos que no deberia, los cuales son acceder al internet, poder sacar fotos y acceder al estado del dispositivo.
+		```
+		android.permission.CAMERA, 
+		android.permission.WAKE_LOCK, 
+		android.permission.ACCESS_NETWORK_STATE, 
+		android.permission.INTERNET, 
+		android.permission.READ_PHONE_STATE, 
+		android.permission.WRITE_EXTERNAL_STORAGE, 
+		android.permission.ACCESS_WIFI_STATE
+		```
 	- Usa el algoritmo SHA1 que es debil a ataques de colisiones [Wikipedia SHA! Ataques](https://es.wikipedia.org/wiki/SHA-1#Ataques)
-	- La aplicacion registra informacion que no deberia, 
+	- La aplicacion registra informacion que no deberia, la geolocalizacion del dispositivo
+	- Hay 3091 secretos harcodeados en la aplicacion
 ## APK 2
 - Nombre: https://play.google.com/store/apps/details?id=qrcodereader.barcodescanner.scan.qrscanner
 - URL: https://play.google.com/store/apps/details?id=qrcodereader.barcodescanner.scan.qrscanner
