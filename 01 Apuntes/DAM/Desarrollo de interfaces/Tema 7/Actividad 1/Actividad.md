@@ -16,20 +16,19 @@ Fecha de entrega: `$= dv.date("today")`
 
 
 
-
 # Parte 2: Análisis
 
 ## APK 1
-- Nombre:
-- URL: 
+- Nombre: # Brillante Linterna
+- URL: https://play.google.com/store/apps/details?id=goldenshorestechnologies.brightestflashlight.free&hl=es&gl=US
 - Analisis:
 
 ## APK 2
-- Nombre:
-- URL: 
+- Nombre: https://play.google.com/store/apps/details?id=qrcodereader.barcodescanner.scan.qrscanner
+- URL: https://play.google.com/store/apps/details?id=qrcodereader.barcodescanner.scan.qrscanner
 - Analisis:
 
-## APK 3: Eleccion
+## APK 3: Elección
 - Nombre:
 - URL: 
 - Analisis:
