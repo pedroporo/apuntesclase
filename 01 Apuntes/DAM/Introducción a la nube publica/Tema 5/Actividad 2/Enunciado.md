@@ -10,3 +10,4 @@ Ací pots posar-te creatiu/creativa, pero la funcionalitat mínima que volem és
 - La API ens torna el número 24.
 
 Com s'ha comentat, esto és una sugerència, pero pots exercitar la teua creativitat, sempre que se li passe algún paràmetre a la API i ens torne una informació
+
