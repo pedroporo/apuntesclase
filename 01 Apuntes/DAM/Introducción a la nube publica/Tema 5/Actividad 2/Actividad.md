@@ -54,7 +54,7 @@ def _generate(provider: str, count: int) -> List[Any]:
 	# Esto ejecuta la funcion recogida
 	results = []
 	for _ in range(count):
-		results.append(func())
+		results.append(func().__str__())
 	
 	return results
 	
