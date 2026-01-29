@@ -70,16 +70,16 @@ def lambda_handler(event: Dict[str, Any], context) -> Dict[str, Any]:
 	if key1.lower() == 'help':
 		providers = _list_providers()
 		print(f"Retornando {len(providers)} proveedores/metodos disponibles")
-		return {'provider': 'help', 'available_providers_count': len(providers), 'providers': providers}
+		return { 'statusCode': 200, 'body': {'provider': 'help', 'available_providers_count': len(providers), 'providers': providers} }
 		
 	try:
 		results = _generate(key1, max(0, key2))
 	except Exception as e:
 		print(f"Error generando valores: {e}")
-		return {'error': str(e), 'provider': key1}
+		return { 'statusCode': 500, 'body':{'error': str(e), 'provider': key1} }
 		
 	print(f"Generados {len(results)} valores para el proveedor '{key1}'")
-	return {'provider': key1, 'count': len(results), 'results': results}
+	return {'statusCode': 200,'body':{'provider': key1,'count': len(results),'results':results}}
 ```
 
 # Paso 1
