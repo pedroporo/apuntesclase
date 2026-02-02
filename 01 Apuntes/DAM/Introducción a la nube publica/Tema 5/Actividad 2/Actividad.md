@@ -82,4 +82,4 @@ def lambda_handler(event: Dict[str, Any], context) -> Dict[str, Any]:
 	return {'statusCode': 200,'body':{'provider': key1,'count': len(results),'results':results}}
 ```
 
-# Paso 1
+# Paso 1 Crear la funcion
