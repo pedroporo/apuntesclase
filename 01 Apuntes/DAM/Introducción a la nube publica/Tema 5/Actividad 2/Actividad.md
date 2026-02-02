@@ -23,7 +23,7 @@ En este paso vamos a crear la funcion lambda, para ello vamos a elegir el nombre
 ![[Pasted image 20260202172127.png]]
 
 # Paso 2 Escribir el codigo de la API
-En este paso e elejido usar la libreria [Faker](https://faker.readthedocs.io/en/master/) para la 
+En este paso e elejido usar la libreria [Faker](https://faker.readthedocs.io/en/master/) para la funcionalidad de la api, lo que ara esta api es que en la url le vas a pedir un proveedor, si no sabes cuales hay puedes poner help y re devolvera un json con todos los proveedores, comente que es lo que hacia cada cosa para que puedas leer el codigo ya que lo de la lista de proveedores puede ser dificil de entender
 ```python
 import json
 from typing import Any, Dict, List
@@ -90,3 +90,8 @@ def lambda_handler(event: Dict[str, Any], context) -> Dict[str, Any]:
 	print(f"Generados {len(results)} valores para el proveedor '{key1}'")
 	return {'statusCode': 200,'body':{'provider': key1,'count': len(results),'results':results}}
 ```
+
+![[Pasted image 20260202172601.png]]
+
+y luego de poner el codigo hay se publica una version para que se guarde
+![[Pasted image 20260202172823.png]]
