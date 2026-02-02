@@ -94,4 +94,4 @@ def lambda_handler(event: Dict[str, Any], context) -> Dict[str, Any]:
 ![[Pasted image 20260202172601.png]]
 
 y luego de poner el codigo hay se publica una version para que se guarde
-![[Pasted image 20260202172823.png]]
+![[Pasted image 20260202173301.png]]
