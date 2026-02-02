@@ -42,7 +42,15 @@ Fecha de entrega: `$= dv.date("today")`
 	- Por parte de los permisos todo esta normal, ya que necesita la cámara para hacer las fotos de los qr y permiso de lectura por si quiere cargar el qr de la galería y el acceso a Internet lo necesita para los anuncios.
 	- Por certificados parece que uno esta firmado con una arquitectura que tiene una vulnerabilidad, específicamente es una vulnerabilidad a Janus.
 	- Las actividades de la aplicación no están protegidas.
-	- En el código parece que alguna partes de el esta expuesto a vulnerabilidades 
+	- En el código parece que alguna partes de el esta expuesto a vulnerabilidades, por ejemplo el algoritmo de encryptacion.
+	- La base de datos de firebase esta expuesta, `The Firebase Remote Config at https://firebaseremoteconfig.googleapis.com/v1/projects/752825482527/namespaces/firebase:fetch?key=AIzaSyD7Dif2wA71pqzl0VXhyl-5p4gTC2lJWtI`
+	- La aplicacion contacta con dominios en paises sancionados:
+		- DOMAIN	COUNTRY/REGION
+		- log-mva.isnssdk.com	IP: 23.211.15.141               Country: Hong Kong              Region: Hong Kong              City: Hong Kong
+		- pangolin16.isnssdk.com	IP: 23.211.15.157               Country: Hong Kong              Region: Hong Kong              City: Hong Kong
+		- www.pangleglobal.com	IP: 23.211.15.138               Country: Hong Kong              Region: Hong Kong              City: Hong Kong
+	- Hay 2 emails expuestos en la app
+	- Hay 32
 
 ## APK 3: Elección
 - Nombre:
