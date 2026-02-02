@@ -104,3 +104,7 @@ primero tenemos que crear la api
 Luego crearemos un metodo que use esa funcion
 
 ![[Pasted image 20260202173857.png]]
+
+y se hace un deploy de la api
+
+![[Pasted image 20260202180841.png]]
