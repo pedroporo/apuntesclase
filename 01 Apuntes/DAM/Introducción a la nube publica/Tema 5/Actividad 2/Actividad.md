@@ -95,3 +95,10 @@ def lambda_handler(event: Dict[str, Any], context) -> Dict[str, Any]:
 
 y luego de poner el codigo hay se publica una version para que se guarde
 ![[Pasted image 20260202173301.png]]
+
+# Paso 3 Crear, configurar y desplegar API
+En este paso vamos a crear una api rest para poder acceder a nuestro metodo lambda que hemos creado.
+primero tenemos que crear la api
+![[Pasted image 20260202173606.png]]
+
+Luego crearemos un metodo
