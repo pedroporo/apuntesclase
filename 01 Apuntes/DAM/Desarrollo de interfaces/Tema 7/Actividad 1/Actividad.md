@@ -57,7 +57,12 @@ Fecha de entrega: `$= dv.date("today")`
 - URL: https://play.google.com/store/apps/details?id=eu.thedarken.sdm
 - Analisis:
 	- Hay dominios a los que no se le pueden localizar: `apps.darken.eu`
-	- Tiene permisos que podrian cons
+	- Tiene permisos que podrian considerarse malware:
+		- android.permission.ACCESS_NETWORK_STATE
+		- android.permission.RECEIVE_BOOT_COMPLETED
+		- android.permission.WAKE_LOCK
+	- Tiene comportamientos extraños:
+		
 
 
 Descarga de apk: https://apkdownloader.pages.dev/
