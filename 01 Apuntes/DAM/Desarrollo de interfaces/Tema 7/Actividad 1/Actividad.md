@@ -50,7 +50,7 @@ Fecha de entrega: `$= dv.date("today")`
 		- pangolin16.isnssdk.com	IP: 23.211.15.157               Country: Hong Kong              Region: Hong Kong              City: Hong Kong
 		- www.pangleglobal.com	IP: 23.211.15.138               Country: Hong Kong              Region: Hong Kong              City: Hong Kong
 	- Hay 2 emails expuestos en la app
-	- Hay 32
+	- Hay 3218 secretis hardcodeados en la app
 
 ## APK 3: Elección
 - Nombre:
