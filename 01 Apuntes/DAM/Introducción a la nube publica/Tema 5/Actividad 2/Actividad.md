@@ -101,4 +101,6 @@ En este paso vamos a crear una api rest para poder acceder a nuestro metodo lamb
 primero tenemos que crear la api
 ![[Pasted image 20260202173606.png]]
 
-Luego crearemos un metodo
+Luego crearemos un metodo que use esa funcion
+
+![[Pasted image 20260202173857.png]]
