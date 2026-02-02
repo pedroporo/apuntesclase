@@ -1,0 +1,340 @@
+using System;
+using System.Drawing;
+using System.IO;
+using System.Media;
+using System.Text.Json;
+using System.Windows.Forms;
+using NAudio.Wave;
+using Vosk;
+
+
+namespace Prueba_Voz_29_01_26
+{
+    public partial class Form1 : Form
+    {
+        // ------------------------------------------------------------
+        // CONFIGURACIÓN GENERAL
+        // ------------------------------------------------------------
+
+        // Ruta donde se encuentra el modelo Vosk (carpeta descomprimida)
+        // El modelo define el idioma que entiende el reconocedor (es-ES)
+        private const string MODEL_PATH = @"Models\vosk-model-small-es-0.42";
+
+        // Frecuencia de muestreo recomendada por Vosk
+        private const int SAMPLE_RATE = 16000;
+
+        // ------------------------------------------------------------
+        // OBJETOS PRINCIPALES DEL RECONOCIMIENTO
+        // ------------------------------------------------------------
+
+        // NAudio: captura el audio del micrófono
+        private WaveInEvent? waveIn;
+
+        // Vosk: modelo de idioma (español)
+        private Model? model;
+
+        // Vosk: reconoce voz (audio → texto)
+        private VoskRecognizer? recognizer;
+
+        // Estado de la aplicación:
+        // false → dormido (no ejecuta comandos)
+        // true  → despierto
+        private bool estaDespierto = false;
+
+        // ------------------------------------------------------------
+        // CONSTRUCTOR
+        // ------------------------------------------------------------
+        public Form1()
+        {
+            InitializeComponent();
+
+            // Configuración visual inicial (se ejecuta en el hilo de la UI)
+            btnColor.BackColor = SystemColors.Control;
+
+            txtSalida.BackColor = Color.Black;
+            txtSalida.ForeColor = Color.White;
+            txtSalida.ReadOnly = true;
+            txtSalida.Multiline = true;
+            txtSalida.ScrollBars = ScrollBars.Vertical;
+
+            // Arrancamos el reconocimiento cuando el formulario
+            // ya se ha mostrado (evita errores de subprocesos)
+            this.Shown += Form1_Shown;
+        }
+
+        /// <summary>
+        /// Se ejecuta cuando el formulario ya está visible
+        /// (el identificador de ventana ya existe)
+        /// </summary>
+        private void Form1_Shown(object? sender, EventArgs e)
+        {
+            StartListening();
+            // Estado inicial: dormido
+            ActualizarEstadoUI();
+            SetInfo("Listo (dormido)");
+        }
+
+        // ------------------------------------------------------------
+        // MÉTODO CLAVE: EJECUTAR CÓDIGO EN EL HILO DE LA UI
+        // ------------------------------------------------------------
+        // NAudio lanza eventos desde otro hilo.
+        // Este método ejecuta acciones sobre la interfaz de forma segura,
+        // independientemente del hilo desde el que se llame.
+        private void UI(Action a)
+        {
+            //Comprueba si el formulario ya se ha destruido
+            //Si ya se ha destruido no tiene sentido tocar o midificar la UI
+            if (IsDisposed) return;
+            //Evita tocas la UI antes de que exista
+            if (!IsHandleCreated) return;
+            //Detecta si estamos en otro hilo (audio, tareas, etc.). Es una propiedad de WinsForms
+            if (InvokeRequired)
+                BeginInvoke(a);   // Fuerza a Windows Forms a ejecutar la acción en el hilo de la interfaz. 
+                // La pone en la cola del hilo de la UI. No bloquea el hilo actual (es asíncrono)
+            else
+                a();              // Ya estamos en el hilo correcto
+        }
+
+        // ------------------------------------------------------------
+        // INICIO DEL RECONOCIMIENTO DE VOZ
+        // ------------------------------------------------------------
+        private void StartListening()
+        {
+            // Evita iniciar dos veces el micrófono
+            if (waveIn != null) return;
+
+            // Comprobamos que el modelo existe
+            if (!Directory.Exists(MODEL_PATH))
+            {
+                MessageBox.Show(
+                    "No se encuentra el modelo en:\n" + Path.GetFullPath(MODEL_PATH),
+                    "Modelo no encontrado",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
+                return;
+            }
+
+            // Silencia los mensajes internos de depuración de Vosk
+            // (no afecta al funcionamiento), son muy molestos
+            Vosk.Vosk.SetLogLevel(0);
+
+            // Cargamos el modelo de idioma
+            model = new Model(MODEL_PATH);
+
+            // Creamos el reconocedor con el modelo y la frecuencia
+            recognizer = new VoskRecognizer(model, SAMPLE_RATE);
+
+            // Configuramos la captura de audio desde el micrófono
+            waveIn = new WaveInEvent
+            {
+                // Formato recomendado: 16kHz, 16 bits, mono
+                WaveFormat = new WaveFormat(SAMPLE_RATE, 16, 1),
+
+                // Tamaño del buffer de audio, cada 0,05 segundos envía los datos, aportando fluidez.
+                //Activa DataAvailable
+                BufferMilliseconds = 50
+            };
+
+            // Evento que se dispara cada vez que llega audio
+            waveIn.DataAvailable += WaveIn_DataAvailable;
+
+            // Evento cuando se detiene la grabación
+            waveIn.RecordingStopped += WaveIn_RecordingStopped;
+
+            // Comenzamos a escuchar el micrófono
+            waveIn.StartRecording();
+
+            SetInfo("Escuchando (offline)...");
+        }
+
+        // Detiene la captura de audio
+        private void StopListening()
+        {
+            waveIn?.StopRecording(); //Dispara waveIn.RecordingStopped
+        }
+
+        // ------------------------------------------------------------
+        // EVENTO PRINCIPAL: LLEGA AUDIO DEL MICRÓFONO
+        // ------------------------------------------------------------
+        // ⚠️ Este método NO se ejecuta en el hilo de la UI
+        private void WaveIn_DataAvailable(object? sender, WaveInEventArgs e)
+        {
+            if (recognizer == null) return;
+
+            // Enviamos el audio a Vosk.
+            // Devuelve true cuando detecta una frase o palabra completa
+            bool final = recognizer.AcceptWaveform(e.Buffer, e.BytesRecorded);
+
+            // Para simplificar la plantilla, solo usamos frases o palabras completas
+            if (!final) return;
+
+            // Obtenemos el resultado en formato JSON
+            //Vosk no devuelve directamente un string con el texto, sino un JSON.
+
+            //{"text": "cambia color a rojo"}
+
+        string json = recognizer.Result();
+
+            // Extraemos el texto reconocido, si lo hay
+            string? texto = ExtractText(json);
+
+            if (string.IsNullOrWhiteSpace(texto)) return;
+
+            // Normalizamos el texto (minúsculas, sin espacios extra)
+            texto = texto.Trim().ToLowerInvariant();
+
+            // --------------------------------------------------------
+            // ESTADO DORMIDO
+            // --------------------------------------------------------
+            // Bloquea todos los comandos excepto "despierta"
+            if (!estaDespierto)
+            {
+                if (texto == "despierta")
+                {
+                    estaDespierto = true;
+                    SystemSounds.Beep.Play();
+
+                    ActualizarEstadoUI();
+                    SetInfo("Despierto");
+                }
+                return;
+            }
+
+            // --------------------------------------------------------
+            // ESTADO DESPIERTO
+            // --------------------------------------------------------
+            // A partir de aquí se ejecutan los comandos
+            EjecutarComando(texto);
+        }
+
+        // ------------------------------------------------------------
+        // AQUÍ ES DONDE DEBÉIS AÑADIR COMANDOS
+        // ------------------------------------------------------------
+        private void EjecutarComando(string texto)
+        {
+            switch (texto)
+            {
+                case "duerme":
+                    estaDespierto = false;
+                    SystemSounds.Beep.Play();
+                    ActualizarEstadoUI();
+                    SetInfo("Dormido");
+                    break;
+
+                case "rojo":
+                    // Este código se ejecuta desde el hilo de Vosk (no UI).
+                    // Para modificar controles de WinForms, cambiamos al hilo de la UI
+                    // usando la función UI(...)
+                    UI(() =>
+                    {
+                        btnColor.BackColor = Color.Red;
+                        btnColor.ForeColor = Color.Black;
+                    });
+                    SetInfo("Color cambiado a rojo");
+                    break;
+
+                // ---------------------------------------
+                // EJEMPLOS PARA CONTINUAR
+                // ---------------------------------------
+                // case "cambia color a verde y azul", debe cambiar el color del botón a verde o azul
+                // case "abre formulario 2", debe abrir un seundo formulario con algo de contenido.
+                // case "limpia texto", debe borrar el texto que haya en el textBox, si lo hay.
+                // case "ayuda", debe mostrar en un MessageBox todos los comandos por voz disponibles.
+                // case "salir", debe cerrar la aplicación.
+                // ---------------------------------------
+
+                default:
+                    // Si no es un comando, lo tratamos como dictado
+                    AppendSalida(texto);
+                    SetInfo("Dictado");
+                    break;
+            }
+        }
+
+        // ------------------------------------------------------------
+        // MÉTODOS AUXILIARES DE INTERFAZ (THREAD-SAFE)
+        // ------------------------------------------------------------
+        private void ActualizarEstadoUI()
+        {
+            UI(() =>
+            {
+                lblEstado.Text = estaDespierto
+                    ? "🎤 ON (despierto)"
+                    : "🎤 OFF (dormido)";
+
+                lblEstado.ForeColor = estaDespierto
+                    ? Color.LimeGreen
+                    : Color.Red;
+            });
+        }
+
+        private void SetInfo(string msg)
+        {
+            UI(() => lblInfo.Text = msg);
+        }
+
+        private void AppendSalida(string line)
+        {
+            UI(() =>
+            {
+                //Añade texto al final del TextBox. No borra lo anterior
+                txtSalida.AppendText(line + Environment.NewLine);
+                //Mueve el cursor al final del texto
+                txtSalida.SelectionStart = txtSalida.Text.Length;
+                //Hace que el TextBox haga scroll automáticamente
+                txtSalida.ScrollToCaret();
+            });
+        }
+
+        // ------------------------------------------------------------
+        // EXTRAER TEXTO DEL JSON DEVUELTO POR VOSK
+        // ------------------------------------------------------------
+        private static string? ExtractText(string json)
+        {
+            try
+            {
+                using var doc = JsonDocument.Parse(json);
+                //Extrae el valor de text como string
+                if (doc.RootElement.TryGetProperty("text", out var t))
+                    return t.GetString();
+            }
+            catch
+            {
+                // Si el JSON no es válido, lo ignoramos
+            }
+            return null;
+        }
+
+        // ------------------------------------------------------------
+        // LIBERAR RECURSOS AL CERRAR LA APLICACIÓN
+        // ------------------------------------------------------------
+        private void WaveIn_RecordingStopped(object? sender, StoppedEventArgs e)
+        {
+            if (waveIn != null)
+            {
+                waveIn.DataAvailable -= WaveIn_DataAvailable;
+                waveIn.RecordingStopped -= WaveIn_RecordingStopped;
+                waveIn.Dispose();
+                waveIn = null;
+            }
+
+            recognizer?.Dispose();
+            recognizer = null;
+
+            model?.Dispose();
+            model = null;
+
+            if (e.Exception != null)
+                SetInfo("Error audio: " + e.Exception.Message);
+            else
+                SetInfo("Parado");
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            StopListening();
+            base.OnFormClosing(e);
+        }
+    }
+}
