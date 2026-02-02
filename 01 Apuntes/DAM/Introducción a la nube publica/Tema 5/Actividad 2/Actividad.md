@@ -70,6 +70,7 @@ def _generate(provider: str, count: int) -> List[Any]:
 def lambda_handler(event: Dict[str, Any], context) -> Dict[str, Any]:
 	# el valor por defecto de key1 es 'help' o provider, el de key2 = cantidad (int)
 	# se espera que key1 sea un string y key2 un int
+	params= event.get('queryStringP')
 	key1 = str(event.get(key1Name, 'help'))
 	try:
 		key2 = int(event.get(key2Name, 1))
