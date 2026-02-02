@@ -56,6 +56,8 @@ Fecha de entrega: `$= dv.date("today")`
 - Nombre: SD Maid - Limpieza del sistema
 - URL: https://play.google.com/store/apps/details?id=eu.thedarken.sdm
 - Analisis:
+	- Hay dominios a los que no se le pueden localizar: `apps.darken.eu`
+	- Tiene permisos que podrian cons
 
 
 Descarga de apk: https://apkdownloader.pages.dev/
