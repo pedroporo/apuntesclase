@@ -53,6 +53,6 @@ Fecha de entrega: `$= dv.date("today")`
 	- Hay 3218 secretis hardcodeados en la app
 
 ## APK 3: Elección
-- Nombre:
-- URL: 
+- Nombre: SD Maid - Limpieza del sistema
+- URL: https://play.google.com/store/apps/details?id=eu.thedarken.sdm
 - Analisis:
