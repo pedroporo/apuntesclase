@@ -61,8 +61,39 @@ Fecha de entrega: `$= dv.date("today")`
 		- android.permission.ACCESS_NETWORK_STATE
 		- android.permission.RECEIVE_BOOT_COMPLETED
 		- android.permission.WAKE_LOCK
+	- Tiene funciones que no reconoce android, podrian ser usadas parahacer cosas 
 	- Tiene comportamientos extraños:
-		
 
+| RULE ID | BEHAVIOUR                                                             | LABEL                              |
+| ------- | --------------------------------------------------------------------- | ---------------------------------- |
+| 9       | Put data in cursor to JSON object                                     | file                               |
+| 12      | Read data and put it into a buffer stream                             | file                               |
+| 13      | Read file and put it into a stream                                    | file                               |
+| 22      | Open a file from given absolute path of the file                      | file                               |
+| 23      | Start another application from current application                    | Reflection, control                |
+| 30      | Connect to the remote server through the given URL                    | network                            |
+| 35      | Query the list of the installed packages                              | reflection                         |
+| 36      | Get resource file from res/raw directory                              | reflection                         |
+| 51      | Implicit intent(view a web page, make a phone call, etc.) via setData | control                            |
+| 54      | Install other APKs from file                                          | reflection                         |
+| 63      | Implicit intent(view a web page, make a phone call, etc.)             | control                            |
+| 75      | Get location of the device                                            | Collection, location               |
+| 77      | Read sensitive data(SMS, CALLLOG, etc)                                | Collection, sms, calllog, calendar |
+| 79      | Hide the current app's icon                                           | evasion                            |
+| 89      | Connect to a URL and receive input stream from the server             | Command, network                   |
+| 91      | Retrieve data from broadcast                                          | collection                         |
+| 96      | Connect to a URL and set request method                               | Command, network                   |
+| 109     | Connect to a URL and get the response code                            | Network, command                   |
+| 112     | Get the date of the calendar event                                    | Collection, calendar               |
+| 114     | Create a secure socket connection to the proxy address                | Network, command                   |
+| 115     | Get last known location of the device                                 | Collection, location               |
+| 126     | Read sensitive data(SMS, CALLLOG, etc)                                | Collection, sms, calllog, calendar |
+| 147     | Get the time of current location                                      | Collection, location               |
+| 161     | Perform accessibility service action on accessibility node info       | accessibility service              |
+| 162     | Create InetSocketAddress object and connecting to it                  | socket                             |
+| 163     | Create new Socket and connecting to it                                | socket                             |
+| 175     | Get notification manager and cancel notifications                     | notification                       |
+| 187     | Query a URI and check the result                                      | Collection, sms, calllog, calendar |
+ 
 
 Descarga de apk: https://apkdownloader.pages.dev/
