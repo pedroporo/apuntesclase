@@ -19,7 +19,7 @@ Fecha de entrega: `$= dv.date("today")`
 # Parte 2: Análisis
 
 ## APK 1
-- Nombre: # Brillante Linterna
+- Nombre: Brillante Linterna
 - URL: https://play.google.com/store/apps/details?id=goldenshorestechnologies.brightestflashlight.free&hl=es&gl=US
 - Analisis:
 	- Tiene permisos que no deberia, los cuales son acceder al internet, poder sacar fotos y acceder al estado del dispositivo.
@@ -36,9 +36,10 @@ Fecha de entrega: `$= dv.date("today")`
 	- La aplicacion registra informacion que no deberia, la geolocalizacion del dispositivo
 	- Hay 3091 secretos harcodeados en la aplicacion
 ## APK 2
-- Nombre: https://play.google.com/store/apps/details?id=qrcodereader.barcodescanner.scan.qrscanner
+- Nombre: Lector QR - Escáner Código QR
 - URL: https://play.google.com/store/apps/details?id=qrcodereader.barcodescanner.scan.qrscanner
 - Analisis:
+	- Por parte de los permisos todos
 
 ## APK 3: Elección
 - Nombre:
