@@ -124,14 +124,18 @@ Y esto es lo que retorna la api cuando se ejecuta
 }
 ```
 
-`curl --request GET --url 'https://xlcbdjmwbuqipilkkmsts7hrna0oekbj.lambda-url.us-east-1.on.aws/?proveedor=address&num=1'`
+`curl --request GET --url 'https://xlcbdjmwbuqipilkkmsts7hrna0oekbj.lambda-url.us-east-1.on.aws/?proveedor=address&num=5'`
 
 ```
 {
   "provider": "address",
-  "count": 1,
+  "count": 5,
   "results": [
-    "53975 Payne Mills Apt. 358\nNorth Amber, OR 11023"
+    "2979 Terri Cove Suite 227\nMcclureview, TX 59393",
+    "4759 Smith Haven\nTuckerfurt, IL 98897",
+    "20784 Jennifer Plaza\nChristopherberg, VT 54982",
+    "998 Shirley Lock\nPort Karenberg, WI 48929",
+    "39150 West Square Suite 192\nWatkinsberg, RI 32494"
   ]
 }
 ```
@@ -425,3 +429,81 @@ Y esto es lo que retorna la api cuando se ejecuta
   ]
 }
 ```
+
+> [!important] Al final para que me fuera con la api (si lo hacia a traves de la url que te da laba si que funcionaba como estaba)
+> ```python
+> import json
+> from typing import Any, Dict, List
+> from faker import Faker
+> 
+> 
+> 
+> 
+> print('Loading function')
+> def _list_providers() -> List[str]:
+> 	fake = Faker()
+> 	names = set()
+> 	
+> 	# El get_providers lo tiene la clase Generator de Faker
+> 	for provider in fake.get_providers():
+> 		for attr in dir(provider):
+> 			if attr.startswith('_'):
+> 				continue
+> 			try:
+> 				member = getattr(provider, attr)
+> 			except Exception:
+> 				continue
+> 			if callable(member):
+> 				names.add(attr)
+> 	return sorted(names)
+> 	
+> def _generate(provider, count):
+> 	fake = Faker()
+> 	
+> 	# Que no salga excepcion si no existe el provider
+> 	if not hasattr(fake, provider):
+> 		raise ValueError(f"Proveedor/metodo '{provider}' no encontrado en la instancia de Faker")
+> 
+> 	# Recoger la funcion del provider
+> 	func = getattr(fake, provider)
+> 	if not callable(func):
+> 		raise ValueError(f"Atributo '{provider}' existe pero no se puede llamar como funcion")
+> 	# Esto ejecuta la funcion recogida
+> 	results = []
+> 	for _ in range(count):
+> 		results.append(func().__str__())
+> 	return results
+> 	
+> def lambda_handler(event, context):
+> 	key1Name='proveedor'
+> 	key2Name='num'
+> 	fake = Faker()
+> 
+> 	# el valor por defecto de key1 es 'help' o provider, el de key2 = cantidad (int)
+> 	# se espera que key1 sea un string y key2 un int
+> 	tests= {'event':event.__str__(),'context':context.__str__()}
+> 	params= event.get('queryStringParameters',{})
+> 	#return { 'statusCode': 200, 'body':params.__str__() }
+> 	key1 = str(params.get(key1Name, 'help')).__str__()
+> 	try:
+> 		#return { 'statusCode': 200, 'body':""+params.get(key2Name, 1) }
+> 		key2 = int(params.get(key2Name, 1).__str__())
+> 	except Exception:
+> 		key2 = 1
+> 		
+> 	if key1.lower() == 'help':
+> 		providers = _list_providers()
+> 		print(f"Retornando {len(providers)} proveedores/metodos disponibles")
+> 		return { 'statusCode': 200, 'body': {'provider': 'help', 'available_providers_count': len(providers), 'providers': providers} }
+> 	
+> 	try:
+> 		results = _generate(key1, key2)
+> 	except Exception as e:
+> 		print(f"Error generando valores: {e}")
+> 		return { 'statusCode': 500, 'body':{'error': str(e), 'provider': key1} }
+> 
+> 
+> 	#print(f"Generados {len(results)} valores para el proveedor '{key1}'")
+> 	return json.dumps({'statusCode': 200,'body':json.dumps({'provider': key1,'count': len(results),'results':results})})
+> 
+> ```
