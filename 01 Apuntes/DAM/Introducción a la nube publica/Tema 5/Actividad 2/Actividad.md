@@ -112,7 +112,7 @@ y se hace un deploy de la api
 
 Y esto es lo que retorna la api cuando se ejecuta
 
-`curl --request GET --url 'https://xlcbdjmwbuqipilkkmsts7hrna0oekbj.lambda-url.us-east-1.on.aws/?proveedor=address&num=1'`
+`curl --request GET --url 'https://znzlcnv5zd.execute-api.us-east-1.amazonaws.com/prod?proveedor=address&num=1'`
 
 ```
 {
@@ -124,7 +124,7 @@ Y esto es lo que retorna la api cuando se ejecuta
 }
 ```
 
-`curl --request GET --url 'https://xlcbdjmwbuqipilkkmsts7hrna0oekbj.lambda-url.us-east-1.on.aws/?proveedor=address&num=5'`
+`curl --request GET --url 'https://znzlcnv5zd.execute-api.us-east-1.amazonaws.com/prod?proveedor=address&num=5'`
 
 ```
 {
@@ -139,7 +139,7 @@ Y esto es lo que retorna la api cuando se ejecuta
   ]
 }
 ```
-`curl --request GET  --url 'https://xlcbdjmwbuqipilkkmsts7hrna0oekbj.lambda-url.us-east-1.on.aws/?proveedor=help'`
+`curl --request GET  --url 'https://znzlcnv5zd.execute-api.us-east-1.amazonaws.com/prod?proveedor=help'`
 
 ```
 {
@@ -429,6 +429,9 @@ Y esto es lo que retorna la api cuando se ejecuta
   ]
 }
 ```
+![[Pasted image 20260202232524.png]]
+![[Pasted image 20260202232545.png]]
+
 
 > [!important] Al final para que me fuera con la api (si lo hacia a traves de la url que te da laba si que funcionaba como estaba)
 > ```python
