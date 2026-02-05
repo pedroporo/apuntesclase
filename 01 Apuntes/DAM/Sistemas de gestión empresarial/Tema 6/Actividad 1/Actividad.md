@@ -19,6 +19,10 @@ Password: 57gg-kgyy-q3nn
 User: pedro@test.com
 ```
 
+XML del menu
+```xml
+<menuitem name="Videoclub" id="menu_videoclub"/>
+```
 # 1. Modelo de Película
 
 ## Código
@@ -45,3 +49,60 @@ class videoclub_movie(models.Model):
 
 ```
 
+Código xml del tree
+```xml
+<record model="ir.ui.view" id="videoclub.movie_tree">
+	<field name="name">videoclub.movie.tree</field>
+	<field name="model">videoclub.movie</field>
+	<field name="arch" type="xml">
+		<tree>
+			<field name="name"/>
+			<field name="price"/>
+			<field name="generom"/>
+			<field name="release_year"/>
+			<field name="available_copies"/>
+		</tree>
+	</field>
+</record>
+```
+
+Codigo xml del form
+
+```xml
+<record model="ir.ui.view" id="videoclub.movie_form">
+	<field name="name">videoclub.movie.form</field>
+	<field name="model">videoclub.movie</field>
+	<field name="arch" type="xml">
+		<form>
+			<group colespan="2" col="2">
+				<field name="name"/>
+				<field name="price"/>
+				<field name="generom"/>
+				<field name="release_year"/>
+				<field name="available_copies"/>
+				<field name="second_hand"/>
+				<field name="state"/>
+				<field name="importetotal"/>
+				<field name="tags" widget="many2many_tags" placeholder="Introduzca las etiquetas..."/>
+			</group>
+		</form>
+	</field>
+</record>
+```
+
+Codigo xml de su action
+```xml
+<record model="ir.actions.act_window" id="videoclub.movie_action_window">
+	<field name="name">Peliculas</field>
+	<field name="res_model">videoclub.movie</field>
+	<field name="view_mode">tree,form</field>
+</record>
+```
+
+Codigo xml del action relacionado a películas
+
+```xml
+<menuitem name="Películas" id="menu_videoclub_movies" parent="videoclub.menu_videoclub" action="videoclub.movie_action_window"/>
+```
+
+Codigo xml del
