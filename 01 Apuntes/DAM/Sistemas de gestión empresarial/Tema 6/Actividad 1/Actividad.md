@@ -19,6 +19,8 @@ Password: 57gg-kgyy-q3nn
 User: pedro@test.com
 ```
 # 1. Codigo general
+Foto de la extension
+![[Pasted image 20260205201832.png]]
 XML del menu
 ```xml
 <menuitem name="Videoclub" id="menu_videoclub"/>
@@ -60,6 +62,9 @@ XML de los permisos
 
 Foto de que se le pueden asignar los permisos a los usuarios o administradores
 ![[Pasted image 20260205201758.png]]
+
+Captura del menu
+![[Pasted image 20260205201943.png]]
 # 2. Modelo de Película
 
 ## Código
@@ -160,3 +165,10 @@ Codigo xml de las busquedas de peliculas
 	</field>
 </record>
 ```
+
+Captura general de la sección de Peliculas
+![[Pasted image 20260205202025.png]]
+
+Captura del form de peliculas
+
+![[Pasted image 20260205202241.png]]
