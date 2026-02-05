@@ -132,7 +132,7 @@ Codigo xml del form
 </record>
 ```
 
-Codigo xml de su action
+Código xml de su action
 ```xml
 <record model="ir.actions.act_window" id="videoclub.movie_action_window">
 	<field name="name">Peliculas</field>
@@ -147,7 +147,7 @@ Codigo xml del action relacionado a películas
 <menuitem name="Películas" id="menu_videoclub_movies" parent="videoclub.menu_videoclub" action="videoclub.movie_action_window"/>
 ```
 
-Codigo xml de las busquedas de peliculas
+Código xml de las búsquedas de películas
 
 ```xml
 <record model="ir.ui.view" id="videoclub.movie_search_view">
@@ -165,10 +165,15 @@ Codigo xml de las busquedas de peliculas
 	</field>
 </record>
 ```
-
-Captura general de la sección de Peliculas
+## Capturas
+Captura general de la sección de Películas
 ![[Pasted image 20260205202025.png]]
 
-Captura del form de peliculas
+Captura del form de películas
 
 ![[Pasted image 20260205202241.png]]
+Captura de los filtros de peliculas:
+![[Pasted image 20260205202444.png]]
+
+# 3. Modulo de categoría película
+## Código
