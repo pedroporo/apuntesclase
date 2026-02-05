@@ -18,12 +18,49 @@ Fecha de entrega: `$= dv.date("today")`
 Password: 57gg-kgyy-q3nn
 User: pedro@test.com
 ```
-
+# 1. Codigo general
 XML del menu
 ```xml
 <menuitem name="Videoclub" id="menu_videoclub"/>
 ```
-# 1. Modelo de Película
+CSV de los permisos
+```
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+encargado_videoclub_movie,videoclub.movie,model_videoclub_movie,videoclub_group_manager,1,1,1,1
+encargado_videoclub_generoM,videoclub.generom,model_videoclub_generom,videoclub_group_manager,1,1,1,1
+encargado_videoclub_generoG,videoclub.generog,model_videoclub_generog,videoclub_group_manager,1,1,1,1
+encargado_videoclub_game,videoclub.game,model_videoclub_game,videoclub_group_manager,1,1,1,1
+encargado_videoclub_etiquetas,videoclub.etiquetas,model_videoclub_etiquetas,videoclub_group_manager,1,1,1,1
+
+usuario_videoclub_movie,videoclub.movie,model_videoclub_movie,videoclub_group_user,1,0,0,0
+usuario_videoclub_generoM,videoclub.generom,model_videoclub_generom,videoclub_group_user,1,0,0,0
+usuario_videoclub_generoG,videoclub.generog,model_videoclub_generog,videoclub_group_user,1,0,0,0
+usuario_videoclub_game,videoclub.game,model_videoclub_game,videoclub_group_user,1,0,0,0
+usuario_videoclub_etiquetas,videoclub.etiquetas,model_videoclub_etiquetas,videoclub_group_user,1,0,0,0
+```
+XML de los permisos
+```xml
+<odoo>
+	<record id="module_videoclub_category" model="ir.module.category">
+		<field name="name">Videoclub</field>
+	</record>
+	
+	<record id="videoclub_group_manager" model="res.groups">
+		<field name="name">Administrador</field>
+		<field name="category_id" ref="module_videoclub_category"/>
+	</record>
+	
+	<record id="videoclub_group_user" model="res.groups">
+		<field name="name">Usuario</field>
+		<field name="category_id" ref="module_videoclub_category"/>
+	</record>
+</odoo>
+```
+
+Foto de que se le pueden asignar los permisos a los usuarios o administradores
+![[Pasted image 20260205201758.png]]
+# 2. Modelo de Película
 
 ## Código
 Modelo de python
@@ -105,4 +142,21 @@ Codigo xml del action relacionado a películas
 <menuitem name="Películas" id="menu_videoclub_movies" parent="videoclub.menu_videoclub" action="videoclub.movie_action_window"/>
 ```
 
-Codigo xml del
+Codigo xml de las busquedas de peliculas
+
+```xml
+<record model="ir.ui.view" id="videoclub.movie_search_view">
+	<field name="name">videoclub.movie.search</field>
+	<field name="model">videoclub.movie</field>
+	<field name="arch" type="xml">
+		<search>
+			<field name="name" string="Título"/>
+			<field name="generom" string="Categoría"/>
+			<field name="state" string="Estado"/>
+			<filter name="caros" domain="[('price','&gt;=',5)]"/>
+			<filter name="recientes" string="Recientes" domain="[('release_year','&gt;',2020)]"/>
+			<filter name="segunda_mano" string="Segunda Mano" domain="[('second_hand','=',True)]"/>
+		</search>
+	</field>
+</record>
+```
