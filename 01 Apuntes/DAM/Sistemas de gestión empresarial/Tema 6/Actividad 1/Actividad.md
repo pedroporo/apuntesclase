@@ -175,5 +175,79 @@ Captura del form de películas
 Captura de los filtros de peliculas:
 ![[Pasted image 20260205202444.png]]
 
-# 3. Modulo de categoría película
+# 3. Modulo de categoría videojuegos
 ## Código
+Codigo python
+
+```python
+class videoclub_game(models.Model):
+	_name = 'videoclub.game'
+	_description = 'Videojuego en el videoclub'
+	
+	name = fields.Char(string='Titulo', required=True)
+	price= fields.Float(string='Precio de Alquiler')
+	platform = fields.Char(string='Plataforma')
+	generog = fields.Many2one("videoclub.generog",string="Categoría",required=True,ondelete="cascade")
+	release_year = fields.Integer(string='Anio de Lanzamiento')
+	available_copies = fields.Integer(string='Copias Disponibles', default=0)
+	second_hand = fields.Boolean(string='Es de segunda mano', default=False)
+	require_internet = fields.Boolean(string='Requiere internet', default=False)
+	state= fields.Selection([('0','Bueno'),('1','Regular'),('2','Malo')], string='Estado del videojuego', default='0')
+	tags = fields.Many2many("videoclub.etiquetas", string="Etiquetas",required=True,ondelete="cascade")
+	importetotal = fields.Float(string='Importe Total', compute='_importetotal')
+	@api.depends('price','available_copies')
+	def _importetotal(self):
+		for r in self:
+			r.importetotal = r.available_copies*r.price
+```
+
+Codigo xml del tree
+```xml
+<record model="ir.ui.view" id="videoclub.game_tree">
+	<field name="name">videoclub.game.tree</field>
+    <field name="model">videoclub.game</field>
+    <field name="arch" type="xml">
+	    <tree>
+          <field name="name"/>
+          <field name="price"/>
+          <field name="generog"/>
+          <field name="release_year"/>
+          <field name="require_internet"/>
+        </tree>
+    </field>
+</record>
+```
+
+codigo xml del form
+```xml
+<record model="ir.ui.view" id="videoclub.game_form">
+      <field name="name">videoclub.game.form</field>
+      <field name="model">videoclub.game</field>
+      <field name="arch" type="xml">
+        <form>
+          <group colespan="2" col="2">
+            <field name="name"/>
+            <field name="price"/>
+            <field name="platform"/>
+            <field name="generog"/>
+            <field name="release_year"/>
+            <field name="available_copies"/>
+            <field name="second_hand"/>
+            <field name="require_internet"/>
+            <field name="state"/>
+            <field name="importetotal"/>
+            <field name="tags" widget="many2many_tags" placeholder="Introduzca las etiquetas..."/>
+          </group>
+        </form>
+    </field>
+</record>
+```
+
+Codigo xml del action
+```xml
+    <record model="ir.actions.act_window" id="videoclub.game_action_window">
+      <field name="name">Juegos</field>
+      <field name="res_model">videoclub.game</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+```
