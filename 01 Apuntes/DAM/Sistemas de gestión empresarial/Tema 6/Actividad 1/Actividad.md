@@ -285,4 +285,149 @@ Creacion:
 Filtros:
 ![[Pasted image 20260206151152.png]]
 
-Genero de peliculas y videojuegos:
+# 4. Genero de peliculas y videojuegos:
+## Codigo
+
+Codigo de python
+
+Videojuegos
+```python
+class videoclub_genero_games(models.Model):
+    _name = 'videoclub.generog'
+    _description = 'Genero o categoria de algo en el videoclib'
+    
+    name = fields.Char(string='Nombre del genero', required=True)
+    description = fields.Text(string='Descripccion del genero')
+    game = fields.One2many("videoclub.game","generog",string="Videojuegos")
+```
+Pelicula
+```python
+class videoclub_genero_movies(models.Model):
+    _name = 'videoclub.generom'
+    _description = 'Genero o categoria de algo en el videoclib'
+
+    name = fields.Char(string='Nombre del genero', required=True)
+    description = fields.Text(string='Descripccion del genero')
+    movie = fields.One2many("videoclub.movie","generom",string="Peliculas")
+```
+
+Codigo xml del tree
+
+Videojuego 
+```xml
+    <record model="ir.ui.view" id="videoclub.generog_tree">
+      <field name="name">videoclub.generog.tree</field>
+      <field name="model">videoclub.generog</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="description"/>
+          <field name="game">
+            <tree>
+              <field name="name"/>
+              <field name="price"/>
+              <field name="available_copies"/>
+              <field name="require_internet"/>
+            </tree>
+          </field>
+        </tree>
+      </field>
+    </record>
+```
+pelicula
+```xml
+<record model="ir.ui.view" id="videoclub.generom_tree">
+      <field name="name">videoclub.generom.tree</field>
+      <field name="model">videoclub.generom</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="description"/>
+          <field name="movie">
+            <tree>
+              <field name="name"/>
+              <field name="price"/>
+              <field name="available_copies"/>
+            </tree>
+          </field>
+        </tree>
+    </field>
+</record>
+```
+codigo xml del form
+
+Videojuego 
+```xml
+    <record model="ir.ui.view" id="videoclub.generog_form">
+      <field name="name">videoclub.generog.form</field>
+      <field name="model">videoclub.generog</field>
+      <field name="arch" type="xml">
+        <form>
+          <group colespan="2" col="2">
+            <field name="name"/>
+            <field name="description"/>
+            <field name="game">
+              <tree>
+                <field name="name"/>
+                <field name="price"/>
+                <field name="available_copies"/>
+                <field name="require_internet"/>
+              </tree>
+            </field>
+          </group>
+        </form>
+      </field>
+    </record>
+```
+pelicula
+```xml
+    <record model="ir.ui.view" id="videoclub.generom_form">
+      <field name="name">videoclub.generom.form</field>
+      <field name="model">videoclub.generom</field>
+      <field name="arch" type="xml">
+        <form>
+          <group colespan="2" col="2">
+            <field name="name"/>
+            <field name="description"/>
+            <field name="movie">
+              <tree>
+                <field name="name"/>
+                <field name="price"/>
+                <field name="available_copies"/>
+              </tree>
+            </field>
+          </group>
+        </form>
+      </field>
+    </record>
+```
+Codigo xml del action
+
+Videojuego 
+```xml
+    <record model="ir.actions.act_window" id="videoclub.generog_action_window">
+      <field name="name">Generos Juegos</field>
+      <field name="res_model">videoclub.generog</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+```
+pelicula
+```xml
+<record model="ir.actions.act_window" id="videoclub.generom_action_window">
+      <field name="name">Generos Peliculas</field>
+      <field name="res_model">videoclub.generom</field>
+      <field name="view_mode">tree,form</field>
+</record>
+```
+codigo xml del menu
+
+Videojuego 
+```xml
+    <menuitem name="Géneros Peliculas" id="menu_videoclub_genres_movies" parent="videoclub.menu_videoclub"
+              action="videoclub.generom_action_window"/>
+    <menuitem name="Géneros Juegos" id="menu_videoclub_genres_games" parent="videoclub.menu_videoclub"
+              action="videoclub.generog_action_window"/>
+```
+pelicula
+```xml
+```
