@@ -423,11 +423,77 @@ codigo xml del menu
 
 Videojuego 
 ```xml
-    <menuitem name="Géneros Peliculas" id="menu_videoclub_genres_movies" parent="videoclub.menu_videoclub"
-              action="videoclub.generom_action_window"/>
-    <menuitem name="Géneros Juegos" id="menu_videoclub_genres_games" parent="videoclub.menu_videoclub"
-              action="videoclub.generog_action_window"/>
+<menuitem name="Géneros Juegos" id="menu_videoclub_genres_games" parent="videoclub.menu_videoclub" action="videoclub.generog_action_window"/>
 ```
 pelicula
 ```xml
+<menuitem name="Géneros Peliculas" id="menu_videoclub_genres_movies" parent="videoclub.menu_videoclub" action="videoclub.generom_action_window"/>
 ```
+
+## Capturas
+Normal
+![[Pasted image 20260206151804.png]]
+Creacion
+
+![[Pasted image 20260206151832.png]]
+
+# 5. Modelo de etiquetas
+
+## Codigo
+Modelo en python
+```python
+class videoclub_etiquetas(models.Model):
+    _name = 'videoclub.etiquetas'
+    _description = 'Etiquetas para peliculas y videojuegos'
+
+    name = fields.Char(string='Nombre de la etiqueta', required=True,help="Nombre de la etiqueta")
+    description = fields.Text(string='Descripccion de la etiqueta',help="Descripcion de la etiqueta")
+    movie_ids = fields.Many2many("videoclub.movie", string="Peliculas")
+    game_ids = fields.Many2many("videoclub.game", string="Videojuegos")
+```
+
+XML Tree
+```xml
+    <record model="ir.ui.view" id="videoclub.etiquetas_tree">
+      <field name="name">videoclub.etiquetas.tree</field>
+      <field name="model">videoclub.etiquetas</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="description"/>
+        </tree>
+      </field>
+    </record>
+```
+XML Form
+```xml
+    <record model="ir.ui.view" id="videoclub.etiquetas_form">
+      <field name="name">videoclub.etiquetas.form</field>
+      <field name="model">videoclub.etiquetas</field>
+      <field name="arch" type="xml">
+        <form>
+          <group colespan="2" col="2">
+            <field name="name"/>
+            <field name="description"/>
+          </group>
+        </form>
+      </field>
+    </record>
+```
+XML Menu
+```xml
+    <record model="ir.actions.act_window" id="videoclub.etiquetas_action_window">
+      <field name="name">Etiquetas</field>
+      <field name="res_model">videoclub.etiquetas</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+```
+XML MenuItem
+```xml
+<menuitem name="Etiquetas" id="videoclub.etiquetas_list" parent="videoclub.menu_videoclub" action="videoclub.etiquetas_action_window"/>
+```
+
+## Capturas
+Normal
+
+Creacion
