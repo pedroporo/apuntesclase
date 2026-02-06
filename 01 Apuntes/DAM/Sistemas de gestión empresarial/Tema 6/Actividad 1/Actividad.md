@@ -251,3 +251,38 @@ Codigo xml del action
       <field name="view_mode">tree,form</field>
     </record>
 ```
+
+Codigo xml del action del menu
+
+```xml
+<menuitem name="Juegos" id="menu_videoclub_games" parent="videoclub.menu_videoclub" action="videoclub.game_action_window"/>
+```
+
+Codigo xml de las busquedas
+
+```xml
+    <record model="ir.ui.view" id="videoclub.game_search_view">
+      <field name="name">videoclub.game.search</field>
+      <field name="model">videoclub.game</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name" string="Título"/>
+          <field name="generog" string="Categoría"/>
+          <field name="state" string="Estado"/>
+          <filter name="caros" domain="[('price','&gt;=',5)]"/>
+          <filter name="recientes" string="Recientes" domain="[('release_year','&gt;',2020)]"/>
+          <filter name="segunda_mano" string="Segunda Mano" domain="[('second_hand','=',True)]"/>
+        </search>
+      </field>
+    </record>
+```
+
+## Capturas
+Normal:
+![[Pasted image 20260206151111.png]]
+Creacion:
+![[Pasted image 20260206151050.png]]
+Filtros:
+![[Pasted image 20260206151152.png]]
+
+Genero de peliculas y videojuegos:
