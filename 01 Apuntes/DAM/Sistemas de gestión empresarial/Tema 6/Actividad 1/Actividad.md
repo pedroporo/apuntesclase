@@ -5,7 +5,7 @@ Ultima Modificacion: `$= dv.current().file.mtime`
 
 Curso: Desarollo de aplicaciones multiplataforma segundo
 
-Titulo de la actividad: **Act 4.4 - Página web y Comercio electrónico**
+Titulo de la actividad: **Act 6.1 - Desarrollo de modulos de odoo en python**
 
 Alumno: Pedro Guill Ferri
 
@@ -495,5 +495,7 @@ XML MenuItem
 
 ## Capturas
 Normal
-
+![[Pasted image 20260206152217.png]]
 Creacion
+
+![[Pasted image 20260206152251.png]]
