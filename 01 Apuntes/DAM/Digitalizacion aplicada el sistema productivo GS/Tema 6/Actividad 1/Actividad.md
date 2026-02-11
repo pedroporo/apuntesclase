@@ -17,6 +17,9 @@ Fecha de entrega: `$= dv.date("today")`
 
 
 Extraccion de metadatos de un documento de texto:
+Aqui podemos ver los metadatos que hay en un documento, por ejeplo la fecha de descarga, su tamañi, tambien se puede ver el usuario y grupo que lo creo,
+
+tambien hay otros metadatos como su categoria
 ![[Pasted image 20260210181311.png]]
 
 Extraccion de metadatos de una imagen con gps (descargada):
