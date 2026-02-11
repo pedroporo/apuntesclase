@@ -25,3 +25,6 @@ Extraccion de metadatos de una imagen con gps (descargada):
 ![[Pasted image 20260210182532.png]]
 ![[Pasted image 20260210182548.png]]
 
+
+Extraccion de urls en una pagina web
+https://www.urltoany.com/url-extractor
