@@ -17,3 +17,12 @@ Fecha de entrega: `$= dv.date("today")`
 
 1. **Replica l'infraestructura de** _**l'example** pero el Webserver dirà "WebServer de **NomAlumne** : Hola desde la màquina **Nom_de_Maquina_Amb_IP**_". L' IP de la VPC on es desplega el grup d' autoescalat serà **10.FilaColumna.0.0/16 (**sent **Fila Columna** **la teua posició en classe**)
 2. Entrega un **vídeo** en el que es veja qué passa quan accedeixes repetidament a la **URL** del **LoadBalancer**, a continuació finalitzes una de les màquines del Grup d'autoescalat (terminate), a continuació tornes a provar d'accedir repetidament a la **URL** del **LoadBalancer** per a veure com una de les màquines s'ha recuperat i ara te una IP diferent.
+
+```bash
+#!/bin/bash 
+sudo yum update -y 
+sudo yum install -y httpd 
+sudo systemctl start httpd 
+sudo systemctl enable httpd 
+sudo echo "<h1>WebServer de Pedro Guill Ferri: Hola desde $(hostname)</h1>" > /var/www/html/index.html 
+```
