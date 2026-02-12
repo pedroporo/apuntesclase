@@ -1,12 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description: "VPC del ejercicio"
 
-Parameters:
-  KeyName:
-    Type: AWS::EC2::KeyPair::KeyName
-    Description: Nom del KeyPair per a SSH
-    Default: awsKeys
-
 Resources:
   MiVPC:
     Type: AWS::EC2::VPC
@@ -36,7 +30,7 @@ Resources:
     Type: AWS::EC2::Subnet
     Properties:
       VpcId: !Ref MiVPC
-      CidrBlock: 172.12.0.0/24
+      CidrBlock: 172.12.112.0/24
       MapPublicIpOnLaunch: true
       AvailabilityZone: !Select [0, !GetAZs ""]
       Tags:
@@ -48,7 +42,7 @@ Resources:
     Type: AWS::EC2::Subnet
     Properties:
       VpcId: !Ref MiVPC
-      CidrBlock: 172.12.0.0/24
+      CidrBlock: 172.12.122.0/24
       MapPublicIpOnLaunch: true
       AvailabilityZone: !Select [0, !GetAZs ""]
       Tags:
@@ -60,7 +54,7 @@ Resources:
     Type: AWS::EC2::Subnet
     Properties:
       VpcId: !Ref MiVPC
-      CidrBlock: 172.12.0.0/24
+      CidrBlock: 172.12.212.0/24
       MapPublicIpOnLaunch: false
       AvailabilityZone: !Select [0, !GetAZs ""]
       Tags:
@@ -71,7 +65,7 @@ Resources:
     Type: AWS::EC2::Subnet
     Properties:
       VpcId: !Ref MiVPC
-      CidrBlock: 172.12.0.0/24
+      CidrBlock: 172.12.222.0/24
       MapPublicIpOnLaunch: false
       AvailabilityZone: !Select [0, !GetAZs ""]
       Tags:
@@ -160,7 +154,7 @@ Resources:
   PublicSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: SG per a públic SSH
+      GroupDescription: SG per a public SSH y HTTP
       VpcId: !Ref MiVPC
       SecurityGroupIngress:
         - IpProtocol: tcp
