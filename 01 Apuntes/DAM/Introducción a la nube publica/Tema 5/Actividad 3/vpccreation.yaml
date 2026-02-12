@@ -32,7 +32,7 @@ Resources:
       InternetGatewayId: !Ref InternetGateway
     DeletionPolicy: Retain
 
-  PublicSubnet:
+  PublicSubnet1:
     Type: AWS::EC2::Subnet
     Properties:
       VpcId: !Ref MiVPC
@@ -44,7 +44,7 @@ Resources:
           Value: CF-Public-Subnet-PedroGuill1
     DeletionPolicy: Retain
 
-  PublicSubnet:
+  PublicSubnet2:
     Type: AWS::EC2::Subnet
     Properties:
       VpcId: !Ref MiVPC
@@ -56,7 +56,7 @@ Resources:
           Value: CF-Public-Subnet-PedroGuill2
     DeletionPolicy: Retain
 
-  PrivateSubnet:
+  PrivateSubnet1:
     Type: AWS::EC2::Subnet
     Properties:
       VpcId: !Ref MiVPC
@@ -65,22 +65,50 @@ Resources:
       AvailabilityZone: !Select [0, !GetAZs ""]
       Tags:
         - Key: Name
-          Value: CF-Private-Subnet-PedroGuill
+          Value: CF-Private-Subnet-PedroGuill1
+    DeletionPolicy: Retain
+  PrivateSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref MiVPC
+      CidrBlock: 172.12.0.0/24
+      MapPublicIpOnLaunch: false
+      AvailabilityZone: !Select [0, !GetAZs ""]
+      Tags:
+        - Key: Name
+          Value: CF-Private-Subnet-PedroGuill2
     DeletionPolicy: Retain
 
-  PublicRouteTable:
+  PublicRouteTable1:
     Type: AWS::EC2::RouteTable
     Properties:
       VpcId: !Ref MiVPC
       Tags:
         - Key: Name
-          Value: CF-Public-RT-PedroGuill
+          Value: CF-Public-RT-PedroGuill1
     DeletionPolicy: Retain
 
-  PublicRoute:
+  PublicRouteTable2:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref MiVPC
+      Tags:
+        - Key: Name
+          Value: CF-Public-RT-PedroGuill2
+    DeletionPolicy: Retain
+
+  PublicRoute1:
     Type: AWS::EC2::Route
     Properties:
-      RouteTableId: !Ref PublicRouteTable
+      RouteTableId: !Ref PublicRouteTable1
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref InternetGateway
+    DeletionPolicy: Retain
+
+  PublicRoute2:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId: !Ref PublicRouteTable2
       DestinationCidrBlock: 0.0.0.0/0
       GatewayId: !Ref InternetGateway
     DeletionPolicy: Retain
@@ -88,23 +116,45 @@ Resources:
   PublicSubnetRouteTableAssociation:
     Type: AWS::EC2::SubnetRouteTableAssociation
     Properties:
-      SubnetId: !Ref PublicSubnet
-      RouteTableId: !Ref PublicRouteTable
+      SubnetId: !Ref PublicSubnet1
+      RouteTableId: !Ref PublicRouteTable1
 
-  PrivateRouteTable:
+  PublicSubnetRouteTableAssociation2:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PublicSubnet2
+      RouteTableId: !Ref PublicRouteTable2
+
+  PrivateRouteTable1:
     Type: AWS::EC2::RouteTable
     Properties:
       VpcId: !Ref MiVPC
       Tags:
         - Key: Name
-          Value: CF-Private-RT-PedroGuill
+          Value: CF-Private-RT-PedroGuill1
     DeletionPolicy: Retain
 
-  PrivateSubnetRouteTableAssociation:
+  PrivateRouteTable2:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref MiVPC
+      Tags:
+        - Key: Name
+          Value: CF-Private-RT-PedroGuill2
+    DeletionPolicy: Retain
+
+  PrivateSubnetRouteTableAssociation1:
     Type: AWS::EC2::SubnetRouteTableAssociation
     Properties:
-      SubnetId: !Ref PrivateSubnet
-      RouteTableId: !Ref PrivateRouteTable
+      SubnetId: !Ref PrivateSubnet1
+      RouteTableId: !Ref PrivateRouteTable1
+    DeletionPolicy: Retain
+
+  PrivateSubnetRouteTableAssociation2:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PrivateSubnet2
+      RouteTableId: !Ref PrivateRouteTable2
     DeletionPolicy: Retain
 
   PublicSecurityGroup:
@@ -125,4 +175,3 @@ Resources:
         - Key: Name
           Value: securityGroup
     DeletionPolicy: Retain
-
