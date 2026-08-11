@@ -1,7 +1,7 @@
 1. No intentes mantener el curso de la historia original (lo que importa es sobrevivir). 
 2. Si hay una fuerza que te obliga a mantener el guión original de la historia, investiga los límites de que puedes y no hacer, y si al final de la historia tu personaje muere, finge una muerte para no cambiar la historia. 
 3. Si tu personaje es irrelevante, no intentes ni acercarte ni alejarte de los personajes principales. Mientras más te alejes es más probable que que te termines involucrando con ellos y si te acercas no sabes si lo tomarán bien o mal. 
-4. Si renaciste en un punto en el que tu personaje ya se enemisto con todos junta todo tu dinero y huye a otra sona (si estás dispuesto, modifica tu cara) si estás endeudado comete un delito que no implique matar a alguien pero que te meta a la cárcel. Eso es mejor a que los deudores te saquen los organismos. 
-5. Si hay un personaje que sabes que es malicioso y te va a matar, matalo desde el principio, no esperes hasta el climax. 
+4. Si renaciste en un punto en el que tu personaje ya se enemisto con todos junta todo tu dinero y huye a otra zona (si estás dispuesto, modifica tu cara) si estás endeudado comete un delito que no implique matar a alguien pero que te meta a la cárcel. Eso es mejor a que los deudores te saquen los órganos. 
+5. Si hay un personaje que sabes que es malicioso y te va a matar, mátalo desde el principio, no esperes hasta el climax. 
 6. Si estás en un matrimonio o un compromiso que no puedes romper por un contrato. Llama a la policía, para que cancelen el contrato. Esos contratos son ilegales. Esto funciona con cualquier contrato que te quite tus derechos, derecho a no causarte, derecho a recibir un sueldo por tu trabajo, derecho vivir, derecho a trabajar.
 7. Si renaces en un personaje poco favorable toma tus maletas y lárgate a otro país, por si los otros personajes pueden leer tu mente.
