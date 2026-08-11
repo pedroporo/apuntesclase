@@ -7,3 +7,12 @@
 7. Si renaces en un personaje poco favorable toma tus maletas y lárgate a otro país, por si los otros personajes pueden leer tu mente.
 8. SI te encierran buscar el momento para escapar da igual si esta embarazada o no.
 9. Si necesitas escapar de una situacion graba un video diciendo por lo que pasaste y pide el divorcio unilateral. (especialmente si la otra parte tiene mas recursos que tu)
+
+
+
+
+
+
+
+Comentaio en relacion de la regla 9:
+Lo primero es que en estás historias hay que esperar un poquito, supongo que el tipo entro en la historia y sabiendo que se iba ser abandonado pidió el divorcio antes que ella, pero eso desencadenó una serie de eventos que hicieron que se hiciera yadere, aquí lo importante es no pedir el divorcio directamente a ella, sino por medio de las autoridades. Ya que el otro tiene más poder que en recursos, si les pides el divorcios se preparan para que tú no lo hagas, retrigiran tu libertad para que no siquiera puedas solicitarlo o sobornaran a las autoridades. Por eso en el momento en el que transmigras al cuerpo, graba un vídeo a solas en el que cuantes por lo que pasó el dueño del cuerpo original y sus motivos y para pedír el divorcio, después, sin consultarle nada a la tipa, solicita el divorcio unilateral, cuando le llegue la solicitud, ve su reacción, si vez que es reacia de forma agresiva pública el vídeo en diferentes fuentes y difundero lo más posible para que no pueda retrigir tu libertad sin que la gente se entere.
