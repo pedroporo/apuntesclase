@@ -6,7 +6,7 @@
 6. Si estás en un matrimonio o un compromiso que no puedes romper por un contrato. Llama a la policía, para que cancelen el contrato. Esos contratos son ilegales. Esto funciona con cualquier contrato que te quite tus derechos, derecho a no causarte, derecho a recibir un sueldo por tu trabajo, derecho vivir, derecho a trabajar.
 7. Si renaces en un personaje poco favorable toma tus maletas y lárgate a otro país, por si los otros personajes pueden leer tu mente.
 8. SI te encierran buscar el momento para escapar da igual si esta embarazada o no.
-9. Si necesitas escapar de una situacion graba un video diciendo por lo que pasaste y pide el divorcio unilateral. (especialmente si la otra parte tiene mas recursos que tu)
+9. Si necesitas escapar de una situación graba un video diciendo por lo que pasaste y pide el divorcio unilateral. (especialmente si la otra parte tiene mas recursos que tu)
 
 
 
